@@ -1,5 +1,6 @@
 let phrases = {};
 let currentLevel = 'A1';
+let currentTopic = 'all';
 let currentPhrase = null;
 
 // Load phrases from JSON
@@ -11,11 +12,15 @@ fetch('phrases.json')
   });
 
 function init() {
-  // Load saved level
-  chrome.storage.local.get(['selectedLevel'], (result) => {
+  // Load saved level and topic
+  chrome.storage.local.get(['selectedLevel', 'selectedTopic'], (result) => {
     if (result.selectedLevel) {
       currentLevel = result.selectedLevel;
       updateActiveLevel();
+    }
+    if (result.selectedTopic) {
+      currentTopic = result.selectedTopic;
+      document.getElementById('topicSelect').value = currentTopic;
     }
     displayRandomPhrase();
   });
@@ -28,6 +33,13 @@ function init() {
       updateActiveLevel();
       displayRandomPhrase();
     });
+  });
+  
+  // Topic dropdown listener
+  document.getElementById('topicSelect').addEventListener('change', (e) => {
+    currentTopic = e.target.value;
+    chrome.storage.local.set({ selectedTopic: currentTopic });
+    displayRandomPhrase();
   });
 
   // Control button listeners
@@ -54,26 +66,44 @@ function updateActiveLevel() {
 }
 
 function displayRandomPhrase() {
-  const levelPhrases = phrases[currentLevel];
+  let levelPhrases = phrases[currentLevel];
+  
+  // Filter by topic if not "all"
+  if (currentTopic !== 'all') {
+    levelPhrases = levelPhrases.filter(phrase => phrase.tags && phrase.tags.includes(currentTopic));
+  }
+  
+  // If no phrases match the filter, show message
+  if (levelPhrases.length === 0) {
+    document.getElementById('germanPhrase').textContent = 'No phrases available';
+    document.getElementById('englishTranslation').textContent = 'Try a different topic or level';
+    return;
+  }
   
   chrome.storage.local.get(['shownPhrases', 'favorites'], (result) => {
     let shownPhrases = result.shownPhrases || {};
-    let shown = shownPhrases[currentLevel] || [];
+    let shownKey = `${currentLevel}_${currentTopic}`;
+    let shown = shownPhrases[shownKey] || [];
+    
+    // Get indices of filtered phrases in original array
+    const originalIndices = levelPhrases.map(phrase => 
+      phrases[currentLevel].findIndex(p => p.german === phrase.german)
+    );
     
     // Reset if all phrases shown
-    if (shown.length >= levelPhrases.length) {
+    if (shown.length >= originalIndices.length) {
       shown = [];
     }
     
     // Get unshown phrases
-    const unshown = levelPhrases.filter((_, index) => !shown.includes(index));
-    const randomIndex = levelPhrases.indexOf(unshown[Math.floor(Math.random() * unshown.length)]);
+    const unshownIndices = originalIndices.filter(idx => !shown.includes(idx));
+    const randomOriginalIndex = unshownIndices[Math.floor(Math.random() * unshownIndices.length)];
     
-    currentPhrase = { ...levelPhrases[randomIndex], index: randomIndex };
+    currentPhrase = { ...phrases[currentLevel][randomOriginalIndex], index: randomOriginalIndex };
     
     // Mark as shown
-    shown.push(randomIndex);
-    shownPhrases[currentLevel] = shown;
+    shown.push(randomOriginalIndex);
+    shownPhrases[shownKey] = shown;
     chrome.storage.local.set({ shownPhrases });
     
     // Display phrase
