@@ -44,6 +44,7 @@ body {
   padding: 8px 12px;
   border-radius: 24px;
   margin-right: 12px;
+  border: 1px solid rgba(221, 221, 221, 0.5);
 }
 
 .topic-dropdown {
@@ -82,6 +83,7 @@ body {
   padding: 8px 12px;
   border-radius: 24px;
   align-self: flex-end;
+  border: 1px solid rgba(221, 221, 221, 0.5);
 }
 
 .level-btn {
@@ -173,6 +175,13 @@ body {
   justify-content: center;
   gap: 12px;
   margin-top: auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 8px 12px;
+  border-radius: 24px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(221, 221, 221, 0.5);
 }
 
 .control-btn {
@@ -206,18 +215,19 @@ body {
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background: transparent;
-  border: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
-  padding: 8px 20px;
+  padding: 8px 14px;
   border-radius: 20px;
   cursor: pointer;
   font-size: 14px;
   transition: all 0.2s;
+  font-weight: 400;
 }
 
 .favorites-trigger:hover {
-  background: rgba(44, 44, 44, 0.05);
+  background: rgba(255, 255, 255, 0.7);
   border-color: #bbb;
   color: #2c2c2c;
 }
