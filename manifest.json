@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "German Language Learning Tab",
+  "version": "1.0",
+  "description": "Learn German with every new tab",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
