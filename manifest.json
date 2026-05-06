@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "German Language Learning Tab",
+  "name": "Passive Language Learning",
   "version": "1.0",
-  "description": "Learn German with every new tab",
+  "description": "Learn German naturally through passive exposure. Every new tab shows a phrase matched to your level—no effort, just consistent micro-learning moments throughout your day.",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
