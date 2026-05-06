@@ -114,12 +114,51 @@ body {
   padding: 0 40px;
 }
 
+.phrase-with-audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
 .german-phrase {
   font-size: 48px;
   font-weight: 400;
   color: #2c2c2c;
-  margin-bottom: 24px;
   line-height: 1.4;
+}
+
+.audio-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #666;
+  font-size: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.audio-btn svg {
+  transition: all 0.2s;
+}
+
+.audio-btn:hover {
+  background: rgba(44, 44, 44, 0.05);
+  border-color: #bbb;
+  color: #2c2c2c;
+  transform: scale(1.05);
+}
+
+.audio-btn:active {
+  transform: scale(0.95);
 }
 
 .english-translation {

@@ -84,6 +84,9 @@ function init() {
   document.getElementById('nextBtn').addEventListener('click', displayRandomPhrase);
   document.getElementById('favoriteBtn').addEventListener('click', toggleFavorite);
   
+  // Audio button listener
+  document.getElementById('audioBtn').addEventListener('click', playPronunciation);
+  
   // Favorites popover listeners
   document.getElementById('favoritesBtn').addEventListener('click', toggleFavoritesPopover);
   
@@ -265,4 +268,25 @@ function displaySpecificPhrase(level, index) {
   chrome.storage.local.get(['favorites'], (result) => {
     updateFavoriteButton(result.favorites || {});
   });
+}
+
+function playPronunciation() {
+  if (!currentPhrase) return;
+  
+  // Cancel any ongoing speech
+  speechSynthesis.cancel();
+  
+  // Get the German text (remove example part if it exists)
+  let textToSpeak = currentPhrase.german;
+  
+  // For slang phrases with examples, extract just the main phrase
+  if (textToSpeak.includes('(z.B.')) {
+    textToSpeak = textToSpeak.split('(z.B.')[0].trim();
+  }
+  
+  const utterance = new SpeechSynthesisUtterance(textToSpeak);
+  utterance.lang = 'de-DE';
+  utterance.rate = 0.9; // Slightly slower for learning
+  
+  speechSynthesis.speak(utterance);
 }
