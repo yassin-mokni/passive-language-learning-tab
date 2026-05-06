@@ -12,6 +12,9 @@ fetch('phrases.json')
   });
 
 function init() {
+  // Initialize favorite button state
+  document.getElementById('favoriteBtn').classList.remove('favorited');
+  
   // Load saved level and topic
   chrome.storage.local.get(['selectedLevel', 'selectedTopic'], (result) => {
     if (result.selectedLevel) {
@@ -22,6 +25,24 @@ function init() {
       currentTopic = result.selectedTopic;
       document.getElementById('topicSelect').value = currentTopic;
     }
+    
+    // Initialize level visibility based on topic
+    if (currentTopic === 'slang') {
+      hideLevelsExcept('A0');
+      if (currentLevel !== 'A0') {
+        currentLevel = 'A0';
+        chrome.storage.local.set({ selectedLevel: currentLevel });
+        updateActiveLevel();
+      }
+    } else {
+      hideLevelsExcept('A1', 'A2', 'B1', 'B2', 'C1', 'C2');
+      if (currentLevel === 'A0') {
+        currentLevel = 'A1';
+        chrome.storage.local.set({ selectedLevel: currentLevel });
+        updateActiveLevel();
+      }
+    }
+    
     displayRandomPhrase();
   });
 
@@ -39,6 +60,23 @@ function init() {
   document.getElementById('topicSelect').addEventListener('change', (e) => {
     currentTopic = e.target.value;
     chrome.storage.local.set({ selectedTopic: currentTopic });
+    
+    // Handle slang topic - show only A0
+    if (currentTopic === 'slang') {
+      currentLevel = 'A0';
+      chrome.storage.local.set({ selectedLevel: currentLevel });
+      updateActiveLevel();
+      hideLevelsExcept('A0');
+    } else {
+      // Non-slang topic - hide A0, show others
+      if (currentLevel === 'A0') {
+        currentLevel = 'A1';
+        chrome.storage.local.set({ selectedLevel: currentLevel });
+        updateActiveLevel();
+      }
+      hideLevelsExcept('A1', 'A2', 'B1', 'B2', 'C1', 'C2');
+    }
+    
     displayRandomPhrase();
   });
 
@@ -62,6 +100,16 @@ function init() {
 function updateActiveLevel() {
   document.querySelectorAll('.level-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.level === currentLevel);
+  });
+}
+
+function hideLevelsExcept(...levelsToShow) {
+  document.querySelectorAll('.level-btn').forEach(btn => {
+    if (levelsToShow.includes(btn.dataset.level)) {
+      btn.style.display = '';
+    } else {
+      btn.style.display = 'none';
+    }
   });
 }
 
@@ -99,7 +147,11 @@ function displayRandomPhrase() {
     const unshownIndices = originalIndices.filter(idx => !shown.includes(idx));
     const randomOriginalIndex = unshownIndices[Math.floor(Math.random() * unshownIndices.length)];
     
-    currentPhrase = { ...phrases[currentLevel][randomOriginalIndex], index: randomOriginalIndex };
+    currentPhrase = { 
+      ...phrases[currentLevel][randomOriginalIndex], 
+      index: randomOriginalIndex,
+      level: currentLevel 
+    };
     
     // Mark as shown
     shown.push(randomOriginalIndex);
@@ -118,17 +170,19 @@ function displayRandomPhrase() {
 function toggleFavorite() {
   if (!currentPhrase) return;
   
+  const phraseLevel = currentPhrase.level || currentLevel;
+  
   chrome.storage.local.get(['favorites'], (result) => {
     let favorites = result.favorites || {};
-    if (!favorites[currentLevel]) favorites[currentLevel] = [];
+    if (!favorites[phraseLevel]) favorites[phraseLevel] = [];
     
     const index = currentPhrase.index;
-    const favIndex = favorites[currentLevel].indexOf(index);
+    const favIndex = favorites[phraseLevel].indexOf(index);
     
     if (favIndex > -1) {
-      favorites[currentLevel].splice(favIndex, 1);
+      favorites[phraseLevel].splice(favIndex, 1);
     } else {
-      favorites[currentLevel].push(index);
+      favorites[phraseLevel].push(index);
     }
     
     chrome.storage.local.set({ favorites });
@@ -137,8 +191,10 @@ function toggleFavorite() {
 }
 
 function updateFavoriteButton(favorites) {
+  if (!currentPhrase) return;
   const btn = document.getElementById('favoriteBtn');
-  const isFavorited = favorites[currentLevel]?.includes(currentPhrase.index);
+  const phraseLevel = currentPhrase.level || currentLevel;
+  const isFavorited = favorites[phraseLevel]?.includes(currentPhrase.index) || false;
   btn.classList.toggle('favorited', isFavorited);
 }
 
@@ -195,7 +251,11 @@ function loadFavorites() {
 
 function displaySpecificPhrase(level, index) {
   currentLevel = level;
-  currentPhrase = { ...phrases[level][index], index };
+  currentPhrase = { 
+    ...phrases[level][index], 
+    index: index,
+    level: level 
+  };
   
   document.getElementById('germanPhrase').textContent = currentPhrase.german;
   document.getElementById('englishTranslation').textContent = currentPhrase.english;
