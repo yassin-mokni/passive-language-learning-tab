@@ -90,10 +90,16 @@ function init() {
   // Translation toggle listener
   document.getElementById('translationToggle').addEventListener('click', toggleTranslation);
   
+  // Dark mode toggle listener
+  document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+  
   // Load translation preference
-  chrome.storage.local.get(['showTranslation'], (result) => {
-    const showTranslation = result.showTranslation !== false; // default true
+  chrome.storage.local.get(['showTranslation', 'darkMode'], (result) => {
+    const showTranslation = result.showTranslation !== false;
     updateTranslationVisibility(showTranslation);
+    
+    const darkMode = result.darkMode || false;
+    updateDarkMode(darkMode);
   });
   
   // Favorites popover listeners
@@ -375,6 +381,27 @@ function updateTranslationVisibility(show) {
 function toggleShortcutsModal() {
   const modal = document.getElementById('shortcutsModal');
   modal.classList.toggle('active');
+}
+
+function toggleDarkMode() {
+  chrome.storage.local.get(['darkMode'], (result) => {
+    const currentState = result.darkMode || false;
+    const newState = !currentState;
+    chrome.storage.local.set({ darkMode: newState });
+    updateDarkMode(newState);
+  });
+}
+
+function updateDarkMode(enabled) {
+  const toggleBtn = document.getElementById('darkModeToggle');
+  
+  if (enabled) {
+    document.body.classList.add('dark-mode');
+    toggleBtn.classList.add('active');
+  } else {
+    document.body.classList.remove('dark-mode');
+    toggleBtn.classList.remove('active');
+  }
 }
 
 function exportFavorites() {

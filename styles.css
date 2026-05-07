@@ -322,6 +322,188 @@ body {
   color: #2c2c2c;
 }
 
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 40px;
+  left: 84px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode-toggle:hover {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #bbb;
+  color: #2c2c2c;
+}
+
+.dark-mode-toggle.active {
+  color: #2c2c2c;
+  background: rgba(44, 44, 44, 0.08);
+  border-color: rgba(44, 44, 44, 0.15);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .german-phrase {
+  color: #e0e0e0;
+}
+
+body.dark-mode .english-translation {
+  color: #888;
+}
+
+body.dark-mode .translation-toggle,
+body.dark-mode .dark-mode-toggle,
+body.dark-mode .shortcuts-help {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+}
+
+body.dark-mode .translation-toggle:hover,
+body.dark-mode .dark-mode-toggle:hover,
+body.dark-mode .shortcuts-help:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode .translation-toggle.active,
+body.dark-mode .dark-mode-toggle.active {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode .topic-selector,
+body.dark-mode .level-selector,
+body.dark-mode .controls {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .topic-dropdown,
+body.dark-mode .level-btn,
+body.dark-mode .control-btn {
+  color: #999;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .topic-dropdown:hover,
+body.dark-mode .level-btn:hover,
+body.dark-mode .control-btn:hover {
+  color: #e0e0e0;
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .level-btn.active {
+  color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .audio-btn {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+}
+
+body.dark-mode .audio-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode #favoriteBtn.favorited {
+  color: #ffd700;
+  border-color: #ffd700;
+  background: rgba(255, 215, 0, 0.15);
+}
+
+body.dark-mode .favorites-trigger {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+}
+
+body.dark-mode .favorites-trigger:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode .favorites-popover {
+  background: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .favorites-header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .favorites-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .export-btn {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+}
+
+body.dark-mode .export-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode .favorite-item {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+}
+
+body.dark-mode .favorite-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .shortcuts-modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.dark-mode .shortcuts-content {
+  background: #2a2a2a;
+}
+
+body.dark-mode .shortcuts-content h3 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .shortcut-item kbd {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #e0e0e0;
+}
+
+body.dark-mode .shortcut-item span {
+  color: #999;
+}
+
 .shortcuts-modal {
   position: fixed;
   top: 0;
