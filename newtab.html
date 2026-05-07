@@ -11,6 +11,17 @@
     <div class="flag">🇩🇪</div>
     
     <div class="top-controls">
+      <button class="translation-toggle" id="translationToggle" data-tooltip="Toggle translation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m5 8 6 6"></path>
+          <path d="m4 14 6-6 2-3"></path>
+          <path d="M2 5h12"></path>
+          <path d="M7 2h1"></path>
+          <path d="m22 22-5-10-5 10"></path>
+          <path d="M14 18h6"></path>
+        </svg>
+      </button>
+      
       <div class="topic-selector">
         <select id="topicSelect" class="topic-dropdown">
           <option value="all">All Topics</option>
@@ -40,7 +51,7 @@
     <div class="phrase-container">
       <div class="phrase-with-audio">
         <div class="german-phrase" id="germanPhrase"></div>
-        <button class="audio-btn" id="audioBtn" title="Listen to pronunciation">
+        <button class="audio-btn" id="audioBtn" data-tooltip="Listen to pronunciation">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
             <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -52,8 +63,8 @@
     </div>
 
     <div class="controls">
-      <button class="control-btn" id="favoriteBtn">★</button>
-      <button class="control-btn" id="nextBtn">↻</button>
+      <button class="control-btn" id="favoriteBtn" data-tooltip="Favorite">★</button>
+      <button class="control-btn" id="nextBtn" data-tooltip="Next phrase">↻</button>
     </div>
 
     <button class="favorites-trigger" id="favoritesBtn">Favorites</button>

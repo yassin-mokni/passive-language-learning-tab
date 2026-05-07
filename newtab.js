@@ -87,6 +87,15 @@ function init() {
   // Audio button listener
   document.getElementById('audioBtn').addEventListener('click', playPronunciation);
   
+  // Translation toggle listener
+  document.getElementById('translationToggle').addEventListener('click', toggleTranslation);
+  
+  // Load translation preference
+  chrome.storage.local.get(['showTranslation'], (result) => {
+    const showTranslation = result.showTranslation !== false; // default true
+    updateTranslationVisibility(showTranslation);
+  });
+  
   // Favorites popover listeners
   document.getElementById('favoritesBtn').addEventListener('click', toggleFavoritesPopover);
   
@@ -289,4 +298,26 @@ function playPronunciation() {
   utterance.rate = 0.9; // Slightly slower for learning
   
   speechSynthesis.speak(utterance);
+}
+
+function toggleTranslation() {
+  chrome.storage.local.get(['showTranslation'], (result) => {
+    const currentState = result.showTranslation !== false; // default true
+    const newState = !currentState;
+    chrome.storage.local.set({ showTranslation: newState });
+    updateTranslationVisibility(newState);
+  });
+}
+
+function updateTranslationVisibility(show) {
+  const translation = document.getElementById('englishTranslation');
+  const toggleBtn = document.getElementById('translationToggle');
+  
+  if (show) {
+    translation.classList.remove('hidden');
+    toggleBtn.classList.add('active');
+  } else {
+    translation.classList.add('hidden');
+    toggleBtn.classList.remove('active');
+  }
 }

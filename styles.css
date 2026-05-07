@@ -32,9 +32,70 @@ body {
 .top-controls {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: auto;
   width: 100%;
+  gap: 12px;
+}
+
+.translation-toggle {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #999;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.translation-toggle svg {
+  transition: all 0.2s;
+}
+
+.translation-toggle:hover {
+  color: #2c2c2c;
+  border-color: #bbb;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.translation-toggle.active {
+  color: #2c2c2c;
+  background: rgba(44, 44, 44, 0.08);
+  border-color: rgba(44, 44, 44, 0.15);
+}
+
+/* Tooltip utility */
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(44, 44, 44, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  z-index: 1000;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
 }
 
 .topic-selector {
@@ -43,7 +104,6 @@ body {
   background: rgba(255, 255, 255, 0.5);
   padding: 8px 12px;
   border-radius: 24px;
-  margin-right: 12px;
   border: 1px solid rgba(221, 221, 221, 0.5);
 }
 
@@ -168,6 +228,11 @@ body {
   color: #999;
   font-weight: 300;
   line-height: 1.4;
+  transition: opacity 0.2s;
+}
+
+.english-translation.hidden {
+  display: none;
 }
 
 .controls {
