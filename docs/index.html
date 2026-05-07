@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passive Language Learning - Learn German with Every New Tab</title>
+  <meta name="description" content="Transform your browser into a German learning companion. Learn naturally through passive exposure with every new tab.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #2c2c2c;
+      background: #f5f1e8;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 600;
+      color: #2c2c2c;
+      text-decoration: none;
+    }
+
+    .logo span {
+      margin-right: 8px;
+    }
+
+    nav a {
+      color: #666;
+      text-decoration: none;
+      margin-left: 32px;
+      font-size: 15px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #2c2c2c;
+    }
+
+    nav .cta-button {
+      background: #2c2c2c;
+      color: #f5f1e8;
+      padding: 8px 20px;
+      font-size: 14px;
+      border-radius: 20px;
+      margin-left: 32px;
+    }
+
+    nav .cta-button:hover {
+      background: #000;
+      color: #f5f1e8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 200px 20px 80px;
+      background: #f5f1e8;
+    }
+
+    .hero h1 {
+      font-size: 56px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      color: #2c2c2c;
+    }
+
+    .hero .tagline {
+      font-size: 24px;
+      color: #666;
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #2c2c2c;
+      color: #f5f1e8;
+      padding: 16px 48px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.2s;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .cta-button:hover {
+      background: #000;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    .section {
+      margin-bottom: 80px;
+    }
+
+    .section h2 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-align: center;
+      color: #2c2c2c;
+    }
+
+    .section p {
+      font-size: 18px;
+      color: #666;
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 48px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+
+    .feature {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s;
+    }
+
+    .feature:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .feature h3 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #2c2c2c;
+    }
+
+    .feature p {
+      font-size: 16px;
+      color: #666;
+      text-align: left;
+      margin: 0;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+
+    .stat {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(221, 221, 221, 0.5);
+      border-radius: 12px;
+      padding: 32px;
+    }
+
+    .stat-number {
+      font-size: 48px;
+      font-weight: 700;
+      color: #2c2c2c;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .how-it-works {
+      background: #fff;
+      border-radius: 12px;
+      padding: 48px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+
+    .step {
+      text-align: center;
+    }
+
+    .step-number {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background: #2c2c2c;
+      color: #f5f1e8;
+      border-radius: 50%;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 48px;
+      margin-bottom: 16px;
+    }
+
+    .step h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #2c2c2c;
+    }
+
+    .step p {
+      font-size: 16px;
+      color: #666;
+      margin: 0;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 80px 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .cta-section h2 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      color: #2c2c2c;
+    }
+
+    .cta-section p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #2c2c2c;
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .keyboard-shortcuts {
+      background: #f5f1e8;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .keyboard-shortcuts h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #2c2c2c;
+    }
+
+    .shortcuts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .shortcut {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .shortcut kbd {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-family: monospace;
+      font-size: 14px;
+      font-weight: 600;
+      color: #2c2c2c;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .shortcut span {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span>🇩🇪</span>Passive Language Learning
+      </a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="https://buymeacoffee.com/yourusername" target="_blank">☕ Support</a>
+        <a href="#" class="cta-button">Add to Chrome</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>🇩🇪 Learn German, One Tab at a Time</h1>
+    <p class="tagline">
+      Every new tab shows a German phrase. No effort, just consistent exposure.
+    </p>
+    <a href="#" class="cta-button">Add to Chrome - It's Free</a>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">578+</div>
+          <div class="stat-label">German Phrases</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">7</div>
+          <div class="stat-label">CEFR Levels</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">9</div>
+          <div class="stat-label">Topics</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">0</div>
+          <div class="stat-label">Data Collected</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="features">
+      <h2>Why It Works</h2>
+      <p>
+        You open dozens of tabs every day. Each one is a chance to see a German phrase. 
+        Passive exposure works. No apps to remember, no study sessions to schedule.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🎯</div>
+          <h3>CEFR Level System</h3>
+          <p>
+            A0 (slang) to C2 (advanced). Pick your level. 
+            Phrases match where you are.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">📚</div>
+          <h3>9 Topics</h3>
+          <p>
+            Everyday life, travel, food, work, housing, health. 
+            Learn what matters to you.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">⭐</div>
+          <h3>Save Favorites</h3>
+          <p>
+            Mark phrases you like. Export them as text. 
+            Study offline or print them out.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🔊</div>
+          <h3>Audio Pronunciation</h3>
+          <p>
+            Click to hear it. Native German voice. 
+            Learn how it sounds.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">⌨️</div>
+          <h3>Keyboard Shortcuts</h3>
+          <p>
+            Space for next phrase. F to favorite. A for audio. 
+            Fast navigation for power users.
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🔒</div>
+          <h3>Privacy First</h3>
+          <p>
+            Zero data collection. Everything stays local. 
+            No tracking, no analytics.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="how-it-works">
+        <h2>How It Works</h2>
+        <p>Pick your level. Start learning.</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Choose Level</h3>
+            <p>A0 to C2, pick yours</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Pick Topics</h3>
+            <p>Filter what you want to learn</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Learn</h3>
+            <p>New phrase with every tab</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-section">
+      <h2>Start Learning German</h2>
+      <p>Free. No account. No tracking.</p>
+      <a href="#" class="cta-button">Add to Chrome</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:your-email@example.com">Contact</a>
+      <a href="https://github.com/yourusername/passive-language-learning" target="_blank">GitHub</a>
+    </p>
+    <p style="margin-top: 16px;">&copy; 2026 Passive Language Learning. All rights reserved.</p>
+  </footer>
+</body>
+</html>
