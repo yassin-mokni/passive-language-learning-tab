@@ -99,12 +99,61 @@ function init() {
   // Favorites popover listeners
   document.getElementById('favoritesBtn').addEventListener('click', toggleFavoritesPopover);
   
+  // Shortcuts help listeners
+  document.getElementById('shortcutsBtn').addEventListener('click', toggleShortcutsModal);
+  document.getElementById('shortcutsModal').addEventListener('click', (e) => {
+    if (e.target.id === 'shortcutsModal') {
+      toggleShortcutsModal();
+    }
+  });
+  
   // Close popover when clicking outside
   document.addEventListener('click', (e) => {
     const popover = document.getElementById('favoritesPopover');
     const trigger = document.getElementById('favoritesBtn');
     if (!popover.contains(e.target) && !trigger.contains(e.target)) {
       popover.classList.remove('active');
+    }
+  });
+  
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    // Close modals with Escape
+    if (e.key === 'Escape') {
+      const modal = document.getElementById('shortcutsModal');
+      if (modal.classList.contains('active')) {
+        modal.classList.remove('active');
+        return;
+      }
+    }
+    
+    // Ignore if user is typing in an input/select
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+    
+    switch(e.key.toLowerCase()) {
+      case ' ':
+      case 'spacebar':
+        e.preventDefault();
+        displayRandomPhrase();
+        break;
+      case 'f':
+        e.preventDefault();
+        toggleFavorite();
+        break;
+      case 'a':
+        e.preventDefault();
+        playPronunciation();
+        break;
+      case 't':
+        e.preventDefault();
+        toggleTranslation();
+        break;
+      case '?':
+        e.preventDefault();
+        toggleShortcutsModal();
+        break;
     }
   });
 }
@@ -320,4 +369,9 @@ function updateTranslationVisibility(show) {
     translation.classList.add('hidden');
     toggleBtn.classList.remove('active');
   }
+}
+
+function toggleShortcutsModal() {
+  const modal = document.getElementById('shortcutsModal');
+  modal.classList.toggle('active');
 }

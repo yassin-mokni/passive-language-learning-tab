@@ -69,6 +69,32 @@
 
     <button class="favorites-trigger" id="favoritesBtn">Favorites</button>
 
+    <button class="shortcuts-help" id="shortcutsBtn" data-tooltip="Keyboard shortcuts">?</button>
+
+    <div class="shortcuts-modal" id="shortcutsModal">
+      <div class="shortcuts-content">
+        <h3>Keyboard Shortcuts</h3>
+        <div class="shortcut-list">
+          <div class="shortcut-item">
+            <kbd>Space</kbd>
+            <span>Next phrase</span>
+          </div>
+          <div class="shortcut-item">
+            <kbd>F</kbd>
+            <span>Toggle favorite</span>
+          </div>
+          <div class="shortcut-item">
+            <kbd>A</kbd>
+            <span>Play audio</span>
+          </div>
+          <div class="shortcut-item">
+            <kbd>T</kbd>
+            <span>Toggle translation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="favorites-popover" id="favoritesPopover">
       <div class="favorites-content" id="favoritesContent"></div>
     </div>
