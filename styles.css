@@ -26,7 +26,8 @@ body {
   position: absolute;
   top: 40px;
   left: 40px;
-  font-size: 32px;
+  width: 36px;
+  height: 36px;
 }
 
 .top-controls {

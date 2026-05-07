@@ -8,7 +8,21 @@
 </head>
 <body>
   <div class="container">
-    <div class="flag">🇩🇪</div>
+    <div class="flag">
+      <svg width="36" height="36" viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="24" fill="#fff"/>
+        <g clip-path="url(#circleClip)">
+          <rect x="0" y="0" width="48" height="16" fill="#000"/>
+          <rect x="0" y="16" width="48" height="16" fill="#DD0000"/>
+          <rect x="0" y="32" width="48" height="16" fill="#FFCE00"/>
+        </g>
+        <defs>
+          <clipPath id="circleClip">
+            <circle cx="24" cy="24" r="23"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
     
     <div class="top-controls">
       <button class="translation-toggle" id="translationToggle" data-tooltip="Toggle translation">
