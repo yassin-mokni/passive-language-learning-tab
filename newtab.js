@@ -98,6 +98,7 @@ function init() {
   
   // Favorites popover listeners
   document.getElementById('favoritesBtn').addEventListener('click', toggleFavoritesPopover);
+  document.getElementById('exportBtn').addEventListener('click', exportFavorites);
   
   // Shortcuts help listeners
   document.getElementById('shortcutsBtn').addEventListener('click', toggleShortcutsModal);
@@ -374,4 +375,53 @@ function updateTranslationVisibility(show) {
 function toggleShortcutsModal() {
   const modal = document.getElementById('shortcutsModal');
   modal.classList.toggle('active');
+}
+
+function exportFavorites() {
+  chrome.storage.local.get(['favorites', 'showTranslation'], (result) => {
+    const favorites = result.favorites || {};
+    const includeTranslations = result.showTranslation !== false; // default true
+    
+    // Check if there are any favorites
+    const hasFavorites = Object.values(favorites).some(arr => arr.length > 0);
+    if (!hasFavorites) {
+      alert('No favorites to export!');
+      return;
+    }
+    
+    // Build export text
+    let exportText = 'My German Favorites\n';
+    exportText += '===================\n\n';
+    
+    ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
+      const levelFavorites = favorites[level] || [];
+      if (levelFavorites.length > 0) {
+        exportText += `${level} Level (${levelFavorites.length} phrases)\n`;
+        exportText += '-'.repeat(30) + '\n';
+        
+        levelFavorites.forEach(index => {
+          const phrase = phrases[level][index];
+          exportText += `${phrase.german}\n`;
+          if (includeTranslations) {
+            exportText += `${phrase.english}\n`;
+          }
+          exportText += '\n';
+        });
+        
+        exportText += '\n';
+      }
+    });
+    
+    // Create download
+    const blob = new Blob([exportText], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    const suffix = includeTranslations ? 'with-translations' : 'german-only';
+    a.download = `german-favorites-${suffix}-${new Date().toISOString().split('T')[0]}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
 }
