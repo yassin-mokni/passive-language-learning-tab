@@ -354,6 +354,40 @@ body {
   border-color: rgba(44, 44, 44, 0.15);
 }
 
+.radio-trigger {
+  position: fixed;
+  bottom: 40px;
+  left: 128px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-trigger:hover {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #bbb;
+  color: #2c2c2c;
+}
+
+.radio-trigger.playing {
+  color: #d11;
+  animation: pulse-radio 2s infinite;
+}
+
+@keyframes pulse-radio {
+  0% { box-shadow: 0 0 0 0 rgba(221, 17, 17, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(221, 17, 17, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(221, 17, 17, 0); }
+}
+
 /* Dark mode styles */
 body.dark-mode {
   background: #1a1a1a;
@@ -370,7 +404,8 @@ body.dark-mode .english-translation {
 
 body.dark-mode .translation-toggle,
 body.dark-mode .dark-mode-toggle,
-body.dark-mode .shortcuts-help {
+body.dark-mode .shortcuts-help,
+body.dark-mode .radio-trigger {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.2);
   color: #999;
@@ -378,7 +413,8 @@ body.dark-mode .shortcuts-help {
 
 body.dark-mode .translation-toggle:hover,
 body.dark-mode .dark-mode-toggle:hover,
-body.dark-mode .shortcuts-help:hover {
+body.dark-mode .shortcuts-help:hover,
+body.dark-mode .radio-trigger:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
   color: #e0e0e0;
@@ -667,4 +703,153 @@ body.dark-mode .shortcut-item span {
 .favorite-item:hover {
   background: #ebe7de;
   transform: translateX(-2px);
+}
+
+.radio-popover {
+  position: fixed;
+  bottom: 90px;
+  left: 128px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  display: none;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.radio-popover.active {
+  display: block;
+}
+
+body.dark-mode .radio-popover {
+  background: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.radio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  background: rgba(0,0,0,0.02);
+}
+
+body.dark-mode .radio-header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.02);
+}
+
+.radio-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+body.dark-mode .radio-title {
+  color: #e0e0e0;
+}
+
+.radio-animation {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 14px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.radio-animation.playing {
+  opacity: 1;
+}
+
+.radio-animation .bar {
+  width: 3px;
+  background-color: #d11;
+  border-radius: 2px;
+  animation: equalize 1s infinite alternate;
+}
+
+.radio-animation .bar:nth-child(1) { height: 40%; animation-delay: -0.4s; }
+.radio-animation .bar:nth-child(2) { height: 80%; animation-delay: -0.2s; }
+.radio-animation .bar:nth-child(3) { height: 60%; animation-delay: -0.6s; }
+.radio-animation .bar:nth-child(4) { height: 100%; animation-delay: 0s; }
+
+@keyframes equalize {
+  0% { height: 20%; }
+  100% { height: 100%; }
+}
+
+.radio-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.radio-dropdown {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f5f1e8;
+  color: #2c2c2c;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+body.dark-mode .radio-dropdown {
+  background: #1a1a1a;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #e0e0e0;
+}
+
+.radio-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.radio-play-btn {
+  background: #2c2c2c;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+body.dark-mode .radio-play-btn {
+  background: #e0e0e0;
+  color: #1a1a1a;
+}
+
+.radio-play-btn:hover {
+  transform: scale(1.05);
+}
+
+.radio-play-btn:active {
+  transform: scale(0.95);
+}
+
+.radio-volume {
+  flex-grow: 1;
+  accent-color: #2c2c2c;
+}
+
+body.dark-mode .radio-volume {
+  accent-color: #e0e0e0;
+}
+
+.hidden {
+  display: none !important;
 }

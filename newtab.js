@@ -2,6 +2,7 @@ let phrases = {};
 let currentLevel = 'A1';
 let currentTopic = 'all';
 let currentPhrase = null;
+let isRadioPlaying = false;
 
 // Load phrases from JSON
 fetch('phrases.json')
@@ -114,12 +115,34 @@ function init() {
     }
   });
   
+  // Radio listeners
+  document.getElementById('radioBtn').addEventListener('click', toggleRadioPopover);
+  document.getElementById('radioPlayBtn').addEventListener('click', toggleRadioPlay);
+  document.getElementById('radioStationSelect').addEventListener('change', changeRadioStation);
+  document.getElementById('radioVolume').addEventListener('input', changeRadioVolume);
+  
+  // Load radio preferences and sync state with background
+  chrome.runtime.sendMessage({ target: 'background', type: 'getState' }, (response) => {
+    if (response) {
+      document.getElementById('radioStationSelect').value = response.currentStation;
+      document.getElementById('radioVolume').value = response.currentVolume;
+      isRadioPlaying = response.isRadioPlaying;
+      updateRadioUI(isRadioPlaying);
+    }
+  });
+  
   // Close popover when clicking outside
   document.addEventListener('click', (e) => {
-    const popover = document.getElementById('favoritesPopover');
-    const trigger = document.getElementById('favoritesBtn');
-    if (!popover.contains(e.target) && !trigger.contains(e.target)) {
-      popover.classList.remove('active');
+    const favPopover = document.getElementById('favoritesPopover');
+    const favTrigger = document.getElementById('favoritesBtn');
+    if (!favPopover.contains(e.target) && !favTrigger.contains(e.target)) {
+      favPopover.classList.remove('active');
+    }
+
+    const radioPopover = document.getElementById('radioPopover');
+    const radioTrigger = document.getElementById('radioBtn');
+    if (!radioPopover.contains(e.target) && !radioTrigger.contains(e.target)) {
+      radioPopover.classList.remove('active');
     }
   });
   
@@ -450,5 +473,83 @@ function exportFavorites() {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+  });
+}
+
+// Radio functions
+function toggleRadioPopover() {
+  const popover = document.getElementById('radioPopover');
+  popover.classList.toggle('active');
+}
+
+function updateRadioUI(playing) {
+  const playIcon = document.querySelector('.play-icon');
+  const pauseIcon = document.querySelector('.pause-icon');
+  const radioBtn = document.getElementById('radioBtn');
+  const radioAnimation = document.getElementById('radioAnimation');
+  
+  if (playing) {
+    playIcon.classList.add('hidden');
+    pauseIcon.classList.remove('hidden');
+    radioBtn.classList.add('playing');
+    radioAnimation.classList.add('playing');
+  } else {
+    playIcon.classList.remove('hidden');
+    pauseIcon.classList.add('hidden');
+    radioBtn.classList.remove('playing');
+    radioAnimation.classList.remove('playing');
+  }
+}
+
+function toggleRadioPlay() {
+  const select = document.getElementById('radioStationSelect');
+  const volumeSlider = document.getElementById('radioVolume');
+  
+  if (isRadioPlaying) {
+    chrome.runtime.sendMessage({
+      target: 'background',
+      type: 'pause'
+    }, (response) => {
+      if (response && response.success) {
+        isRadioPlaying = false;
+        updateRadioUI(false);
+      }
+    });
+  } else {
+    chrome.runtime.sendMessage({
+      target: 'background',
+      type: 'play',
+      station: select.value,
+      volume: parseFloat(volumeSlider.value)
+    }, (response) => {
+      if (response && response.success) {
+        isRadioPlaying = true;
+        updateRadioUI(true);
+      }
+    });
+  }
+}
+
+function changeRadioStation() {
+  const select = document.getElementById('radioStationSelect');
+  
+  chrome.storage.local.set({ radioStation: select.value });
+  
+  chrome.runtime.sendMessage({
+    target: 'background',
+    type: 'setStation',
+    station: select.value
+  });
+}
+
+function changeRadioVolume() {
+  const volumeSlider = document.getElementById('radioVolume');
+  
+  chrome.storage.local.set({ radioVolume: volumeSlider.value });
+  
+  chrome.runtime.sendMessage({
+    target: 'background',
+    type: 'setVolume',
+    volume: parseFloat(volumeSlider.value)
   });
 }

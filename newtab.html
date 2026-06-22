@@ -85,6 +85,16 @@
 
     <button class="shortcuts-help" id="shortcutsBtn" data-tooltip="Keyboard shortcuts">?</button>
 
+    <button class="radio-trigger" id="radioBtn" data-tooltip="German Radio">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"></path>
+        <path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"></path>
+        <circle cx="12" cy="12" r="2"></circle>
+        <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"></path>
+        <path d="M19.1 4.9C23 8.8 23 15.2 19.1 19.1"></path>
+      </svg>
+    </button>
+
     <button class="dark-mode-toggle" id="darkModeToggle" data-tooltip="Toggle dark mode">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
@@ -127,6 +137,41 @@
         </button>
       </div>
       <div class="favorites-content" id="favoritesContent"></div>
+    </div>
+
+    <div class="radio-popover" id="radioPopover">
+      <div class="radio-header">
+        <span class="radio-title">German Radio</span>
+        <div class="radio-animation" id="radioAnimation">
+          <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        </div>
+      </div>
+      <div class="radio-content">
+        <select id="radioStationSelect" class="radio-dropdown">
+          <optgroup label="Learners (Clearer/Conversational)">
+            <option value="dlf_nova">Deutschlandfunk Nova</option>
+            <option value="dlf_kultur">Deutschlandfunk Kultur</option>
+          </optgroup>
+          <optgroup label="Advanced (News/Talk)">
+            <option value="dlf">Deutschlandfunk</option>
+            <option value="wdr5">WDR 5</option>
+            <option value="br24">BR24</option>
+            <option value="ndr_info">NDR Info</option>
+          </optgroup>
+        </select>
+        <div class="radio-controls">
+          <button class="radio-play-btn" id="radioPlayBtn">
+            <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg class="pause-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </button>
+          <input type="range" id="radioVolume" class="radio-volume" min="0" max="1" step="0.01" value="0.5">
+        </div>
+      </div>
     </div>
   </div>
 
