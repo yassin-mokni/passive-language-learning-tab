@@ -118,6 +118,8 @@ function init() {
   // Radio listeners
   document.getElementById('radioBtn').addEventListener('click', toggleRadioPopover);
   document.getElementById('radioPlayBtn').addEventListener('click', toggleRadioPlay);
+  document.getElementById('radioPrevBtn').addEventListener('click', () => switchRadioStation(-1));
+  document.getElementById('radioNextBtn').addEventListener('click', () => switchRadioStation(1));
   document.getElementById('radioStationSelect').addEventListener('change', changeRadioStation);
   document.getElementById('radioVolume').addEventListener('input', changeRadioVolume);
   
@@ -552,4 +554,23 @@ function changeRadioVolume() {
     type: 'setVolume',
     volume: parseFloat(volumeSlider.value)
   });
+}
+
+function switchRadioStation(direction) {
+  const select = document.getElementById('radioStationSelect');
+  const options = Array.from(select.querySelectorAll('option'));
+  const stationKeys = options.map(opt => opt.value);
+  
+  let currentIndex = stationKeys.indexOf(select.value);
+  if (currentIndex === -1) currentIndex = 0;
+  
+  let nextIndex = currentIndex + direction;
+  if (nextIndex >= stationKeys.length) {
+    nextIndex = 0; // Wrap around to first
+  } else if (nextIndex < 0) {
+    nextIndex = stationKeys.length - 1; // Wrap around to last
+  }
+  
+  select.value = stationKeys[nextIndex];
+  changeRadioStation();
 }

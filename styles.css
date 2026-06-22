@@ -809,8 +809,67 @@ body.dark-mode .radio-dropdown {
 
 .radio-controls {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 12px;
+}
+
+.radio-playback-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.radio-control-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+body.dark-mode .radio-control-btn {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #999;
+}
+
+.radio-control-btn:hover {
+  background: rgba(44, 44, 44, 0.05);
+  color: #2c2c2c;
+  border-color: #bbb;
+}
+
+body.dark-mode .radio-control-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.radio-control-btn:active {
+  transform: scale(0.95);
+}
+
+.radio-volume-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.radio-volume-container svg {
+  color: #666;
+  flex-shrink: 0;
+}
+
+body.dark-mode .radio-volume-container svg {
+  color: #999;
 }
 
 .radio-play-btn {
