@@ -159,6 +159,11 @@ function init() {
       }
     }
     
+    // Ignore if a modifier key (Cmd, Ctrl, Alt) is pressed
+    if (e.metaKey || e.ctrlKey || e.altKey) {
+      return;
+    }
+
     // Ignore if user is typing in an input/select
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') {
       return;
@@ -181,6 +186,18 @@ function init() {
       case 't':
         e.preventDefault();
         toggleTranslation();
+        break;
+      case 'r':
+        e.preventDefault();
+        toggleRadioPlay();
+        break;
+      case 'arrowleft':
+        e.preventDefault();
+        switchRadioStation(-1);
+        break;
+      case 'arrowright':
+        e.preventDefault();
+        switchRadioStation(1);
         break;
       case '?':
         e.preventDefault();
