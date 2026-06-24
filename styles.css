@@ -301,7 +301,7 @@ body {
 .shortcuts-help {
   position: fixed;
   bottom: 40px;
-  left: 40px;
+  left: 84px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -326,7 +326,7 @@ body {
 .dark-mode-toggle {
   position: fixed;
   bottom: 40px;
-  left: 84px;
+  left: 128px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -357,7 +357,7 @@ body {
 .radio-trigger {
   position: fixed;
   bottom: 40px;
-  left: 128px;
+  left: 172px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -388,6 +388,38 @@ body {
   100% { box-shadow: 0 0 0 0 rgba(221, 17, 17, 0); }
 }
 
+.support-btn {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-btn:hover {
+  background: rgba(139, 90, 43, 0.1);
+  border-color: rgba(139, 90, 43, 0.4);
+  color: #8b5a2b;
+}
+
+.support-btn:hover svg {
+  animation: support-tilt 0.3s ease infinite alternate;
+}
+
+@keyframes support-tilt {
+  0% { transform: rotate(-8deg); }
+  100% { transform: rotate(8deg); }
+}
+
 /* Dark mode styles */
 body.dark-mode {
   background: #1a1a1a;
@@ -405,7 +437,8 @@ body.dark-mode .english-translation {
 body.dark-mode .translation-toggle,
 body.dark-mode .dark-mode-toggle,
 body.dark-mode .shortcuts-help,
-body.dark-mode .radio-trigger {
+body.dark-mode .radio-trigger,
+body.dark-mode .support-btn {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.2);
   color: #999;
@@ -418,6 +451,12 @@ body.dark-mode .radio-trigger:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
   color: #e0e0e0;
+}
+
+body.dark-mode .support-btn:hover {
+  background: rgba(210, 166, 121, 0.15);
+  border-color: rgba(210, 166, 121, 0.4);
+  color: #d2a679;
 }
 
 body.dark-mode .translation-toggle.active,
@@ -708,7 +747,7 @@ body.dark-mode .shortcut-item span {
 .radio-popover {
   position: fixed;
   bottom: 90px;
-  left: 128px;
+  left: 172px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
