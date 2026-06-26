@@ -8,7 +8,24 @@ const radioStations = {
   dlf: 'https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3',
   wdr5: 'https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3',
   br24: 'https://dispatcher.rndfnk.com/br/br24/live/mp3/mid',
-  ndr_info: 'https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3'
+  ndr_info: 'https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3',
+  dialogue_level_0: 'audio/dialogue_level_0.mp3',
+  dialogue_level_1: 'audio/dialogue_level_1.mp3',
+  dialogue_level_2: 'audio/dialogue_level_2.mp3',
+  dialogue_level_3: 'audio/dialogue_level_3.mp3',
+  dialogue_level_4: 'audio/dialogue_level_4.mp3',
+  dialogue_level_5: 'audio/dialogue_level_5.mp3',
+  dialogue_level_6: 'audio/dialogue_level_6.mp3',
+  dialogue_level_7: 'audio/dialogue_level_7.mp3',
+  dialogue_sit_0: 'audio/dialogue_sit_0.mp3',
+  dialogue_sit_1: 'audio/dialogue_sit_1.mp3',
+  dialogue_sit_2: 'audio/dialogue_sit_2.mp3',
+  dialogue_sit_3: 'audio/dialogue_sit_3.mp3',
+  dialogue_sit_4: 'audio/dialogue_sit_4.mp3',
+  dialogue_sit_5: 'audio/dialogue_sit_5.mp3',
+  dialogue_sit_6: 'audio/dialogue_sit_6.mp3',
+  dialogue_sit_7: 'audio/dialogue_sit_7.mp3',
+  dialogue_sit_8: 'audio/dialogue_sit_8.mp3'
 };
 
 // Load initial states from storage if they exist
@@ -51,6 +68,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 });
 
+function getStationUrl(stationId) {
+  const url = radioStations[stationId];
+  if (url && !url.startsWith('http')) {
+    return chrome.runtime.getURL(url);
+  }
+  return url;
+}
+
 async function handleMessage(message, sendResponse) {
   switch (message.type) {
     case 'play':
@@ -64,7 +89,7 @@ async function handleMessage(message, sendResponse) {
         chrome.runtime.sendMessage({
           target: 'offscreen',
           type: 'play',
-          url: radioStations[currentStation],
+          url: getStationUrl(currentStation),
           volume: currentVolume
         });
         sendResponse({ success: true });
@@ -112,7 +137,7 @@ async function handleMessage(message, sendResponse) {
         chrome.runtime.sendMessage({
           target: 'offscreen',
           type: 'setStation',
-          url: radioStations[currentStation]
+          url: getStationUrl(currentStation)
         });
       }
       sendResponse({ success: true });

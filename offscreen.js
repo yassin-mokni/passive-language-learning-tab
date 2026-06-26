@@ -46,7 +46,9 @@ function setStation(url) {
     const isPlaying = !audio.paused;
     audio.src = url;
     if (isPlaying) {
-      audio.play().catch(e => console.error("Error playing offscreen audio on station change:", e));
+      audio.play().catch(e => {
+        console.error("Error playing offscreen audio on station change:", e.name, e.message, "URL:", url);
+      });
     }
   }
 }
