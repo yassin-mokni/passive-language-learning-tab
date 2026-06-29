@@ -5,7 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Passive Language Learning - Learn German with Every New Tab</title>
   <meta name="description" content="Transform your browser into a German learning companion. Learn naturally through passive exposure with every new tab.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text-main: #171717;
+      --text-muted: #737373;
+      --border: rgba(0, 0, 0, 0.08);
+      --accent: #171717;
+      --accent-hover: #404040;
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -13,16 +26,21 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
       line-height: 1.6;
-      color: #2c2c2c;
-      background: #f5f1e8;
+      color: var(--text-main);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
+    /* Header */
     header {
-      background: #fff;
-      border-bottom: 1px solid rgba(221, 221, 221, 0.5);
-      padding: 20px 0;
+      background: rgba(250, 250, 250, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -31,348 +49,351 @@
     header .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 32px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     .logo {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
-      color: #2c2c2c;
+      color: var(--text-main);
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
 
-    .logo span {
-      margin-right: 8px;
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
     }
 
     nav a {
-      color: #666;
+      color: var(--text-muted);
       text-decoration: none;
-      margin-left: 32px;
       font-size: 15px;
+      font-weight: 500;
       transition: color 0.2s;
     }
 
     nav a:hover {
-      color: #2c2c2c;
+      color: var(--text-main);
     }
 
     nav .cta-button {
-      background: #2c2c2c;
-      color: #f5f1e8;
-      padding: 8px 20px;
-      font-size: 14px;
-      border-radius: 20px;
-      margin-left: 32px;
+      background: var(--accent);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 99px;
+      font-weight: 600;
     }
 
     nav .cta-button:hover {
-      background: #000;
-      color: #f5f1e8;
+      background: var(--accent-hover);
+      color: #fff;
     }
 
+    /* Hero */
     .hero {
       text-align: center;
-      padding: 200px 20px 80px;
-      background: #f5f1e8;
+      padding: 160px 24px 100px;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     .hero h1 {
-      font-size: 56px;
-      font-weight: 600;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
       margin-bottom: 24px;
-      color: #2c2c2c;
+      color: var(--text-main);
     }
 
     .hero .tagline {
-      font-size: 24px;
-      color: #666;
-      margin-bottom: 40px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 22px;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+      font-weight: 400;
     }
 
     .cta-button {
-      display: inline-block;
-      background: #2c2c2c;
-      color: #f5f1e8;
-      padding: 16px 48px;
-      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      color: #fff;
+      padding: 16px 40px;
+      font-size: 16px;
       font-weight: 600;
-      border-radius: 30px;
+      border-radius: 99px;
       text-decoration: none;
-      transition: all 0.2s;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .cta-button:hover {
-      background: #000;
+      background: var(--accent-hover);
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     }
 
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 80px 20px;
+      padding: 60px 32px;
     }
 
     .section {
-      margin-bottom: 80px;
+      margin-bottom: 120px;
     }
 
     .section h2 {
-      font-size: 36px;
-      font-weight: 600;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
       margin-bottom: 16px;
       text-align: center;
-      color: #2c2c2c;
     }
 
-    .section p {
-      font-size: 18px;
-      color: #666;
+    .section p.section-sub {
+      font-size: 20px;
+      color: var(--text-muted);
       text-align: center;
-      max-width: 700px;
-      margin: 0 auto 48px;
+      max-width: 600px;
+      margin: 0 auto 60px;
     }
 
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 32px;
-      margin-top: 48px;
-    }
-
-    .feature {
-      background: #fff;
-      border-radius: 12px;
-      padding: 32px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: all 0.2s;
-    }
-
-    .feature:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    }
-
-    .feature-icon {
-      font-size: 48px;
-      margin-bottom: 16px;
-    }
-
-    .feature h3 {
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 12px;
-      color: #2c2c2c;
-    }
-
-    .feature p {
-      font-size: 16px;
-      color: #666;
-      text-align: left;
-      margin: 0;
-    }
-
+    /* Stats */
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 32px;
-      margin-top: 48px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 24px;
+      margin-bottom: 80px;
     }
 
     .stat {
       text-align: center;
-      background: rgba(255, 255, 255, 0.5);
-      border: 1px solid rgba(221, 221, 221, 0.5);
-      border-radius: 12px;
-      padding: 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px 24px;
+      transition: transform 0.2s ease;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    }
+
+    .stat:hover {
+      transform: translateY(-4px);
     }
 
     .stat-number {
       font-size: 48px;
       font-weight: 700;
-      color: #2c2c2c;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
       margin-bottom: 8px;
+      line-height: 1;
     }
 
     .stat-label {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .feature {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    }
+
+    .feature:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+    }
+
+    .feature-icon {
+      font-size: 40px;
+      margin-bottom: 24px;
+    }
+
+    .feature h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+
+    .feature p {
       font-size: 16px;
-      color: #666;
+      color: var(--text-muted);
+      line-height: 1.6;
     }
 
-    .how-it-works {
-      background: #fff;
-      border-radius: 12px;
-      padding: 48px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    }
-
+    /* How It Works */
     .steps {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 32px;
-      margin-top: 48px;
+    }
+
+    @media (max-width: 768px) {
+      .steps { grid-template-columns: 1fr; }
     }
 
     .step {
       text-align: center;
+      padding: 32px;
     }
 
     .step-number {
-      display: inline-block;
-      width: 48px;
-      height: 48px;
-      background: #2c2c2c;
-      color: #f5f1e8;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-main);
       border-radius: 50%;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 48px;
-      margin-bottom: 16px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     }
 
     .step h3 {
       font-size: 20px;
       font-weight: 600;
-      margin-bottom: 8px;
-      color: #2c2c2c;
+      margin-bottom: 12px;
     }
 
     .step p {
       font-size: 16px;
-      color: #666;
-      margin: 0;
+      color: var(--text-muted);
     }
 
-    .support-section {
-      text-align: center;
-      padding: 60px 20px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .support-section h2 {
-      font-size: 28px;
-      margin-bottom: 16px;
-      color: #2c2c2c;
-    }
-
-    .support-section p {
-      font-size: 16px;
-      line-height: 1.6;
-      color: #666;
-      margin-bottom: 24px;
-    }
-
-    .support-button {
-      display: inline-block;
-      background: #FFDD00;
-      color: #2c2c2c;
-      padding: 12px 32px;
-      font-size: 16px;
-      font-weight: 600;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.2s;
-    }
-
-    .support-button:hover {
-      background: #FFE84D;
-      transform: translateY(-2px);
-    }
-
-    .cta-section {
-      text-align: center;
-      padding: 80px 20px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .cta-section h2 {
-      font-size: 36px;
-      font-weight: 600;
-      margin-bottom: 24px;
-      color: #2c2c2c;
-    }
-
-    .cta-section p {
-      font-size: 18px;
-      color: #666;
-      margin-bottom: 32px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 40px 20px;
-      color: #666;
-      font-size: 14px;
-    }
-
-    footer a {
-      color: #2c2c2c;
-      text-decoration: none;
-      margin: 0 12px;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
+    /* Shortcuts */
     .keyboard-shortcuts {
-      background: #f5f1e8;
-      border-radius: 12px;
-      padding: 24px;
-      margin-top: 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 48px;
+      margin-top: 60px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
     }
 
     .keyboard-shortcuts h4 {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 600;
-      margin-bottom: 16px;
-      color: #2c2c2c;
+      margin-bottom: 32px;
+      text-align: center;
     }
 
     .shortcuts-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     .shortcut {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 16px;
     }
 
     .shortcut kbd {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 4px 12px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 12px;
       font-family: monospace;
       font-size: 14px;
       font-weight: 600;
-      color: #2c2c2c;
-      min-width: 50px;
+      color: var(--text-main);
+      min-width: 48px;
       text-align: center;
     }
 
     .shortcut span {
-      font-size: 14px;
-      color: #666;
+      font-size: 15px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Support CTA */
+    .support-section, .cta-section {
+      text-align: center;
+      padding: 80px 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    }
+
+    .support-section h2, .cta-section h2 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    .support-section p, .cta-section p {
+      font-size: 18px;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .support-button {
+      display: inline-block;
+      background: #fef08a; /* Soft minimal yellow */
+      color: #854d0e;
+      padding: 16px 40px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 99px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .support-button:hover {
+      background: #fde047;
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 32px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 16px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -380,7 +401,7 @@
   <header>
     <div class="container">
       <a href="index.html" class="logo">
-        <span>🇩🇪</span>Passive Language Learning
+        <span>🇩🇪</span> Passive Language Learning
       </a>
       <nav>
         <a href="#features">Features</a>
@@ -390,9 +411,9 @@
   </header>
 
   <div class="hero">
-    <h1>🇩🇪 Learn German, One Tab at a Time</h1>
+    <h1>Learn German, One Tab at a Time.</h1>
     <p class="tagline">
-      Every new tab shows a German phrase. No effort, just consistent exposure.
+      Every new tab shows a German phrase. No effort, just consistent exposure integrated into your daily workflow.
     </p>
     <a href="#" class="cta-button">Add to Chrome - It's Free</a>
   </div>
@@ -414,11 +435,11 @@
         </div>
         <div class="stat">
           <div class="stat-number">6</div>
-          <div class="stat-label">Radio Streams</div>
+          <div class="stat-label">Live Stations</div>
         </div>
         <div class="stat">
           <div class="stat-number">17</div>
-          <div class="stat-label">Offline Dialogues</div>
+          <div class="stat-label">Dialogues</div>
         </div>
         <div class="stat">
           <div class="stat-number">0</div>
@@ -429,146 +450,93 @@
 
     <div class="section" id="features">
       <h2>Why It Works</h2>
-      <p>
-        You open dozens of tabs every day. Each one is a chance to see a German phrase. 
-        Passive exposure works. No apps to remember, no study sessions to schedule.
+      <p class="section-sub">
+        You open dozens of tabs every day. Each one is an opportunity. Passive exposure builds familiarity effortlessly.
       </p>
 
       <div class="features">
         <div class="feature">
           <div class="feature-icon">🎯</div>
           <h3>CEFR Level System</h3>
-          <p>
-            A1 to C2. Pick your level. 
-            Phrases match where you are. Plus bonus slang for street German.
-          </p>
+          <p>From A1 to C2. Phrases match your current proficiency, ensuring you learn exactly what you need.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">📚</div>
-          <h3>9 Topics</h3>
-          <p>
-            Everyday life, travel, food, work, housing, health. 
-            Learn what matters to you.
-          </p>
+          <h3>9 Practical Topics</h3>
+          <p>Everyday life, travel, food, work, and housing. Learn vocabulary that is actually relevant to you.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">⭐</div>
           <h3>Save Favorites</h3>
-          <p>
-            Mark phrases you like. Export them as text. 
-            Study offline or print them out.
-          </p>
+          <p>Mark phrases you like and export them as text to study offline or add to your own flashcards.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">🔊</div>
-          <h3>Audio Pronunciation</h3>
-          <p>
-            Click to hear it. Native German voice. 
-            Learn how it sounds.
-          </p>
+          <h3>Native Audio</h3>
+          <p>Click to hear perfect pronunciation from a native German speaker, helping you master the accent.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">🎧</div>
-          <h3>Offline Audio Dialogues</h3>
-          <p>
-            Listen to 17 structured conversations for different CEFR levels and everyday situations (like hotel, restaurant, and bank) directly in the audio player.
-          </p>
+          <h3>Offline Dialogues</h3>
+          <p>Listen to 17 structured conversations for different levels and everyday situations directly in the player.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">📻</div>
           <h3>Live German Radio</h3>
-          <p>
-            Listen to level-appropriate German talk & news stations. Powered by a background offscreen player that continues streaming even when you close the tab.
-          </p>
+          <p>Tune into level-appropriate German talk and news stations. Continues playing even when you close the tab.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">⌨️</div>
           <h3>Keyboard Shortcuts</h3>
-          <p>
-            Space for next phrase, R to play/pause audio, left/right arrows to switch tracks. Fast navigation for power users.
-          </p>
+          <p>Space for next phrase, R to play audio, left/right to switch tracks. Designed for power users.</p>
         </div>
-
         <div class="feature">
           <div class="feature-icon">🔒</div>
           <h3>Privacy First</h3>
-          <p>
-            Zero data collection. Everything stays local. 
-            No tracking, no analytics.
-          </p>
+          <p>Zero data collection. Everything stays local on your device. Absolutely no tracking or analytics.</p>
         </div>
       </div>
     </div>
 
     <div class="section">
-      <div class="how-it-works">
-        <h2>How It Works</h2>
-        <p>Pick your level. Start learning.</p>
+      <h2>How It Works</h2>
+      <p class="section-sub">Three simple steps to start learning passively.</p>
 
-        <div class="steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Choose Level</h3>
-            <p>A0 to C2, pick yours</p>
-          </div>
-
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Pick Topics</h3>
-            <p>Filter what you want to learn</p>
-          </div>
-
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Learn</h3>
-            <p>New phrase with every tab</p>
-          </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Choose Level</h3>
+          <p>Select your proficiency from A0 to C2.</p>
         </div>
-
-        <div class="keyboard-shortcuts">
-          <h4>Keyboard Shortcuts</h4>
-          <div class="shortcuts-grid">
-            <div class="shortcut">
-              <kbd>Space</kbd>
-              <span>Next phrase</span>
-            </div>
-            <div class="shortcut">
-              <kbd>F</kbd>
-              <span>Toggle favorite</span>
-            </div>
-            <div class="shortcut">
-              <kbd>A</kbd>
-              <span>Play pronunciation audio</span>
-            </div>
-            <div class="shortcut">
-              <kbd>T</kbd>
-              <span>Toggle translation</span>
-            </div>
-            <div class="shortcut">
-              <kbd>R</kbd>
-              <span>Play/Pause audio</span>
-            </div>
-            <div class="shortcut">
-              <kbd>←</kbd> / <kbd>→</kbd>
-              <span>Previous/Next audio track</span>
-            </div>
-          </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Pick Topics</h3>
+          <p>Filter exactly what vocabulary you want to see.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Learn</h3>
+          <p>See a new phrase every time you open a tab.</p>
         </div>
       </div>
-    </div>
 
+      <div class="keyboard-shortcuts">
+        <h4>Power User Navigation</h4>
+        <div class="shortcuts-grid">
+          <div class="shortcut"><kbd>Space</kbd><span>Next phrase</span></div>
+          <div class="shortcut"><kbd>F</kbd><span>Toggle favorite</span></div>
+          <div class="shortcut"><kbd>A</kbd><span>Play audio</span></div>
+          <div class="shortcut"><kbd>T</kbd><span>Toggle translation</span></div>
+          <div class="shortcut"><kbd>R</kbd><span>Play/Pause radio</span></div>
+          <div class="shortcut"><kbd>←</kbd> / <kbd>→</kbd><span>Previous/Next track</span></div>
+        </div>
+      </div>
     </div>
 
     <div class="section">
       <div class="cta-section">
-        <h2>Start Learning German</h2>
-        <p>Free. No account. No tracking.</p>
+        <h2>Start Learning Today</h2>
+        <p>Completely free. No account required. No tracking.</p>
         <a href="#" class="cta-button">Add to Chrome</a>
       </div>
     </div>
@@ -576,21 +544,18 @@
     <div class="section">
       <div class="support-section">
         <h2>☕ Support This Project</h2>
-        <p>
-          This extension is free and always will be. No ads, no tracking, no premium tiers.
-          If it helps you learn German, consider buying me a coffee.
-        </p>
+        <p>This extension is free and always will be. No ads, no premium tiers. If it helps you learn German, consider buying me a coffee.</p>
         <a href="https://buymeacoffee.com/yassinbuilds" target="_blank" class="support-button">Buy Me a Coffee</a>
       </div>
     </div>
   </div>
 
   <footer>
-    <p>
-      <a href="privacy.html">Privacy</a>
+    <div style="margin-bottom: 24px;">
+      <a href="privacy.html">Privacy Policy</a>
       <a href="https://github.com/yourusername/passive-language-learning" target="_blank">GitHub</a>
-    </p>
-    <p style="margin-top: 16px;">&copy; 2026 Passive Language Learning. All rights reserved.</p>
+    </div>
+    <p>&copy; 2026 Passive Language Learning. All rights reserved.</p>
   </footer>
 </body>
 </html>
