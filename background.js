@@ -1,6 +1,10 @@
 let isRadioPlaying = false;
 let currentStation = 'dlf_nova';
 let currentVolume = 0.5;
+let currentPlaybackRate = 1.0;
+let isLooping = false;
+let currentPlaybackTime = 0;
+let currentDuration = 0;
 
 const radioStations = {
   dlf_nova: 'https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3',
@@ -29,9 +33,11 @@ const radioStations = {
 };
 
 // Load initial states from storage if they exist
-chrome.storage.local.get(['radioStation', 'radioVolume', 'isRadioPlaying'], async (result) => {
+chrome.storage.local.get(['radioStation', 'radioVolume', 'isRadioPlaying', 'radioPlaybackRate', 'radioLooping'], async (result) => {
   if (result.radioStation) currentStation = result.radioStation;
   if (result.radioVolume !== undefined) currentVolume = parseFloat(result.radioVolume);
+  if (result.radioPlaybackRate !== undefined) currentPlaybackRate = parseFloat(result.radioPlaybackRate);
+  if (result.radioLooping !== undefined) isLooping = !!result.radioLooping;
   
   // Since Manifest V3 service workers terminate when idle, we verify
   // if the offscreen document is actually running to restore play state.
@@ -62,6 +68,13 @@ async function closeOffscreenDocument() {
 }
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.type === 'audioState') {
+    currentPlaybackTime = message.currentTime;
+    currentDuration = message.duration;
+    isRadioPlaying = !message.paused;
+    chrome.storage.local.set({ isRadioPlaying });
+  }
+
   if (message.target === 'background') {
     handleMessage(message, sendResponse);
     return true; // Keep sendResponse channel open for async operations
@@ -90,7 +103,9 @@ async function handleMessage(message, sendResponse) {
           target: 'offscreen',
           type: 'play',
           url: getStationUrl(currentStation),
-          volume: currentVolume
+          volume: currentVolume,
+          playbackRate: currentPlaybackRate,
+          loop: isLooping
         });
         sendResponse({ success: true });
       } catch (error) {
@@ -137,7 +152,46 @@ async function handleMessage(message, sendResponse) {
         chrome.runtime.sendMessage({
           target: 'offscreen',
           type: 'setStation',
-          url: getStationUrl(currentStation)
+          url: getStationUrl(currentStation),
+          playbackRate: currentPlaybackRate,
+          loop: isLooping
+        });
+      }
+      sendResponse({ success: true });
+      break;
+
+    case 'setPlaybackRate':
+      currentPlaybackRate = message.playbackRate;
+      chrome.storage.local.set({ radioPlaybackRate: currentPlaybackRate });
+      if (await chrome.offscreen.hasDocument()) {
+        chrome.runtime.sendMessage({
+          target: 'offscreen',
+          type: 'setPlaybackRate',
+          playbackRate: currentPlaybackRate
+        });
+      }
+      sendResponse({ success: true });
+      break;
+
+    case 'setLoop':
+      isLooping = message.loop;
+      chrome.storage.local.set({ radioLooping: isLooping });
+      if (await chrome.offscreen.hasDocument()) {
+        chrome.runtime.sendMessage({
+          target: 'offscreen',
+          type: 'setLoop',
+          loop: isLooping
+        });
+      }
+      sendResponse({ success: true });
+      break;
+
+    case 'seek':
+      if (await chrome.offscreen.hasDocument()) {
+        chrome.runtime.sendMessage({
+          target: 'offscreen',
+          type: 'seek',
+          percentage: message.percentage
         });
       }
       sendResponse({ success: true });
@@ -147,7 +201,11 @@ async function handleMessage(message, sendResponse) {
       sendResponse({
         isRadioPlaying,
         currentStation,
-        currentVolume
+        currentVolume,
+        currentPlaybackRate,
+        isLooping,
+        currentPlaybackTime,
+        currentDuration
       });
       break;
 

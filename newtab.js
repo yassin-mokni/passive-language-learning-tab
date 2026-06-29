@@ -3,6 +3,14 @@ let currentLevel = 'A1';
 let currentTopic = 'all';
 let currentPhrase = null;
 let isRadioPlaying = false;
+let activeRadioStation = 'dlf_nova';
+let activePlaybackRate = 1.0;
+let activeLoopState = false;
+const playbackRates = [0.5, 0.75, 1.0, 1.25, 1.5];
+let lastDuration = 0;
+let isUserDraggingProgress = false;
+let isAudioSeeking = false;
+let seekTimeout = null;
 
 // Load phrases from JSON
 fetch('phrases.json')
@@ -120,14 +128,128 @@ function init() {
   document.getElementById('radioPlayBtn').addEventListener('click', toggleRadioPlay);
   document.getElementById('radioPrevBtn').addEventListener('click', () => switchRadioStation(-1));
   document.getElementById('radioNextBtn').addEventListener('click', () => switchRadioStation(1));
-  document.getElementById('radioStationSelect').addEventListener('change', changeRadioStation);
+  document.getElementById('radioLoopBtn').addEventListener('click', toggleRadioLoop);
+  // Click-to-toggle volume popover
+  const volumeIconBtn = document.getElementById('volumeIconBtn');
+  const volumeSliderContainer = document.querySelector('.volume-slider-container');
+  if (volumeIconBtn && volumeSliderContainer) {
+    volumeIconBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      volumeSliderContainer.classList.toggle('show');
+      const speedListContainer = document.querySelector('.speed-list-container');
+      if (speedListContainer) speedListContainer.classList.remove('show');
+    });
+  }
+
+  // Click-to-toggle speed popover
+  const speedBtn = document.getElementById('radioSpeedBtn');
+  const speedListContainer = document.querySelector('.speed-list-container');
+  if (speedBtn && speedListContainer) {
+    speedBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speedListContainer.classList.toggle('show');
+      if (volumeSliderContainer) volumeSliderContainer.classList.remove('show');
+    });
+  }
+
+  // Click-to-select speed option
+  document.querySelectorAll('.speed-option-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const speed = parseFloat(e.target.dataset.speed);
+      setPlaybackSpeed(speed);
+      if (speedListContainer) speedListContainer.classList.remove('show');
+    });
+  });
+
+  // Close popovers on click outside
+  document.addEventListener('click', (e) => {
+    const insideVolume = e.target.closest('.volume-control-hover');
+    const insideSpeed = e.target.closest('.speed-control-hover');
+    
+    if (!insideVolume && volumeSliderContainer) {
+      volumeSliderContainer.classList.remove('show');
+    }
+    if (!insideSpeed && speedListContainer) {
+      speedListContainer.classList.remove('show');
+    }
+  });
+  
+  document.querySelectorAll('.audio-track-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const station = e.target.dataset.station;
+      changeRadioStation(station);
+    });
+  });
+
+  // Tab switching listeners
+  document.querySelectorAll('.audio-tab').forEach(tab => {
+    tab.addEventListener('click', (e) => {
+      const selectedTab = e.target.dataset.tab;
+      switchAudioTab(selectedTab);
+    });
+  });
+
   document.getElementById('radioVolume').addEventListener('input', changeRadioVolume);
+
+  // Progress bar scrubbing listeners
+  const progressBar = document.getElementById('progressBar');
+  progressBar.addEventListener('input', (e) => {
+    isUserDraggingProgress = true;
+    if (seekTimeout) {
+      clearTimeout(seekTimeout);
+      seekTimeout = null;
+    }
+    if (lastDuration) {
+      const targetTime = (parseFloat(e.target.value) / 100) * lastDuration;
+      document.getElementById('currentTimeLabel').textContent = formatTime(targetTime);
+    }
+  });
+  progressBar.addEventListener('change', (e) => {
+    const percentage = parseFloat(e.target.value);
+    
+    // Lock updates for 800ms to allow audio element to finish seeking
+    isUserDraggingProgress = true;
+    if (seekTimeout) clearTimeout(seekTimeout);
+    seekTimeout = setTimeout(() => {
+      isUserDraggingProgress = false;
+    }, 800);
+
+    chrome.runtime.sendMessage({
+      target: 'background',
+      type: 'seek',
+      percentage: percentage
+    });
+  });
+
+  // Receive audio state updates from offscreen document
+  chrome.runtime.onMessage.addListener((message) => {
+    if (message.target === 'newtab' && message.type === 'audioState') {
+      isAudioSeeking = !!message.seeking;
+      updatePlaybackProgress(message.currentTime, message.duration, message.paused);
+    }
+  });
   
   // Load radio preferences and sync state with background
   chrome.runtime.sendMessage({ target: 'background', type: 'getState' }, (response) => {
     if (response) {
-      document.getElementById('radioStationSelect').value = response.currentStation;
-      document.getElementById('radioVolume').value = response.currentVolume;
+      if (response.currentStation) {
+        activeRadioStation = response.currentStation;
+        setActiveTrack(activeRadioStation);
+      }
+      if (response.currentVolume !== undefined) {
+        document.getElementById('radioVolume').value = response.currentVolume;
+      }
+      if (response.currentPlaybackRate !== undefined) {
+        activePlaybackRate = parseFloat(response.currentPlaybackRate);
+        updatePlaybackSpeedUI(activePlaybackRate);
+      }
+      if (response.isLooping !== undefined) {
+        activeLoopState = !!response.isLooping;
+        updateLoopUI(activeLoopState);
+      }
+      if (response.currentPlaybackTime !== undefined && response.currentDuration !== undefined) {
+        updatePlaybackProgress(response.currentPlaybackTime, response.currentDuration, !response.isRadioPlaying);
+      }
       isRadioPlaying = response.isRadioPlaying;
       updateRadioUI(isRadioPlaying);
     }
@@ -520,8 +642,28 @@ function updateRadioUI(playing) {
   }
 }
 
+function setActiveTrack(stationId) {
+  document.querySelectorAll('.audio-track-btn').forEach(btn => {
+    if (btn.dataset.station === stationId) {
+      btn.classList.add('active');
+      // Scroll into view gently
+      btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      
+      // Auto-switch to the tab containing this track
+      const cat = btn.closest('.audio-category');
+      if (cat && cat.dataset.category) {
+        switchAudioTab(cat.dataset.category);
+      }
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+
+  // Update Now Playing title banner
+  updateNowPlayingTitle(stationId);
+}
+
 function toggleRadioPlay() {
-  const select = document.getElementById('radioStationSelect');
   const volumeSlider = document.getElementById('radioVolume');
   
   if (isRadioPlaying) {
@@ -538,7 +680,7 @@ function toggleRadioPlay() {
     chrome.runtime.sendMessage({
       target: 'background',
       type: 'play',
-      station: select.value,
+      station: activeRadioStation,
       volume: parseFloat(volumeSlider.value)
     }, (response) => {
       if (response && response.success) {
@@ -549,15 +691,25 @@ function toggleRadioPlay() {
   }
 }
 
-function changeRadioStation() {
-  const select = document.getElementById('radioStationSelect');
+function changeRadioStation(stationId) {
+  if (!stationId) return;
+  activeRadioStation = stationId;
+  setActiveTrack(stationId);
   
-  chrome.storage.local.set({ radioStation: select.value });
+  chrome.storage.local.set({ radioStation: stationId });
+  
+  const volumeSlider = document.getElementById('radioVolume');
   
   chrome.runtime.sendMessage({
     target: 'background',
-    type: 'setStation',
-    station: select.value
+    type: 'play',
+    station: stationId,
+    volume: volumeSlider ? parseFloat(volumeSlider.value) : 0.5
+  }, (response) => {
+    if (response && response.success) {
+      isRadioPlaying = true;
+      updateRadioUI(true);
+    }
   });
 }
 
@@ -574,11 +726,10 @@ function changeRadioVolume() {
 }
 
 function switchRadioStation(direction) {
-  const select = document.getElementById('radioStationSelect');
-  const options = Array.from(select.querySelectorAll('option'));
-  const stationKeys = options.map(opt => opt.value);
+  const buttons = Array.from(document.querySelectorAll('.audio-track-btn'));
+  const stationKeys = buttons.map(btn => btn.dataset.station);
   
-  let currentIndex = stationKeys.indexOf(select.value);
+  let currentIndex = stationKeys.indexOf(activeRadioStation);
   if (currentIndex === -1) currentIndex = 0;
   
   let nextIndex = currentIndex + direction;
@@ -588,6 +739,143 @@ function switchRadioStation(direction) {
     nextIndex = stationKeys.length - 1; // Wrap around to last
   }
   
-  select.value = stationKeys[nextIndex];
-  changeRadioStation();
+  changeRadioStation(stationKeys[nextIndex]);
+}
+
+function toggleRadioLoop() {
+  activeLoopState = !activeLoopState;
+  updateLoopUI(activeLoopState);
+  
+  chrome.runtime.sendMessage({
+    target: 'background',
+    type: 'setLoop',
+    loop: activeLoopState
+  });
+}
+
+function updateLoopUI(loop) {
+  const loopBtn = document.getElementById('radioLoopBtn');
+  if (loopBtn) {
+    if (loop) {
+      loopBtn.classList.add('active');
+    } else {
+      loopBtn.classList.remove('active');
+    }
+  }
+}
+
+function setPlaybackSpeed(rate) {
+  activePlaybackRate = rate;
+  updatePlaybackSpeedUI(rate);
+  
+  chrome.runtime.sendMessage({
+    target: 'background',
+    type: 'setPlaybackRate',
+    playbackRate: rate
+  });
+}
+
+function updatePlaybackSpeedUI(rate) {
+  const speedBtn = document.getElementById('radioSpeedBtn');
+  if (speedBtn) {
+    speedBtn.textContent = rate.toFixed(1) + 'x';
+    if (rate !== 1.0) {
+      speedBtn.classList.add('active');
+    } else {
+      speedBtn.classList.remove('active');
+    }
+  }
+  
+  // Update active speed menu option
+  document.querySelectorAll('.speed-option-btn').forEach(btn => {
+    const speed = parseFloat(btn.dataset.speed);
+    if (speed === rate) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+
+function switchAudioTab(tabId) {
+  // Update tab buttons
+  document.querySelectorAll('.audio-tab').forEach(t => {
+    if (t.dataset.tab === tabId) {
+      t.classList.add('active');
+    } else {
+      t.classList.remove('active');
+    }
+  });
+
+  // Update category sections
+  document.querySelectorAll('.audio-category').forEach(cat => {
+    if (cat.dataset.category === tabId) {
+      cat.classList.remove('hidden');
+    } else {
+      cat.classList.add('hidden');
+    }
+  });
+}
+
+function updateNowPlayingTitle(stationId) {
+  const activeBtn = document.querySelector(`.audio-track-btn[data-station="${stationId}"]`);
+  const container = document.getElementById('nowPlayingContainer');
+  const titleEl = document.getElementById('nowPlayingTitle');
+  const progressContainer = document.getElementById('progressContainer');
+  const loopBtn = document.getElementById('radioLoopBtn');
+  const timeDisplayPill = document.getElementById('timeDisplayPill');
+  
+  if (activeBtn) {
+    titleEl.textContent = activeBtn.textContent;
+    container.classList.remove('hidden');
+    
+    const isDialogue = stationId.startsWith('dialogue');
+    if (isDialogue) {
+      if (progressContainer) progressContainer.classList.remove('hidden');
+      if (timeDisplayPill) timeDisplayPill.classList.remove('hidden');
+      if (loopBtn) loopBtn.classList.remove('hidden');
+    } else {
+      if (progressContainer) progressContainer.classList.add('hidden');
+      if (timeDisplayPill) timeDisplayPill.classList.add('hidden');
+      if (loopBtn) loopBtn.classList.add('hidden');
+    }
+  } else {
+    container.classList.add('hidden');
+    if (timeDisplayPill) timeDisplayPill.classList.add('hidden');
+  }
+}
+
+function updatePlaybackProgress(currentTime, duration, paused) {
+  isRadioPlaying = !paused;
+  updateRadioUI(isRadioPlaying);
+  
+  const isDialogue = activeRadioStation.startsWith('dialogue');
+  if (!isDialogue) return;
+  
+  lastDuration = duration;
+  
+  if (!isUserDraggingProgress && !isAudioSeeking) {
+    const progressBar = document.getElementById('progressBar');
+    if (progressBar && duration && duration > 0) {
+      const percentage = (currentTime / duration) * 100;
+      progressBar.value = percentage;
+    }
+    
+    const currentTimeEl = document.getElementById('currentTimeLabel');
+    if (currentTimeEl) {
+      currentTimeEl.textContent = formatTime(currentTime);
+    }
+  }
+  
+  const durationEl = document.getElementById('durationLabel');
+  if (durationEl && duration && duration > 0) {
+    durationEl.textContent = formatTime(duration);
+  }
+}
+
+function formatTime(seconds) {
+  if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = Math.floor(seconds % 60);
+  return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
 }

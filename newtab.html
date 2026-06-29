@@ -89,14 +89,11 @@
 
     <button class="shortcuts-help" id="shortcutsBtn" data-tooltip="Keyboard shortcuts">?</button>
 
-    <button class="radio-trigger" id="radioBtn" data-tooltip="German Radio">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    <button class="radio-trigger" id="radioBtn" data-tooltip="Listening Practice">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"></path>
-        <path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"></path>
-        <circle cx="12" cy="12" r="2"></circle>
-        <path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"></path>
-        <path d="M19.1 4.9C23 8.8 23 15.2 19.1 19.1"></path>
+        <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+        <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
       </svg>
     </button>
 
@@ -168,7 +165,7 @@
 
     <div class="radio-popover" id="radioPopover">
       <div class="radio-header">
-        <span class="radio-title">German Radio</span>
+        <span class="radio-title">Listening Practice</span>
         <div class="radio-animation" id="radioAnimation">
           <div class="bar"></div>
           <div class="bar"></div>
@@ -177,75 +174,122 @@
         </div>
       </div>
       <div class="radio-content">
-        <select id="radioStationSelect" class="radio-dropdown">
-          <optgroup label="Learners (Clearer/Conversational)">
-            <option value="dlf_nova">Deutschlandfunk Nova</option>
-            <option value="dlf_kultur">Deutschlandfunk Kultur</option>
-          </optgroup>
-          <optgroup label="Advanced (News/Talk)">
-            <option value="dlf">Deutschlandfunk</option>
-            <option value="wdr5">WDR 5</option>
-            <option value="br24">BR24</option>
-            <option value="ndr_info">NDR Info</option>
-          </optgroup>
-          <optgroup label="Dialogues (A1-B2)">
-            <option value="dialogue_level_0">A1.1 - Simple German Conversation</option>
-            <option value="dialogue_level_1">A1.2 - Reading & Listening Exercise</option>
-            <option value="dialogue_level_2">A1 - Easy German Dialogue</option>
-            <option value="dialogue_level_3">A1-A2 - Slow German Podcast</option>
-            <option value="dialogue_level_4">A2.1 - Basic Conversation Practice</option>
-            <option value="dialogue_level_5">A2.2 - Dialogue for Learning German</option>
-            <option value="dialogue_level_6">A2 - Conversation with Native Speakers</option>
-            <option value="dialogue_level_7">B1-B2 - Conversation with Native Speakers</option>
-          </optgroup>
-          <optgroup label="Dialogues (Everyday Situations)">
-            <option value="dialogue_sit_0">Hotels (Reservation & Check-in)</option>
-            <option value="dialogue_sit_1">Renting an Apartment</option>
-            <option value="dialogue_sit_2">Doctor's Visit</option>
-            <option value="dialogue_sit_3">Restaurant (Ordering & Payment)</option>
-            <option value="dialogue_sit_4">Telephone (Customer Support)</option>
-            <option value="dialogue_sit_5">Job Interview</option>
-            <option value="dialogue_sit_6">Supermarket Checkout</option>
-            <option value="dialogue_sit_7">Bank & Money</option>
-            <option value="dialogue_sit_8">Train Travel & Directions</option>
-          </optgroup>
-        </select>
+        <div class="audio-tabs" id="audioTabs">
+          <button class="audio-tab active" data-tab="radio">Radio</button>
+          <button class="audio-tab" data-tab="levels">Levels</button>
+          <button class="audio-tab" data-tab="situations">Situations</button>
+        </div>
+
+        <div id="audioTrackList" class="audio-track-list">
+          <div class="audio-category" data-category="radio">
+            <div class="audio-category-title">Live Radio (Learners)</div>
+            <button class="audio-track-btn" data-station="dlf_nova">Deutschlandfunk Nova</button>
+            <button class="audio-track-btn" data-station="dlf_kultur">Deutschlandfunk Kultur</button>
+          </div>
+          <div class="audio-category" data-category="radio">
+            <div class="audio-category-title">Live Radio (Advanced)</div>
+            <button class="audio-track-btn" data-station="dlf">Deutschlandfunk</button>
+            <button class="audio-track-btn" data-station="wdr5">WDR 5</button>
+            <button class="audio-track-btn" data-station="br24">BR24</button>
+            <button class="audio-track-btn" data-station="ndr_info">NDR Info</button>
+          </div>
+          <div class="audio-category hidden" data-category="levels">
+            <div class="audio-category-title">Dialogues (A1-B2)</div>
+            <button class="audio-track-btn" data-station="dialogue_level_0">A1.1 - Simple German Conversation</button>
+            <button class="audio-track-btn" data-station="dialogue_level_1">A1.2 - Reading & Listening Exercise</button>
+            <button class="audio-track-btn" data-station="dialogue_level_2">A1 - Easy German Dialogue</button>
+            <button class="audio-track-btn" data-station="dialogue_level_3">A1-A2 - Slow German Podcast</button>
+            <button class="audio-track-btn" data-station="dialogue_level_4">A2.1 - Basic Conversation Practice</button>
+            <button class="audio-track-btn" data-station="dialogue_level_5">A2.2 - Dialogue for Learning German</button>
+            <button class="audio-track-btn" data-station="dialogue_level_6">A2 - Conversation with Native Speakers</button>
+            <button class="audio-track-btn" data-station="dialogue_level_7">B1-B2 - Conversation with Native Speakers</button>
+          </div>
+          <div class="audio-category hidden" data-category="situations">
+            <div class="audio-category-title">Everyday Situations</div>
+            <button class="audio-track-btn" data-station="dialogue_sit_0">Hotels (Reservation & Check-in)</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_1">Renting an Apartment</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_2">Doctor's Visit</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_3">Restaurant (Ordering & Payment)</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_4">Telephone (Customer Support)</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_5">Job Interview</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_6">Supermarket Checkout</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_7">Bank & Money</button>
+            <button class="audio-track-btn" data-station="dialogue_sit_8">Train Travel & Directions</button>
+          </div>
+        </div>
+
+        <div class="now-playing-container hidden" id="nowPlayingContainer">
+          <div class="now-playing-title" id="nowPlayingTitle">Not Playing</div>
+          <div class="progress-bar-container" id="progressContainer">
+            <input type="range" class="progress-bar" id="progressBar" min="0" max="100" value="0">
+          </div>
+        </div>
+
         <div class="radio-controls">
           <div class="radio-playback-controls">
-            <button class="radio-control-btn" id="radioPrevBtn" data-tooltip="Previous station">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="19 20 9 12 19 4 19 20"></polygon>
-                <line x1="5" y1="19" x2="5" y2="5"></line>
+            <button class="radio-play-btn" id="radioPlayBtn">
+              <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <polygon points="6 4 20 12 6 20 6 4"></polygon>
+              </svg>
+              <svg class="pause-icon hidden" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <rect x="5" y="4" width="4" height="16" rx="1"></rect>
+                <rect x="15" y="4" width="4" height="16" rx="1"></rect>
               </svg>
             </button>
-            <button class="radio-play-btn" id="radioPlayBtn">
-              <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-              <svg class="pause-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="6" y="4" width="4" height="16"></rect>
-                <rect x="14" y="4" width="4" height="16"></rect>
+            <button class="radio-control-btn" id="radioPrevBtn" data-tooltip="Previous station">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <polygon points="19 4 10 12 19 20 19 4"></polygon>
+                <rect x="5" y="4" width="3" height="16" rx="0.5"></rect>
               </svg>
             </button>
             <button class="radio-control-btn" id="radioNextBtn" data-tooltip="Next station">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="5 4 15 12 5 20 5 4"></polygon>
-                <line x1="19" y1="5" x2="19" y2="19"></line>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <polygon points="5 4 14 12 5 20 5 4"></polygon>
+                <rect x="16" y="4" width="3" height="16" rx="0.5"></rect>
               </svg>
             </button>
-          </div>
-          <div class="radio-volume-container">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-            </svg>
-            <input type="range" id="radioVolume" class="radio-volume" min="0" max="1" step="0.01" value="0.5">
+            <div class="volume-control-hover">
+              <button class="radio-control-btn" id="volumeIconBtn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+              <div class="volume-slider-container">
+                <input type="range" id="radioVolume" class="radio-volume" min="0" max="1" step="0.01" value="0.5">
+              </div>
+            </div>
+
+            <div class="time-display-pill hidden" id="timeDisplayPill">
+              <span id="currentTimeLabel">0:00</span>
+              <span class="time-separator">/</span>
+              <span id="durationLabel">0:00</span>
+            </div>
+            
+            <div class="controls-spacer"></div>
+
+            <button class="radio-control-btn" id="radioLoopBtn" data-tooltip="Repeat track">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="17 1 21 5 17 9"></polyline>
+                <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                <polyline points="7 23 3 19 7 15"></polyline>
+                <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+              </svg>
+            </button>
+            <div class="speed-control-hover">
+              <button class="radio-control-btn speed-btn" id="radioSpeedBtn" data-tooltip="Playback speed">
+                1.0x
+              </button>
+              <div class="speed-list-container">
+                <button class="speed-option-btn" data-speed="0.5">0.5x</button>
+                <button class="speed-option-btn" data-speed="0.75">0.75x</button>
+                <button class="speed-option-btn" data-speed="1.0">1.0x</button>
+                <button class="speed-option-btn" data-speed="1.25">1.25x</button>
+                <button class="speed-option-btn" data-speed="1.5">1.5x</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
