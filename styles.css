@@ -107,6 +107,11 @@ body {
   top: auto;
 }
 
+.support-btn[data-tooltip]::after {
+  left: 0;
+  transform: none;
+}
+
 .topic-selector {
   display: flex;
   align-items: center;
@@ -1230,18 +1235,58 @@ body.dark-mode .now-playing-container {
   border-top-color: rgba(255, 255, 255, 0.1);
 }
 
+
+body.dark-mode .now-playing-title {
+  color: #bbb;
+}
+
+.now-playing-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
 .now-playing-title {
   font-size: 11px;
   font-weight: 600;
   color: #555;
-  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 82%;
 }
 
-body.dark-mode .now-playing-title {
-  color: #bbb;
+.now-playing-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.now-playing-link:hover {
+  color: #ef4444; /* YouTube Red */
+  background: rgba(239, 68, 68, 0.08);
+}
+
+body.dark-mode .now-playing-link {
+  color: #aaa;
+}
+
+body.dark-mode .now-playing-link:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.15);
+}
+
+/* Position tooltip above the link badge */
+.now-playing-link[data-tooltip]::after {
+  bottom: calc(100% + 8px);
+  top: auto;
 }
 
 .progress-bar-container {

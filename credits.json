@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dialogue_level_0",
+    "file": "dialogue_level_0.mp3",
+    "category": "levels",
+    "level": "A1.1",
+    "title": "Simple German Conversation for BEGINNERS A1.1",
+    "youtube_url": "https://www.youtube.com/watch?v=gDg7rMJ9Odg",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_1",
+    "file": "dialogue_level_1.mp3",
+    "category": "levels",
+    "level": "A1.2",
+    "title": "Conversation for Learning German A1.2",
+    "youtube_url": "https://www.youtube.com/watch?v=6fnaS_gx66M",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_2",
+    "file": "dialogue_level_2.mp3",
+    "category": "levels",
+    "level": "A1",
+    "title": "EASY German Dialogue for Beginners A1",
+    "youtube_url": "https://www.youtube.com/watch?v=3rlnjRDj9Uo",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_3",
+    "file": "dialogue_level_3.mp3",
+    "category": "levels",
+    "level": "A1-A2",
+    "title": "Easy and Slow German Podcast for Beginners (A1-A2)",
+    "youtube_url": "https://www.youtube.com/watch?v=c3qLm_QBtrM",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_4",
+    "file": "dialogue_level_4.mp3",
+    "category": "levels",
+    "level": "A2.1",
+    "title": "EFFECTIVE A2.1 Reading + Listening Practice",
+    "youtube_url": "https://www.youtube.com/watch?v=7fQj-FNWETI",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_5",
+    "file": "dialogue_level_5.mp3",
+    "category": "levels",
+    "level": "A2.2",
+    "title": "Dialogue for Learning German A2.2",
+    "youtube_url": "https://www.youtube.com/watch?v=CAkXqhg__VQ",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_6",
+    "file": "dialogue_level_6.mp3",
+    "category": "levels",
+    "level": "A2",
+    "title": "German Conversation A2 with Native Speakers",
+    "youtube_url": "https://www.youtube.com/watch?v=97qiPCMddY0",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_level_7",
+    "file": "dialogue_level_7.mp3",
+    "category": "levels",
+    "level": "B1-B2",
+    "title": "Conversation in German B1-B2 with Native Speakers",
+    "youtube_url": "https://www.youtube.com/watch?v=WBsOY6BDojs",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_0",
+    "file": "dialogue_sit_0.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Conversation for Hotels",
+    "youtube_url": "https://www.youtube.com/watch?v=bi4NwEAzpY0",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_1",
+    "file": "dialogue_sit_1.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Dialogue for Renting Apartment",
+    "youtube_url": "https://www.youtube.com/watch?v=90Bp-ILdhyE",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_2",
+    "file": "dialogue_sit_2.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Conversation for Doctor’s Visit",
+    "youtube_url": "https://www.youtube.com/watch?v=8BPjB7GqifQ",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_3",
+    "file": "dialogue_sit_3.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Conversation in Restaurant",
+    "youtube_url": "https://www.youtube.com/watch?v=eJEbC-8c3l4",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_4",
+    "file": "dialogue_sit_4.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "Telephone Conversation in German",
+    "youtube_url": "https://www.youtube.com/watch?v=Ldg5jyj1o9o",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_5",
+    "file": "dialogue_sit_5.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "Job Interview in German",
+    "youtube_url": "https://www.youtube.com/watch?v=Sw_VojjXSew",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_6",
+    "file": "dialogue_sit_6.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Conversation for Supermarket",
+    "youtube_url": "https://www.youtube.com/watch?v=xgO8ht_7Rjo",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_7",
+    "file": "dialogue_sit_7.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "German Conversation at the Bank",
+    "youtube_url": "https://www.youtube.com/watch?v=U67SAF0EAsw",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  },
+  {
+    "id": "dialogue_sit_8",
+    "file": "dialogue_sit_8.mp3",
+    "category": "situations",
+    "level": "A2-B2",
+    "title": "Everyday German Dialogue",
+    "youtube_url": "https://www.youtube.com/watch?v=g2VKafYjUrw",
+    "channel": "Learn German with Lengura",
+    "channel_url": "https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg"
+  }
+]

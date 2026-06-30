@@ -12,6 +12,26 @@ let isUserDraggingProgress = false;
 let isAudioSeeking = false;
 let seekTimeout = null;
 
+const dialogueYoutubeUrls = {
+  dialogue_level_0: 'https://www.youtube.com/watch?v=gDg7rMJ9Odg',
+  dialogue_level_1: 'https://www.youtube.com/watch?v=6fnaS_gx66M',
+  dialogue_level_2: 'https://www.youtube.com/watch?v=3rlnjRDj9Uo',
+  dialogue_level_3: 'https://www.youtube.com/watch?v=c3qLm_QBtrM',
+  dialogue_level_4: 'https://www.youtube.com/watch?v=7fQj-FNWETI',
+  dialogue_level_5: 'https://www.youtube.com/watch?v=CAkXqhg__VQ',
+  dialogue_level_6: 'https://www.youtube.com/watch?v=97qiPCMddY0',
+  dialogue_level_7: 'https://www.youtube.com/watch?v=WBsOY6BDojs',
+  dialogue_sit_0: 'https://www.youtube.com/watch?v=bi4NwEAzpY0',
+  dialogue_sit_1: 'https://www.youtube.com/watch?v=90Bp-ILdhyE',
+  dialogue_sit_2: 'https://www.youtube.com/watch?v=8BPjB7GqifQ',
+  dialogue_sit_3: 'https://www.youtube.com/watch?v=eJEbC-8c3l4',
+  dialogue_sit_4: 'https://www.youtube.com/watch?v=Ldg5jyj1o9o',
+  dialogue_sit_5: 'https://www.youtube.com/watch?v=Sw_VojjXSew',
+  dialogue_sit_6: 'https://www.youtube.com/watch?v=xgO8ht_7Rjo',
+  dialogue_sit_7: 'https://www.youtube.com/watch?v=U67SAF0EAsw',
+  dialogue_sit_8: 'https://www.youtube.com/watch?v=g2VKafYjUrw'
+};
+
 // Load phrases from JSON
 fetch('phrases.json')
   .then(response => response.json())
@@ -778,7 +798,7 @@ function setPlaybackSpeed(rate) {
 function updatePlaybackSpeedUI(rate) {
   const speedBtn = document.getElementById('radioSpeedBtn');
   if (speedBtn) {
-    speedBtn.textContent = rate.toFixed(1) + 'x';
+    speedBtn.textContent = (rate % 1 === 0 ? rate.toFixed(1) : rate) + 'x';
     if (rate !== 1.0) {
       speedBtn.classList.add('active');
     } else {
@@ -821,6 +841,7 @@ function updateNowPlayingTitle(stationId) {
   const activeBtn = document.querySelector(`.audio-track-btn[data-station="${stationId}"]`);
   const container = document.getElementById('nowPlayingContainer');
   const titleEl = document.getElementById('nowPlayingTitle');
+  const creditEl = document.getElementById('nowPlayingCredit');
   const progressContainer = document.getElementById('progressContainer');
   const loopBtn = document.getElementById('radioLoopBtn');
   const timeDisplayPill = document.getElementById('timeDisplayPill');
@@ -834,14 +855,27 @@ function updateNowPlayingTitle(stationId) {
       if (progressContainer) progressContainer.classList.remove('hidden');
       if (timeDisplayPill) timeDisplayPill.classList.remove('hidden');
       if (loopBtn) loopBtn.classList.remove('hidden');
+      if (creditEl) {
+        const videoUrl = dialogueYoutubeUrls[stationId] || 'https://www.youtube.com/channel/UCFem29qvSf5GgYQlwUl4_Pg';
+        creditEl.href = videoUrl;
+        creditEl.classList.remove('hidden');
+      }
     } else {
       if (progressContainer) progressContainer.classList.add('hidden');
       if (timeDisplayPill) timeDisplayPill.classList.add('hidden');
       if (loopBtn) loopBtn.classList.add('hidden');
+      if (creditEl) {
+        creditEl.classList.add('hidden');
+        creditEl.href = '#';
+      }
     }
   } else {
     container.classList.add('hidden');
     if (timeDisplayPill) timeDisplayPill.classList.add('hidden');
+    if (creditEl) {
+      creditEl.classList.add('hidden');
+      creditEl.href = '#';
+    }
   }
 }
 
