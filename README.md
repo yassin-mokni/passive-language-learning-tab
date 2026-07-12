@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Learn German naturally through passive exposure. Every new tab shows a phrase matched to your level—no effort, just consistent micro-learning moments throughout your day.</strong>
+  <strong>Learn German naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day.</strong>
 </p>
 
 <p align="center">
