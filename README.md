@@ -1,7 +1,7 @@
-# Passive Language Learning - German
+# Passive Language Learning New Tab - German
 
 <p align="center">
-  <img src="logo.png" alt="Passive Language Learning Logo" width="128">
+  <img src="logo.png" alt="Passive Language Learning New Tab Logo" width="128">
 </p>
 
 <p align="center">

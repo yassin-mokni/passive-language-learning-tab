@@ -1,12 +1,12 @@
 Privacy Policy
-Passive Language Learning - German
+Passive Language Learning New Tab - German
 
 Last Updated: May 7, 2026
 
 TL;DR: We don't collect, store, or transmit any of your data. Everything stays on your device. Period.
 
 Our Commitment to Privacy
-Passive Language Learning is built with privacy as a core principle. We believe your learning journey is personal, and your data should stay with you.
+Passive Language Learning New Tab is built with privacy as a core principle. We believe your learning journey is personal, and your data should stay with you.
 
 What Data We Collect
 None.
@@ -47,4 +47,4 @@ If we ever change our privacy practices, we will update this page and the "Last 
 Contact
 If you have any questions about this privacy policy, please contact us at: yassin@mokni.dev
 
-© 2026 Passive Language Learning. All rights reserved.
+© 2026 Passive Language Learning New Tab. All rights reserved.
