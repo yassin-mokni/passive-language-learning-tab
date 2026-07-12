@@ -1,0 +1,50 @@
+Privacy Policy
+Passive Language Learning - German
+
+Last Updated: May 7, 2026
+
+TL;DR: We don't collect, store, or transmit any of your data. Everything stays on your device. Period.
+
+Our Commitment to Privacy
+Passive Language Learning is built with privacy as a core principle. We believe your learning journey is personal, and your data should stay with you.
+
+What Data We Collect
+None.
+We do not collect, store, transmit, or process any personal information, usage data, or analytics. The extension operates entirely on your local device.
+
+What Data is Stored Locally
+The following preferences are stored locally on your device using Chrome's Storage API:
+- Selected CEFR Level: Your chosen proficiency level (A0-C2)
+- Selected Topic: Your preferred learning topic
+- Favorite Phrases: Phrases you've marked as favorites
+- Shown Phrases: Tracking which phrases you've already seen (to avoid repetition)
+- Translation Toggle: Whether you prefer to see English translations
+
+This data never leaves your device and is only accessible by the extension on your browser.
+
+Third-Party Services
+None.
+We do not use any third-party services, analytics tools, tracking pixels, or external APIs. The extension is completely self-contained.
+Note: The extension includes external links to YouTube to provide credit for offline audio dialogues. These are standard web links and clicking them opens YouTube in a new tab. We do not embed YouTube players or send any data to YouTube.
+
+Audio Pronunciation
+Audio pronunciation uses your browser's built-in Web Speech API (Speech Synthesis). This is a native browser feature and does not send data to external servers. The audio is generated locally on your device.
+
+Permissions Explained
+The extension requests the following permissions:
+- storage: To save your preferences (level, topic, favorites) locally on your device. This data is never transmitted anywhere.
+- offscreen: Used to play audio pronunciations of the phrases in the background without requiring a visible player.
+- chrome_url_overrides (newtab): To replace the new tab page with the learning interface. This is the core functionality of the extension.
+
+We do not request permissions for network access, browsing history, or any other sensitive data.
+
+Data Export
+When you export your favorites, a text file is generated locally on your device and downloaded through your browser. No data is sent to any server during this process.
+
+Updates to This Policy
+If we ever change our privacy practices, we will update this page and the "Last Updated" date. However, our commitment to not collecting user data will remain unchanged.
+
+Contact
+If you have any questions about this privacy policy, please contact us at: yassin@mokni.dev
+
+© 2026 Passive Language Learning. All rights reserved.
