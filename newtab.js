@@ -12,6 +12,13 @@ let isUserDraggingProgress = false;
 let isAudioSeeking = false;
 let seekTimeout = null;
 
+let quickLinks = [];
+const DEFAULT_QUICK_LINKS = [
+  { id: '2', name: 'YouTube', url: 'https://youtube.com' },
+  { id: '3', name: 'GitHub', url: 'https://github.com' },
+  { id: '4', name: 'ChatGPT', url: 'https://chatgpt.com' }
+];
+
 const dialogueYoutubeUrls = {
   dialogue_level_0: 'https://www.youtube.com/watch?v=gDg7rMJ9Odg',
   dialogue_level_1: 'https://www.youtube.com/watch?v=6fnaS_gx66M',
@@ -347,6 +354,9 @@ function init() {
         break;
     }
   });
+
+  // Quick Links initialization
+  initQuickLinks();
 }
 
 function updateActiveLevel() {
@@ -912,4 +922,167 @@ function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = Math.floor(seconds % 60);
   return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+}
+
+// Quick Links functions
+function initQuickLinks() {
+  chrome.storage.local.get(['quickLinks'], (result) => {
+    quickLinks = result.quickLinks || DEFAULT_QUICK_LINKS;
+    renderQuickLinksDock();
+  });
+
+  // Event Listeners for Quick Links Modal
+  const closeBtn = document.getElementById('closeQuickLinksBtn');
+  if(closeBtn) closeBtn.addEventListener('click', toggleQuickLinksModal);
+  
+  const modal = document.getElementById('quickLinksModal');
+  if(modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target.id === 'quickLinksModal') {
+        toggleQuickLinksModal();
+      }
+    });
+  }
+
+  const addBtn = document.getElementById('addLinkBtn');
+  if(addBtn) addBtn.addEventListener('click', addQuickLink);
+}
+
+function renderQuickLinksDock() {
+  const dock = document.getElementById('quickLinksDock');
+  if (!dock) return;
+  
+  let html = '';
+  quickLinks.forEach(link => {
+    let domain = 'example.com';
+    try { domain = new URL(link.url).hostname; } catch(e) {}
+    const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+    html += `
+      <a href="${link.url}" class="quick-link-item" data-tooltip="${link.name}">
+        <img src="${faviconUrl}" alt="${link.name}" class="quick-link-icon" onerror="this.style.display='none'">
+      </a>
+    `;
+  });
+  
+  html += `
+    <button class="add-quick-link-btn" id="openQuickLinksModalBtn" data-tooltip="Edit Links">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+      </svg>
+    </button>
+  `;
+  
+  dock.innerHTML = html;
+  
+  document.getElementById('openQuickLinksModalBtn').addEventListener('click', toggleQuickLinksModal);
+}
+
+function toggleQuickLinksModal() {
+  const modal = document.getElementById('quickLinksModal');
+  if(!modal) return;
+  modal.classList.toggle('active');
+  if (modal.classList.contains('active')) {
+    const errorEl = document.getElementById('quickLinksError');
+    if (errorEl) {
+      errorEl.textContent = '';
+      errorEl.classList.add('hidden');
+    }
+    renderQuickLinksEditList();
+  }
+}
+
+function renderQuickLinksEditList() {
+  const listContainer = document.getElementById('quickLinksList');
+  if (!listContainer) return;
+  
+  if (quickLinks.length === 0) {
+    listContainer.innerHTML = '<div style="color: #999; text-align: center; font-size: 14px; padding: 10px;">No links added yet.</div>';
+    return;
+  }
+  
+  let html = '';
+  quickLinks.forEach(link => {
+    let domain = 'example.com';
+    try { domain = new URL(link.url).hostname; } catch(e) {}
+    const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+    html += `
+      <div class="quick-link-edit-item">
+        <div class="quick-link-edit-info">
+          <img src="${faviconUrl}" class="quick-link-edit-icon" onerror="this.style.display='none'">
+          <span class="quick-link-edit-name">${link.name}</span>
+        </div>
+        <button class="delete-link-btn" data-id="${link.id}">Delete</button>
+      </div>
+    `;
+  });
+  listContainer.innerHTML = html;
+  
+  // Add delete listeners
+  document.querySelectorAll('.delete-link-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const id = e.target.dataset.id;
+      deleteQuickLink(id);
+    });
+  });
+}
+
+function addQuickLink() {
+  const nameInput = document.getElementById('newLinkName');
+  const urlInput = document.getElementById('newLinkUrl');
+  const errorEl = document.getElementById('quickLinksError');
+  let name = nameInput.value.trim();
+  let url = urlInput.value.trim();
+  
+  if (!name || !url) {
+    if (errorEl) {
+      errorEl.textContent = 'Please enter both a name and a URL.';
+      errorEl.classList.remove('hidden');
+    }
+    return;
+  }
+  
+  if (!/^https?:\/\//i.test(url)) {
+    url = 'https://' + url;
+  }
+  
+  try {
+    new URL(url); // Validate URL
+  } catch (e) {
+    if (errorEl) {
+      errorEl.textContent = 'Please enter a valid URL.';
+      errorEl.classList.remove('hidden');
+    }
+    return;
+  }
+  
+  if (errorEl) {
+    errorEl.textContent = '';
+    errorEl.classList.add('hidden');
+  }
+  
+  const newLink = {
+    id: Date.now().toString(),
+    name: name,
+    url: url
+  };
+  
+  quickLinks.push(newLink);
+  saveQuickLinks();
+  
+  nameInput.value = '';
+  urlInput.value = '';
+  renderQuickLinksEditList();
+  renderQuickLinksDock();
+}
+
+function deleteQuickLink(id) {
+  quickLinks = quickLinks.filter(link => link.id !== id);
+  saveQuickLinks();
+  renderQuickLinksEditList();
+  renderQuickLinksDock();
+}
+
+function saveQuickLinks() {
+  chrome.storage.local.set({ quickLinks: quickLinks });
 }

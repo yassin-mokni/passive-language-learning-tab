@@ -80,6 +80,10 @@
       <div class="english-translation" id="englishTranslation"></div>
     </div>
 
+    <div class="quick-links-dock" id="quickLinksDock">
+      <!-- Links injected by JS -->
+    </div>
+
     <div class="controls">
       <button class="control-btn" id="favoriteBtn" data-tooltip="Favorite">★</button>
       <button class="control-btn" id="nextBtn" data-tooltip="Next phrase">↻</button>
@@ -115,6 +119,24 @@
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
       </svg>
     </button>
+
+    <div class="quick-links-modal" id="quickLinksModal">
+      <div class="quick-links-content">
+        <div class="quick-links-header">
+          <h3>Manage Quick Links</h3>
+          <button class="close-modal-btn" id="closeQuickLinksBtn">&times;</button>
+        </div>
+        <div class="quick-links-list" id="quickLinksList">
+          <!-- List injected via JS -->
+        </div>
+        <div class="quick-links-add">
+          <div id="quickLinksError" class="quick-links-error hidden"></div>
+          <input type="text" id="newLinkName" placeholder="Name" class="quick-link-input">
+          <input type="url" id="newLinkUrl" placeholder="URL (https://...)" class="quick-link-input">
+          <button class="add-link-btn" id="addLinkBtn">Add</button>
+        </div>
+      </div>
+    </div>
 
     <div class="shortcuts-modal" id="shortcutsModal">
       <div class="shortcuts-content">
