@@ -13,6 +13,7 @@ let isAudioSeeking = false;
 let seekTimeout = null;
 
 let quickLinks = [];
+let editingLinkId = null;
 const DEFAULT_QUICK_LINKS = [
   { id: '2', name: 'YouTube', url: 'https://youtube.com' },
   { id: '3', name: 'GitHub', url: 'https://github.com' },
@@ -954,12 +955,13 @@ function renderQuickLinksDock() {
   
   let html = '';
   quickLinks.forEach(link => {
-    let domain = 'example.com';
-    try { domain = new URL(link.url).hostname; } catch(e) {}
-    const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+    const faviconUrl = `chrome-extension://${chrome.runtime.id}/_favicon/?pageUrl=${encodeURIComponent(link.url)}&size=64`;
+    const initialLetter = link.name ? link.name.charAt(0).toUpperCase() : '?';
+
     html += `
       <a href="${link.url}" class="quick-link-item" data-tooltip="${link.name}">
-        <img src="${faviconUrl}" alt="${link.name}" class="quick-link-icon" onerror="this.style.display='none'">
+        <img src="${faviconUrl}" alt="${link.name}" class="quick-link-icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="quick-link-fallback-text" style="display:none; font-weight:600; font-size:18px;">${initialLetter}</span>
       </a>
     `;
   });
@@ -1003,28 +1005,109 @@ function renderQuickLinksEditList() {
   
   let html = '';
   quickLinks.forEach(link => {
-    let domain = 'example.com';
-    try { domain = new URL(link.url).hostname; } catch(e) {}
-    const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-    html += `
-      <div class="quick-link-edit-item">
-        <div class="quick-link-edit-info">
-          <img src="${faviconUrl}" class="quick-link-edit-icon" onerror="this.style.display='none'">
-          <span class="quick-link-edit-name">${link.name}</span>
+    const faviconUrl = `chrome-extension://${chrome.runtime.id}/_favicon/?pageUrl=${encodeURIComponent(link.url)}&size=32`;
+    const initialLetter = link.name ? link.name.charAt(0).toUpperCase() : '?';
+
+    if (editingLinkId === link.id) {
+      html += `
+        <div class="quick-link-edit-item">
+          <div class="quick-link-edit-form">
+            <input type="text" id="editName-${link.id}" value="${link.name}" class="quick-link-input-small">
+            <input type="url" id="editUrl-${link.id}" value="${link.url}" class="quick-link-input-small">
+          </div>
+          <div class="quick-link-edit-actions">
+            <button class="save-link-btn" data-id="${link.id}">Save</button>
+            <button class="cancel-link-btn" data-id="${link.id}">Cancel</button>
+          </div>
         </div>
-        <button class="delete-link-btn" data-id="${link.id}">Delete</button>
-      </div>
-    `;
+      `;
+    } else {
+      html += `
+        <div class="quick-link-edit-item">
+          <div class="quick-link-edit-info">
+            <img src="${faviconUrl}" class="quick-link-edit-icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span class="quick-link-fallback-text" style="display:none; font-weight:600; font-size:14px; width:16px; text-align:center;">${initialLetter}</span>
+            <span class="quick-link-edit-name">${link.name}</span>
+          </div>
+          <div class="quick-link-edit-actions">
+            <button class="edit-link-btn" data-id="${link.id}">Edit</button>
+            <button class="delete-link-btn" data-id="${link.id}">Delete</button>
+          </div>
+        </div>
+      `;
+    }
   });
   listContainer.innerHTML = html;
   
-  // Add delete listeners
+  // Add listeners
   document.querySelectorAll('.delete-link-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const id = e.target.dataset.id;
-      deleteQuickLink(id);
+      deleteQuickLink(e.target.dataset.id);
     });
   });
+  document.querySelectorAll('.edit-link-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      editingLinkId = e.target.dataset.id;
+      renderQuickLinksEditList();
+    });
+  });
+  document.querySelectorAll('.cancel-link-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      editingLinkId = null;
+      renderQuickLinksEditList();
+    });
+  });
+  document.querySelectorAll('.save-link-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      saveQuickLinkEdit(e.target.dataset.id);
+    });
+  });
+}
+
+function saveQuickLinkEdit(id) {
+  const nameInput = document.getElementById(`editName-${id}`);
+  const urlInput = document.getElementById(`editUrl-${id}`);
+  const errorEl = document.getElementById('quickLinksError');
+  let name = nameInput.value.trim();
+  let url = urlInput.value.trim();
+
+  if (!name || !url) {
+    if (errorEl) {
+      errorEl.textContent = 'Please enter both a name and a URL.';
+      errorEl.classList.remove('hidden');
+    }
+    return;
+  }
+  
+  if (!/^https?:\/\//i.test(url)) {
+    url = 'https://' + url;
+  }
+  
+  try {
+    new URL(url); // Validate URL
+  } catch (e) {
+    if (errorEl) {
+      errorEl.textContent = 'Please enter a valid URL.';
+      errorEl.classList.remove('hidden');
+    }
+    return;
+  }
+  
+  if (errorEl) {
+    errorEl.textContent = '';
+    errorEl.classList.add('hidden');
+  }
+
+  const linkIndex = quickLinks.findIndex(l => l.id === id);
+  if (linkIndex !== -1) {
+    quickLinks[linkIndex].name = name;
+    quickLinks[linkIndex].url = url;
+    chrome.storage.local.set({ quickLinks: quickLinks }, () => {
+      editingLinkId = null;
+      renderQuickLinksDock();
+      renderQuickLinksEditList();
+    });
+  }
 }
 
 function addQuickLink() {

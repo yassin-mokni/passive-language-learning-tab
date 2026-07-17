@@ -1543,6 +1543,62 @@ body.dark-mode .add-quick-link-btn:hover {
   background: rgba(239, 68, 68, 0.1);
 }
 
+.quick-link-edit-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.edit-link-btn, .save-link-btn, .cancel-link-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.edit-link-btn {
+  color: #3b82f6;
+}
+
+.edit-link-btn:hover {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.save-link-btn {
+  color: #10b981;
+}
+
+.save-link-btn:hover {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.cancel-link-btn {
+  color: #6b7280;
+}
+
+.cancel-link-btn:hover {
+  background: rgba(107, 114, 128, 0.1);
+}
+
+.quick-link-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.quick-link-input-small {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+  background: #fff;
+  color: #2c2c2c;
+  width: 100%;
+}
+
 .quick-links-add {
   display: flex;
   flex-direction: column;
@@ -1608,13 +1664,15 @@ body.dark-mode .quick-link-edit-name {
   color: #e0e0e0;
 }
 
-body.dark-mode .quick-link-input {
+body.dark-mode .quick-link-input,
+body.dark-mode .quick-link-input-small {
   background: rgba(255, 255, 255, 0.05);
   border-color: rgba(255, 255, 255, 0.2);
   color: #e0e0e0;
 }
 
-body.dark-mode .quick-link-input:focus {
+body.dark-mode .quick-link-input:focus,
+body.dark-mode .quick-link-input-small:focus {
   border-color: rgba(255, 255, 255, 0.4);
 }
 
