@@ -97,19 +97,24 @@ body {
 
 /* Collapsed State: Non-active flags tuck underneath the active flag horizontally */
 .flag-stack-btn.active {
-  order: -1;
-  z-index: 10;
+  order: -1; /* Place on the left */
+  z-index: 10 !important;
   margin-left: 0 !important;
+  border-color: var(--text-primary); /* Dark border for light mode */
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
 .flag-stack-btn:not(.active) {
   order: 1;
-  margin-left: -26px;
+  margin-left: -26px; /* Overlap the previous item to the left */
   opacity: 0.8;
   transform: scale(0.92);
-  z-index: 1;
 }
+
+/* Force decreasing z-index so flags to the right tuck UNDER the flags to their left */
+.flag-stack-btn:nth-child(1) { z-index: 3; }
+.flag-stack-btn:nth-child(2) { z-index: 2; }
+.flag-stack-btn:nth-child(3) { z-index: 1; }
 
 /* Expanded State: On hover (unless temporarily collapsed by click), flags fan out horizontally */
 .language-stack:hover:not(.collapsed) .flag-stack-btn:not(.active) {
@@ -127,6 +132,10 @@ body {
 body.dark-mode .flag-stack-btn {
   background: #2a2a2a;
   border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .flag-stack-btn.active {
+  border-color: #ffffff; /* White border in dark mode */
 }
 
 .top-controls {
