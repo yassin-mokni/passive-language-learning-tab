@@ -81,6 +81,7 @@ function init() {
     }
     
     displayRandomPhrase();
+    initSettings();
   });
 
   // Level button listeners
@@ -139,9 +140,11 @@ function init() {
     updateDarkMode(darkMode);
   });
   
-  // Favorites popover listeners
-  document.getElementById('favoritesBtn').addEventListener('click', toggleFavoritesPopover);
-  document.getElementById('exportBtn').addEventListener('click', exportFavorites);
+  // Favorites export listener
+  const exportBtn = document.getElementById('exportBtn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', exportFavorites);
+  }
   
   // Shortcuts help listeners
   document.getElementById('shortcutsBtn').addEventListener('click', toggleShortcutsModal);
@@ -448,8 +451,10 @@ function toggleFavorite() {
       favorites[phraseLevel].push(index);
     }
     
-    chrome.storage.local.set({ favorites });
-    updateFavoriteButton(favorites);
+    chrome.storage.local.set({ favorites }, () => {
+      updateFavoriteButton(favorites);
+      loadFavoritesData();
+    });
   });
 }
 
@@ -1168,4 +1173,561 @@ function deleteQuickLink(id) {
 
 function saveQuickLinks() {
   chrome.storage.local.set({ quickLinks: quickLinks });
+}
+
+/* ==========================================================================
+   SETTINGS MODAL & RIGHT SIDEBAR CARD ("FAVORITES / RECENT TABS / BOOKMARKS")
+   ========================================================================== */
+
+let userSettings = {
+  quickLinks: true,
+  favorites: true,
+  recentTabs: true,
+  bookmarks: false
+};
+let activeSidebarTab = 'favorites'; // 'favorites', 'recent', or 'bookmarks'
+let cachedFavoriteItems = [];
+let cachedRecentItems = [];
+let cachedBookmarkItems = [];
+
+function initSettings() {
+  chrome.storage.local.get(['userSettings'], (result) => {
+    if (result.userSettings) {
+      userSettings = { ...userSettings, ...result.userSettings };
+    }
+    applyUserSettingsUI();
+    loadRightSidebarData();
+  });
+
+  // Settings Modal Controls
+  const settingsBtn = document.getElementById('settingsBtn');
+  const settingsModal = document.getElementById('settingsModal');
+  const closeSettingsBtn = document.getElementById('closeSettingsBtn');
+
+  if (settingsBtn && settingsModal) {
+    settingsBtn.addEventListener('click', () => {
+      settingsModal.classList.add('active');
+    });
+  }
+
+  if (closeSettingsBtn && settingsModal) {
+    closeSettingsBtn.addEventListener('click', () => {
+      settingsModal.classList.remove('active');
+    });
+  }
+
+  if (settingsModal) {
+    settingsModal.addEventListener('click', (e) => {
+      if (e.target === settingsModal) {
+        settingsModal.classList.remove('active');
+      }
+    });
+  }
+
+  // Setting Checkbox Listeners
+  const settingQuickLinks = document.getElementById('settingQuickLinks');
+  const settingFavorites = document.getElementById('settingFavorites');
+  const settingRecentTabs = document.getElementById('settingRecentTabs');
+  const settingBookmarks = document.getElementById('settingBookmarks');
+
+  if (settingQuickLinks) {
+    settingQuickLinks.addEventListener('change', (e) => {
+      userSettings.quickLinks = e.target.checked;
+      saveUserSettings();
+    });
+  }
+
+  if (settingFavorites) {
+    settingFavorites.addEventListener('change', (e) => {
+      userSettings.favorites = e.target.checked;
+      if (!userSettings.favorites && activeSidebarTab === 'favorites') {
+        activeSidebarTab = userSettings.recentTabs ? 'recent' : (userSettings.bookmarks ? 'bookmarks' : 'recent');
+      }
+      saveUserSettings();
+    });
+  }
+
+  if (settingRecentTabs) {
+    settingRecentTabs.addEventListener('change', (e) => {
+      userSettings.recentTabs = e.target.checked;
+      if (!userSettings.recentTabs && activeSidebarTab === 'recent') {
+        activeSidebarTab = userSettings.favorites ? 'favorites' : (userSettings.bookmarks ? 'bookmarks' : 'favorites');
+      }
+      saveUserSettings();
+    });
+  }
+
+  if (settingBookmarks) {
+    settingBookmarks.addEventListener('change', (e) => {
+      userSettings.bookmarks = e.target.checked;
+      if (!userSettings.bookmarks && activeSidebarTab === 'bookmarks') {
+        activeSidebarTab = userSettings.favorites ? 'favorites' : (userSettings.recentTabs ? 'recent' : 'favorites');
+      }
+      saveUserSettings();
+    });
+  }
+
+  // Edge Trigger Buttons & Close Handlers
+  const triggerFavoritesBtn = document.getElementById('triggerFavoritesBtn');
+  const triggerRecentBtn = document.getElementById('triggerRecentBtn');
+  const triggerBookmarksBtn = document.getElementById('triggerBookmarksBtn');
+  const rightSidebarCard = document.getElementById('rightSidebarCard');
+  const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+
+  function openSidebarView(view) {
+    activeSidebarTab = view;
+    updateSidebarTabsUI();
+    renderRightSidebarContent();
+    if (rightSidebarCard) {
+      rightSidebarCard.classList.remove('hidden');
+      rightSidebarCard.classList.add('open');
+    }
+    updateSidebarTabsUI();
+  }
+
+  function toggleSidebarView(view) {
+    const isCurrentlyOpen = rightSidebarCard && rightSidebarCard.classList.contains('open');
+    if (isCurrentlyOpen && activeSidebarTab === view) {
+      rightSidebarCard.classList.remove('open');
+      updateSidebarTabsUI();
+    } else {
+      openSidebarView(view);
+    }
+  }
+
+  if (triggerFavoritesBtn) {
+    triggerFavoritesBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleSidebarView('favorites');
+    });
+  }
+
+  if (triggerRecentBtn) {
+    triggerRecentBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleSidebarView('recent');
+    });
+  }
+
+  if (triggerBookmarksBtn) {
+    triggerBookmarksBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleSidebarView('bookmarks');
+    });
+  }
+
+  if (closeSidebarBtn && rightSidebarCard) {
+    closeSidebarBtn.addEventListener('click', () => {
+      rightSidebarCard.classList.remove('open');
+      updateSidebarTabsUI();
+    });
+  }
+
+  document.addEventListener('click', (e) => {
+    if (rightSidebarCard && rightSidebarCard.classList.contains('open')) {
+      const rightTriggerGroup = document.getElementById('rightTriggerGroup');
+      if (!rightSidebarCard.contains(e.target) && (!rightTriggerGroup || !rightTriggerGroup.contains(e.target))) {
+        rightSidebarCard.classList.remove('open');
+        updateSidebarTabsUI();
+      }
+    }
+  });
+
+  const seeMoreBtn = document.getElementById('seeMoreBtn');
+  if (seeMoreBtn) {
+    seeMoreBtn.addEventListener('click', () => {
+      if (activeSidebarTab === 'recent') {
+        chrome.tabs.create({ url: 'chrome://history/syncedTabs' });
+      } else if (activeSidebarTab === 'bookmarks') {
+        chrome.tabs.create({ url: 'chrome://bookmarks' });
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && rightSidebarCard && rightSidebarCard.classList.contains('open')) {
+      rightSidebarCard.classList.remove('open');
+      updateSidebarTabsUI();
+    }
+  });
+}
+
+function saveUserSettings() {
+  chrome.storage.local.set({ userSettings: userSettings }, () => {
+    applyUserSettingsUI();
+    loadRightSidebarData();
+  });
+}
+
+function applyUserSettingsUI() {
+  const settingQuickLinks = document.getElementById('settingQuickLinks');
+  const settingFavorites = document.getElementById('settingFavorites');
+  const settingRecentTabs = document.getElementById('settingRecentTabs');
+  const settingBookmarks = document.getElementById('settingBookmarks');
+
+  if (settingQuickLinks) settingQuickLinks.checked = userSettings.quickLinks;
+  if (settingFavorites) settingFavorites.checked = userSettings.favorites;
+  if (settingRecentTabs) settingRecentTabs.checked = userSettings.recentTabs;
+  if (settingBookmarks) settingBookmarks.checked = userSettings.bookmarks;
+
+  // Toggle Quick Links Dock visibility
+  const quickLinksDock = document.getElementById('quickLinksDock');
+  if (quickLinksDock) {
+    if (userSettings.quickLinks) {
+      quickLinksDock.classList.remove('hidden');
+    } else {
+      quickLinksDock.classList.add('hidden');
+    }
+  }
+
+  // Edge Trigger Buttons Visibility
+  const rightTriggerGroup = document.getElementById('rightTriggerGroup');
+  const triggerFavoritesBtn = document.getElementById('triggerFavoritesBtn');
+  const triggerRecentBtn = document.getElementById('triggerRecentBtn');
+  const triggerBookmarksBtn = document.getElementById('triggerBookmarksBtn');
+  const rightSidebarCard = document.getElementById('rightSidebarCard');
+
+  if (triggerFavoritesBtn) {
+    triggerFavoritesBtn.style.display = userSettings.favorites ? 'block' : 'none';
+  }
+  if (triggerRecentBtn) {
+    triggerRecentBtn.style.display = userSettings.recentTabs ? 'block' : 'none';
+  }
+  if (triggerBookmarksBtn) {
+    triggerBookmarksBtn.style.display = userSettings.bookmarks ? 'block' : 'none';
+  }
+
+  const hasAnyTrigger = userSettings.favorites || userSettings.recentTabs || userSettings.bookmarks;
+  if (rightTriggerGroup) {
+    if (hasAnyTrigger) {
+      rightTriggerGroup.classList.remove('hidden');
+    } else {
+      rightTriggerGroup.classList.add('hidden');
+    }
+  }
+
+  if (!hasAnyTrigger && rightSidebarCard) {
+    rightSidebarCard.classList.remove('open');
+  }
+
+  if (!userSettings.favorites && activeSidebarTab === 'favorites') {
+    activeSidebarTab = userSettings.recentTabs ? 'recent' : (userSettings.bookmarks ? 'bookmarks' : 'recent');
+  } else if (!userSettings.recentTabs && activeSidebarTab === 'recent') {
+    activeSidebarTab = userSettings.favorites ? 'favorites' : (userSettings.bookmarks ? 'bookmarks' : 'favorites');
+  } else if (!userSettings.bookmarks && activeSidebarTab === 'bookmarks') {
+    activeSidebarTab = userSettings.favorites ? 'favorites' : (userSettings.recentTabs ? 'recent' : 'favorites');
+  }
+  updateSidebarTabsUI();
+}
+
+function updateSidebarTabsUI() {
+  const triggerFavoritesBtn = document.getElementById('triggerFavoritesBtn');
+  const triggerRecentBtn = document.getElementById('triggerRecentBtn');
+  const triggerBookmarksBtn = document.getElementById('triggerBookmarksBtn');
+  const sidebarTitle = document.getElementById('sidebarTitle');
+  const exportBtn = document.getElementById('exportBtn');
+  const sidebarFooter = document.getElementById('sidebarFooter');
+  const rightSidebarCard = document.getElementById('rightSidebarCard');
+  const isOpen = rightSidebarCard && rightSidebarCard.classList.contains('open');
+
+  if (triggerFavoritesBtn) {
+    triggerFavoritesBtn.classList.toggle('active', isOpen && activeSidebarTab === 'favorites');
+  }
+  if (triggerRecentBtn) {
+    triggerRecentBtn.classList.toggle('active', isOpen && activeSidebarTab === 'recent');
+  }
+  if (triggerBookmarksBtn) {
+    triggerBookmarksBtn.classList.toggle('active', isOpen && activeSidebarTab === 'bookmarks');
+  }
+
+  if (sidebarTitle) {
+    if (activeSidebarTab === 'favorites') {
+      sidebarTitle.textContent = 'Favorites';
+    } else if (activeSidebarTab === 'recent') {
+      sidebarTitle.textContent = 'Recent Tabs';
+    } else {
+      sidebarTitle.textContent = 'Bookmarks';
+    }
+  }
+
+  if (exportBtn) {
+    if (activeSidebarTab === 'favorites') {
+      exportBtn.classList.remove('hidden');
+    } else {
+      exportBtn.classList.add('hidden');
+    }
+  }
+
+  if (sidebarFooter) {
+    if (activeSidebarTab === 'favorites') {
+      sidebarFooter.style.display = 'none';
+    } else {
+      sidebarFooter.style.display = 'flex';
+    }
+  }
+}
+
+function loadRightSidebarData() {
+  if (userSettings.favorites) {
+    loadFavoritesData();
+  }
+  if (userSettings.recentTabs) {
+    fetchRecentTabsAndHistory();
+  }
+  if (userSettings.bookmarks) {
+    fetchRecentBookmarks();
+  }
+}
+
+function loadFavoritesData() {
+  chrome.storage.local.get(['favorites'], (result) => {
+    const favorites = result.favorites || {};
+    cachedFavoriteItems = [];
+
+    ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
+      const levelFavorites = favorites[level] || [];
+      levelFavorites.forEach(index => {
+        if (phrases[level] && phrases[level][index]) {
+          const phrase = phrases[level][index];
+          cachedFavoriteItems.push({
+            level: level,
+            index: index,
+            german: phrase.german,
+            english: phrase.english
+          });
+        }
+      });
+    });
+
+    if (activeSidebarTab === 'favorites') {
+      renderRightSidebarContent();
+    }
+  });
+}
+
+function fetchRecentTabsAndHistory() {
+  cachedRecentItems = [];
+  const existingUrls = new Set();
+
+  function finishFetch() {
+    if (activeSidebarTab === 'recent') {
+      renderRightSidebarContent();
+    }
+  }
+
+  if (chrome.tabs && chrome.tabs.query) {
+    chrome.tabs.query({}, (tabs) => {
+      (tabs || []).forEach(tab => {
+        if (tab.url && !tab.url.startsWith('chrome://') && !tab.url.startsWith('chrome-extension://') && !existingUrls.has(tab.url)) {
+          existingUrls.add(tab.url);
+          cachedRecentItems.push({
+            title: tab.title || tab.url,
+            url: tab.url,
+            meta: 'Open tab'
+          });
+        }
+      });
+
+      if (chrome.sessions && chrome.sessions.getRecentlyClosed) {
+        chrome.sessions.getRecentlyClosed({ maxResults: 8 }, (sessions) => {
+          (sessions || []).forEach(session => {
+            if (session.tab && session.tab.url && !session.tab.url.startsWith('chrome://') && !session.tab.url.startsWith('chrome-extension://') && !existingUrls.has(session.tab.url)) {
+              existingUrls.add(session.tab.url);
+              cachedRecentItems.push({
+                title: session.tab.title || session.tab.url,
+                url: session.tab.url,
+                meta: 'Recently closed'
+              });
+            } else if (session.window && session.window.tabs) {
+              session.window.tabs.forEach(tab => {
+                if (tab.url && !tab.url.startsWith('chrome://') && !tab.url.startsWith('chrome-extension://') && !existingUrls.has(tab.url)) {
+                  existingUrls.add(tab.url);
+                  cachedRecentItems.push({
+                    title: tab.title || tab.url,
+                    url: tab.url,
+                    meta: 'Recently closed'
+                  });
+                }
+              });
+            }
+          });
+
+          if (cachedRecentItems.length < 8 && chrome.history) {
+            chrome.history.search({ text: '', maxResults: 15 }, (historyItems) => {
+              (historyItems || []).forEach(item => {
+                if (item.url && !existingUrls.has(item.url) && !item.url.startsWith('chrome://') && !item.url.startsWith('chrome-extension://')) {
+                  existingUrls.add(item.url);
+                  cachedRecentItems.push({
+                    title: item.title || item.url,
+                    url: item.url,
+                    meta: 'Recent site'
+                  });
+                }
+              });
+              finishFetch();
+            });
+          } else {
+            finishFetch();
+          }
+        });
+      } else {
+        finishFetch();
+      }
+    });
+  } else {
+    finishFetch();
+  }
+}
+
+function fetchRecentBookmarks() {
+  if (chrome.bookmarks && chrome.bookmarks.getRecent) {
+    chrome.bookmarks.getRecent(10, (items) => {
+      cachedBookmarkItems = (items || [])
+        .filter(item => item.url)
+        .map(item => ({
+          title: item.title || item.url,
+          url: item.url,
+          meta: 'Bookmark'
+        }));
+      if (activeSidebarTab === 'bookmarks') {
+        renderRightSidebarContent();
+      }
+    });
+  }
+}
+
+function renderRightSidebarContent() {
+  const sidebarContent = document.getElementById('sidebarContent');
+  if (!sidebarContent) return;
+
+  if (activeSidebarTab === 'favorites') {
+    if (!cachedFavoriteItems || cachedFavoriteItems.length === 0) {
+      sidebarContent.innerHTML = `<div class="sidebar-empty-state">No favorite phrases saved yet. Click ★ to save phrases!</div>`;
+      return;
+    }
+
+    sidebarContent.innerHTML = '';
+    cachedFavoriteItems.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'favorite-sidebar-item';
+
+      div.innerHTML = `
+        <div class="favorite-sidebar-text">
+          <span class="favorite-sidebar-german" title="${escapeHtml(item.german)}">${escapeHtml(item.german)}</span>
+          <span class="favorite-sidebar-english" title="${escapeHtml(item.english)}">${escapeHtml(item.english)}</span>
+        </div>
+        <div class="favorite-sidebar-actions">
+          <button class="favorite-audio-btn" data-tooltip="Listen">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            </svg>
+          </button>
+          <button class="favorite-remove-btn" data-tooltip="Remove">✕</button>
+        </div>
+      `;
+
+      div.querySelector('.favorite-sidebar-text').addEventListener('click', () => {
+        displaySpecificPhrase(item.level, item.index);
+      });
+
+      div.querySelector('.favorite-audio-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        speakText(item.german);
+      });
+
+      div.querySelector('.favorite-remove-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        removeFavoriteItem(item.level, item.index);
+      });
+
+      sidebarContent.appendChild(div);
+    });
+    return;
+  }
+
+  const items = activeSidebarTab === 'recent' ? cachedRecentItems : cachedBookmarkItems;
+
+  if (!items || items.length === 0) {
+    const emptyMsg = activeSidebarTab === 'recent'
+      ? 'No recent tabs available.'
+      : 'No recent bookmarks found.';
+    sidebarContent.innerHTML = `<div class="sidebar-empty-state">${emptyMsg}</div>`;
+    return;
+  }
+
+  sidebarContent.innerHTML = '';
+  items.slice(0, 8).forEach(item => {
+    const a = document.createElement('a');
+    a.className = 'sidebar-item';
+    a.href = item.url;
+    a.target = '_self';
+
+    const faviconUrl = getFaviconUrl(item.url);
+
+    a.innerHTML = `
+      <img class="sidebar-item-icon" src="${faviconUrl}" alt="" onerror="this.src='icons/icon16.png'">
+      <div class="sidebar-item-details">
+        <span class="sidebar-item-title" title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</span>
+        <span class="sidebar-item-meta">${escapeHtml(getDomainName(item.url))} · ${escapeHtml(item.meta)}</span>
+      </div>
+    `;
+    sidebarContent.appendChild(a);
+  });
+}
+
+function speakText(text) {
+  if (!text) return;
+  speechSynthesis.cancel();
+  let textToSpeak = text;
+  if (textToSpeak.includes('(z.B.')) {
+    textToSpeak = textToSpeak.split('(z.B.')[0].trim();
+  }
+  const utterance = new SpeechSynthesisUtterance(textToSpeak);
+  utterance.lang = 'de-DE';
+  utterance.rate = 0.9;
+  speechSynthesis.speak(utterance);
+}
+
+function removeFavoriteItem(level, index) {
+  chrome.storage.local.get(['favorites'], (result) => {
+    let favorites = result.favorites || {};
+    if (favorites[level]) {
+      favorites[level] = favorites[level].filter(i => i !== index);
+      chrome.storage.local.set({ favorites }, () => {
+        updateFavoriteButton(favorites);
+        loadFavoritesData();
+      });
+    }
+  });
+}
+
+function getFaviconUrl(pageUrl) {
+  try {
+    const url = new URL(chrome.runtime.getURL('/_favicon/'));
+    url.searchParams.set('pageUrl', pageUrl);
+    url.searchParams.set('size', '32');
+    return url.toString();
+  } catch (e) {
+    return 'icons/icon16.png';
+  }
+}
+
+function getDomainName(urlStr) {
+  try {
+    const url = new URL(urlStr);
+    return url.hostname.replace(/^www\./, '');
+  } catch (e) {
+    return urlStr;
+  }
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }

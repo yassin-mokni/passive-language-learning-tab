@@ -89,8 +89,6 @@
       <button class="control-btn" id="nextBtn" data-tooltip="Next phrase">↻</button>
     </div>
 
-    <button class="favorites-trigger" id="favoritesBtn">Favorites</button>
-
     <button class="shortcuts-help" id="shortcutsBtn" data-tooltip="Keyboard shortcuts">?</button>
 
     <button class="radio-trigger" id="radioBtn" data-tooltip="Listening Practice">
@@ -119,6 +117,97 @@
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
       </svg>
     </button>
+
+    <button class="settings-btn" id="settingsBtn" data-tooltip="Settings">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+      </svg>
+    </button>
+
+    <div class="right-trigger-group" id="rightTriggerGroup">
+      <button class="edge-trigger-btn" id="triggerFavoritesBtn" data-view="favorites">Favorites</button>
+      <button class="edge-trigger-btn" id="triggerRecentBtn" data-view="recent">Recent Tabs</button>
+      <button class="edge-trigger-btn" id="triggerBookmarksBtn" data-view="bookmarks">Bookmarks</button>
+    </div>
+
+    <div class="right-sidebar-card hidden" id="rightSidebarCard">
+      <div class="sidebar-header">
+        <div class="sidebar-title-group">
+          <h4 class="sidebar-title" id="sidebarTitle">Favorites</h4>
+          <button class="export-btn hidden" id="exportBtn" data-tooltip="Export favorites">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </button>
+        </div>
+        <button class="close-sidebar-btn" id="closeSidebarBtn">&times;</button>
+      </div>
+      <div class="sidebar-content" id="sidebarContent">
+        <!-- Injected via JS -->
+      </div>
+      <div class="sidebar-footer" id="sidebarFooter">
+        <button class="see-more-btn" id="seeMoreBtn">See more</button>
+      </div>
+    </div>
+
+    <div class="settings-modal" id="settingsModal">
+      <div class="settings-content">
+        <div class="settings-header">
+          <h3>Customize Layout</h3>
+          <button class="close-modal-btn" id="closeSettingsBtn">&times;</button>
+        </div>
+        <div class="settings-group">
+          <div class="setting-item">
+            <div class="setting-info">
+              <span class="setting-title">Quick Links Dock</span>
+              <span class="setting-desc">Show custom shortcuts at the bottom</span>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="settingQuickLinks" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <div class="setting-info">
+              <span class="setting-title">Favorites Card</span>
+              <span class="setting-desc">Show your saved phrases on the right</span>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="settingFavorites" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <div class="setting-info">
+              <span class="setting-title">Continue with Recent Tabs</span>
+              <span class="setting-desc">Show open and recent tabs on the right</span>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="settingRecentTabs" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <div class="setting-info">
+              <span class="setting-title">Bookmarks Card</span>
+              <span class="setting-desc">Show your browser bookmarks on the right</span>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="settingBookmarks">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="quick-links-modal" id="quickLinksModal">
       <div class="quick-links-content">
@@ -170,20 +259,7 @@
       </div>
     </div>
 
-    <div class="favorites-popover" id="favoritesPopover">
-      <div class="favorites-header">
-        <span class="favorites-title">Favorites</span>
-        <button class="export-btn" id="exportBtn" data-tooltip="Export favorites">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-            <polyline points="7 10 12 15 17 10"></polyline>
-            <line x1="12" y1="15" x2="12" y2="3"></line>
-          </svg>
-        </button>
-      </div>
-      <div class="favorites-content" id="favoritesContent"></div>
-    </div>
+
 
     <div class="radio-popover" id="radioPopover">
       <div class="radio-header">
