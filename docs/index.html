@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="favicon.png">
-  <title>Passive Language Learning New Tab - Learn German with Every New Tab</title>
-  <meta name="description" content="Transform your browser into a German learning companion. Learn naturally through passive exposure with every new tab.">
+  <title>Passive Language Learning New Tab - Learn Languages with Every New Tab</title>
+  <meta name="description" content="Transform your browser into a language learning companion. Learn German and Spanish naturally through passive exposure with every new tab.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,6 +18,11 @@
       --border: rgba(0, 0, 0, 0.08);
       --accent: #171717;
       --accent-hover: #404040;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
     }
 
     * {
@@ -110,8 +115,67 @@
       font-weight: 700;
       line-height: 1.1;
       letter-spacing: -0.03em;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       color: var(--text-main);
+    }
+    
+    /* Language Cards */
+    .language-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    @media (max-width: 768px) {
+      .language-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    .language-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px 24px;
+      text-align: center;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    }
+    
+    .language-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+    }
+    
+    .language-card.upcoming {
+      background: var(--bg);
+      border-style: dashed;
+      opacity: 0.8;
+    }
+    
+    .language-card.upcoming:hover {
+      transform: none;
+      box-shadow: none;
+      opacity: 1;
+    }
+    
+    .lang-flag {
+      font-size: 64px;
+      line-height: 1;
+      margin-bottom: 16px;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    }
+    
+    .language-card h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .language-card p {
+      font-size: 15px;
+      color: var(--text-muted);
+      font-weight: 500;
     }
 
     .hero .tagline {
@@ -217,55 +281,71 @@
       color: var(--text-muted);
     }
 
-    /* Features */
-    .features {
+    /* Split Features Layout */
+    .features-split {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
     }
 
-    @media (max-width: 1024px) {
-      .features {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 600px) {
-      .features {
+    @media (max-width: 900px) {
+      .features-split {
         grid-template-columns: 1fr;
       }
     }
 
-    .feature {
+    .feature-group {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 24px;
+      border-radius: 32px;
       padding: 40px;
-      transition: all 0.2s ease;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
     }
 
-    .feature:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
-    }
-
-    .feature-icon {
-      font-size: 40px;
-      margin-bottom: 24px;
-    }
-
-    .feature h3 {
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 12px;
+    .feature-group h3.group-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 32px;
       letter-spacing: -0.01em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
     }
 
-    .feature p {
-      font-size: 16px;
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 16px;
+    }
+
+    .feature-item .icon {
+      font-size: 24px;
+      line-height: 1;
+      flex-shrink: 0;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .feature-item h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .feature-item p {
+      font-size: 15px;
       color: var(--text-muted);
-      line-height: 1.6;
+      line-height: 1.5;
     }
 
     /* How It Works */
@@ -432,31 +512,20 @@
   <header>
     <div class="container">
       <a href="index.html" class="logo">
-        <svg width="24" height="24" viewBox="0 0 48 48">
-          <circle cx="24" cy="24" r="24" fill="#fff" />
-          <g clip-path="url(#circleClip)">
-            <rect x="0" y="0" width="48" height="16" fill="#000" />
-            <rect x="0" y="16" width="48" height="16" fill="#DD0000" />
-            <rect x="0" y="32" width="48" height="16" fill="#FFCE00" />
-          </g>
-          <defs>
-            <clipPath id="circleClip">
-              <circle cx="24" cy="24" r="23" />
-            </clipPath>
-          </defs>
-        </svg> Passive Language Learning New Tab
+        <img src="favicon.png" alt="Passive Language Learning Logo" width="24" height="24"> Passive Language Learning
       </a>
       <nav>
         <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
         <a href="https://chromewebstore.google.com/detail/lcpngcpkmbdooibllkhggekgmcdgagln?utm_source=landing-page" class="cta-button">Add to Chrome</a>
       </nav>
     </div>
   </header>
 
   <div class="hero">
-    <h1>Learn German, One Tab at a Time.</h1>
+    <h1>Learn Languages, One Tab at a Time.</h1>
     <p class="tagline">
-      Every new tab shows a German phrase. No effort, just consistent exposure integrated into your daily workflow.
+      Every new tab shows a curated phrase in your target language. No effort, just consistent exposure seamlessly integrated into your daily workflow.
     </p>
     <a href="https://chromewebstore.google.com/detail/lcpngcpkmbdooibllkhggekgmcdgagln?utm_source=landing-page" class="cta-button">Add to Chrome - It's Free</a>
   </div>
@@ -465,8 +534,8 @@
     <div class="section">
       <div class="stats">
         <div class="stat">
-          <div class="stat-number">578+</div>
-          <div class="stat-label">German Phrases</div>
+          <div class="stat-number">1,126+</div>
+          <div class="stat-label">Curated Phrases</div>
         </div>
         <div class="stat">
           <div class="stat-number">6</div>
@@ -477,7 +546,7 @@
           <div class="stat-label">Topics</div>
         </div>
         <div class="stat">
-          <div class="stat-number">6</div>
+          <div class="stat-number">10+</div>
           <div class="stat-label">Live Stations</div>
         </div>
         <div class="stat">
@@ -491,57 +560,121 @@
       </div>
     </div>
 
+    <div class="section" id="languages">
+      <h2>Available Languages</h2>
+      <p class="section-sub">Start learning today. We are constantly expanding to include more languages.</p>
+      
+      <div class="language-cards">
+        <div class="language-card">
+          <div class="lang-flag">🇩🇪</div>
+          <h3>German</h3>
+          <p>563 Phrases &bull; 6 Live Radios</p>
+        </div>
+        <div class="language-card">
+          <div class="lang-flag">🇪🇸</div>
+          <h3>Spanish</h3>
+          <p>563 Phrases &bull; 5 Live Radios</p>
+        </div>
+        <div class="language-card upcoming">
+          <div class="lang-flag">✨</div>
+          <h3>More Coming Soon</h3>
+          <p>French, Italian, Japanese...</p>
+        </div>
+      </div>
+    </div>
+
     <div class="section" id="features">
       <h2>Why It Works</h2>
       <p class="section-sub">
         You open dozens of tabs every day. Each one is an opportunity. Passive exposure builds familiarity effortlessly.
       </p>
 
-      <div class="features">
-        <div class="feature">
-          <div class="feature-icon">🎯</div>
-          <h3>CEFR Level System</h3>
-          <p>From A1 to C2. Phrases match your current proficiency, ensuring you learn exactly what you need.</p>
+      <div class="features-split">
+        <div class="feature-group">
+          <h3 class="group-title">Language Immersion</h3>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="icon">🎯</div>
+              <div>
+                <h4>Graded Learning</h4>
+                <p>Phrases scale from absolute beginner (A0) to fluent (C2). You only see what matches your level.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">📚</div>
+              <div>
+                <h4>Real-World Contexts</h4>
+                <p>Travel, food, work, and housing. Learn vocabulary that you'll actually use in everyday life.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">⭐</div>
+              <div>
+                <h4>Exportable Favorites</h4>
+                <p>Bookmark the phrases that stick out and export them straight to your own flashcard app anytime.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">🔊</div>
+              <div>
+                <h4>Real Pronunciation</h4>
+                <p>Hear exactly how native speakers sound with a single click. Master the accent by listening.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">🎧</div>
+              <div>
+                <h4>Mini Conversations</h4>
+                <p>Listen and read along to 17 structured, real-life dialogues right inside the built-in player.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">📻</div>
+              <div>
+                <h4>Background Immersion</h4>
+                <p>Drop into live talk and news stations from Germany and Spain. Continues playing when you close the tab.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="feature">
-          <div class="feature-icon">📚</div>
-          <h3>9 Practical Topics</h3>
-          <p>Everyday life, travel, food, work, and housing. Learn vocabulary that is actually relevant to you.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">⭐</div>
-          <h3>Save Favorites</h3>
-          <p>Mark phrases you like and export them as text to study offline or add to your own flashcards.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🔊</div>
-          <h3>Native Audio</h3>
-          <p>Click to hear perfect pronunciation from a native German speaker, helping you master the accent.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🎧</div>
-          <h3>Offline Dialogues</h3>
-          <p>Listen to 17 structured conversations for different levels and everyday situations directly in the player.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">📻</div>
-          <h3>Live German Radio</h3>
-          <p>Tune into level-appropriate German talk and news stations. Continues playing even when you close the tab.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">⌨️</div>
-          <h3>Keyboard Shortcuts</h3>
-          <p>Space for next phrase, R to play audio, left/right to switch tracks. Designed for power users.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🔒</div>
-          <h3>Privacy First</h3>
-          <p>Zero data collection. Everything stays local on your device. Absolutely no tracking or analytics.</p>
+        
+        <div class="feature-group">
+          <h3 class="group-title">Productivity & Workflow</h3>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="icon">📑</div>
+              <div>
+                <h4>Open Tabs Sidebar</h4>
+                <p>Instantly see, search, and jump to any open browser tab without interrupting your browser experience.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">🔗</div>
+              <div>
+                <h4>Speed Dial</h4>
+                <p>Keep your most-used sites exactly one click away. Add and organize your shortcuts right on the new tab.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">⌨️</div>
+              <div>
+                <h4>Keyboard First</h4>
+                <p>Hit Space for the next phrase, R for audio, and arrows for tracks. Designed to be fast and fluid.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">🔒</div>
+              <div>
+                <h4>100% Local</h4>
+                <p>No accounts. No telemetry. No tracking. Everything stays completely private on your own machine.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="how-it-works">
       <h2>How It Works</h2>
       <p class="section-sub">No effort required. Just go about your day and let your brain do the rest.</p>
 
@@ -554,7 +687,7 @@
         <div class="step">
           <div class="step-number">2</div>
           <h3>Boom, New Phrase</h3>
-          <p>Instantly see a bite-sized German phrase matched perfectly to your level.</p>
+          <p>Instantly see a bite-sized phrase matched perfectly to your level in your target language.</p>
         </div>
         <div class="step">
           <div class="step-number">3</div>
@@ -587,7 +720,7 @@
     <div class="section">
       <div class="support-section">
         <h2>Show Your Support</h2>
-        <p>If you find this extension helpful for practicing your German, consider showing your support to help fund its ongoing development!</p>
+        <p>If you find this extension helpful for practicing your target languages, consider showing your support to help fund its ongoing development!</p>
         <a href="https://buymeacoffee.com/yassinbuilds" target="_blank" class="support-button">Show Your Support</a>
       </div>
     </div>
