@@ -1,0 +1,4087 @@
+{
+  "A0": [
+    {
+      "spanish": "¡Qué guay! (ej. ¡Esa película está qué guay!)",
+      "english": "How cool! (e.g., That movie is so cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Mola mucho (ej. Tu coche nuevo mola mucho)",
+      "english": "It's really cool / I like it a lot (e.g., Your new car is really cool)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tío / Tía (ej. ¡Hola tío! ¿Qué tal?)",
+      "english": "Dude / Man / Girl (e.g., Hey dude! How's it going?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar pelado (ej. No puedo salir hoy, estoy pelado)",
+      "english": "To be broke (e.g., I can't go out today, I'm broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Currar (ej. Mañana me toca currar temprano)",
+      "english": "To work (e.g., Tomorrow I have to work early)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Pasta (ej. Eso cuesta mucha pasta)",
+      "english": "Money / Dough (e.g., That costs a lot of money)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar en la parra (ej. Oye, ¡despierta! Estás en la parra)",
+      "english": "To daydream / space out (e.g., Hey, wake up! You're spacing out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Chupado (ej. El examen estuvo chupado)",
+      "english": "Piece of cake / Super easy (e.g., The exam was a piece of cake)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Pillar (ej. ¿Lo has pillado? / Vamos a pillar una cerveza)",
+      "english": "To get / catch / grab (e.g., Did you get it? / Let's grab a beer)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "¡Ni de coña! (ej. ¿Ir allí a las 5 AM? ¡Ni de coña!)",
+      "english": "No way! / Not a chance! (e.g., Go there at 5 AM? No way!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Fliparlo (ej. ¡Vas a fliparlo con este juego!)",
+      "english": "To be blown away / amazed (e.g., You're going to be amazed by this game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Buena onda (ej. Tu hermano es muy buena onda)",
+      "english": "Good vibes / Cool person (e.g., Your brother has really good vibes)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Dar la lata (ej. Deja de dar la lata con eso)",
+      "english": "To bother / nag (e.g., Stop nagging about that)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Me importa un pimiento (ej. Haz lo que quieras, me importa un pimiento)",
+      "english": "I couldn't care less (e.g., Do what you want, I couldn't care less)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar como una cabra (ej. Ese chico está como una cabra)",
+      "english": "To be crazy / nuts (e.g., That guy is crazy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tomar el pelo (ej. ¿Me estás tomando el pelo?)",
+      "english": "To pull someone's leg / kid (e.g., Are you pulling my leg?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Hacerse el sueco (ej. Le pregunté y se hizo el sueco)",
+      "english": "To play dumb (e.g., I asked him and he played dumb)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar empapado (ej. Llovió mucho y estoy empapado)",
+      "english": "To be soaked / drenched (e.g., It rained hard and I'm drenched)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ser un rata (ej. ¡No seas rata y paga la cuenta!)",
+      "english": "To be cheap / stingy (e.g., Don't be cheap, pay the bill!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ponerse las pilas (ej. Tenemos que ponernos las pilas con este proyecto)",
+      "english": "To get one's act together (e.g., We need to get our act together for this project)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar hasta las narices (ej. Estoy hasta las narices de este tráfico)",
+      "english": "To be fed up (e.g., I'm fed up with this traffic)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Irse por las ramas (ej. No te vayas por las ramas y responde)",
+      "english": "To beat around the bush (e.g., Don't beat around the bush and answer)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ir a su bola (ej. Él siempre va a su bola)",
+      "english": "To do one's own thing (e.g., He always does his own thing)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ser pan comido (ej. Aprender esto es pan comido)",
+      "english": "To be a piece of cake (e.g., Learning this is a piece of cake)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Quedar con alguien (ej. Quedé con María a las seis)",
+      "english": "To meet up with someone (e.g., I'm meeting up with María at six)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar sin blanca (ej. No tengo dinero, estoy sin blanca)",
+      "english": "To be penniless (e.g., I have no money, I'm penniless)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ser un bicho raro (ej. Ese tipo es un bicho raro)",
+      "english": "To be an oddball / weirdo (e.g., That guy is an oddball)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar al caer (ej. El autobús está al caer)",
+      "english": "To be right around the corner / coming soon (e.g., The bus is right around the corner)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar en su salsa (ej. En la fiesta ella estaba en su salsa)",
+      "english": "To be in one's element (e.g., At the party she was in her element)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "No tener abuela (ej. ¡Tú no tienes abuela! Te alabas solo)",
+      "english": "To show off / lack modesty (e.g., You really show off! You praise yourself)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tener mala leche (ej. Ten cuidado, ese perro tiene mala leche)",
+      "english": "To have a bad temper / bad intent (e.g., Careful, that dog has a bad temper)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Montar un pollo (ej. Montó un pollo en la tienda)",
+      "english": "To make a scene (e.g., He made a scene in the store)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ser la caña (ej. ¡Ese concierto fue la caña!)",
+      "english": "To be awesome / the best (e.g., That concert was awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tener enchufe (ej. Consiguió el trabajo porque tiene enchufe)",
+      "english": "To have connections / pull strings (e.g., He got the job because he has connections)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ir pisando huevos (ej. ¡Acelera! Vas pisando huevos)",
+      "english": "To drive/walk super slow (e.g., Speed up! You're driving super slow)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Meter la pata (ej. Lo siento, metí la pata)",
+      "english": "To mess up / put one's foot in it (e.g., I'm sorry, I messed up)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Hacer la pelota (ej. No le hagas la pelota al jefe)",
+      "english": "To butter up / kiss up to someone (e.g., Don't kiss up to the boss)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Darse prisa (ej. ¡Date prisa que llegamos tarde!)",
+      "english": "To hurry up (e.g., Hurry up, we're late!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar de mala gana (ej. Lo hizo de mala gana)",
+      "english": "To do something reluctantly (e.g., He did it reluctantly)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Pasárselo pipa (ej. Nos lo pasamos pipa en la playa)",
+      "english": "To have a blast (e.g., We had a blast at the beach)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar colado por alguien (ej. Está colado por su vecina)",
+      "english": "To have a crush on someone (e.g., He has a crush on his neighbor)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tener changüí (ej. Dame un poco de changüí)",
+      "english": "To give a break / leeway (e.g., Give me a little break)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ir de gorra (ej. Siempre come de gorra)",
+      "english": "To freeload (e.g., He always freeloads food)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Cantar las 40 (ej. Le cantó las cuarenta por llegar tarde)",
+      "english": "To give someone a piece of one's mind (e.g., She gave him a piece of her mind for being late)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Estar por las nubes (ej. Los precios están por las nubes)",
+      "english": "To be sky-high (e.g., Prices are sky-high)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Tirar la casa por la ventana (ej. Para su boda tiraron la casa por la ventana)",
+      "english": "To spare no expense / splurge (e.g., For their wedding they splurged)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Quedarse de piedra (ej. Me quedé de piedra cuando me contó la noticia)",
+      "english": "To be stunned / shocked (e.g., I was shocked when he told me the news)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Poner la zancadilla (ej. Intentó ponerme la zancadilla en la empresa)",
+      "english": "To trip someone up / sabotage (e.g., He tried to sabotage me at the company)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "Ver los toros desde la barrera (ej. Es fácil opinar viendo los toros desde la barrera)",
+      "english": "To be a backseat driver / observe from afar (e.g., It's easy to judge observing from afar)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "spanish": "No dar pie con bola (ej. Hoy no doy pie con bola en el trabajo)",
+      "english": "To not get anything right (e.g., Today I can't get anything right at work)",
+      "tags": [
+        "slang"
+      ]
+    }
+  ],
+  "A1": [
+    {
+      "spanish": "Buenos días, ¿qué tal?",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Me llamo Juan, ¿y tú?",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Dónde puedo comprar un billete de transporte?",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Esta comida está deliciosa y bien preparada.",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Muchas gracias por tu ayuda.",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "De nada, ¡un placer!",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Buenas noches, que descanses.",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Por favor, ¿me puedes ayudar?",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Muchas gracias por tu ayuda.",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Perdón, lo siento mucho.",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No entiendo, ¿puedes repetirlo?",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Dónde está el baño?",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Tengo mucha hambre, ¿vamos a comer?",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Un vaso de agua, por favor.",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Esta comida está deliciosa y bien preparada.",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Tiene una mesa libre para dos personas?",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Me gusta aprender español todos los días.",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Dónde puedo comprar un billete de transporte?",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Esta comida está deliciosa y bien preparada.",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Tiene una mesa libre para dos personas?",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Quisiera pedir información sobre los horarios de hoy.",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Me gusta aprender español todos los días.",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Dónde puedo comprar un billete de transporte?",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Hablas inglés?",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Tiene una mesa libre para dos personas?",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Quisiera pedir información sobre los horarios de hoy.",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Me gusta aprender español todos los días.",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Dónde puedo comprar un billete de transporte?",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Esta comida está deliciosa y bien preparada.",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Hoy hace un día estupendo y soleado.",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Hoy hace un día estupendo y soleado.",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Quisiera pedir información sobre los horarios de hoy.",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta esto?",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Esta comida está deliciosa y bien preparada.",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "spanish": "Quisiera pedir información sobre los horarios de hoy.",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora abre la tienda más cercana?",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Me gusta aprender español todos los días.",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Dónde puedo comprar un billete de transporte?",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¿Tiene una mesa libre para dos personas?",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Una taza de café solo, por favor.",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Dónde está la entrada del hotel?",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Me gusta aprender español todos los días.",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Un billete de ida y vuelta, por favor.",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Tiene una mesa libre para dos personas?",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Hoy es un día muy bonito para pasear.",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Necesito comprar fruta y verduras frescas.",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Quisiera pedir información sobre los horarios de hoy.",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Una taza de café solo, por favor.",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Hoy hace un día estupendo y soleado.",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Hoy hace un día estupendo y soleado.",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Por favor, ¿me puedes ayudar?",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No entiendo, ¿puedes repetirlo?",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "spanish": "Por favor, ¿me puedes ayudar?",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Trabajo como profesional en una empresa local.",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Trabajo como profesional en una empresa local.",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "spanish": "El fin de semana pasado visitamos una ciudad preciosa.",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Perdón, lo siento mucho.",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El fin de semana pasado visitamos una ciudad preciosa.",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Necesito ver a un médico lo antes posible.",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Dónde hay una farmacia abierta?",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "spanish": "El fin de semana pasado visitamos una ciudad preciosa.",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "El fin de semana pasado visitamos una ciudad preciosa.",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora pasa el próximo autobús?",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "El fin de semana pasado visitamos una ciudad preciosa.",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Dónde hay una farmacia abierta?",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Te gustaría tomar un café después del trabajo?",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Mañana voy a llamar al médico para pedir una cita.",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "spanish": "Esta camiseta me queda bien, me la llevo.",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Cómo fue tu viaje durante las vacaciones pasadas?",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Ayer fui al supermercado y compré todo lo necesario.",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Me puedes recomendar un buen restaurante por aquí?",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Normalmente me levanto temprano durante la semana.",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿A qué hora pasa el próximo autobús?",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Un billete de ida y vuelta, por favor.",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Cuando llegué a la estación, me di cuenta de que olvidé el billete.",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Cuando llegué a la estación, me di cuenta de que olvidé el billete.",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Perdón, lo siento mucho.",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta esto?",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Necesito ver a un médico lo antes posible.",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Cuando llegué a la estación, me di cuenta de que olvidé el billete.",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Dónde está la entrada del hotel?",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Cuando llegué a la estación, me di cuenta de que olvidé el billete.",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¿Cómo llego al aeropuerto desde aquí?",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Hoy hace un día estupendo y soleado.",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Le pedí al camarero comida sin gluten porque soy alérgico.",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Estamos buscando un apartamento luminoso con dos habitaciones.",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "A pesar de la lluvia, decidimos salir a caminar por el centro.",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Si necesitas ayuda con tu proyecto, dime y te echo una mano.",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "El médico me aconsejó hacer ejercicio con más frecuencia.",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Si tuviera más tiempo libre, aprendería a tocar la guitarra.",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Creo que es fundamental mantener un buen equilibrio laboral.",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Un billete de ida y vuelta, por favor.",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Un vaso de agua, por favor.",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Trabajo como profesional en una empresa local.",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Estoy buscando un piso amueblado para alquilar.",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "El incremento del coste de vida exige revisar el presupuesto.",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Es preferible reservar los billetes con antelación para ahorrar.",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "El análisis del mercado demuestra una tendencia muy favorable.",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Es indispensable que enviemos el informe financiero esta semana.",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Aunque la propuesta parecía arriesgada, resultó ser fructífera.",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Para resolver esta discrepancia, convocaremos una reunión urgente.",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Dudo que la negociación concluya sin concesiones de ambas partes.",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La adopción de hábitos saludables beneficia la salud mental.",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Dicha medida presupuestaria tendrá un impacto significativo a largo plazo.",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "spanish": "A tenor de las circunstancias, sería sensato postergar la decisión.",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "El rigor metodológico de la investigación garantiza resultados fiables.",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "La argumentación expuesta pone de manifiesto la urgencia del cambio.",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La convergencia de factores socioeconómicos propició la reforma institucional.",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Resulta imperativo abordar la transición energética de forma sostenible.",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La elocuencia de su discurso radicó en sintetizar conceptos complejos.",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "No cabe duda de que la tecnología ha reconfigurado el mercado laboral.",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "¿Cuánto cuesta el alquiler mensual?",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "¡Hola! ¿Cómo estás?",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "spanish": "A juzgar por los indicios recabados, la hipótesis carece de fisuras.",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Hacer de la necesidad virtud es esencial ante las vicisitudes del destino.",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Su disertación académica deslumbró por su desbordante erudición y matices.",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "La yuxtaposición de ambos paradigmas teóricos esclarece la controversia.",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "spanish": "Es menester ponderar las repercusiones ontológicas de tal axioma.",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Sopesar las eventualidades con ecuanimidad distingue al estadista veterano.",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "La sutileza de su prosa trasluce una sensibilidad estética incontestable.",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "spanish": "Someter a escrutinio minucioso tales premisas deviene ineludible.",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    }
+  ]
+}

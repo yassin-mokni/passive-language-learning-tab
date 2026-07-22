@@ -38,24 +38,35 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 function setupAudioListeners() {
   if (!audio) return;
-  audio.ontimeupdate = sendAudioState;
-  audio.ondurationchange = sendAudioState;
-  audio.onplay = sendAudioState;
-  audio.onpause = sendAudioState;
-  audio.onended = sendAudioState;
-  audio.onseeking = sendAudioState;
-  audio.onseeked = sendAudioState;
+  audio.ontimeupdate = () => sendAudioState();
+  audio.ondurationchange = () => sendAudioState();
+  audio.onplay = () => sendAudioState();
+  audio.onpause = () => sendAudioState();
+  audio.onended = () => sendAudioState();
+  audio.onseeking = () => sendAudioState();
+  audio.onseeked = () => sendAudioState();
+  
+  // Loading states
+  audio.onloadstart = () => sendAudioState(true);
+  audio.onwaiting = () => sendAudioState(true);
+  audio.onplaying = () => sendAudioState(false);
+  audio.oncanplay = () => sendAudioState(false);
 }
 
-function sendAudioState() {
+function sendAudioState(isLoading = false) {
   if (!audio) return;
+  
+  // If we haven't received enough data to play, we're loading. readyState < 3 means HAVE_CURRENT_DATA or less.
+  const isBuffering = isLoading || (audio.networkState === 2 && audio.readyState < 3 && !audio.paused);
+  
   chrome.runtime.sendMessage({
     target: 'newtab',
     type: 'audioState',
     currentTime: audio.currentTime,
     duration: audio.duration,
     paused: audio.paused,
-    seeking: audio.seeking
+    seeking: audio.seeking,
+    loading: isBuffering
   });
 }
 

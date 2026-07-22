@@ -2,6 +2,7 @@ let phrases = {};
 let currentLevel = 'A1';
 let currentTopic = 'all';
 let currentPhrase = null;
+let currentLang = 'de';
 let isRadioPlaying = false;
 let activeRadioStation = 'dlf_nova';
 let activePlaybackRate = 1.0;
@@ -11,6 +12,58 @@ let lastDuration = 0;
 let isUserDraggingProgress = false;
 let isAudioSeeking = false;
 let seekTimeout = null;
+
+const flagSvgs = {
+  de: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipDE)"><rect x="0" y="0" width="48" height="16" fill="#000" /><rect x="0" y="16" width="48" height="16" fill="#DD0000" /><rect x="0" y="32" width="48" height="16" fill="#FFCE00" /></g><defs><clipPath id="circleClipDE"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
+  es: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipES)"><rect x="0" y="0" width="48" height="12" fill="#AA152F" /><rect x="0" y="12" width="48" height="24" fill="#F1BF00" /><rect x="0" y="36" width="48" height="12" fill="#AA152F" /></g><defs><clipPath id="circleClipES"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
+};
+
+const phraseFiles = {
+  de: 'phrases_de.json',
+  es: 'phrases_es.json'
+};
+
+const radioStationsConfig = {
+  de: [
+    {
+      category: 'radio',
+      title: 'Live Radio (Learners)',
+      stations: [
+        { id: 'dlf_nova', name: 'Deutschlandfunk Nova' },
+        { id: 'dlf_kultur', name: 'Deutschlandfunk Kultur' }
+      ]
+    },
+    {
+      category: 'radio',
+      title: 'Live Radio (Advanced)',
+      stations: [
+        { id: 'dlf', name: 'Deutschlandfunk' },
+        { id: 'wdr5', name: 'WDR 5' },
+        { id: 'br24', name: 'BR24' },
+        { id: 'ndr_info', name: 'NDR Info' }
+      ]
+    }
+  ],
+  es: [
+    {
+      category: 'radio',
+      title: 'Radio en Vivo (Noticias y Debate)',
+      stations: [
+        { id: 'ser', name: 'Cadena SER (Noticias y Debate)' },
+        { id: 'los40', name: 'LOS40 España (Música y Cultura)' }
+      ]
+    },
+    {
+      category: 'radio',
+      title: 'Radio en Vivo (Variedad y Cultura)',
+      stations: [
+        { id: 'dial', name: 'Cadena Dial (Música en Español)' },
+        { id: 'los40_classic', name: 'LOS40 Classic (Grandes Éxitos)' },
+        { id: 'radiole', name: 'Radiolé (Cultura y Música)' }
+      ]
+    }
+  ]
+};
 
 let quickLinks = [];
 let editingLinkId = null;
@@ -40,18 +93,138 @@ const dialogueYoutubeUrls = {
   dialogue_sit_8: 'https://www.youtube.com/watch?v=g2VKafYjUrw'
 };
 
-// Load phrases from JSON
-fetch('phrases.json')
-  .then(response => response.json())
-  .then(data => {
-    phrases = data;
-    init();
+function getPhraseText(phrase) {
+  if (!phrase) return '';
+  return phrase.german || phrase.spanish || '';
+}
+
+// Initial storage check & bootstrap
+chrome.storage.local.get(['targetLang'], (result) => {
+  if (result.targetLang) {
+    currentLang = result.targetLang;
+  }
+  updateLanguageUI();
+  fetch(phraseFiles[currentLang] || 'phrases_de.json')
+    .then(response => response.json())
+    .then(data => {
+      phrases = data;
+      init();
+    });
+});
+
+function updateAudioTabsVisibility() {
+  const isGerman = currentLang === 'de';
+  const audioTabsContainer = document.getElementById('audioTabs');
+  if (audioTabsContainer) {
+    audioTabsContainer.style.display = isGerman ? 'flex' : 'none';
+  }
+
+  const activeTabBtn = document.querySelector('.audio-tab.active');
+  if (!isGerman && activeTabBtn && (activeTabBtn.dataset.tab === 'levels' || activeTabBtn.dataset.tab === 'situations')) {
+    switchAudioTab('radio');
+  }
+}
+
+function renderRadioTrackListUI() {
+  updateAudioTabsVisibility();
+
+  const container = document.getElementById('radioCategoryContainer');
+  if (!container) return;
+
+  const currentTabBtn = document.querySelector('.audio-tab.active');
+  const activeTab = currentTabBtn ? currentTabBtn.dataset.tab : 'radio';
+
+  const configs = radioStationsConfig[currentLang] || radioStationsConfig.de;
+  let html = '';
+
+  configs.forEach(group => {
+    const isHidden = activeTab !== 'radio';
+    html += `<div class="audio-category ${isHidden ? 'hidden' : ''}" data-category="radio">
+      <div class="audio-category-title">${group.title}</div>`;
+    group.stations.forEach(st => {
+      html += `<button class="audio-track-btn" data-station="${st.id}">${st.name}</button>`;
+    });
+    html += `</div>`;
   });
+
+  container.innerHTML = html;
+  attachAudioTrackListeners();
+
+  const validStations = configs.flatMap(g => g.stations.map(s => s.id));
+  if (!validStations.includes(activeRadioStation) && !activeRadioStation.startsWith('dialogue_')) {
+    activeRadioStation = validStations[0] || (currentLang === 'es' ? 'ser' : 'dlf_nova');
+  }
+  setActiveTrack(activeRadioStation);
+}
+
+function handleAudioTrackClick(e) {
+  const station = e.currentTarget.dataset.station;
+  changeRadioStation(station);
+}
+
+function attachAudioTrackListeners() {
+  document.querySelectorAll('.audio-track-btn').forEach(btn => {
+    btn.removeEventListener('click', handleAudioTrackClick);
+    btn.addEventListener('click', handleAudioTrackClick);
+  });
+}
+
+function switchLanguage(lang) {
+  if (lang === currentLang) return;
+  
+  // Stop radio on language switch
+  if (isRadioPlaying) {
+    chrome.runtime.sendMessage({ target: 'background', type: 'pause' }, (response) => {
+      if (response && response.success) {
+        isRadioPlaying = false;
+        updateRadioUI(false);
+      }
+    });
+  }
+  
+  currentLang = lang;
+  chrome.storage.local.set({ targetLang: currentLang }, () => {
+    updateLanguageUI();
+    renderRadioTrackListUI();
+    fetch(phraseFiles[currentLang])
+      .then(response => response.json())
+      .then(data => {
+        phrases = data;
+        displayRandomPhrase();
+        loadFavoritesData();
+      });
+  });
+}
+
+function updateLanguageUI() {
+  document.querySelectorAll('.flag-stack-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
+}
 
 function init() {
   // Initialize favorite button state
   document.getElementById('favoriteBtn').classList.remove('favorited');
   
+  // Language Stack Listeners
+  const languageStack = document.getElementById('languageStack');
+  if (languageStack) {
+    languageStack.addEventListener('mouseleave', () => {
+      languageStack.classList.remove('collapsed');
+    });
+  }
+
+  document.querySelectorAll('.flag-stack-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const selectedLang = e.currentTarget.dataset.lang;
+      switchLanguage(selectedLang);
+      if (languageStack) {
+        languageStack.classList.add('collapsed');
+      }
+    });
+  });
+
   // Load saved level and topic
   chrome.storage.local.get(['selectedLevel', 'selectedTopic'], (result) => {
     if (result.selectedLevel) {
@@ -79,7 +252,6 @@ function init() {
         updateActiveLevel();
       }
     }
-    
     displayRandomPhrase();
     initSettings();
   });
@@ -205,12 +377,7 @@ function init() {
     }
   });
   
-  document.querySelectorAll('.audio-track-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const station = e.target.dataset.station;
-      changeRadioStation(station);
-    });
-  });
+  renderRadioTrackListUI();
 
   // Tab switching listeners
   document.querySelectorAll('.audio-tab').forEach(tab => {
@@ -256,6 +423,8 @@ function init() {
   chrome.runtime.onMessage.addListener((message) => {
     if (message.target === 'newtab' && message.type === 'audioState') {
       isAudioSeeking = !!message.seeking;
+      isRadioPlaying = !message.paused;
+      updateRadioUI(isRadioPlaying, message.loading);
       updatePlaybackProgress(message.currentTime, message.duration, message.paused);
     }
   });
@@ -290,13 +459,13 @@ function init() {
   document.addEventListener('click', (e) => {
     const favPopover = document.getElementById('favoritesPopover');
     const favTrigger = document.getElementById('favoritesBtn');
-    if (!favPopover.contains(e.target) && !favTrigger.contains(e.target)) {
+    if (favPopover && favTrigger && !favPopover.contains(e.target) && !favTrigger.contains(e.target)) {
       favPopover.classList.remove('active');
     }
 
     const radioPopover = document.getElementById('radioPopover');
     const radioTrigger = document.getElementById('radioBtn');
-    if (!radioPopover.contains(e.target) && !radioTrigger.contains(e.target)) {
+    if (radioPopover && radioTrigger && !radioPopover.contains(e.target) && !radioTrigger.contains(e.target)) {
       radioPopover.classList.remove('active');
     }
   });
@@ -396,12 +565,12 @@ function displayRandomPhrase() {
   
   chrome.storage.local.get(['shownPhrases', 'favorites'], (result) => {
     let shownPhrases = result.shownPhrases || {};
-    let shownKey = `${currentLevel}_${currentTopic}`;
+    let shownKey = `${currentLang}_${currentLevel}_${currentTopic}`;
     let shown = shownPhrases[shownKey] || [];
     
     // Get indices of filtered phrases in original array
     const originalIndices = levelPhrases.map(phrase => 
-      phrases[currentLevel].findIndex(p => p.german === phrase.german)
+      phrases[currentLevel].findIndex(p => getPhraseText(p) === getPhraseText(phrase))
     );
     
     // Reset if all phrases shown
@@ -425,11 +594,34 @@ function displayRandomPhrase() {
     chrome.storage.local.set({ shownPhrases });
     
     // Display phrase
-    document.getElementById('germanPhrase').textContent = currentPhrase.german;
+    document.getElementById('germanPhrase').textContent = getPhraseText(currentPhrase);
     document.getElementById('englishTranslation').textContent = currentPhrase.english;
     
     // Update favorite button
-    updateFavoriteButton(result.favorites || {});
+    getFavorites((favs) => updateFavoriteButton(favs));
+  });
+}
+
+function getFavorites(callback) {
+  const key = `favorites_${currentLang}`;
+  chrome.storage.local.get([key, 'favorites'], (result) => {
+    if (result[key]) {
+      callback(result[key]);
+    } else if (currentLang === 'de' && result.favorites) {
+      // Migrate legacy favorites to German
+      const legacy = result.favorites;
+      chrome.storage.local.set({ favorites_de: legacy });
+      callback(legacy);
+    } else {
+      callback({});
+    }
+  });
+}
+
+function saveFavorites(favorites, callback) {
+  const key = `favorites_${currentLang}`;
+  chrome.storage.local.set({ [key]: favorites }, () => {
+    if (callback) callback();
   });
 }
 
@@ -438,8 +630,7 @@ function toggleFavorite() {
   
   const phraseLevel = currentPhrase.level || currentLevel;
   
-  chrome.storage.local.get(['favorites'], (result) => {
-    let favorites = result.favorites || {};
+  getFavorites((favorites) => {
     if (!favorites[phraseLevel]) favorites[phraseLevel] = [];
     
     const index = currentPhrase.index;
@@ -451,7 +642,7 @@ function toggleFavorite() {
       favorites[phraseLevel].push(index);
     }
     
-    chrome.storage.local.set({ favorites }, () => {
+    saveFavorites(favorites, () => {
       updateFavoriteButton(favorites);
       loadFavoritesData();
     });
@@ -468,53 +659,7 @@ function updateFavoriteButton(favorites) {
 
 function toggleFavoritesPopover() {
   const popover = document.getElementById('favoritesPopover');
-  popover.classList.toggle('active');
-  
-  if (popover.classList.contains('active')) {
-    loadFavorites();
-  }
-}
-
-function loadFavorites() {
-  chrome.storage.local.get(['favorites'], (result) => {
-    const favorites = result.favorites || {};
-    const content = document.getElementById('favoritesContent');
-    
-    // Check if any favorites exist
-    const hasFavorites = Object.values(favorites).some(arr => arr.length > 0);
-    
-    if (!hasFavorites) {
-      content.innerHTML = '<div class="favorites-empty">No favorites yet</div>';
-      return;
-    }
-    
-    // Build favorites list grouped by level
-    let html = '';
-    ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
-      const levelFavorites = favorites[level] || [];
-      if (levelFavorites.length > 0) {
-        html += `<div class="favorite-level-group">`;
-        html += `<div class="favorite-level-title">${level}</div>`;
-        levelFavorites.forEach(index => {
-          const phrase = phrases[level][index];
-          html += `<div class="favorite-item" data-level="${level}" data-index="${index}">${phrase.german}</div>`;
-        });
-        html += `</div>`;
-      }
-    });
-    
-    content.innerHTML = html;
-    
-    // Add click listeners to favorite items
-    content.querySelectorAll('.favorite-item').forEach(item => {
-      item.addEventListener('click', () => {
-        const level = item.dataset.level;
-        const index = parseInt(item.dataset.index);
-        displaySpecificPhrase(level, index);
-        document.getElementById('favoritesPopover').classList.remove('active');
-      });
-    });
-  });
+  if (popover) popover.classList.toggle('active');
 }
 
 function displaySpecificPhrase(level, index) {
@@ -525,36 +670,20 @@ function displaySpecificPhrase(level, index) {
     level: level 
   };
   
-  document.getElementById('germanPhrase').textContent = currentPhrase.german;
+  document.getElementById('germanPhrase').textContent = getPhraseText(currentPhrase);
   document.getElementById('englishTranslation').textContent = currentPhrase.english;
   
   updateActiveLevel();
   
-  chrome.storage.local.get(['favorites'], (result) => {
-    updateFavoriteButton(result.favorites || {});
-  });
+  getFavorites((favs) => updateFavoriteButton(favs));
 }
 
 function playPronunciation() {
   if (!currentPhrase) return;
-  
-  // Cancel any ongoing speech
-  speechSynthesis.cancel();
-  
-  // Get the German text (remove example part if it exists)
-  let textToSpeak = currentPhrase.german;
-  
-  // For slang phrases with examples, extract just the main phrase
-  if (textToSpeak.includes('(z.B.')) {
-    textToSpeak = textToSpeak.split('(z.B.')[0].trim();
-  }
-  
-  const utterance = new SpeechSynthesisUtterance(textToSpeak);
-  utterance.lang = 'de-DE';
-  utterance.rate = 0.9; // Slightly slower for learning
-  
-  speechSynthesis.speak(utterance);
+  speakText(getPhraseText(currentPhrase));
 }
+  
+
 
 function toggleTranslation() {
   chrome.storage.local.get(['showTranslation'], (result) => {
@@ -605,51 +734,55 @@ function updateDarkMode(enabled) {
 }
 
 function exportFavorites() {
-  chrome.storage.local.get(['favorites', 'showTranslation'], (result) => {
-    const favorites = result.favorites || {};
-    const includeTranslations = result.showTranslation !== false; // default true
-    
-    // Check if there are any favorites
-    const hasFavorites = Object.values(favorites).some(arr => arr.length > 0);
-    if (!hasFavorites) {
-      alert('No favorites to export!');
-      return;
-    }
-    
-    // Build export text
-    let exportText = 'My German Favorites\n';
-    exportText += '===================\n\n';
-    
-    ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
-      const levelFavorites = favorites[level] || [];
-      if (levelFavorites.length > 0) {
-        exportText += `${level} Level (${levelFavorites.length} phrases)\n`;
-        exportText += '-'.repeat(30) + '\n';
-        
-        levelFavorites.forEach(index => {
-          const phrase = phrases[level][index];
-          exportText += `${phrase.german}\n`;
-          if (includeTranslations) {
-            exportText += `${phrase.english}\n`;
-          }
-          exportText += '\n';
-        });
-        
-        exportText += '\n';
+  getFavorites((favorites) => {
+    chrome.storage.local.get(['showTranslation'], (result) => {
+      const includeTranslations = result.showTranslation !== false; // default true
+      
+      // Check if there are any favorites
+      const hasFavorites = Object.values(favorites).some(arr => arr.length > 0);
+      if (!hasFavorites) {
+        alert('No favorites to export!');
+        return;
       }
+      
+      const langTitle = currentLang === 'es' ? 'Spanish' : 'German';
+      // Build export text
+      let exportText = `My ${langTitle} Favorites\n`;
+      exportText += '===================\n\n';
+      
+      ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
+        const levelFavorites = favorites[level] || [];
+        if (levelFavorites.length > 0) {
+          exportText += `${level} Level (${levelFavorites.length} phrases)\n`;
+          exportText += '-'.repeat(30) + '\n';
+          
+          levelFavorites.forEach(index => {
+            if (phrases[level] && phrases[level][index]) {
+              const phrase = phrases[level][index];
+              exportText += `${getPhraseText(phrase)}\n`;
+              if (includeTranslations) {
+                exportText += `${phrase.english}\n`;
+              }
+              exportText += '\n';
+            }
+          });
+          
+          exportText += '\n';
+        }
+      });
+      
+      // Create download
+      const blob = new Blob([exportText], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const suffix = includeTranslations ? 'with-translations' : 'phrases-only';
+      a.download = `${currentLang}-favorites-${suffix}-${new Date().toISOString().split('T')[0]}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     });
-    
-    // Create download
-    const blob = new Blob([exportText], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    const suffix = includeTranslations ? 'with-translations' : 'german-only';
-    a.download = `german-favorites-${suffix}-${new Date().toISOString().split('T')[0]}.txt`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   });
 }
 
@@ -659,20 +792,29 @@ function toggleRadioPopover() {
   popover.classList.toggle('active');
 }
 
-function updateRadioUI(playing) {
+function updateRadioUI(playing, loading = false) {
   const playIcon = document.querySelector('.play-icon');
   const pauseIcon = document.querySelector('.pause-icon');
+  const spinnerIcon = document.querySelector('.loading-spinner');
   const radioBtn = document.getElementById('radioBtn');
   const radioAnimation = document.getElementById('radioAnimation');
   
-  if (playing) {
+  if (loading) {
+    playIcon.classList.add('hidden');
+    pauseIcon.classList.add('hidden');
+    if (spinnerIcon) spinnerIcon.classList.remove('hidden');
+    radioBtn.classList.remove('playing');
+    radioAnimation.classList.remove('playing');
+  } else if (playing) {
     playIcon.classList.add('hidden');
     pauseIcon.classList.remove('hidden');
+    if (spinnerIcon) spinnerIcon.classList.add('hidden');
     radioBtn.classList.add('playing');
     radioAnimation.classList.add('playing');
   } else {
     playIcon.classList.remove('hidden');
     pauseIcon.classList.add('hidden');
+    if (spinnerIcon) spinnerIcon.classList.add('hidden');
     radioBtn.classList.remove('playing');
     radioAnimation.classList.remove('playing');
   }
@@ -1480,8 +1622,7 @@ function loadRightSidebarData() {
 }
 
 function loadFavoritesData() {
-  chrome.storage.local.get(['favorites'], (result) => {
-    const favorites = result.favorites || {};
+  getFavorites((favorites) => {
     cachedFavoriteItems = [];
 
     ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
@@ -1492,7 +1633,7 @@ function loadFavoritesData() {
           cachedFavoriteItems.push({
             level: level,
             index: index,
-            german: phrase.german,
+            german: getPhraseText(phrase),
             english: phrase.english
           });
         }
@@ -1682,19 +1823,20 @@ function speakText(text) {
   let textToSpeak = text;
   if (textToSpeak.includes('(z.B.')) {
     textToSpeak = textToSpeak.split('(z.B.')[0].trim();
+  } else if (textToSpeak.includes('(ej.')) {
+    textToSpeak = textToSpeak.split('(ej.')[0].trim();
   }
   const utterance = new SpeechSynthesisUtterance(textToSpeak);
-  utterance.lang = 'de-DE';
+  utterance.lang = currentLang === 'es' ? 'es-ES' : 'de-DE';
   utterance.rate = 0.9;
   speechSynthesis.speak(utterance);
 }
 
 function removeFavoriteItem(level, index) {
-  chrome.storage.local.get(['favorites'], (result) => {
-    let favorites = result.favorites || {};
+  getFavorites((favorites) => {
     if (favorites[level]) {
       favorites[level] = favorites[level].filter(i => i !== index);
-      chrome.storage.local.set({ favorites }, () => {
+      saveFavorites(favorites, () => {
         updateFavoriteButton(favorites);
         loadFavoritesData();
       });

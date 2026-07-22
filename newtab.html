@@ -10,20 +10,30 @@
 
 <body>
   <div class="container">
-    <div class="flag">
-      <svg width="36" height="36" viewBox="0 0 48 48">
-        <circle cx="24" cy="24" r="24" fill="#fff" />
-        <g clip-path="url(#circleClip)">
-          <rect x="0" y="0" width="48" height="16" fill="#000" />
-          <rect x="0" y="16" width="48" height="16" fill="#DD0000" />
-          <rect x="0" y="32" width="48" height="16" fill="#FFCE00" />
-        </g>
-        <defs>
-          <clipPath id="circleClip">
-            <circle cx="24" cy="24" r="23" />
-          </clipPath>
-        </defs>
-      </svg>
+    <div class="language-stack" id="languageStack">
+      <button class="flag-stack-btn active" data-lang="de" id="langBtnDE" data-tooltip="German">
+        <svg width="36" height="36" viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="24" fill="#fff" />
+          <g clip-path="url(#circleClipDE_stack)">
+            <rect x="0" y="0" width="48" height="16" fill="#000" />
+            <rect x="0" y="16" width="48" height="16" fill="#DD0000" />
+            <rect x="0" y="32" width="48" height="16" fill="#FFCE00" />
+          </g>
+          <defs><clipPath id="circleClipDE_stack"><circle cx="24" cy="24" r="23" /></clipPath></defs>
+        </svg>
+      </button>
+
+      <button class="flag-stack-btn" data-lang="es" id="langBtnES" data-tooltip="Spanish">
+        <svg width="36" height="36" viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="24" fill="#fff" />
+          <g clip-path="url(#circleClipES_stack)">
+            <rect x="0" y="0" width="48" height="12" fill="#AA152F" />
+            <rect x="0" y="12" width="48" height="24" fill="#F1BF00" />
+            <rect x="0" y="36" width="48" height="12" fill="#AA152F" />
+          </g>
+          <defs><clipPath id="circleClipES_stack"><circle cx="24" cy="24" r="23" /></clipPath></defs>
+        </svg>
+      </button>
     </div>
 
     <div class="top-controls">
@@ -279,18 +289,7 @@
         </div>
 
         <div id="audioTrackList" class="audio-track-list">
-          <div class="audio-category" data-category="radio">
-            <div class="audio-category-title">Live Radio (Learners)</div>
-            <button class="audio-track-btn" data-station="dlf_nova">Deutschlandfunk Nova</button>
-            <button class="audio-track-btn" data-station="dlf_kultur">Deutschlandfunk Kultur</button>
-          </div>
-          <div class="audio-category" data-category="radio">
-            <div class="audio-category-title">Live Radio (Advanced)</div>
-            <button class="audio-track-btn" data-station="dlf">Deutschlandfunk</button>
-            <button class="audio-track-btn" data-station="wdr5">WDR 5</button>
-            <button class="audio-track-btn" data-station="br24">BR24</button>
-            <button class="audio-track-btn" data-station="ndr_info">NDR Info</button>
-          </div>
+          <div id="radioCategoryContainer"></div>
           <div class="audio-category hidden" data-category="levels">
             <div class="audio-category-title">Dialogues (A1-B2)</div>
             <button class="audio-track-btn" data-station="dialogue_level_0">A1.1 - Simple German Conversation</button>
@@ -339,6 +338,9 @@
               <svg class="pause-icon hidden" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none">
                 <rect x="5" y="4" width="4" height="16" rx="1"></rect>
                 <rect x="15" y="4" width="4" height="16" rx="1"></rect>
+              </svg>
+              <svg class="loading-spinner hidden" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
               </svg>
             </button>
             <button class="radio-control-btn" id="radioPrevBtn" data-tooltip="Previous station">
