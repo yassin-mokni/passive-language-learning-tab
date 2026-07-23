@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Learn languages naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day. Currently supporting German, Spanish, French, and Arabic!</strong>
+  <strong>Learn languages naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day. Currently supporting German, Spanish, French, and Arabic</strong>
 </p>
 
 <p align="center">
