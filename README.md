@@ -1,11 +1,11 @@
-# Passive Language Learning New Tab - German
+# Passive Language Learning New Tab
 
 <p align="center">
   <img src="logo.png" alt="Passive Language Learning New Tab Logo" width="128">
 </p>
 
 <p align="center">
-  <strong>Learn German naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day.</strong>
+  <strong>Learn languages naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day. Currently supporting German, Spanish, French, and Arabic!</strong>
 </p>
 
 <p align="center">
@@ -20,10 +20,10 @@
 As a heavy browser user, you open dozens of tabs daily. Instead of staring at a blank page, use those micro-moments for language learning. Passive exposure improves vocabulary retention and language familiarity without the pressure of formal study sessions.
 
 ## Features
-- **CEFR Level System (A0-C2):** 578+ phrases ranging from beginner (A1) and slang (A0) to advanced academic language (C2).
-- **9 Contextual Topics:** Everyday life, travel, food, work, housing, and more.
+- **CEFR Level System (A0-C2):** 560+ phrases per language ranging from beginner (A1) and slang (A0) to advanced academic language (C2).
+- **4 Languages:** German 🇩🇪, Spanish 🇪🇸, French 🇫🇷, and Arabic 🇦🇪 (with RTL support).
 - **Offline Dialogues:** Listen to 17 structured conversations for different levels and everyday situations.
-- **Live German Radio:** Tune into level-appropriate German talk and news stations right in the extension.
+- **Live Radio:** Tune into level-appropriate talk and news radio stations native to your target language.
 - **Smart Learning Tools:** Save favorites, export phrases, and use the built-in Native Audio pronunciation.
 - **Minimalist Design:** Clean interface that doesn't distract or impact browser performance.
 - **Keyboard Shortcuts:** Built for power users (`Space` for next phrase, `R` for radio, `F` for favorites).
