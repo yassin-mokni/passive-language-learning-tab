@@ -1,0 +1,4087 @@
+{
+    "A0": [
+        {
+            "arabic": "المتأنق / الرجل (على سبيل المثال، يا صاح، هذا جنون!)",
+            "english": "Dude / Man (e.g., Dude, that's crazy!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "مجنون / رائع (على سبيل المثال، كان هذا جنونًا حقًا!)",
+            "english": "Crazy / Awesome (e.g., That was really crazy!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رائع / رائع (على سبيل المثال، كان الحفل رائعًا جدًا!)",
+            "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "أن تشعر (على سبيل المثال، هل تشعر بالرغبة في الذهاب إلى السينما؟)",
+            "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "لا رغبة (على سبيل المثال، ليس لدي رغبة في العمل)",
+            "english": "No desire (e.g., I have no desire to work)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الأمور تسير على ما يرام بالنسبة لك (على سبيل المثال، سيارة جديدة؟ الأمور تسير على ما يرام!)",
+            "english": "Things are going well for you (e.g., New car? Things are going well!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "المتأنق / إخوانه (على سبيل المثال، يا صاح، ما الأمر؟)",
+            "english": "Dude / Bro (e.g., Dude, what's up?)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للاسترخاء (على سبيل المثال، دعونا نهدأ اليوم)",
+            "english": "To chill (e.g., Let's chill today)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للاحتفال بشدة (على سبيل المثال، سنحتفل بشدة اليوم!)",
+            "english": "To party hard (e.g., We're gonna party hard today!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رائع / مذهل (على سبيل المثال، كان الفيلم رائعًا!)",
+            "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "ممتاز / حقًا (على سبيل المثال، هذا رائع جدًا!)",
+            "english": "Super / Really (e.g., That's super cool!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "تمامًا / حقًا (على سبيل المثال، هذا جيد حقًا!)",
+            "english": "Totally / Really (e.g., That's really good!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "حقًا؟ / بجد؟ (على سبيل المثال، لقد فزت؟ بجدية؟)",
+            "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "لا مشكلة (على سبيل المثال، شكرًا! - لا مشكلة!)",
+            "english": "No problem (e.g., Thanks! - No problem!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "اعتني بنفسك (على سبيل المثال، وداعًا، اعتني بنفسك!)",
+            "english": "Take care (e.g., Bye, take care!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "حسنًا / يبدو الأمر جيدًا (على سبيل المثال، نلتقي في الساعة 8؟ - يبدو جيدًا!)",
+            "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الأمور تسير على ما يرام (على سبيل المثال، كيف تسير الأمور؟ - كل شيء على ما يرام!)",
+            "english": "It's going well (e.g., How's it going? - All good!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "لا أهتم (على سبيل المثال، ماذا تريد أن تأكل؟ - لا أهتم)",
+            "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "هراء / هراء (على سبيل المثال، هذا هراء!)",
+            "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "اللعنة / حماقة (على سبيل المثال، اللعنة، لقد نسيت!)",
+            "english": "Damn / Crap (e.g., Damn, I forgot!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "القرف (على سبيل المثال، القرف، هذا مؤلم!)",
+            "english": "Shit (e.g., Shit, that hurts!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رجل / الجيز (على سبيل المثال، يا رجل، كان ذلك قريبًا!)",
+            "english": "Man / Geez (e.g., Man, that was close!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "مرحبًا (على سبيل المثال، مرحبًا، انتظر!)",
+            "english": "Hey (e.g., Hey, wait up!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الرجل / المتأنق (على سبيل المثال، هذا الرجل غريب)",
+            "english": "Guy / Dude (e.g., That guy is weird)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الفرخ (مهين قليلاً) (على سبيل المثال، هذا الفرخ مزعج)",
+            "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للنوم (على سبيل المثال، أريد فقط أن أنام)",
+            "english": "To sleep (e.g., I just want to sleep)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "المال / العجين (على سبيل المثال، لم يبق لدي مال)",
+            "english": "Money / Dough (e.g., I have no money left)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "أن أكون مفلسًا (على سبيل المثال، أنا مفلس تمامًا)",
+            "english": "To be broke (e.g., I'm totally broke)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للعب (على سبيل المثال، هيا نلعب!)",
+            "english": "To game (e.g., Let's game!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "التحدث بالهراء (على سبيل المثال، ما الذي تتحدث عنه؟)",
+            "english": "To talk nonsense (e.g., What are you talking about?)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للدردشة (بالألمانية الشمالية) (على سبيل المثال، تعال لنتحدث)",
+            "english": "To chat (Northern German) (e.g., Come, let's chat)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للدردشة (على سبيل المثال، تحدثنا لساعات)",
+            "english": "To chat (e.g., We chatted for hours)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الموسيقى (على سبيل المثال، قم بتشغيل بعض الموسيقى!)",
+            "english": "Music (e.g., Put some music on!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "الصديق / الرفيق (على سبيل المثال، هذا صديقي)",
+            "english": "Buddy / Mate (e.g., That's my buddy)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "شخص مربع / ممل (على سبيل المثال، لا تكن مثل هذا المربع!)",
+            "english": "Square / Boring person (e.g., Don't be such a square!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "شخص تافه (على سبيل المثال، يتصرف مثل القمامة)",
+            "english": "Trashy person (e.g., He acts like trash)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "أن تكون رائعًا (على سبيل المثال، الحفلة على وشك الانتهاء!)",
+            "english": "To be awesome (e.g., The party is really going off!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رائع / رائع (على سبيل المثال، هذا رائع!)",
+            "english": "Cool / Awesome (e.g., That's awesome!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رائع / أنيق (قديم الطراز) (على سبيل المثال، أعتقد أن هذا رائع!)",
+            "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "عظيم / منتفخ (قديم الطراز) (على سبيل المثال، هذا منتفخ!)",
+            "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "فاخر / أنيق (على سبيل المثال، تبدو أنيقًا اليوم!)",
+            "english": "Fancy / Chic (e.g., You look fancy today!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "رائع جدًا (على سبيل المثال، كان الحفل رائعًا!)",
+            "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "جيد حقًا (على سبيل المثال، الطعام كان جيدًا حقًا!)",
+            "english": "Really good (e.g., The food was really good!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "مجنون / مجنون (على سبيل المثال، هذا مجنون!)",
+            "english": "Crazy / Insane (e.g., That's crazy!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "بعيدًا / رائع جدًا (على سبيل المثال، القصة بعيدة تمامًا)",
+            "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للتحول إلى البرية (على سبيل المثال، اليوم سنتحول إلى البرية!)",
+            "english": "To go wild (e.g., Today we're going wild!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "للاحتفال/العيش (على سبيل المثال، دعونا نعيش ذلك!)",
+            "english": "To party / Live it up (e.g., Let's live it up!)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "على السحابة التاسعة (على سبيل المثال، أنا على السحابة التاسعة)",
+            "english": "On cloud nine (e.g., I'm on cloud nine)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "أن يكون لدي مخلفات (على سبيل المثال، لدي مخلفات)",
+            "english": "To have a hangover (e.g., I have a hangover)",
+            "tags": [
+                "slang"
+            ]
+        },
+        {
+            "arabic": "أن يكون في حالة سكر (على سبيل المثال، كان في حالة سكر تماما بالأمس)",
+            "english": "To be drunk (e.g., He was totally drunk yesterday)",
+            "tags": [
+                "slang"
+            ]
+        }
+    ],
+    "A1": [
+        {
+            "arabic": "صباح الخير",
+            "english": "Good morning",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ما اسمك؟",
+            "english": "What's your name?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "اسمي آنا",
+            "english": "My name is Anna",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "كيف حالك؟",
+            "english": "How are you?",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا بخير",
+            "english": "I'm doing well",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "شكراً جزيلاً",
+            "english": "Thank you very much",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "على الرحب والسعة",
+            "english": "You're welcome",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "مع السلامة",
+            "english": "Goodbye",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "طاب مساؤك",
+            "english": "Good night",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "نعم من فضلك",
+            "english": "Yes, please",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لا، شكرا لك",
+            "english": "No, thank you",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "اعذرني",
+            "english": "Excuse me",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لا أفهم",
+            "english": "I don't understand",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أين الحمام؟",
+            "english": "Where is the bathroom?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لقد جئت من ألمانيا",
+            "english": "I come from Germany",
+            "tags": [
+                "social",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أنا متعب",
+            "english": "I am tired",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا جائع",
+            "english": "I am hungry",
+            "tags": [
+                "everyday",
+                "food"
+            ]
+        },
+        {
+            "arabic": "أنا عطشان",
+            "english": "I am thirsty",
+            "tags": [
+                "everyday",
+                "food"
+            ]
+        },
+        {
+            "arabic": "كم تكلفة هذا؟",
+            "english": "How much does this cost?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أريد الماء",
+            "english": "I would like water",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أين تعيش؟",
+            "english": "Where do you live?",
+            "tags": [
+                "social",
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أنا أعيش في برلين",
+            "english": "I live in Berlin",
+            "tags": [
+                "social",
+                "housing"
+            ]
+        },
+        {
+            "arabic": "كم عمرك؟",
+            "english": "How old are you?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "عمري 25 سنة",
+            "english": "I am 25 years old",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "هذا صديقي",
+            "english": "This is my friend",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أحبك",
+            "english": "I love you",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أراك لاحقًا",
+            "english": "See you later",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "نراكم غدا",
+            "english": "See you tomorrow",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أتمنى لك عطلة نهاية أسبوع لطيفة",
+            "english": "Have a nice weekend",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "حظ سعيد",
+            "english": "Good luck",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أتمنى لك كل خير",
+            "english": "All the best",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "تهانينا",
+            "english": "Congratulations",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أتمنى لك وجبة شهية",
+            "english": "Enjoy your meal",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هتافات",
+            "english": "Cheers",
+            "tags": [
+                "food",
+                "social"
+            ]
+        },
+        {
+            "arabic": "بارك الله فيك",
+            "english": "Bless you",
+            "tags": [
+                "everyday",
+                "health"
+            ]
+        },
+        {
+            "arabic": "أنا أتكلم الألمانية",
+            "english": "I speak German",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هل تتكلم بالإنجليزية؟",
+            "english": "Do you speak English?",
+            "tags": [
+                "everyday",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أنا أتعلم اللغة الألمانية",
+            "english": "I am learning German",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا جميل",
+            "english": "That is beautiful",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هو جيد",
+            "english": "That is good",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أحب ذلك",
+            "english": "I like that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا أحب البيتزا",
+            "english": "I like pizza",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أي ساعة؟",
+            "english": "What time is it?",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إنها الساعة الثالثة",
+            "english": "It is three o'clock",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "اليوم هو الاثنين",
+            "english": "Today is Monday",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الطقس جميل",
+            "english": "The weather is nice",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إنها تمطر",
+            "english": "It's raining",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الجو بارد",
+            "english": "It is cold",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إنه دافئ",
+            "english": "It is warm",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا سعيد",
+            "english": "I am happy",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أبحث عن شقة",
+            "english": "I'm looking for an apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "كم هو الإيجار؟",
+            "english": "How much is the rent?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أين السوبر ماركت؟",
+            "english": "Where is the supermarket?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أريد شراء هذا",
+            "english": "I want to buy this",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل هذا للبيع؟",
+            "english": "Is this on sale?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "انا بحاجة الى مساعدة",
+            "english": "I need help",
+            "tags": [
+                "everyday",
+                "health"
+            ]
+        },
+        {
+            "arabic": "أشعر بالمرض",
+            "english": "I feel sick",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أين المستشفى؟",
+            "english": "Where is the hospital?",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "لدي ألم",
+            "english": "I have pain",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "الغرفة كبيرة",
+            "english": "The room is big",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل يمكنني تجربة هذا؟",
+            "english": "Can I try this on?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أين غرفة القياس؟",
+            "english": "Where is the fitting room?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أريد الخبز",
+            "english": "I would like a bread",
+            "tags": [
+                "food",
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "طعم الطعام جيد",
+            "english": "The food tastes good",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أنا أشرب القهوة",
+            "english": "I drink coffee",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أين يقع الفندق؟",
+            "english": "Where is the hotel?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى سيارة أجرة",
+            "english": "I need a taxi",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "كم تكلفة التذكرة؟",
+            "english": "How much does the ticket cost?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "الشقة صغيرة",
+            "english": "The apartment is small",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أنا أدفع نقدا",
+            "english": "I pay cash",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هذا كبير جدًا",
+            "english": "That is too big",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أحب أكل الفاكهة",
+            "english": "I like to eat fruit",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أين هو الخروج؟",
+            "english": "Where is the exit?",
+            "tags": [
+                "travel"
+            ]
+        }
+    ],
+    "A2": [
+        {
+            "arabic": "هل يمكنك مساعدتي؟",
+            "english": "Can you help me?",
+            "tags": [
+                "everyday",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أريد القهوة",
+            "english": "I would like a coffee",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أين يمكنني شراء هذا؟",
+            "english": "Where can I buy this?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أنا أبحث عن محطة القطار",
+            "english": "I'm looking for the train station",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "متى يغادر القطار؟",
+            "english": "When does the train depart?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لدي سؤال",
+            "english": "I have a question",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهذا مكلف للغاية",
+            "english": "That is too expensive",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل لديك هذا في حجم آخر؟",
+            "english": "Do you have this in another size?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أود أن أدفع",
+            "english": "I would like to pay",
+            "tags": [
+                "shopping",
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل تقبل بطاقات الائتمان؟",
+            "english": "Do you accept credit cards?",
+            "tags": [
+                "shopping",
+                "food"
+            ]
+        },
+        {
+            "arabic": "لقد ضاعت",
+            "english": "I got lost",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك تكرار ذلك؟",
+            "english": "Can you repeat that?",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "من فضلك تكلم ببطء أكثر",
+            "english": "Please speak more slowly",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا لا أفهم القائمة",
+            "english": "I don't understand the menu",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "بماذا تنصح؟",
+            "english": "What do you recommend?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "لدي حساسية من المكسرات",
+            "english": "I'm allergic to nuts",
+            "tags": [
+                "food",
+                "health"
+            ]
+        },
+        {
+            "arabic": "الفاتورة من فضلك",
+            "english": "The bill, please",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "كان الطعام لذيذا",
+            "english": "The food was delicious",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أعمل كمدرس",
+            "english": "I work as a teacher",
+            "tags": [
+                "work",
+                "social"
+            ]
+        },
+        {
+            "arabic": "ماذا تفعل من أجل العمل؟",
+            "english": "What do you do for work?",
+            "tags": [
+                "work",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا أدرس الطب",
+            "english": "I study medicine",
+            "tags": [
+                "work",
+                "social"
+            ]
+        },
+        {
+            "arabic": "لدي موعد",
+            "english": "I have an appointment",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "متى يكون لديك الوقت؟",
+            "english": "When do you have time?",
+            "tags": [
+                "social",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "دعونا نلتقي لاحقا",
+            "english": "Let's meet later",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا متأخر",
+            "english": "I'm running late",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "آسف للتأخير",
+            "english": "Sorry for the delay",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "لا مشكلة",
+            "english": "No problem",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا لا يهم",
+            "english": "That doesn't matter",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا أتطلع لذلك",
+            "english": "I'm looking forward to it",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "كان ذلك يوما جميلا",
+            "english": "That was a nice day",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "لدي رشح",
+            "english": "I have a cold",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "رأسي يؤلمني",
+            "english": "My head hurts",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى طبيب",
+            "english": "I need a doctor",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أين أقرب صيدلية ؟",
+            "english": "Where is the nearest pharmacy?",
+            "tags": [
+                "health",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لدى حمى",
+            "english": "I have a fever",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "نتمنى لك الشفاء العاجل",
+            "english": "Get well soon",
+            "tags": [
+                "health",
+                "social"
+            ]
+        },
+        {
+            "arabic": "لا بد لي من العودة إلى المنزل",
+            "english": "I have to go home",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "سوف نرى بعضنا البعض قريبا",
+            "english": "We'll see each other soon",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "هل لديك إخوة؟",
+            "english": "Do you have siblings?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "لدي أخ",
+            "english": "I have a brother",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "عائلتي كبيرة",
+            "english": "My family is big",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "ما هي هواياتك؟",
+            "english": "What are your hobbies?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أحب أن ألعب كرة القدم",
+            "english": "I like to play soccer",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أحب قراءة الكتب",
+            "english": "I like to read books",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أحب الاستماع إلى الموسيقى",
+            "english": "I like to listen to music",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "ما هي الموسيقى التي تحبها؟",
+            "english": "What music do you like?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا أحب موسيقى الروك والبوب",
+            "english": "I like rock and pop",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "هل تحب الذهاب إلى السينما؟",
+            "english": "Do you like going to the cinema?",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "كان الفيلم مثيرا للاهتمام",
+            "english": "The movie was interesting",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أخذت الحافلة",
+            "english": "I took the bus",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أرغب في معاينة الشقة",
+            "english": "I would like to view the apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "متى تكون الشقة متاحة؟",
+            "english": "When is the apartment available?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل مسموح بالحيوانات الأليفة؟",
+            "english": "Are pets allowed?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل يوجد مصعد؟",
+            "english": "Is there an elevator?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل يمكنني الدفع عن طريق البطاقة؟",
+            "english": "Can I pay by card?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل لديك إيصال؟",
+            "english": "Do you have a receipt?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "وأود أن تبادل هذا",
+            "english": "I would like to exchange this",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أين أجد الخبز؟",
+            "english": "Where can I find bread?",
+            "tags": [
+                "shopping",
+                "food"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى وصفة طبية",
+            "english": "I need a prescription",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "لدي سعال",
+            "english": "I have a cough",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك أن تصف لي شيئا؟",
+            "english": "Can you prescribe me something?",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "عندي حساسية من البنسلين",
+            "english": "I'm allergic to penicillin",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "متى تفتح الصيدلية؟",
+            "english": "When is the pharmacy open?",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "الشقة بها غرفتين",
+            "english": "The apartment has two rooms",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أنا أبحث عن غرفة واحدة",
+            "english": "I'm looking for a single room",
+            "tags": [
+                "housing",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "المطبخ حديث",
+            "english": "The kitchen is modern",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أين يقع أقرب جهاز صراف آلي؟",
+            "english": "Where is the nearest ATM?",
+            "tags": [
+                "shopping",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل لديك حجم أصغر؟",
+            "english": "Do you have a smaller size?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أود أن أعود هذا",
+            "english": "I would like to return this",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أين يمكنني أن أجد الحليب؟",
+            "english": "Where can I find milk?",
+            "tags": [
+                "shopping",
+                "food"
+            ]
+        },
+        {
+            "arabic": "أنا لا آكل اللحوم",
+            "english": "I don't eat meat",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "الفطور جاهز",
+            "english": "Breakfast is ready",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أريد الشاي",
+            "english": "I would like a tea",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أين المنصة؟",
+            "english": "Where is the platform?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لقد نسيت جواز سفري",
+            "english": "I forgot my passport",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "متى تأتي الحافلة؟",
+            "english": "When does the bus come?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى تذكرة",
+            "english": "I need a ticket",
+            "tags": [
+                "travel"
+            ]
+        }
+    ],
+    "B1": [
+        {
+            "arabic": "أود حجز طاولة",
+            "english": "I would like to reserve a table",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل يمكن أن تشرح لي الطريقة؟",
+            "english": "Could you explain the way to me?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أنا مهتم بالتاريخ",
+            "english": "I'm interested in history",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "في رأيي، هذا مهم",
+            "english": "In my opinion, that is important",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لدي رأي مختلف",
+            "english": "I have a different opinion",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "هذا يعتمد",
+            "english": "That depends",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وأنا أتفق مع ذلك",
+            "english": "I agree with that",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أنا ضد ذلك",
+            "english": "I'm against it",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "ما رأيك في ذلك؟",
+            "english": "What do you think about it?",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "لقد فكرت في ذلك",
+            "english": "I've thought about it",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا لا معنى له",
+            "english": "That doesn't make sense",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك شرح ذلك بمزيد من التفصيل؟",
+            "english": "Can you explain that in more detail?",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "لقد اعتدت على ذلك",
+            "english": "I've gotten used to it",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إنه أمر صعب بالنسبة لي",
+            "english": "It's difficult for me",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا أبذل قصارى جهدي",
+            "english": "I'm trying my best",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "ذلك يعتمد على ذلك",
+            "english": "It depends on that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "بقدر ما أعرف",
+            "english": "As far as I know",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لست متأكدا",
+            "english": "I'm not sure",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "اسمحوا لي أن أفكر في ذلك",
+            "english": "Let me think about it",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أخطط للسفر إلى إيطاليا",
+            "english": "I plan to travel to Italy",
+            "tags": [
+                "travel",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا أتطلع إلى العطلات",
+            "english": "I'm looking forward to the holidays",
+            "tags": [
+                "everyday",
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أنا نادم على قراري",
+            "english": "I regret my decision",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وكان ذلك سوء فهم",
+            "english": "That was a misunderstanding",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "لقد كنت مخطئا",
+            "english": "I was wrong",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنت على حق",
+            "english": "You're right",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا ليس صحيحا تماما",
+            "english": "That's not quite right",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أنا مندهش",
+            "english": "I'm surprised",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا أمر لا يصدق",
+            "english": "That's unbelievable",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أشعر بخيبة أمل",
+            "english": "I'm disappointed",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا يجعلني غاضبا",
+            "english": "That makes me angry",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا متحمس",
+            "english": "I'm enthusiastic",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذا محرج بالنسبة لي",
+            "english": "That's embarrassing for me",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أشعر بالخجل",
+            "english": "I'm ashamed",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا فخور بك",
+            "english": "I'm proud of you",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا آسف بصدق",
+            "english": "I'm sincerely sorry",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أنا أعتذر",
+            "english": "I apologize",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أنا أسامحكم",
+            "english": "I forgive you",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "دعونا ننسى ذلك",
+            "english": "Let's forget about that",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "أفتقدك",
+            "english": "I miss you",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "كثيرا ما أفكر فيك",
+            "english": "I often think of you",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "يجب أن نبقى على اتصال",
+            "english": "We should stay in touch",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "لم أسمع منك منذ وقت طويل",
+            "english": "I haven't heard from you in a long time",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "كيف تسير الأمور بالنسبة لك؟",
+            "english": "How are things going for you?",
+            "tags": [
+                "everyday",
+                "social"
+            ]
+        },
+        {
+            "arabic": "لدي الكثير للقيام به",
+            "english": "I have a lot to do",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا متوتر",
+            "english": "I'm stressed",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "انا بحاجة الى استراحة",
+            "english": "I need a break",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا مرهق",
+            "english": "I'm exhausted",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "انا بحاجة للراحة",
+            "english": "I need to rest",
+            "tags": [
+                "everyday",
+                "health"
+            ]
+        },
+        {
+            "arabic": "كان ذلك مرهقًا",
+            "english": "That was exhausting",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أشعر بتحسن",
+            "english": "I feel better",
+            "tags": [
+                "everyday",
+                "health"
+            ]
+        },
+        {
+            "arabic": "أبحث عن شقة مفروشة",
+            "english": "I'm looking for a furnished apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل المرافق مشمولة؟",
+            "english": "Are utilities included?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "كم هي الوديعة؟",
+            "english": "How much is the deposit?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل هناك غسالة؟",
+            "english": "Is there a washing machine?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أود استرداد",
+            "english": "I would like a refund",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "المنتج معيب",
+            "english": "The product is defective",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل لديك هذا في المخزون؟",
+            "english": "Do you have this in stock?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل هناك ضمان؟",
+            "english": "Is there a warranty?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "لدي موعد مع الطبيب",
+            "english": "I have a doctor's appointment",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "منذ متى ظهرت عليك الأعراض؟",
+            "english": "Since when have you had the symptoms?",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أتناول الدواء بانتظام",
+            "english": "I take medication regularly",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى مذكرة مرضية",
+            "english": "I need a sick note",
+            "tags": [
+                "health",
+                "work"
+            ]
+        },
+        {
+            "arabic": "بطاقة التأمين الخاصة بي",
+            "english": "My insurance card",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "المالك لم يستجب بعد",
+            "english": "The landlord hasn't responded yet",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أنا نباتي",
+            "english": "I'm vegetarian",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل هناك خيارات نباتية؟",
+            "english": "Are there vegetarian options?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "الطعام مالح جداً",
+            "english": "The food is too salty",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أود القائمة",
+            "english": "I would like the menu",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك أن توصي بالطبق؟",
+            "english": "Can you recommend the dish?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أود حجز غرفة",
+            "english": "I would like to book a room",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل يتضمن ذلك  الإفطار؟",
+            "english": "Is breakfast included?",
+            "tags": [
+                "travel",
+                "food"
+            ]
+        },
+        {
+            "arabic": "متى يتم تسجيل الخروج؟",
+            "english": "When is check-out?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل يوجد واي فاي في الفندق؟",
+            "english": "Is there WiFi in the hotel?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لقد فقدت حجزي",
+            "english": "I lost my reservation",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أين يمكنني ترك أمتعتي؟",
+            "english": "Where can I leave my luggage?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "كيف أصل إلى المطار؟",
+            "english": "How do I get to the airport?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أبحث عن شقة مشتركة",
+            "english": "I'm looking for a shared apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "كم هي تكاليف الكهرباء؟",
+            "english": "How much are the electricity costs?",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "الشرفة مشمسة",
+            "english": "The balcony is sunny",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى مكان لوقوف السيارات",
+            "english": "I need a parking space",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هل هناك خصم؟",
+            "english": "Is there a discount?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل يمكنني حجز هذا؟",
+            "english": "Can I reserve this?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "متى سيتم تسليم هذا؟",
+            "english": "When will this be delivered?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "سأطلب نفس الشيء",
+            "english": "I'll order the same",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك جعلها حارة؟",
+            "english": "Can you make it spicy?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أريد الحلوى",
+            "english": "I would like a dessert",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "لقد أصبح الطعام باردًا",
+            "english": "The food has gotten cold",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أود أن تحقق في",
+            "english": "I would like to check in",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل لديك خريطة للمدينة؟",
+            "english": "Do you have a city map?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أين المعلومات السياحية؟",
+            "english": "Where is the tourist information?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "فقدت تذكرتي",
+            "english": "I lost my ticket",
+            "tags": [
+                "travel"
+            ]
+        }
+    ],
+    "B2": [
+        {
+            "arabic": "وأنا مع الرأي القائل بأنه يجب علينا أن نتحرك",
+            "english": "I am of the opinion that we must act",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ومن الواضح أن شيئا ما يجب أن يتغير",
+            "english": "It's obvious that something must change",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أود أن أشير إلى نقطة مهمة",
+            "english": "I would like to point out an important point",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "وهذا يثير السؤال",
+            "english": "That raises the question",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وعلى النقيض من ذلك",
+            "english": "In contrast to that",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "من ناحية أفهم ذلك، ومن ناحية أخرى",
+            "english": "On the one hand I understand that, on the other hand",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لا يمكن إنكار ذلك",
+            "english": "That cannot be denied",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ليس هناك شك في ذلك",
+            "english": "There is no doubt about it",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وأنا على قناعة راسخة بذلك",
+            "english": "I am firmly convinced of that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهذا يلعب دورا هاما",
+            "english": "That plays an important role",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يجب علينا أن نزن الإيجابيات والسلبيات",
+            "english": "We must weigh the pros and cons",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ولهذا عواقب بعيدة المدى",
+            "english": "That has far-reaching consequences",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أود أن أنظر إلى ذلك من منظور مختلف",
+            "english": "I would like to look at that from a different perspective",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ذلك يعتمد على عوامل مختلفة",
+            "english": "That depends on various factors",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "في ظل هذه الظروف",
+            "english": "Under these circumstances",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "بشرط ذلك",
+            "english": "Provided that",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "في حال كان ينبغي أن يكون الأمر كذلك",
+            "english": "In case that should be the case",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "على افتراض أن لدينا المزيد من الوقت",
+            "english": "Assuming we had more time",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لكان من الأفضل لو",
+            "english": "It would have been better if",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لو كنت أعرف ذلك",
+            "english": "Had I known that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "كنت سأتصرف بشكل مختلف",
+            "english": "I would have acted differently",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وكان من الممكن تجنب ذلك",
+            "english": "That could have been avoided",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "في الماضي",
+            "english": "In retrospect",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إذا نظرنا إلى الوراء، أستطيع أن أقول",
+            "english": "Looking back, I can say",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لقد كانت تلك تجربة قيمة",
+            "english": "That was a valuable experience",
+            "tags": [
+                "everyday",
+                "work"
+            ]
+        },
+        {
+            "arabic": "لقد تعلمت من ذلك",
+            "english": "I learned from that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لقد غير ذلك وجهة نظري",
+            "english": "That changed my perspective",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لقد توصلت إلى هذه النتيجة",
+            "english": "I have come to the conclusion",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وخلاصة القول يمكن أن يقال",
+            "english": "In summary, it can be said",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "وفي الختام، أود أن أؤكد",
+            "english": "In conclusion, I would like to emphasize",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "المشكلة الرئيسية هي",
+            "english": "The main problem is",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "التحدي يكمن في",
+            "english": "The challenge lies in",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "من الصعب التقييم",
+            "english": "It's difficult to assess",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لا يمكن للمرء التعميم",
+            "english": "One cannot generalize",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذه مسألة معقدة",
+            "english": "That is a complex matter",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هناك طرق مختلفة",
+            "english": "There are different approaches",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "سيكون الحل المحتمل",
+            "english": "A possible solution would be",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وعلينا أن نفكر في خيارات بديلة",
+            "english": "We should consider alternative options",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "وهذا يتطلب دراسة متأنية",
+            "english": "That requires careful consideration",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أنا أميل إلى الاعتقاد",
+            "english": "I am inclined to believe",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يبدو لي كما لو",
+            "english": "It seems to me as if",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "بقدر ما أستطيع الحكم",
+            "english": "As far as I can judge",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "حسب فهمي",
+            "english": "According to my understanding",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أفترض ذلك",
+            "english": "I assume that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ومن المفترض أن",
+            "english": "It is to be assumed that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الاحتمال مرتفع",
+            "english": "The probability is high",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ومن غير المرجح أن",
+            "english": "It is unlikely that",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يبدو ذلك منطقيًا بالنسبة لي",
+            "english": "That seems logical to me",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهذا منطقي تمامًا",
+            "english": "That makes perfect sense",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أستطيع أن أفهم لماذا",
+            "english": "I can understand why",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "أرغب في إنهاء عقد الإيجار",
+            "english": "I would like to terminate the lease",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "فترة الإخطار هي ثلاثة أشهر",
+            "english": "The notice period is three months",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "هناك أضرار المياه في الشقة",
+            "english": "There is water damage in the apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "التدفئة لا تعمل",
+            "english": "The heating doesn't work",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أرغب في تقديم شكوى",
+            "english": "I would like to file a complaint",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هذا لا يتطابق مع الوصف",
+            "english": "This doesn't match the description",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "أنا أصر على حقي في العودة",
+            "english": "I insist on my right of return",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك تأكيد ذلك كتابيا؟",
+            "english": "Can you confirm that in writing?",
+            "tags": [
+                "shopping",
+                "work"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى إحالة إلى أخصائي",
+            "english": "I need a referral to a specialist",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "ما هي الآثار الجانبية للدواء؟",
+            "english": "What side effects does the medication have?",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أود الحصول على رأي ثان",
+            "english": "I would like to get a second opinion",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "العلاج مشمول بالتأمين الصحي",
+            "english": "The treatment is covered by health insurance",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "أعاني من آلام الظهر المزمنة",
+            "english": "I have chronic back pain",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "سيتم تسليم الشقة الأسبوع المقبل",
+            "english": "The apartment handover takes place next week",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "لدي عدم تحمل الطعام",
+            "english": "I have a food intolerance",
+            "tags": [
+                "food",
+                "health"
+            ]
+        },
+        {
+            "arabic": "هل يحتوي الطبق على الغلوتين؟",
+            "english": "Does the dish contain gluten?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أريد طاولة بجانب النافذة",
+            "english": "I would like a table by the window",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "لا يتم طهي اللحم من خلال",
+            "english": "The meat is not cooked through",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك تقسيم الفاتورة؟",
+            "english": "Could you split the bill?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أرغب في إلغاء حجزي",
+            "english": "I would like to cancel my booking",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "هل هناك رسوم إلغاء؟",
+            "english": "Are there cancellation fees?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "تم إلغاء رحلتي",
+            "english": "My flight was cancelled",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "لقد فاتني رحلتي المتصلة",
+            "english": "I missed my connecting flight",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أين تقع بوابة الصعود؟",
+            "english": "Where is the boarding gate?",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أمتعتي لم تصل",
+            "english": "My luggage didn't arrive",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى تأمين السفر",
+            "english": "I need travel insurance",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "المعالم السياحية على مسافة قريبة",
+            "english": "The sights are within walking distance",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أرغب في تأجير الشقة من الباطن",
+            "english": "I would like to sublet the apartment",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "عقد الإيجار على وشك الانتهاء",
+            "english": "The lease is expiring",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "الشقة ذات جدران رقيقة",
+            "english": "The apartment has thin walls",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "يحق لي الحصول على تخفيض الإيجار",
+            "english": "I'm entitled to a rent reduction",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أود أن أطلب عبر الإنترنت",
+            "english": "I would like to order online",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "تأخر التسليم",
+            "english": "The delivery is delayed",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "وصلتني البضائع الخاطئة",
+            "english": "I received the wrong goods",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "هل يمكنني الدفع بالتقسيط؟",
+            "english": "Can I pay in installments?",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "المكونات إقليمية",
+            "english": "The ingredients are regional",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أفضّل المنتجات العضوية",
+            "english": "I prefer organic products",
+            "tags": [
+                "food",
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "الطبق محلي الصنع",
+            "english": "The dish is homemade",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هل يمكنك أن توصي بالوصفة؟",
+            "english": "Can you recommend the recipe?",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أرغب في إعادة حجز رحلتي",
+            "english": "I would like to rebook my flight",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "تم تأجيل الرحلة",
+            "english": "The trip was postponed",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أحتاج إلى تأشيرة",
+            "english": "I need a visa",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "الإقامة لا تلبي التوقعات",
+            "english": "The accommodation doesn't meet expectations",
+            "tags": [
+                "travel"
+            ]
+        }
+    ],
+    "C1": [
+        {
+            "arabic": "وقد وصلت المناقشة إلى بعد جديد",
+            "english": "The discussion has reached a new dimension",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "وهذا يثير أسئلة جوهرية",
+            "english": "That raises fundamental questions",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يجب علينا تحليل الأسباب الأساسية",
+            "english": "We must analyze the underlying causes",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ومن الضروري أن نتصرف",
+            "english": "It is imperative that we act",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الوضع معقد للغاية",
+            "english": "The situation is extremely complex",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وينبغي للمرء أن ينظر في السياق التاريخي",
+            "english": "One should consider the historical context",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهو ما يتناقض مع التصريحات السابقة",
+            "english": "That contradicts previous statements",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الحجة بها ثغرات كبيرة",
+            "english": "The argumentation has significant gaps",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "هناك نقص في الأدلة التجريبية",
+            "english": "There is a lack of empirical evidence",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "وتقدم الدراسة نتائج ثاقبة",
+            "english": "The study provides insightful findings",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ولا يمكن تفسير هذه الظاهرة بشكل واضح",
+            "english": "The phenomenon cannot be clearly explained",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هناك علاقة سببية",
+            "english": "There is a causal relationship",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "العلاقة ذات دلالة إحصائية",
+            "english": "The correlation is statistically significant",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ويجب التمييز بين الارتباط والسببية",
+            "english": "One must distinguish between correlation and causation",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "المنهجية مشكوك فيها",
+            "english": "The methodology is questionable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "والنتيجة ليست قابلة للتعميم",
+            "english": "The result is not generalizable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "هناك حاجة إلى مزيد من البحث",
+            "english": "Further research is needed",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن التداعيات بعيدة المدى",
+            "english": "The implications are far-reaching",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ولهذا آثار عميقة",
+            "english": "That has profound effects",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "نحن نواجه تحولا نموذجيا",
+            "english": "We are facing a paradigm shift",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "النظرية غير قابلة للاستمرار",
+            "english": "The theory is not tenable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الحجة قاطعة",
+            "english": "The argument is conclusive",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الأدلة ساحقة",
+            "english": "The evidence is overwhelming",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هناك شكوك مشروعة",
+            "english": "There are legitimate doubts",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ولا يمكن رفض الانتقادات",
+            "english": "The criticism cannot be dismissed",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ولا يمكن دحض ذلك بسهولة",
+            "english": "That cannot be easily refuted",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الادعاء يفتقر إلى أي أساس",
+            "english": "The claim lacks any foundation",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هذه أطروحة جريئة",
+            "english": "That is a bold thesis",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الاستنتاج سابق لأوانه",
+            "english": "The conclusion is premature",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ينبغي للمرء أن يكون حذرا مع التعميمات",
+            "english": "One should be cautious with generalizations",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "المعضلة واضحة",
+            "english": "The dilemma is obvious",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "نجد أنفسنا في مأزق",
+            "english": "We find ourselves in a predicament",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الوضع يتطلب نهجا دقيقا",
+            "english": "The situation requires a nuanced approach",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "من الضروري إيجاد حل وسط",
+            "english": "It is necessary to find a compromise",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "المصالح غير متوافقة",
+            "english": "The interests are incompatible",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهذا يشكل تحديات كبيرة بالنسبة لنا",
+            "english": "That poses great challenges for us",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "التطور مثير للقلق",
+            "english": "The development is alarming",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هناك اتجاه آخذ في الظهور",
+            "english": "A trend is emerging",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الاتجاه واضح",
+            "english": "The tendency is clear",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "وهذا يشير إلى مشاكل أعمق",
+            "english": "That indicates deeper problems",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الأسباب متعددة الأوجه",
+            "english": "The causes are multifaceted",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إنها مشكلة هيكلية",
+            "english": "It is a structural problem",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "التدابير غير كافية",
+            "english": "The measures fall short",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "هناك حاجة إلى تغيير جذري",
+            "english": "A fundamental change is required",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لقد طال انتظار الإصلاح",
+            "english": "The reform is long overdue",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "النظام لم يعد معاصرا",
+            "english": "The system is no longer contemporary",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يجب علينا أن نفتح آفاقا جديدة",
+            "english": "We must break new ground",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "هذا النهج مبتكر",
+            "english": "The approach is innovative",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "المفهوم تطلعي",
+            "english": "The concept is forward-looking",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الرؤية طموحة ولكنها قابلة للتحقيق",
+            "english": "The vision is ambitious but achievable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "تنطبق مراقبة الإيجار في هذه المنطقة",
+            "english": "The rent control applies in this area",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "سوق الإسكان ضيق",
+            "english": "The housing market is tight",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "ويزداد مؤشر الإيجار سنويا",
+            "english": "The index rent increases annually",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أنا أمارس مطالبة الضمان الخاصة بي",
+            "english": "I am exercising my warranty claim",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "وينص قانون حماية المستهلك",
+            "english": "The consumer protection law stipulates",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "مدة الإلغاء أربعة عشر يومًا",
+            "english": "The cancellation period is fourteen days",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "يتطلب التشخيص المزيد من الفحوصات",
+            "english": "The diagnosis requires further examinations",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "والتكهن متفائل بحذر",
+            "english": "The prognosis is cautiously optimistic",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "التدابير الوقائية ضرورية",
+            "english": "Preventive measures are essential",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "يُظهر العلاج نجاحًا أوليًا",
+            "english": "The therapy is showing initial success",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "مطلوب علاج المرضى الداخليين",
+            "english": "Inpatient treatment is required",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "وتقدم جمعية المستأجرين المشورة في مثل هذه الحالات",
+            "english": "The tenants' association advises in such cases",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "تنوع الطهي رائع",
+            "english": "The culinary diversity is remarkable",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "يتميز المطبخ الإقليمي بالأصالة",
+            "english": "The regional cuisine is characterized by authenticity",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "التحضير يتطلب براعة",
+            "english": "The preparation requires craftsmanship",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "يتناغم النبيذ بشكل مثالي مع القائمة",
+            "english": "The wine pairing harmonizes perfectly with the menu",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "لقد تطور مشهد تذوق الطعام بقوة",
+            "english": "The gastronomic scene has developed strongly",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "تساهم السياحة بشكل كبير في الاقتصاد",
+            "english": "Tourism contributes significantly to the economy",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "البنية التحتية متطورة بشكل جيد",
+            "english": "The infrastructure is well developed",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "تواجه صناعة السفر تحديات",
+            "english": "The travel industry faces challenges",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "السياحة المستدامة تكتسب أهمية",
+            "english": "Sustainable tourism is gaining importance",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "الإثراء الثقافي لا يمكن إنكاره",
+            "english": "The cultural enrichment is undeniable",
+            "tags": [
+                "travel",
+                "social"
+            ]
+        },
+        {
+            "arabic": "العلاقات الشخصية معقدة",
+            "english": "Interpersonal relationships are complex",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "وقد زاد القبول الاجتماعي",
+            "english": "Social acceptance has increased",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "الحراك الاجتماعي محدود",
+            "english": "Social mobility is limited",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "ويتفاقم النقص في المساكن",
+            "english": "The housing shortage is worsening",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "أسعار الإيجارات ترتفع بشكل غير متناسب",
+            "english": "Rent prices are rising disproportionately",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "سياسة الإسكان مثيرة للجدل",
+            "english": "Housing policy is controversial",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "كفاءة الطاقة غير كافية",
+            "english": "Energy efficiency is inadequate",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "التجزئة تحت الضغط",
+            "english": "Retail is under pressure",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "التجارة الإلكترونية تحل محل المتاجر التقليدية",
+            "english": "E-commerce is displacing traditional stores",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "تعطلت سلسلة التوريد",
+            "english": "The supply chain is disrupted",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "تلعب الاستدامة دورًا مركزيًا",
+            "english": "Sustainability plays a central role",
+            "tags": [
+                "shopping",
+                "food"
+            ]
+        },
+        {
+            "arabic": "هدر الطعام يمثل مشكلة",
+            "english": "Food waste is problematic",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "عادات الأكل تتغير",
+            "english": "Eating habits are changing",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "تكتسب الحركة النباتية زخما",
+            "english": "The vegan movement is gaining momentum",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "أصل المنتجات شفاف",
+            "english": "The origin of products is transparent",
+            "tags": [
+                "food",
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "السياحة المفرطة تثقل كاهل المدن",
+            "english": "Overtourism burdens cities",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "تم تخفيف قيود السفر",
+            "english": "Travel restrictions have been eased",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "يؤثر خجل الطيران على سلوك السفر",
+            "english": "Flight shame influences travel behavior",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "الرقمنة تغير صناعة السفر",
+            "english": "Digitalization is changing the travel industry",
+            "tags": [
+                "travel"
+            ]
+        }
+    ],
+    "C2": [
+        {
+            "arabic": "إن غموض المصطلح يعقد التعريف الدقيق",
+            "english": "The ambiguity of the term complicates a precise definition",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن الانقسام بين النظرية والتطبيق واضح",
+            "english": "The dichotomy between theory and practice is evident",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "المفارقة تكمن في طبيعة الأمر",
+            "english": "The paradox lies in the nature of the matter",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "فرضية الحجة قابلة للطعن",
+            "english": "The premise of the argument is contestable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إنها حشو",
+            "english": "It is a tautology",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الخطاب يحجب المشكلة الفعلية",
+            "english": "The rhetoric obscures the actual problem",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "تعتمد دلالات التعبير على السياق",
+            "english": "The semantics of the expression is context-dependent",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "تبقى المشكلة المعرفية دون حل",
+            "english": "The epistemological problem remains unsolved",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الآثار الوجودية كبيرة",
+            "english": "The ontological implications are considerable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن تفسير النص يتطلب خبرة",
+            "english": "The hermeneutics of the text requires expertise",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "تتجلى جدلية التنوير هنا",
+            "english": "The dialectic of enlightenment manifests itself here",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "هذه الظاهرة تستعصي على تفسير أحادي السبب",
+            "english": "The phenomenon eludes a monocausal explanation",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "لا ينبغي الاستهانة بتعقيد الأمر",
+            "english": "The complexity of the matter is not to be underestimated",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "مطلوب نهج متعدد التخصصات",
+            "english": "An interdisciplinary approach is required",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن تقارب العوامل المختلفة أمر حاسم",
+            "english": "The convergence of various factors is decisive",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الاختلاف في الآراء لا يمكن تجاوزه",
+            "english": "The divergence of opinions is unbridgeable",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يشكل السرد الإدراك الجماعي",
+            "english": "The narrative shapes collective perception",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يكشف تحليل الخطاب عن هياكل السلطة الخفية",
+            "english": "Discourse analysis reveals hidden power structures",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن هيمنة النموذج السائد هشة",
+            "english": "The hegemony of the prevailing paradigm is fragile",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "من الضروري تفكيك المفاهيم الراسخة",
+            "english": "The deconstruction of established concepts is necessary",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ثبت أن هذه الفرضية لا يمكن الدفاع عنها",
+            "english": "The postulate proves to be untenable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "لا يمكن التحقق من الفرضية تجريبيا",
+            "english": "The hypothesis cannot be empirically verified",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ولا يزال تزوير النظرية معلقًا",
+            "english": "The falsification of the theory is still pending",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "بديهيات النظام غير متناسقة",
+            "english": "The axioms of the system are inconsistent",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ويتم ضمان تماسك الحجة",
+            "english": "The coherence of the argumentation is ensured",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن صرامة الإثبات لافتة للنظر",
+            "english": "The stringency of the proof is remarkable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن معقولية الأطروحة موضع شك",
+            "english": "The plausibility of the thesis is to be doubted",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "صحة الطريقة متنازع عليها",
+            "english": "The validity of the method is disputed",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "موثوقية البيانات مشكوك فيها",
+            "english": "The reliability of the data is questionable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "لم يتم إعطاء موضوعية التحليل",
+            "english": "The objectivity of the analysis is not given",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ذاتية الإدراك أمر لا مفر منه",
+            "english": "The subjectivity of perception is inevitable",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إن نسبية الحقيقة لها أهمية فلسفية",
+            "english": "The relativity of truth is philosophically significant",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "يتم التشكيك في مطلقية المبادئ الأخلاقية",
+            "english": "The absoluteness of moral principles is questioned",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "إن طوارئ التطورات التاريخية واضحة",
+            "english": "The contingency of historical developments is evident",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "لا يزال الجدل حول الحتمية قائمًا",
+            "english": "The determinism debate is still current",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن غائية الطبيعة هي إسقاط مجسم",
+            "english": "The teleology of nature is an anthropomorphic projection",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن ظهور أنظمة معقدة أمر رائع",
+            "english": "The emergence of complex systems is fascinating",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن اختزال التفسيرات البسيطة لا ينصف الأمر",
+            "english": "The reduction to simple explanations does not do justice to the matter",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "ومن المرغوب فيه تجميع النهج المتباينة",
+            "english": "The synthesis of diverging approaches is desirable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "إن نقيض وجهة النظر المشتركة هو أمر استفزازي",
+            "english": "The antithesis to the common view is provocative",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "لقد تغير دلالة المصطلح",
+            "english": "The connotation of the term has changed",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "لكن الدلالة تظل ثابتة",
+            "english": "The denotation, however, remains constant",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "فالالتباس يؤدي إلى سوء الفهم",
+            "english": "The equivocation leads to misunderstandings",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الدقة في المصطلحات أمر لا غنى عنه",
+            "english": "The precision of terminology is indispensable",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "الفروق الدقيقة في البيان مهمة",
+            "english": "The nuancing of the statement is significant",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "التمييز بين المفاهيم دقيق",
+            "english": "The differentiation between the concepts is subtle",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "هذا التشبيه يعرج عند نقطة حاسمة",
+            "english": "The analogy limps at a crucial point",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "الاستعارة مضيئة ولكن لا ينبغي أن تؤخذ حرفيا",
+            "english": "The metaphor is illuminating but not to be taken literally",
+            "tags": [
+                "work",
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "يشير الرمز إلى مستوى أعمق من المعنى",
+            "english": "The allegory refers to a deeper level of meaning",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "arabic": "ولا يمكن التغاضي عن المفارقة في هذا الوضع",
+            "english": "The irony of the situation cannot be overlooked",
+            "tags": [
+                "everyday"
+            ]
+        },
+        {
+            "arabic": "عملية التحسين في الحي تتقدم",
+            "english": "The gentrification of the neighborhood is progressing",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "ويؤدي نقص المساكن إلى تفاقم الفوارق الاجتماعية",
+            "english": "The housing shortage exacerbates social disparities",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "دوامة أسعار الإيجارات بالكاد قابلة للكسر",
+            "english": "The rent price spiral is hardly breakable",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "سلوك المستهلك يشهد تحولا نموذجيا",
+            "english": "Consumer behavior is undergoing a paradigm shift",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "يتم إحداث التقادم عمدا",
+            "english": "The obsolescence is deliberately induced",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "تحول سوق المشتري إلى سوق البائع",
+            "english": "The buyer's market has turned into a seller's market",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "التسبب في المرض متعدد العوامل",
+            "english": "The pathogenesis of the disease is multifactorial",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "المسببات لا تزال غير واضحة إلى حد كبير",
+            "english": "The etiology remains largely unclear",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "الأعراض غير محددة",
+            "english": "The symptomatology is nonspecific",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "يشار إلى توضيح التشخيص التفاضلي",
+            "english": "A differential diagnostic clarification is indicated",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "الاعتلال المصاحب يعقد العلاج",
+            "english": "The comorbidity complicates the treatment",
+            "tags": [
+                "health"
+            ]
+        },
+        {
+            "arabic": "قانون الإيجار هو مجال قانوني معقد",
+            "english": "Tenancy law is a complex legal area",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "تجارب تذوق الطعام الطليعية مع المطبخ الجزيئي",
+            "english": "The gastronomic avant-garde experiments with molecular cuisine",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "الخصائص الحسية استثنائية",
+            "english": "The sensory properties are exceptional",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "التخمير يعطي تعقيد المنتج",
+            "english": "Fermentation gives the product complexity",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "تشكل فلسفة terroir ثقافة النبيذ",
+            "english": "The terroir philosophy shapes wine culture",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "السياحة الجماعية لها عواقب بيئية",
+            "english": "Mass tourism has ecological consequences",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "السياحة تغير الهياكل الحضرية",
+            "english": "Touristification changes urban structures",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "الأصالة تفسح المجال بشكل متزايد للتسويق",
+            "english": "Authenticity increasingly gives way to commercialization",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "أصبح التنقل امتيازا",
+            "english": "Mobility has become a privilege",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "ويتآكل التماسك الاجتماعي بشكل واضح",
+            "english": "Social cohesion is visibly eroding",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "إن تجزئة المجتمع تتقدم",
+            "english": "The fragmentation of society is progressing",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "الاستقطاب ظاهرة واسعة النطاق في المجتمع",
+            "english": "Polarization is a society-wide phenomenon",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "الاغتراب هو أحد أعراض الحداثة",
+            "english": "Alienation is a symptom of modernity",
+            "tags": [
+                "social"
+            ]
+        },
+        {
+            "arabic": "مسألة السكن هي مسألة اجتماعية",
+            "english": "The housing question is a social question",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "المضاربة تدفع أسعار العقارات",
+            "english": "Speculation drives real estate prices",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "يتجلى الفصل مكانيا",
+            "english": "Segregation manifests itself spatially",
+            "tags": [
+                "housing"
+            ]
+        },
+        {
+            "arabic": "النزعة الاستهلاكية تشكل المجتمع",
+            "english": "Consumerism shapes society",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "يتغلغل التسويق في جميع مجالات الحياة",
+            "english": "Commercialization permeates all areas of life",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "صنم السلع موجود في كل مكان",
+            "english": "Commodity fetishism is omnipresent",
+            "tags": [
+                "shopping"
+            ]
+        },
+        {
+            "arabic": "السيادة الغذائية في خطر",
+            "english": "Food sovereignty is endangered",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "إن التصنيع الزراعي له عواقب",
+            "english": "The industrialization of agriculture has consequences",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "هوية الطهي تتآكل",
+            "english": "Culinary identity is eroding",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "العولمة تجانس الثقافة الغذائية",
+            "english": "Globalization homogenizes food culture",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "arabic": "السياحة ظاهرة متناقضة",
+            "english": "Tourism is an ambivalent phenomenon",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "إن تغريب الآخر أمر إشكالي",
+            "english": "The exoticization of the Other is problematic",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "يتم توزيع التنقل بشكل غير متساو",
+            "english": "Mobility is unequally distributed",
+            "tags": [
+                "travel"
+            ]
+        },
+        {
+            "arabic": "حرية السفر هي امتياز",
+            "english": "Freedom to travel is a privilege",
+            "tags": [
+                "travel"
+            ]
+        }
+    ]
+}

@@ -2345,6 +2345,13 @@ body.dark-mode .favorite-sidebar-item:hover {
   text-overflow: ellipsis;
 }
 
+.rtl-text {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Amiri', 'Cairo', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
 .favorite-sidebar-english {
   font-size: 11px;
   color: var(--text-secondary);
