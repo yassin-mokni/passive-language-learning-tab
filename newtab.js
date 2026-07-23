@@ -1373,7 +1373,8 @@ let userSettings = {
   quickLinks: true,
   favorites: true,
   recentTabs: true,
-  bookmarks: false
+  bookmarks: false,
+  splashBg: true
 };
 let activeSidebarTab = 'favorites'; // 'favorites', 'recent', or 'bookmarks'
 let cachedFavoriteItems = [];
@@ -1387,6 +1388,7 @@ function initSettings() {
     }
     applyUserSettingsUI();
     loadRightSidebarData();
+    setupSplashBackground();
   });
 
   // Settings Modal Controls
@@ -1419,6 +1421,12 @@ function initSettings() {
   const settingFavorites = document.getElementById('settingFavorites');
   const settingRecentTabs = document.getElementById('settingRecentTabs');
   const settingBookmarks = document.getElementById('settingBookmarks');
+  const settingSplashBg = document.getElementById('settingSplashBg');
+  const refreshBgBtn = document.getElementById('refreshBgBtn');
+
+  if (refreshBgBtn) {
+    refreshBgBtn.addEventListener('click', refreshSplashBackground);
+  }
 
   if (settingQuickLinks) {
     settingQuickLinks.addEventListener('change', (e) => {
@@ -1443,6 +1451,13 @@ function initSettings() {
       if (!userSettings.recentTabs && activeSidebarTab === 'recent') {
         activeSidebarTab = userSettings.favorites ? 'favorites' : (userSettings.bookmarks ? 'bookmarks' : 'favorites');
       }
+      saveUserSettings();
+    });
+  }
+
+  if (settingSplashBg) {
+    settingSplashBg.addEventListener('change', (e) => {
+      userSettings.splashBg = e.target.checked;
       saveUserSettings();
     });
   }
@@ -1554,11 +1569,26 @@ function applyUserSettingsUI() {
   const settingFavorites = document.getElementById('settingFavorites');
   const settingRecentTabs = document.getElementById('settingRecentTabs');
   const settingBookmarks = document.getElementById('settingBookmarks');
+  const settingSplashBg = document.getElementById('settingSplashBg');
+  const refreshBgBtn = document.getElementById('refreshBgBtn');
 
   if (settingQuickLinks) settingQuickLinks.checked = userSettings.quickLinks;
   if (settingFavorites) settingFavorites.checked = userSettings.favorites;
   if (settingRecentTabs) settingRecentTabs.checked = userSettings.recentTabs;
   if (settingBookmarks) settingBookmarks.checked = userSettings.bookmarks;
+  if (settingSplashBg) settingSplashBg.checked = userSettings.splashBg;
+
+  // Toggle Splash Background
+  const splashBackground = document.getElementById('splashBackground');
+  if (splashBackground) {
+    if (userSettings.splashBg) {
+      splashBackground.classList.add('active');
+      if (refreshBgBtn) refreshBgBtn.classList.remove('hidden');
+    } else {
+      splashBackground.classList.remove('active');
+      if (refreshBgBtn) refreshBgBtn.classList.add('hidden');
+    }
+  }
 
   // Toggle Quick Links Dock visibility
   const quickLinksDock = document.getElementById('quickLinksDock');
@@ -1927,8 +1957,52 @@ function getDomainName(urlStr) {
     const url = new URL(urlStr);
     return url.hostname.replace(/^www\./, '');
   } catch (e) {
-    return urlStr;
+    return new URL(urlStr).hostname;
   }
+}
+
+// ----------------------------------------------------------------------
+// Splash Background Logic
+// ----------------------------------------------------------------------
+function setupSplashBackground() {
+  chrome.storage.local.get(['splashSeed', 'splashTimestamp'], (result) => {
+    const now = new Date().getTime();
+    let seed = result.splashSeed;
+    let timestamp = result.splashTimestamp || 0;
+
+    // Generate a new seed every 24 hours (86400000 ms)
+    if (!seed || (now - timestamp) > 86400000) {
+      seed = Math.random().toString(36).substring(2, 10);
+      chrome.storage.local.set({ splashSeed: seed, splashTimestamp: now });
+    }
+
+    applySplashBackgroundSeed(seed);
+  });
+}
+
+function applySplashBackgroundSeed(seed) {
+  const splashBackground = document.getElementById('splashBackground');
+  if (splashBackground) {
+    // 1920x1080 for HD
+    splashBackground.style.backgroundImage = `url('https://picsum.photos/seed/${seed}/1920/1080')`;
+  }
+}
+
+function refreshSplashBackground() {
+  const btn = document.getElementById('refreshBgBtn');
+  if (btn) btn.classList.add('spin');
+  
+  const newSeed = Math.random().toString(36).substring(2, 10);
+  const now = new Date().getTime();
+  
+  chrome.storage.local.set({ splashSeed: newSeed, splashTimestamp: now }, () => {
+    applySplashBackgroundSeed(newSeed);
+    
+    // Remove spin animation class after 500ms
+    setTimeout(() => {
+      if (btn) btn.classList.remove('spin');
+    }, 500);
+  });
 }
 
 function escapeHtml(str) {

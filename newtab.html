@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <div id="splashBackground" class="splash-bg"></div>
+
   <div class="container">
     <div class="language-stack" id="languageStack">
       <button class="flag-stack-btn active" data-lang="de" id="langBtnDE" data-tooltip="German">
@@ -211,6 +213,20 @@
               <input type="checkbox" id="settingQuickLinks" checked>
               <span class="slider"></span>
             </label>
+          </div>
+
+          <div class="setting-item">
+            <div class="setting-info">
+              <span class="setting-title">Splash Background</span>
+              <span class="setting-desc">Show a daily beautiful photo background</span>
+            </div>
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <button id="refreshBgBtn" class="refresh-bg-btn" title="Get a new random image">↻</button>
+              <label class="toggle-switch">
+                <input type="checkbox" id="settingSplashBg" checked>
+                <span class="slider"></span>
+              </label>
+            </div>
           </div>
 
           <div class="setting-item">
