@@ -1882,7 +1882,19 @@ function speakText(text) {
     ja: 'ja-JP'
   };
   
-  utterance.lang = langMap[currentLang] || 'de-DE';
+  const targetLang = langMap[currentLang] || 'de-DE';
+  utterance.lang = targetLang;
+  
+  // Actively find the perfect high-quality voice
+  const voices = speechSynthesis.getVoices();
+  const langVoices = voices.filter(v => v.lang.startsWith(targetLang.split('-')[0]));
+  
+  if (langVoices.length > 0) {
+    // Google voices on Chrome are the high-quality cloud/neural voices. We prioritize them!
+    const perfectVoice = langVoices.find(v => v.name.includes('Google')) || langVoices[0];
+    utterance.voice = perfectVoice;
+  }
+
   utterance.rate = 0.9;
   speechSynthesis.speak(utterance);
 }
