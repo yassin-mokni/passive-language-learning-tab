@@ -112,9 +112,16 @@ body {
 }
 
 /* Force decreasing z-index so flags to the right tuck UNDER the flags to their left */
-.flag-stack-btn:nth-child(1) { z-index: 3; }
-.flag-stack-btn:nth-child(2) { z-index: 2; }
-.flag-stack-btn:nth-child(3) { z-index: 1; }
+.flag-stack-btn:nth-child(1) { z-index: 9; }
+.flag-stack-btn:nth-child(2) { z-index: 8; }
+.flag-stack-btn:nth-child(3) { z-index: 7; }
+.flag-stack-btn:nth-child(4) { z-index: 6; }
+.flag-stack-btn:nth-child(5) { z-index: 5; }
+.flag-stack-btn:nth-child(6) { z-index: 4; }
+.flag-stack-btn:nth-child(7) { z-index: 3; }
+.flag-stack-btn:nth-child(8) { z-index: 2; }
+.flag-stack-btn:nth-child(9) { z-index: 1; }
+.flag-stack-btn:nth-child(10) { z-index: 0; }
 
 /* Expanded State: On hover (unless temporarily collapsed by click), flags fan out horizontally */
 .language-stack:hover:not(.collapsed) .flag-stack-btn:not(.active) {

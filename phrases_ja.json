@@ -1,0 +1,4087 @@
+{
+  "A0": [
+    {
+      "japanese": "男 / 男 (例: 男、それはクレイジーです!)",
+      "english": "Dude / Man (e.g., Dude, that's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クレイジー / 素晴らしい (例: あれは本当にクレイジーでした!)",
+      "english": "Crazy / Awesome (e.g., That was really crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "素晴らしい / クール (例: コンサートはとても素晴らしかったです!)",
+      "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "（例：映画に行きたい気分ですか？）",
+      "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "意欲がない（例：働きたいわけではない）",
+      "english": "No desire (e.g., I have no desire to work)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "あなたにとって物事は順調に進んでいます (例: 新しい車ですか? 物事は順調です!)",
+      "english": "Things are going well for you (e.g., New car? Things are going well!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "おい / 仲間 (例、おい、どうした?)",
+      "english": "Dude / Bro (e.g., Dude, what's up?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "リラックスする（例：今日はリラックスしましょう）",
+      "english": "To chill (e.g., Let's chill today)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "激しくパーティーする (例: 今日は激しくパーティーするよ!)",
+      "english": "To party hard (e.g., We're gonna party hard today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "素晴らしい / 素晴らしい (例: その映画は素晴らしかったです!)",
+      "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "スーパー / 本当に (例: とてもクールですね!)",
+      "english": "Super / Really (e.g., That's super cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "まったく / 本当に (例: それは本当に良いですね!)",
+      "english": "Totally / Really (e.g., That's really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "本当に？ / 真剣に？ (例: 勝ったの? マジで?)",
+      "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "問題ありません (例: ありがとうございます! - 問題ありません!)",
+      "english": "No problem (e.g., Thanks! - No problem!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "気をつけて（例：さようなら、気をつけて！）",
+      "english": "Take care (e.g., Bye, take care!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "わかりました / いいですね (例: 8 時に集合しますか? - いいですね!)",
+      "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "順調です (例: 調子はどうですか? - 順調です!)",
+      "english": "It's going well (e.g., How's it going? - All good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "気にしない (例: 何を食べたいですか? - 気にしません)",
+      "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ナンセンス / くだらない (例: それはナンセンスです!)",
+      "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "くそー / くだらない (例: くそー、忘れてた!)",
+      "english": "Damn / Crap (e.g., Damn, I forgot!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クソ（例、クソ、痛い！）",
+      "english": "Shit (e.g., Shit, that hurts!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "男 / やあ (例: 男、それは近かった!)",
+      "english": "Man / Geez (e.g., Man, that was close!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "やあ（例：やあ、待って！）",
+      "english": "Hey (e.g., Hey, wait up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "Guy / Dude (e.g., That guy is weird)",
+      "english": "Guy / Dude (e.g., That guy is weird)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ひよこ（少し軽蔑的）（例：あのひよこは迷惑です）",
+      "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "寝る（例：ただ寝たいだけ）",
+      "english": "To sleep (e.g., I just want to sleep)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "お金 / 生地 (例: お金が残っていない)",
+      "english": "Money / Dough (e.g., I have no money left)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "一文無しになる（例：私は完全に一文無しです）",
+      "english": "To be broke (e.g., I'm totally broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ゲームする (例: ゲームしましょう!)",
+      "english": "To game (e.g., Let's game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ナンセンスな話をする（例：何を話しているのですか？）",
+      "english": "To talk nonsense (e.g., What are you talking about?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "チャットする (北ドイツ語) (例: さあ、チャットしましょう)",
+      "english": "To chat (Northern German) (e.g., Come, let's chat)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "チャットする (例: 何時間もチャットしました)",
+      "english": "To chat (e.g., We chatted for hours)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "音楽 (例: 音楽をかけてください!)",
+      "english": "Music (e.g., Put some music on!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "相棒 / 仲間 (例: それは私の相棒です)",
+      "english": "Buddy / Mate (e.g., That's my buddy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "四角い人 / つまらない人 (例: そんな四角い人になるな!)",
+      "english": "Square / Boring person (e.g., Don't be such a square!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "くだらない人 (例: 彼はゴミのように行動します)",
+      "english": "Trashy person (e.g., He acts like trash)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "素晴らしいこと (例: パーティーは本当に始まります!)",
+      "english": "To be awesome (e.g., The party is really going off!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クール / 素晴らしい (例: すごいですね!)",
+      "english": "Cool / Awesome (e.g., That's awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "素晴らしい / きちんとした (昔ながらの) (例: それは素晴らしいと思います!)",
+      "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "素晴らしい / うねり (昔ながら) (例: それはうねりです!)",
+      "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ファンシー / シック (例: 今日はおしゃれですね!)",
+      "english": "Fancy / Chic (e.g., You look fancy today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クソ最高 (例: コンサートはクソ最高だった!)",
+      "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "本当に良かった (例: 食べ物は本当に美味しかったです!)",
+      "english": "Really good (e.g., The food was really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クレイジー / 非常識 (例: それはクレイジーです!)",
+      "english": "Crazy / Insane (e.g., That's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "はるかに外れている / めちゃくちゃクール (例: ストーリーはまったく外れています)",
+      "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "ワイルドに行く (例: 今日はワイルドに行きます!)",
+      "english": "To go wild (e.g., Today we're going wild!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "パーティーをする / 盛り上がる (例: 盛り上がろう!)",
+      "english": "To party / Live it up (e.g., Let's live it up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "クラウド ナイン (例: 私はクラウド 9 にいます)",
+      "english": "On cloud nine (e.g., I'm on cloud nine)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "二日酔いになる（例：二日酔いです）",
+      "english": "To have a hangover (e.g., I have a hangover)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "japanese": "酔っていること (例: 彼は昨日完全に酔っていた)",
+      "english": "To be drunk (e.g., He was totally drunk yesterday)",
+      "tags": [
+        "slang"
+      ]
+    }
+  ],
+  "A1": [
+    {
+      "japanese": "おはよう",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "あなたの名前は何ですか？",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私の名前はアンナです",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "元気ですか？",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "元気です",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "どうもありがとうございます。",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "どういたしまして",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "さようなら",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "おやすみ",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "はい、お願いします",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "いいえ、ありがとう",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "すみません",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "理解できない",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "化粧室はどこですか？",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "私はドイツから来ました",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "私は疲れました",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "お腹が空きました",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "japanese": "のどが渇きました",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "japanese": "これにはいくらかかりますか?",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "水が欲しいです",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "どこに住んでいますか？",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "japanese": "私はベルリンに住んでいます",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "japanese": "何歳ですか？",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私は25歳です",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "これは私の友達です",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "愛してます",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "また後で",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "また明日ね",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "良い週末を",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "幸運を",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "ではごきげんよう",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "おめでとう",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "お食事をお楽しみください",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "乾杯",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "japanese": "お大事に",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "japanese": "私はドイツ語を話します",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "あなたは英語を話しますか？",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "私はドイツ語を勉強しています",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは美しいですね",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それはいいです",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私はそれが好きです",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "ピザが好きです",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "今何時ですか？",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "3時です",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "今日は月曜日です",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "天気はいいです",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "雨が降っている",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "寒いです",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "暖かいです",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私は幸せです",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "アパートを探しています",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "家賃はいくらですか？",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "スーパーマーケットはどこですか？",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これを買いたいです",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これは販売されていますか？",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "私は助けが必要です",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "japanese": "気分が悪いです",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "病院はどこですか？",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "痛みがあります",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "部屋は広いです",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "これを試着してもいいですか？",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "試着室はどこですか？",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "パンが欲しいのですが",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "食べ物はおいしいです",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "私はコーヒーを飲みます",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "ホテルはどこですか？",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "タクシーが必要です",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "チケットの料金はいくらですか?",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "アパートは小さいです",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "現金で支払います",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "それは大きすぎます",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "私は果物を食べるのが好きです",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "出口はどこですか？",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "japanese": "手伝ってもらえますか？",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "コーヒーを飲みたいのですが",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "これはどこで買えますか?",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "駅を探しています",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "電車はいつ出発しますか?",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "質問があります",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは高すぎる",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これの別のサイズはありますか？",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "支払いたいのですが",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "japanese": "クレジットカードは使えますか？",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "japanese": "道に迷ってしまった",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "それを繰り返してもらえますか？",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "もっとゆっくり話して下さい",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "メニューが分かりません",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "おすすめは何ですか？",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "私はナッツアレルギーです",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "japanese": "請求書をお願いします",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "食べ物は美味しかったです",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "私は教師として働いています",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "japanese": "仕事は何をしますか？",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "japanese": "私は医学を勉強しています",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "japanese": "予定があります",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "いつ時間がありますか?",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "後で会いましょう",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "遅刻しそう",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "遅れてごめんなさい",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "問題ない",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "そんなことは関係ない",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "楽しみにしています",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "いい一日でした",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "私は風邪をひいている",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "頭が痛いです",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "医者が必要です",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "最寄りの薬局はどこですか？",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "熱があります",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "お早い回復を願っております",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "japanese": "家に帰らなければなりません",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "すぐにお会いしましょう",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "兄弟はいますか？",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私には兄弟がいます",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私の家族は大家族です",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "あなたの趣味は何ですか?",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私はサッカーをするのが好きです",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "本を読むのが好きです",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "音楽を聴くのが好きです",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "どのような音楽が好きですか?",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "ロックとポップスが好きです",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "映画館に行くのは好きですか？",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "映画は面白かったです",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私はバスに乗りました",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "アパートを内見したいのですが",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "アパートはいつ空室になりますか?",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "ペットは同伴できますか?",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "エレベーターはありますか？",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "カードで支払うことはできますか?",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "領収書はありますか？",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これを交換したいのですが",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "パンはどこで見つけられますか?",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "japanese": "処方箋が必要です",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "咳が出ます",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "何か処方してもらえますか？",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "私はペニシリンアレルギーがあります",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "薬局はいつ開いていますか？",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "アパートには部屋が 2 つあります",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "シングルルームを探しています",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "キッチンはモダンです",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "最寄りのATMはどこですか?",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "小さいサイズはありますか？",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これを返品したいのですが",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "牛乳はどこで入手できますか?",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "japanese": "私は肉を食べません",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "朝食の準備ができました",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "お茶をお願いします",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "プラットフォームはどこですか?",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "パスポートを忘れてしまいました",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "バスはいつ来ますか?",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "チケットが必要です",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "japanese": "テーブルを予約したいのですが",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "道を説明してもらえますか？",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "歴史に興味があります",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私の意見では、それは重要です",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私は違う意見を持っています",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "それは状況によります",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私はそれに同意します",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "私はそれに反対です",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "それについてどう思いますか？",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "考えてみた",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは意味がありません",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "もっと詳しく説明してもらえますか？",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "もう慣れてきました",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私にとっては難しいです",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私は最善を尽くしています",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "それはそれ次第です",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私の知る限りでは",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "よくわからない",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "考えさせてください",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "イタリアへの旅行を計画しています",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "japanese": "休日が楽しみです",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "japanese": "自分の決断を後悔しています",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは誤解でした",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "私は間違っていた",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "あなたが正しい",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは正しくありません",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "驚いた",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは信じられない",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "がっかりしました",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは私を怒らせます",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私は熱心です",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは私にとって恥ずかしいことです",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "恥ずかしいです",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "あなたを誇りに思います",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "誠に申し訳ございません",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "謝罪します",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "私はあなたを許す",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "そんなことは忘れましょう",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "私はあなたがいなくて寂しいです",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "私はよくあなたのことを考えます",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "連絡を取り合い続けるべきです",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "長い間あなたから連絡がありませんでした",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "調子はどうですか？",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "japanese": "やるべきことがたくさんあります",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "ストレスがたまっている",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "休憩が必要です",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "疲れた",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "休む必要がある",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "japanese": "あれは疲れました",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "気分が良くなりました",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "japanese": "家具付きのアパートを探しています",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "ユーティリティは含まれていますか?",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "デポジットはいくらですか?",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "洗濯機はありますか？",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "返金を希望します",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "製品に欠陥がある",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これは在庫ありますか？",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "保証はありますか？",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "医師の診察の予約があります",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "いつからその症状が出ましたか？",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "定期的に薬を服用しています",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "病気の診断書が必要です",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "japanese": "私の保険証",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "家主はまだ返答がありません",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "私はベジタリアンです",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "ベジタリアンのオプションはありますか?",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "食べ物が塩辛すぎる",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "メニューをお願いします",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "お勧めの料理はありますか？",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "部屋を予約したいのですが",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "朝食は含まれていますか？",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "japanese": "チェックアウトはいつですか?",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "ホテル内にWi-Fiはありますか？",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "予約を紛失してしまいました",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "荷物はどこに預けられますか?",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "空港へはどうやって行けばいいですか？",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "シェアアパートを探しています",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "電気代はどれくらいかかりますか？",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "バルコニーは日当たりが良いです",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "駐車スペースが必要です",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "割引はありますか？",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これを予約できますか?",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これはいつ配送されますか?",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "私も同じものを注文します",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "辛くしてもらえますか？",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "デザートをお願いします",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "食べ物が冷めてしまった",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "チェックインしたいのですが",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "市内地図はありますか？",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "観光案内所はどこですか？",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "チケットを失くしました",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "japanese": "私たちは行動しなければならないと考えています",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "何かを変えなければならないことは明らかです",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "重要な点を指摘したいと思います",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "そこで疑問が生じます",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それとは対照的に",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "一方でそれは理解していますが、他方では",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは否定できない",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それについては疑いの余地がありません",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私はそれを強く確信しています",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは重要な役割を果たします",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私たちは長所と短所を比較検討する必要がある",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "それは広範囲にわたる影響を及ぼします",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "別の視点から見てみたいと思います",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それはさまざまな要因によって決まります",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "このような状況下では",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "ただし、",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "万が一そうなった場合に備えて",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "もっと時間があったと仮定して",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "だったら良かったのに",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それを知っていたら",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私なら違う行動をとっていただろう",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは避けられたかもしれない",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "振り返ってみると",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "Looking back, I can say",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "貴重な経験でした",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "japanese": "そこから学びました",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは私の見方を変えました",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "結論に達しました",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "まとめると、言えることは、",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "結論として強調したいのは、",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "主な問題は",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "課題は次のとおりです",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "評価するのは難しい",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "一般化することはできません",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは複雑な問題だ",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "さまざまなアプローチがあります",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "考えられる解決策は次のとおりです",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "代替オプションを検討する必要があります",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "それには慎重な検討が必要です",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私は信じる傾向があります",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "まるで",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私が判断できる限りでは",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私の理解によると",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私はそう仮定します",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "想定されるのは、",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "確率は高いです",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "その可能性は低い",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは私には論理的だと思われます",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは完全に理にかなっています",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "理由はわかります",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "賃貸契約を解除したいのですが",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "通知期間は3ヶ月です",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "アパートに水害が発生しました",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "暖房が効かない",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "苦情を申し立てたいのですが",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "これは説明と一致しません",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "私は帰還の権利を主張します",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "それを書面で確認してもらえますか？",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "japanese": "専門医への紹介が必要です",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "薬にはどのような副作用がありますか?",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "セカンドオピニオンを受けたいのですが",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "治療は健康保険が適用されます",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "慢性的な腰痛がある",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "アパートの引き渡しは来週です",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "食物不耐症があります",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "japanese": "その料理にはグルテンが含まれていますか?",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "窓際のテーブルをお願いします",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "肉に火が通っていない",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "請求書を割り勘にしてもらえますか？",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "予約をキャンセルしたいのですが",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "キャンセル料はかかりますか？",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "フライトがキャンセルされました",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "乗り継ぎ便に乗り遅れました",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "搭乗ゲートはどこですか?",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "荷物が届かなかった",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "旅行保険が必要です",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "観光スポットは徒歩圏内にあります",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "アパートを又貸ししたいのですが",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "リースの有効期限が切れます",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "アパートの壁が薄い",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "私には家賃の減額を受ける権利があります",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "オンラインで注文したいのですが",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "配達が遅れています",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "間違った商品を受け取ってしまいました",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "分割払いはできますか?",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "食材は地域のものです",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "オーガニック製品が好きです",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "料理は自家製です",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "お勧めのレシピを教えていただけますか？",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "フライトを再予約したいのですが",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "旅行は延期されました",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "ビザが必要です",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "宿泊施設が期待に応えられない",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "japanese": "議論は新たな次元に到達しました",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "それは根本的な疑問を引き起こします",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "根本的な原因を分析する必要があります",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "私たちが行動することが不可欠です",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "状況は非常に複雑です",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "歴史的背景を考慮する必要がある",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは以前の発言と矛盾します",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "議論には重大なギャップがある",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "経験的証拠が不足している",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "この研究は洞察力に富んだ調査結果を提供します",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "この現象は明確に説明できない",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "因果関係はあるよ",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "相関関係は統計的に有意です",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "相関関係と因果関係を区別する必要がある",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "方法論に疑問がある",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "結果は一般化できない",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "さらなる研究が必要です",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "その影響は広範囲に及ぶ",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは大きな影響を及ぼします",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私たちはパラダイムシフトに直面しています",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "その理論は成り立たない",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "議論は決定的である",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "証拠は圧倒的です",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "正当な疑いがある",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "批判は無視できない",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは簡単には反駁できない",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "その主張には何の根拠もありません",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "大胆な論文ですね",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "結論は時期尚早です",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "一般化には注意が必要です",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "ジレンマは明らかです",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私たちは窮地に立たされています",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "状況には微妙なアプローチが必要です",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "妥協点を見つける必要がある",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "利害が相容れない",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは私たちにとって大きな課題となります",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "発展は憂慮すべきものである",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "トレンドが生まれつつある",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "傾向がはっきり出てる",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それはより深刻な問題を示しています",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "原因は多岐にわたります",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "それは構造的な問題です",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "対策は不十分だ",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "根本的な変化が必要です",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "改革はずっと遅れている",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "このシステムはもはや現代的ではありません",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "私たちは新境地を開拓しなければなりません",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "アプローチは革新的です",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "コンセプトは前向きです",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "ビジョンは野心的だが達成可能",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "このエリアでは家賃規制が適用されます",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "住宅市場は逼迫している",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "指標賃料は年々上昇",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "保証請求を行使しています",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "消費者保護法で定められているのは、",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "キャンセル期間は14日間です",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "診断にはさらなる検査が必要です",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "予後は慎重だが楽観的である",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "予防策は不可欠です",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "治療は初期の成功を示している",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "入院治療が必要です",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "このような場合にはテナント協会がアドバイスします",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "料理の多様性は驚くべきものです",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "郷土料理は本物が特徴です",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "準備には職人技が必要です",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "ワインのペアリングはメニューと完璧に調和します",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "美食シーンは力強く発展しました",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "観光は経済に大きく貢献します",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "インフラがよく発達している",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "旅行業界は課題に直面している",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "持続可能な観光の重要性が高まっている",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "文化的な豊かさは否定できない",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "japanese": "人間関係は複雑です",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "社会的受容性が高まった",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "社会的移動が制限されている",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "住宅不足は深刻化している",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "家賃が不釣り合いに高騰している",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "住宅政策は物議を醸している",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "エネルギー効率が不十分である",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "小売業はプレッシャーにさらされている",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "電子商取引が従来の店舗に取って代わる",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "サプライチェーンが寸断される",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "持続可能性が中心的な役割を果たします",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "japanese": "食品ロスが問題になっている",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "食生活が変わりつつある",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "ヴィーガン運動が勢いを増している",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "製品の起源が透明である",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "オーバーツーリズムが都市に負担をかける",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "渡航制限が緩和されました",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "飛行機恥は旅行行動に影響を与える",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "デジタル化が旅行業界を変える",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "japanese": "用語の曖昧さにより正確な定義が複雑になる",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "理論と実践の間の二分法は明らかです",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "矛盾は物事の本質にある",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "議論の前提には異論がある",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "それはトートロジーです",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "レトリックは実際の問題を曖昧にする",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "式のセマンティクスはコンテキストに依存します",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "認識論的問題は未解決のままである",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "存在論的意味合いはかなり大きい",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "テキストの解釈学には専門知識が必要です",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "悟りの弁証法がここに現れる",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "この現象は単因的説明を回避している",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "問題の複雑さを過小評価してはなりません",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "学際的なアプローチが必要",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "さまざまな要因の収束が決定的です",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "意見の相違は埋められない",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "物語は集団的な認識を形作る",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "談話分析が隠れた権力構造を明らかにする",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "現在普及しているパラダイムの覇権は脆弱である",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "既成概念の解体が必要",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "この公準は支持できないことが判明する",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "仮説は経験的に検証できない",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "理論の反証はまだ保留中",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "システムの公理が矛盾している",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "議論の一貫性が確保されている",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "証明の厳密さは驚くべきものである",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "その論文の妥当性には疑問が残る",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "この方法の正当性については議論がある",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "データの信頼性に疑問がある",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "分析の客観性が示されていない",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "認識の主観性は避けられない",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "真実の相対性は哲学的に重要です",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "道徳原則の絶対性が問われる",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "歴史的発展の偶然性は明らかである",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "決定論の議論は今も続いている",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "自然の目的論は擬人化された投影である",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "複雑なシステムの出現は興味深い",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "単純な説明に還元しても問題は正しく伝わらない",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "多様なアプローチの統合が望ましい",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "一般的な見解に対するアンチテーゼは挑発的である",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "言葉の意味合いが変わってきた",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "ただし、表記は一定のままです",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "あいまいさは誤解を招く",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "用語の正確さは不可欠です",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "発言のニュアンスが重要",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "コンセプト間の違いは微妙",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "アナロジーは重要な点で足を引きずる",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "この比喩は分かりやすいですが、文字通りに受け取ってはなりません",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "寓話はより深いレベルの意味を指します",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "japanese": "状況の皮肉を看過することはできない",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "japanese": "近隣のジェントリフィケーションが進んでいる",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "住宅不足が社会格差を深刻化",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "家賃価格のスパイラルはなかなか抜け出せない",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "消費者の行動はパラダイムシフトを迎えています",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "陳腐化は意図的に引き起こされる",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "買い手市場が売り手市場に変わってしまった",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "病気の発症には多因子性がある",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "病因は依然としてほとんど不明である",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "症状は非特異的です",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "鑑別診断の明確化が示されている",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "併存疾患があると治療が複雑になる",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "japanese": "賃貸借法は複雑な法律分野です",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "分子料理による前衛的な美食実験",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "感覚特性は例外的です",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "発酵は製品に複雑さを与えます",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "テロワールの哲学がワイン文化を形作る",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "大衆観光は生態系に影響を与える",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "観光が都市構造を変える",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "本物志向がますます商業化に取って代わられる",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "モビリティは特権になった",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "社会的一体性は目に見えて損なわれている",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "社会の分断が進む",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "二極化は社会全体の現象です",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "疎外は近代の症状である",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "japanese": "住宅問題は社会問題です",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "投機が不動産価格を動かす",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "分離は空間的に現れる",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "japanese": "消費主義が社会を形作る",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "商品化は生活のあらゆる領域に浸透します",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "商品フェティシズムは遍在している",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "japanese": "食料主権が脅かされている",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "農業の工業化は影響を与える",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "料理のアイデンティティが侵食されつつある",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "グローバル化による食文化の均質化",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "japanese": "観光は両義的な現象です",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "他者のエキゾチック化には問題がある",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "モビリティは不均等に分散されている",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "japanese": "旅行の自由は特権です",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    }
+  ]
+}

@@ -122,8 +122,14 @@
     /* Language Cards */
     .language-cards {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       gap: 24px;
+    }
+    
+    @media (max-width: 1200px) {
+      .language-cards {
+        grid-template-columns: repeat(4, 1fr);
+      }
     }
     
     @media (max-width: 1024px) {
@@ -552,7 +558,7 @@
           <div class="stat-label">Topics</div>
         </div>
         <div class="stat">
-          <div class="stat-number">18+</div>
+          <div class="stat-number">20+</div>
           <div class="stat-label">Live Stations</div>
         </div>
         <div class="stat">
@@ -593,10 +599,16 @@
           <p>563 Phrases &bull; 2 Live Radios</p>
         </div>
 
+        <div class="language-card">
+          <div class="lang-flag">🇯🇵</div>
+          <h3>Japanese</h3>
+          <p>563 Phrases &bull; 2 Live Radios</p>
+        </div>
+
         <div class="language-card upcoming">
           <div class="lang-flag">🌍</div>
           <h3>More Coming Soon</h3>
-          <p>Italian, Japanese, Portuguese...</p>
+          <p>Italian, Portuguese...</p>
         </div>
       </div>
     </div>

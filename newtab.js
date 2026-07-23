@@ -17,14 +17,16 @@ const flagSvgs = {
   de: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipDE)"><rect x="0" y="0" width="48" height="16" fill="#000" /><rect x="0" y="16" width="48" height="16" fill="#DD0000" /><rect x="0" y="32" width="48" height="16" fill="#FFCE00" /></g><defs><clipPath id="circleClipDE"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   es: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipES)"><rect x="0" y="0" width="48" height="12" fill="#AA152F" /><rect x="0" y="12" width="48" height="24" fill="#F1BF00" /><rect x="0" y="36" width="48" height="12" fill="#AA152F" /></g><defs><clipPath id="circleClipES"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   fr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipFR)"><rect x="0" y="0" width="16" height="48" fill="#002395" /><rect x="16" y="0" width="16" height="48" fill="#FFFFFF" /><rect x="32" y="0" width="16" height="48" fill="#ED2939" /></g><defs><clipPath id="circleClipFR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
-  ar: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipAR)"><rect x="0" y="0" width="48" height="16" fill="#000000" /><rect x="0" y="16" width="48" height="16" fill="#FFFFFF" /><rect x="0" y="32" width="48" height="16" fill="#009736" /><polygon points="0,0 24,24 0,48" fill="#EE2A35" /></g><defs><clipPath id="circleClipAR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
+  ar: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipAR)"><rect x="0" y="0" width="48" height="16" fill="#000000" /><rect x="0" y="16" width="48" height="16" fill="#FFFFFF" /><rect x="0" y="32" width="48" height="16" fill="#009736" /><polygon points="0,0 24,24 0,48" fill="#EE2A35" /></g><defs><clipPath id="circleClipAR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
+  ja: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><circle cx="24" cy="24" r="14" fill="#BC002D" /></svg>`
 };
 
 const phraseFiles = {
   de: 'phrases_de.json',
   es: 'phrases_es.json',
   fr: 'phrases_fr.json',
-  ar: 'phrases_ar.json'
+  ar: 'phrases_ar.json',
+  ja: 'phrases_ja.json'
 };
 
 const radioStationsConfig = {
@@ -95,6 +97,16 @@ const radioStationsConfig = {
         { id: 'mc_doualiya', name: 'Monte Carlo Doualiya' }
       ]
     }
+  ],
+  ja: [
+    {
+      category: 'radio',
+      title: '日本のラジオ (Live Radio)',
+      stations: [
+        { id: 'japan_city_pop', name: 'Japan City Pop' },
+        { id: 'jpop_project', name: 'J-Pop Project Radio' }
+      ]
+    }
   ]
 };
 
@@ -128,7 +140,7 @@ const dialogueYoutubeUrls = {
 
 function getPhraseText(phrase) {
   if (!phrase) return '';
-  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || '';
+  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || '';
 }
 
 // Initial storage check & bootstrap
@@ -603,7 +615,7 @@ function displayRandomPhrase() {
     
     // Get indices of filtered phrases in original array
     const originalIndices = levelPhrases.map(phrase => 
-      phrases[currentLevel].findIndex(p => getPhraseText(p) === getPhraseText(phrase))
+      phrases[currentLevel].indexOf(phrase)
     );
     
     // Reset if all phrases shown
@@ -1856,14 +1868,21 @@ function renderRightSidebarContent() {
 function speakText(text) {
   if (!text) return;
   speechSynthesis.cancel();
-  let textToSpeak = text;
-  if (textToSpeak.includes('(z.B.')) {
-    textToSpeak = textToSpeak.split('(z.B.')[0].trim();
-  } else if (textToSpeak.includes('(ej.')) {
-    textToSpeak = textToSpeak.split('(ej.')[0].trim();
-  }
+  
+  // Strip out examples in parentheses like (z.B. ...), (ej. ...), (例: ...) for cleaner TTS
+  let textToSpeak = text.replace(/\s*\(.*\)\s*/g, '').trim();
+  
   const utterance = new SpeechSynthesisUtterance(textToSpeak);
-  utterance.lang = currentLang === 'es' ? 'es-ES' : 'de-DE';
+  
+  const langMap = {
+    de: 'de-DE',
+    es: 'es-ES',
+    fr: 'fr-FR',
+    ar: 'ar-SA',
+    ja: 'ja-JP'
+  };
+  
+  utterance.lang = langMap[currentLang] || 'de-DE';
   utterance.rate = 0.9;
   speechSynthesis.speak(utterance);
 }
