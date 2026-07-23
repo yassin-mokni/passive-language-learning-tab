@@ -1,579 +1,4647 @@
 {
   "A0": [
-    {"german": "Alter (z.B. Alter, das ist krass!)", "english": "Dude / Man (e.g., Dude, that's crazy!)", "tags": ["slang"]},
-    {"german": "Krass (z.B. Das war echt krass!)", "english": "Crazy / Awesome (e.g., That was really crazy!)", "tags": ["slang"]},
-    {"german": "Geil (z.B. Das Konzert war so geil!)", "english": "Awesome / Cool (e.g., The concert was so awesome!)", "tags": ["slang"]},
-    {"german": "Bock haben (z.B. Hast du Bock auf Kino?)", "english": "To feel like (e.g., Do you feel like going to the cinema?)", "tags": ["slang"]},
-    {"german": "Null Bock (z.B. Ich hab null Bock auf Arbeit)", "english": "No desire (e.g., I have no desire to work)", "tags": ["slang"]},
-    {"german": "Läuft bei dir (z.B. Neues Auto? Läuft bei dir!)", "english": "Things are going well for you (e.g., New car? Things are going well!)", "tags": ["slang"]},
-    {"german": "Digga (z.B. Digga, was geht?)", "english": "Dude / Bro (e.g., Dude, what's up?)", "tags": ["slang"]},
-    {"german": "Chillen (z.B. Lass uns heute chillen)", "english": "To chill (e.g., Let's chill today)", "tags": ["slang"]},
-    {"german": "Abfeiern (z.B. Wir feiern heute richtig ab!)", "english": "To party hard (e.g., We're gonna party hard today!)", "tags": ["slang"]},
-    {"german": "Hammer (z.B. Der Film war Hammer!)", "english": "Awesome / Amazing (e.g., The movie was amazing!)", "tags": ["slang"]},
-    {"german": "Mega (z.B. Das ist mega cool!)", "english": "Super / Really (e.g., That's super cool!)", "tags": ["slang"]},
-    {"german": "Voll (z.B. Das ist voll gut!)", "english": "Totally / Really (e.g., That's really good!)", "tags": ["slang"]},
-    {"german": "Echt jetzt? (z.B. Du hast gewonnen? Echt jetzt?)", "english": "Really? / Seriously? (e.g., You won? Seriously?)", "tags": ["slang"]},
-    {"german": "Kein Ding (z.B. Danke! - Kein Ding!)", "english": "No problem (e.g., Thanks! - No problem!)", "tags": ["slang"]},
-    {"german": "Mach's gut (z.B. Tschüss, mach's gut!)", "english": "Take care (e.g., Bye, take care!)", "tags": ["slang"]},
-    {"german": "Geht klar (z.B. Treffen um 8? - Geht klar!)", "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)", "tags": ["slang"]},
-    {"german": "Läuft (z.B. Wie geht's? - Läuft!)", "english": "It's going well (e.g., How's it going? - All good!)", "tags": ["slang"]},
-    {"german": "Ist mir egal (z.B. Was willst du essen? - Ist mir egal)", "english": "I don't care (e.g., What do you want to eat? - I don't care)", "tags": ["slang"]},
-    {"german": "Quatsch (z.B. Das ist doch Quatsch!)", "english": "Nonsense / Rubbish (e.g., That's nonsense!)", "tags": ["slang"]},
-    {"german": "Mist (z.B. Mist, ich hab's vergessen!)", "english": "Damn / Crap (e.g., Damn, I forgot!)", "tags": ["slang"]},
-    {"german": "Scheiße (z.B. Scheiße, das tut weh!)", "english": "Shit (e.g., Shit, that hurts!)", "tags": ["slang"]},
-    {"german": "Mensch (z.B. Mensch, das war knapp!)", "english": "Man / Geez (e.g., Man, that was close!)", "tags": ["slang"]},
-    {"german": "Ey (z.B. Ey, warte mal!)", "english": "Hey (e.g., Hey, wait up!)", "tags": ["slang"]},
-    {"german": "Typ (z.B. Der Typ ist komisch)", "english": "Guy / Dude (e.g., That guy is weird)", "tags": ["slang"]},
-    {"german": "Tussi (z.B. Die Tussi nervt)", "english": "Chick (slightly derogatory) (e.g., That chick is annoying)", "tags": ["slang"]},
-    {"german": "Pennen (z.B. Ich will nur pennen)", "english": "To sleep (e.g., I just want to sleep)", "tags": ["slang"]},
-    {"german": "Kohle (z.B. Ich hab keine Kohle mehr)", "english": "Money / Dough (e.g., I have no money left)", "tags": ["slang"]},
-    {"german": "Pleite sein (z.B. Ich bin total pleite)", "english": "To be broke (e.g., I'm totally broke)", "tags": ["slang"]},
-    {"german": "Zocken (z.B. Lass uns zocken!)", "english": "To game (e.g., Let's game!)", "tags": ["slang"]},
-    {"german": "Labern (z.B. Was laberst du da?)", "english": "To talk nonsense (e.g., What are you talking about?)", "tags": ["slang"]},
-    {"german": "Schnacken (z.B. Komm, lass uns schnacken)", "english": "To chat (Northern German) (e.g., Come, let's chat)", "tags": ["slang"]},
-    {"german": "Quatschen (z.B. Wir haben stundenlang gequatscht)", "english": "To chat (e.g., We chatted for hours)", "tags": ["slang"]},
-    {"german": "Mucke (z.B. Mach mal Mucke an!)", "english": "Music (e.g., Put some music on!)", "tags": ["slang"]},
-    {"german": "Kumpel (z.B. Das ist mein Kumpel)", "english": "Buddy / Mate (e.g., That's my buddy)", "tags": ["slang"]},
-    {"german": "Spießer (z.B. Sei nicht so ein Spießer!)", "english": "Square / Boring person (e.g., Don't be such a square!)", "tags": ["slang"]},
-    {"german": "Asi (z.B. Der benimmt sich wie ein Asi)", "english": "Trashy person (e.g., He acts like trash)", "tags": ["slang"]},
-    {"german": "Abgehen (z.B. Die Party geht richtig ab!)", "english": "To be awesome (e.g., The party is really going off!)", "tags": ["slang"]},
-    {"german": "Fett (z.B. Das ist fett!)", "english": "Cool / Awesome (e.g., That's awesome!)", "tags": ["slang"]},
-    {"german": "Knorke (z.B. Das finde ich knorke!)", "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)", "tags": ["slang"]},
-    {"german": "Dufte (z.B. Das ist ja dufte!)", "english": "Great / Swell (old-fashioned) (e.g., That's swell!)", "tags": ["slang"]},
-    {"german": "Schnieke (z.B. Du siehst heute schnieke aus!)", "english": "Fancy / Chic (e.g., You look fancy today!)", "tags": ["slang"]},
-    {"german": "Affengeil (z.B. Das Konzert war affengeil!)", "english": "Fucking awesome (e.g., The concert was fucking awesome!)", "tags": ["slang"]},
-    {"german": "Sau gut (z.B. Das Essen war sau gut!)", "english": "Really good (e.g., The food was really good!)", "tags": ["slang"]},
-    {"german": "Irre (z.B. Das ist ja irre!)", "english": "Crazy / Insane (e.g., That's crazy!)", "tags": ["slang"]},
-    {"german": "Abgefahren (z.B. Die Story ist total abgefahren)", "english": "Far out / Crazy cool (e.g., The story is totally far out)", "tags": ["slang"]},
-    {"german": "Steil gehen (z.B. Heute geht's steil!)", "english": "To go wild (e.g., Today we're going wild!)", "tags": ["slang"]},
-    {"german": "Einen drauf machen (z.B. Lass uns einen drauf machen!)", "english": "To party / Live it up (e.g., Let's live it up!)", "tags": ["slang"]},
-    {"german": "Auf Wolke sieben (z.B. Ich bin auf Wolke sieben)", "english": "On cloud nine (e.g., I'm on cloud nine)", "tags": ["slang"]},
-    {"german": "Einen Kater haben (z.B. Ich hab einen Kater)", "english": "To have a hangover (e.g., I have a hangover)", "tags": ["slang"]},
-    {"german": "Blau sein (z.B. Er war gestern total blau)", "english": "To be drunk (e.g., He was totally drunk yesterday)", "tags": ["slang"]}
+    {
+      "german": "Alter (z.B. Alter, das ist krass!)",
+      "english": "Dude / Man (e.g., Dude, that's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Krass (z.B. Das war echt krass!)",
+      "english": "Crazy / Awesome (e.g., That was really crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Geil (z.B. Das Konzert war so geil!)",
+      "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Bock haben (z.B. Hast du Bock auf Kino?)",
+      "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Null Bock (z.B. Ich hab null Bock auf Arbeit)",
+      "english": "No desire (e.g., I have no desire to work)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Läuft bei dir (z.B. Neues Auto? Läuft bei dir!)",
+      "english": "Things are going well for you (e.g., New car? Things are going well!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Digga (z.B. Digga, was geht?)",
+      "english": "Dude / Bro (e.g., Dude, what's up?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Chillen (z.B. Lass uns heute chillen)",
+      "english": "To chill (e.g., Let's chill today)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Abfeiern (z.B. Wir feiern heute richtig ab!)",
+      "english": "To party hard (e.g., We're gonna party hard today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Hammer (z.B. Der Film war Hammer!)",
+      "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Mega (z.B. Das ist mega cool!)",
+      "english": "Super / Really (e.g., That's super cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Voll (z.B. Das ist voll gut!)",
+      "english": "Totally / Really (e.g., That's really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Echt jetzt? (z.B. Du hast gewonnen? Echt jetzt?)",
+      "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Kein Ding (z.B. Danke! - Kein Ding!)",
+      "english": "No problem (e.g., Thanks! - No problem!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Mach's gut (z.B. Tschüss, mach's gut!)",
+      "english": "Take care (e.g., Bye, take care!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Geht klar (z.B. Treffen um 8? - Geht klar!)",
+      "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Läuft (z.B. Wie geht's? - Läuft!)",
+      "english": "It's going well (e.g., How's it going? - All good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Ist mir egal (z.B. Was willst du essen? - Ist mir egal)",
+      "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Quatsch (z.B. Das ist doch Quatsch!)",
+      "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Mist (z.B. Mist, ich hab's vergessen!)",
+      "english": "Damn / Crap (e.g., Damn, I forgot!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Scheiße (z.B. Scheiße, das tut weh!)",
+      "english": "Shit (e.g., Shit, that hurts!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Mensch (z.B. Mensch, das war knapp!)",
+      "english": "Man / Geez (e.g., Man, that was close!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Ey (z.B. Ey, warte mal!)",
+      "english": "Hey (e.g., Hey, wait up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Typ (z.B. Der Typ ist komisch)",
+      "english": "Guy / Dude (e.g., That guy is weird)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Tussi (z.B. Die Tussi nervt)",
+      "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Pennen (z.B. Ich will nur pennen)",
+      "english": "To sleep (e.g., I just want to sleep)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Kohle (z.B. Ich hab keine Kohle mehr)",
+      "english": "Money / Dough (e.g., I have no money left)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Pleite sein (z.B. Ich bin total pleite)",
+      "english": "To be broke (e.g., I'm totally broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Zocken (z.B. Lass uns zocken!)",
+      "english": "To game (e.g., Let's game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Labern (z.B. Was laberst du da?)",
+      "english": "To talk nonsense (e.g., What are you talking about?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Schnacken (z.B. Komm, lass uns schnacken)",
+      "english": "To chat (Northern German) (e.g., Come, let's chat)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Quatschen (z.B. Wir haben stundenlang gequatscht)",
+      "english": "To chat (e.g., We chatted for hours)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Mucke (z.B. Mach mal Mucke an!)",
+      "english": "Music (e.g., Put some music on!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Kumpel (z.B. Das ist mein Kumpel)",
+      "english": "Buddy / Mate (e.g., That's my buddy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Spießer (z.B. Sei nicht so ein Spießer!)",
+      "english": "Square / Boring person (e.g., Don't be such a square!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Asi (z.B. Der benimmt sich wie ein Asi)",
+      "english": "Trashy person (e.g., He acts like trash)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Abgehen (z.B. Die Party geht richtig ab!)",
+      "english": "To be awesome (e.g., The party is really going off!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Fett (z.B. Das ist fett!)",
+      "english": "Cool / Awesome (e.g., That's awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Knorke (z.B. Das finde ich knorke!)",
+      "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Dufte (z.B. Das ist ja dufte!)",
+      "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Schnieke (z.B. Du siehst heute schnieke aus!)",
+      "english": "Fancy / Chic (e.g., You look fancy today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Affengeil (z.B. Das Konzert war affengeil!)",
+      "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Sau gut (z.B. Das Essen war sau gut!)",
+      "english": "Really good (e.g., The food was really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Irre (z.B. Das ist ja irre!)",
+      "english": "Crazy / Insane (e.g., That's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Abgefahren (z.B. Die Story ist total abgefahren)",
+      "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Steil gehen (z.B. Heute geht's steil!)",
+      "english": "To go wild (e.g., Today we're going wild!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Einen drauf machen (z.B. Lass uns einen drauf machen!)",
+      "english": "To party / Live it up (e.g., Let's live it up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Auf Wolke sieben (z.B. Ich bin auf Wolke sieben)",
+      "english": "On cloud nine (e.g., I'm on cloud nine)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Einen Kater haben (z.B. Ich hab einen Kater)",
+      "english": "To have a hangover (e.g., I have a hangover)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "german": "Blau sein (z.B. Er war gestern total blau)",
+      "english": "To be drunk (e.g., He was totally drunk yesterday)",
+      "tags": [
+        "slang"
+      ]
+    }
   ],
   "A1": [
-    {"german": "Guten Morgen", "english": "Good morning", "tags": ["everyday"]},
-    {"german": "Wie heißt du?", "english": "What's your name?", "tags": ["social"]},
-    {"german": "Ich heiße Anna", "english": "My name is Anna", "tags": ["social"]},
-    {"german": "Wie geht es dir?", "english": "How are you?", "tags": ["everyday", "social"]},
-    {"german": "Mir geht es gut", "english": "I'm doing well", "tags": ["everyday", "social"]},
-    {"german": "Danke schön", "english": "Thank you very much", "tags": ["everyday"]},
-    {"german": "Bitte schön", "english": "You're welcome", "tags": ["everyday"]},
-    {"german": "Auf Wiedersehen", "english": "Goodbye", "tags": ["everyday"]},
-    {"german": "Gute Nacht", "english": "Good night", "tags": ["everyday"]},
-    {"german": "Ja, bitte", "english": "Yes, please", "tags": ["everyday"]},
-    {"german": "Nein, danke", "english": "No, thank you", "tags": ["everyday"]},
-    {"german": "Entschuldigung", "english": "Excuse me", "tags": ["everyday"]},
-    {"german": "Ich verstehe nicht", "english": "I don't understand", "tags": ["everyday"]},
-    {"german": "Wo ist die Toilette?", "english": "Where is the bathroom?", "tags": ["travel"]},
-    {"german": "Ich komme aus Deutschland", "english": "I come from Germany", "tags": ["social", "travel"]},
-    {"german": "Ich bin müde", "english": "I am tired", "tags": ["everyday"]},
-    {"german": "Ich habe Hunger", "english": "I am hungry", "tags": ["everyday", "food"]},
-    {"german": "Ich habe Durst", "english": "I am thirsty", "tags": ["everyday", "food"]},
-    {"german": "Was kostet das?", "english": "How much does this cost?", "tags": ["shopping"]},
-    {"german": "Ich möchte Wasser", "english": "I would like water", "tags": ["food"]},
-    {"german": "Wo wohnst du?", "english": "Where do you live?", "tags": ["social", "housing"]},
-    {"german": "Ich wohne in Berlin", "english": "I live in Berlin", "tags": ["social", "housing"]},
-    {"german": "Wie alt bist du?", "english": "How old are you?", "tags": ["social"]},
-    {"german": "Ich bin 25 Jahre alt", "english": "I am 25 years old", "tags": ["social"]},
-    {"german": "Das ist mein Freund", "english": "This is my friend", "tags": ["social"]},
-    {"german": "Ich liebe dich", "english": "I love you", "tags": ["social"]},
-    {"german": "Bis später", "english": "See you later", "tags": ["everyday", "social"]},
-    {"german": "Bis morgen", "english": "See you tomorrow", "tags": ["everyday", "social"]},
-    {"german": "Schönes Wochenende", "english": "Have a nice weekend", "tags": ["everyday", "social"]},
-    {"german": "Viel Glück", "english": "Good luck", "tags": ["everyday", "social"]},
-    {"german": "Alles Gute", "english": "All the best", "tags": ["everyday", "social"]},
-    {"german": "Herzlichen Glückwunsch", "english": "Congratulations", "tags": ["social"]},
-    {"german": "Guten Appetit", "english": "Enjoy your meal", "tags": ["food"]},
-    {"german": "Prost", "english": "Cheers", "tags": ["food", "social"]},
-    {"german": "Gesundheit", "english": "Bless you", "tags": ["everyday", "health"]},
-    {"german": "Ich spreche Deutsch", "english": "I speak German", "tags": ["everyday"]},
-    {"german": "Sprichst du Englisch?", "english": "Do you speak English?", "tags": ["everyday", "travel"]},
-    {"german": "Ich lerne Deutsch", "english": "I am learning German", "tags": ["everyday"]},
-    {"german": "Das ist schön", "english": "That is beautiful", "tags": ["everyday"]},
-    {"german": "Das ist gut", "english": "That is good", "tags": ["everyday"]},
-    {"german": "Ich mag das", "english": "I like that", "tags": ["everyday"]},
-    {"german": "Ich mag Pizza", "english": "I like pizza", "tags": ["food"]},
-    {"german": "Wie spät ist es?", "english": "What time is it?", "tags": ["everyday"]},
-    {"german": "Es ist drei Uhr", "english": "It is three o'clock", "tags": ["everyday"]},
-    {"german": "Heute ist Montag", "english": "Today is Monday", "tags": ["everyday"]},
-    {"german": "Das Wetter ist schön", "english": "The weather is nice", "tags": ["everyday"]},
-    {"german": "Es regnet", "english": "It's raining", "tags": ["everyday"]},
-    {"german": "Es ist kalt", "english": "It is cold", "tags": ["everyday"]},
-    {"german": "Es ist warm", "english": "It is warm", "tags": ["everyday"]},
-    {"german": "Ich bin glücklich", "english": "I am happy", "tags": ["everyday", "social"]},
-    {"german": "Ich suche eine Wohnung", "english": "I'm looking for an apartment", "tags": ["housing"]},
-    {"german": "Wie viel kostet die Miete?", "english": "How much is the rent?", "tags": ["housing"]},
-    {"german": "Wo ist der Supermarkt?", "english": "Where is the supermarket?", "tags": ["shopping"]},
-    {"german": "Ich möchte das kaufen", "english": "I want to buy this", "tags": ["shopping"]},
-    {"german": "Ist das im Angebot?", "english": "Is this on sale?", "tags": ["shopping"]},
-    {"german": "Ich brauche Hilfe", "english": "I need help", "tags": ["everyday", "health"]},
-    {"german": "Mir ist schlecht", "english": "I feel sick", "tags": ["health"]},
-    {"german": "Wo ist das Krankenhaus?", "english": "Where is the hospital?", "tags": ["health"]},
-    {"german": "Ich habe Schmerzen", "english": "I have pain", "tags": ["health"]},
-    {"german": "Das Zimmer ist groß", "english": "The room is big", "tags": ["housing"]},
-    {"german": "Kann ich das anprobieren?", "english": "Can I try this on?", "tags": ["shopping"]},
-    {"german": "Wo ist die Umkleidekabine?", "english": "Where is the fitting room?", "tags": ["shopping"]},
-    {"german": "Ich möchte ein Brot", "english": "I would like a bread", "tags": ["food", "shopping"]},
-    {"german": "Das Essen schmeckt gut", "english": "The food tastes good", "tags": ["food"]},
-    {"german": "Ich trinke Kaffee", "english": "I drink coffee", "tags": ["food"]},
-    {"german": "Wo ist das Hotel?", "english": "Where is the hotel?", "tags": ["travel"]},
-    {"german": "Ich brauche ein Taxi", "english": "I need a taxi", "tags": ["travel"]},
-    {"german": "Wie viel kostet das Ticket?", "english": "How much does the ticket cost?", "tags": ["travel"]},
-    {"german": "Die Wohnung ist klein", "english": "The apartment is small", "tags": ["housing"]},
-    {"german": "Ich zahle bar", "english": "I pay cash", "tags": ["shopping"]},
-    {"german": "Das ist zu groß", "english": "That is too big", "tags": ["shopping"]},
-    {"german": "Ich esse gerne Obst", "english": "I like to eat fruit", "tags": ["food"]},
-    {"german": "Wo ist der Ausgang?", "english": "Where is the exit?", "tags": ["travel"]}
+    {
+      "german": "Guten Morgen",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wie heißt du?",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich heiße Anna",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Mir geht es gut",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Danke schön",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Bitte schön",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Gute Nacht",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ja, bitte",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Nein, danke",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Entschuldigung",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich verstehe nicht",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wo ist die Toilette?",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich komme aus Deutschland",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich bin müde",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich habe Hunger",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "german": "Ich habe Durst",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "german": "Was kostet das?",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte Wasser",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wo wohnst du?",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich wohne in Berlin",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "german": "Wie alt bist du?",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich bin 25 Jahre alt",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Das ist mein Freund",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich liebe dich",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Bis später",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Bis morgen",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Schönes Wochenende",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Viel Glück",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Alles Gute",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Herzlichen Glückwunsch",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Guten Appetit",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Prost",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "german": "Gesundheit",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "german": "Ich spreche Deutsch",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Sprichst du Englisch?",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich lerne Deutsch",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist schön",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist gut",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich mag das",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich mag Pizza",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wie spät ist es?",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist drei Uhr",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Heute ist Montag",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das Wetter ist schön",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es regnet",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist kalt",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist warm",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin glücklich",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich suche eine Wohnung",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wie viel kostet die Miete?",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wo ist der Supermarkt?",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte das kaufen",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ist das im Angebot?",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich brauche Hilfe",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "german": "Mir ist schlecht",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Wo ist das Krankenhaus?",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich habe Schmerzen",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Das Zimmer ist groß",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Kann ich das anprobieren?",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Wo ist die Umkleidekabine?",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte ein Brot",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das Essen schmeckt gut",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich trinke Kaffee",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wo ist das Hotel?",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich brauche ein Taxi",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wie viel kostet das Ticket?",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Wohnung ist klein",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich zahle bar",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das ist zu groß",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich esse gerne Obst",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wo ist der Ausgang?",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Du hast ein wirklich ansteckendes Lächeln.",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich musste einfach rüberkommen und Hallo sagen.",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Kommst du hier aus der Gegend?",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du siehst heute toll aus.",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich mag deinen Style.",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du siehst heute Abend unglaublich aus.",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Darf ich dir einen Drink spendieren?",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Bist du öfter hier?",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich mag deine Ausstrahlung.",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du hast ein tolles Lachen.",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Bist du Single?",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich konnte nicht aufhören, dich anzusehen.",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du hast wunderschöne Augen.",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wie heißt du?",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du bist echt süß.",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
+    }
   ],
   "A2": [
-    {"german": "Können Sie mir helfen?", "english": "Can you help me?", "tags": ["everyday", "travel"]},
-    {"german": "Ich hätte gerne einen Kaffee", "english": "I would like a coffee", "tags": ["food"]},
-    {"german": "Wo kann ich das kaufen?", "english": "Where can I buy this?", "tags": ["shopping"]},
-    {"german": "Ich suche den Bahnhof", "english": "I'm looking for the train station", "tags": ["travel"]},
-    {"german": "Wann fährt der Zug ab?", "english": "When does the train depart?", "tags": ["travel"]},
-    {"german": "Ich habe eine Frage", "english": "I have a question", "tags": ["everyday"]},
-    {"german": "Das ist zu teuer", "english": "That is too expensive", "tags": ["shopping"]},
-    {"german": "Haben Sie das in einer anderen Größe?", "english": "Do you have this in another size?", "tags": ["shopping"]},
-    {"german": "Ich möchte bezahlen", "english": "I would like to pay", "tags": ["shopping", "food"]},
-    {"german": "Nehmen Sie Kreditkarten?", "english": "Do you accept credit cards?", "tags": ["shopping", "food"]},
-    {"german": "Ich habe mich verlaufen", "english": "I got lost", "tags": ["travel"]},
-    {"german": "Können Sie das wiederholen?", "english": "Can you repeat that?", "tags": ["everyday"]},
-    {"german": "Sprechen Sie bitte langsamer", "english": "Please speak more slowly", "tags": ["everyday"]},
-    {"german": "Ich verstehe die Speisekarte nicht", "english": "I don't understand the menu", "tags": ["food"]},
-    {"german": "Was empfehlen Sie?", "english": "What do you recommend?", "tags": ["food"]},
-    {"german": "Ich bin allergisch gegen Nüsse", "english": "I'm allergic to nuts", "tags": ["food", "health"]},
-    {"german": "Die Rechnung, bitte", "english": "The bill, please", "tags": ["food"]},
-    {"german": "Das Essen war lecker", "english": "The food was delicious", "tags": ["food"]},
-    {"german": "Ich arbeite als Lehrer", "english": "I work as a teacher", "tags": ["work", "social"]},
-    {"german": "Was machst du beruflich?", "english": "What do you do for work?", "tags": ["work", "social"]},
-    {"german": "Ich studiere Medizin", "english": "I study medicine", "tags": ["work", "social"]},
-    {"german": "Ich habe einen Termin", "english": "I have an appointment", "tags": ["work", "everyday"]},
-    {"german": "Wann hast du Zeit?", "english": "When do you have time?", "tags": ["social", "everyday"]},
-    {"german": "Lass uns später treffen", "english": "Let's meet later", "tags": ["social"]},
-    {"german": "Ich komme zu spät", "english": "I'm running late", "tags": ["everyday", "work"]},
-    {"german": "Tut mir leid für die Verspätung", "english": "Sorry for the delay", "tags": ["everyday", "work"]},
-    {"german": "Kein Problem", "english": "No problem", "tags": ["everyday"]},
-    {"german": "Das macht nichts", "english": "That doesn't matter", "tags": ["everyday"]},
-    {"german": "Ich freue mich darauf", "english": "I'm looking forward to it", "tags": ["everyday", "social"]},
-    {"german": "Das war ein schöner Tag", "english": "That was a nice day", "tags": ["everyday", "social"]},
-    {"german": "Ich bin erkältet", "english": "I have a cold", "tags": ["health"]},
-    {"german": "Mir tut der Kopf weh", "english": "My head hurts", "tags": ["health"]},
-    {"german": "Ich brauche einen Arzt", "english": "I need a doctor", "tags": ["health"]},
-    {"german": "Wo ist die nächste Apotheke?", "english": "Where is the nearest pharmacy?", "tags": ["health", "travel"]},
-    {"german": "Ich habe Fieber", "english": "I have a fever", "tags": ["health"]},
-    {"german": "Gute Besserung", "english": "Get well soon", "tags": ["health", "social"]},
-    {"german": "Ich muss nach Hause gehen", "english": "I have to go home", "tags": ["everyday", "social"]},
-    {"german": "Wir sehen uns bald", "english": "We'll see each other soon", "tags": ["social"]},
-    {"german": "Hast du Geschwister?", "english": "Do you have siblings?", "tags": ["social"]},
-    {"german": "Ich habe einen Bruder", "english": "I have a brother", "tags": ["social"]},
-    {"german": "Meine Familie ist groß", "english": "My family is big", "tags": ["social"]},
-    {"german": "Was sind deine Hobbys?", "english": "What are your hobbies?", "tags": ["social"]},
-    {"german": "Ich spiele gerne Fußball", "english": "I like to play soccer", "tags": ["social"]},
-    {"german": "Ich lese gerne Bücher", "english": "I like to read books", "tags": ["social"]},
-    {"german": "Ich höre gerne Musik", "english": "I like to listen to music", "tags": ["social"]},
-    {"german": "Welche Musik magst du?", "english": "What music do you like?", "tags": ["social"]},
-    {"german": "Ich mag Rock und Pop", "english": "I like rock and pop", "tags": ["social"]},
-    {"german": "Gehst du gerne ins Kino?", "english": "Do you like going to the cinema?", "tags": ["social"]},
-    {"german": "Der Film war interessant", "english": "The movie was interesting", "tags": ["social"]},
-    {"german": "Ich bin mit dem Bus gefahren", "english": "I took the bus", "tags": ["travel"]},
-    {"german": "Ich möchte die Wohnung besichtigen", "english": "I would like to view the apartment", "tags": ["housing"]},
-    {"german": "Wann ist die Wohnung verfügbar?", "english": "When is the apartment available?", "tags": ["housing"]},
-    {"german": "Sind Haustiere erlaubt?", "english": "Are pets allowed?", "tags": ["housing"]},
-    {"german": "Gibt es einen Aufzug?", "english": "Is there an elevator?", "tags": ["housing"]},
-    {"german": "Kann ich mit Karte zahlen?", "english": "Can I pay by card?", "tags": ["shopping"]},
-    {"german": "Haben Sie eine Quittung?", "english": "Do you have a receipt?", "tags": ["shopping"]},
-    {"german": "Ich möchte das umtauschen", "english": "I would like to exchange this", "tags": ["shopping"]},
-    {"german": "Wo finde ich Brot?", "english": "Where can I find bread?", "tags": ["shopping", "food"]},
-    {"german": "Ich brauche ein Rezept", "english": "I need a prescription", "tags": ["health"]},
-    {"german": "Ich habe Husten", "english": "I have a cough", "tags": ["health"]},
-    {"german": "Können Sie mir etwas verschreiben?", "english": "Can you prescribe me something?", "tags": ["health"]},
-    {"german": "Ich bin gegen Penicillin allergisch", "english": "I'm allergic to penicillin", "tags": ["health"]},
-    {"german": "Wann hat die Apotheke geöffnet?", "english": "When is the pharmacy open?", "tags": ["health"]},
-    {"german": "Die Wohnung hat zwei Zimmer", "english": "The apartment has two rooms", "tags": ["housing"]},
-    {"german": "Ich suche ein Einzelzimmer", "english": "I'm looking for a single room", "tags": ["housing", "travel"]},
-    {"german": "Die Küche ist modern", "english": "The kitchen is modern", "tags": ["housing"]},
-    {"german": "Wo ist der nächste Geldautomat?", "english": "Where is the nearest ATM?", "tags": ["shopping", "travel"]},
-    {"german": "Haben Sie eine kleinere Größe?", "english": "Do you have a smaller size?", "tags": ["shopping"]},
-    {"german": "Ich möchte das zurückgeben", "english": "I would like to return this", "tags": ["shopping"]},
-    {"german": "Wo finde ich Milch?", "english": "Where can I find milk?", "tags": ["shopping", "food"]},
-    {"german": "Ich esse kein Fleisch", "english": "I don't eat meat", "tags": ["food"]},
-    {"german": "Das Frühstück ist fertig", "english": "Breakfast is ready", "tags": ["food"]},
-    {"german": "Ich hätte gerne einen Tee", "english": "I would like a tea", "tags": ["food"]},
-    {"german": "Wo ist der Bahnsteig?", "english": "Where is the platform?", "tags": ["travel"]},
-    {"german": "Ich habe meinen Pass vergessen", "english": "I forgot my passport", "tags": ["travel"]},
-    {"german": "Wann kommt der Bus?", "english": "When does the bus come?", "tags": ["travel"]},
-    {"german": "Ich brauche eine Fahrkarte", "english": "I need a ticket", "tags": ["travel"]}
+    {
+      "german": "Können Sie mir helfen?",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich hätte gerne einen Kaffee",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wo kann ich das kaufen?",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich suche den Bahnhof",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wann fährt der Zug ab?",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe eine Frage",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist zu teuer",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Haben Sie das in einer anderen Größe?",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte bezahlen",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "german": "Nehmen Sie Kreditkarten?",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "german": "Ich habe mich verlaufen",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Können Sie das wiederholen?",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Sprechen Sie bitte langsamer",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich verstehe die Speisekarte nicht",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Was empfehlen Sie?",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich bin allergisch gegen Nüsse",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "german": "Die Rechnung, bitte",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Das Essen war lecker",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich arbeite als Lehrer",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "german": "Was machst du beruflich?",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich studiere Medizin",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich habe einen Termin",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wann hast du Zeit?",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Lass uns später treffen",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich komme zu spät",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Tut mir leid für die Verspätung",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Kein Problem",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das macht nichts",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich freue mich darauf",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Das war ein schöner Tag",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich bin erkältet",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Mir tut der Kopf weh",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich brauche einen Arzt",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Wo ist die nächste Apotheke?",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe Fieber",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Gute Besserung",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich muss nach Hause gehen",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Wir sehen uns bald",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Hast du Geschwister?",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich habe einen Bruder",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Meine Familie ist groß",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Was sind deine Hobbys?",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich spiele gerne Fußball",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich lese gerne Bücher",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich höre gerne Musik",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Welche Musik magst du?",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich mag Rock und Pop",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Gehst du gerne ins Kino?",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Der Film war interessant",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich bin mit dem Bus gefahren",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich möchte die Wohnung besichtigen",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wann ist die Wohnung verfügbar?",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Sind Haustiere erlaubt?",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Gibt es einen Aufzug?",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Kann ich mit Karte zahlen?",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Haben Sie eine Quittung?",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte das umtauschen",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Wo finde ich Brot?",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "german": "Ich brauche ein Rezept",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich habe Husten",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Können Sie mir etwas verschreiben?",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich bin gegen Penicillin allergisch",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Wann hat die Apotheke geöffnet?",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Wohnung hat zwei Zimmer",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich suche ein Einzelzimmer",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Küche ist modern",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wo ist der nächste Geldautomat?",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "german": "Haben Sie eine kleinere Größe?",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich möchte das zurückgeben",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Wo finde ich Milch?",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "german": "Ich esse kein Fleisch",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Das Frühstück ist fertig",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich hätte gerne einen Tee",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Wo ist der Bahnsteig?",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Pass vergessen",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wann kommt der Bus?",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich brauche eine Fahrkarte",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Willst du tanzen?",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du riechst wirklich gut.",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich mag dein Outfit.",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Bist du mit Freunden hier?",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Kann ich deine Nummer haben?",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du bist sehr interessant.",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wir haben viel gemeinsam.",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Dieses Lied ist toll, oder?",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich habe noch nie jemanden wie dich getroffen.",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Lass uns zusammen ein Selfie machen.",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
+      ]
+    }
   ],
   "B1": [
-    {"german": "Ich würde gerne einen Tisch reservieren", "english": "I would like to reserve a table", "tags": ["food"]},
-    {"german": "Könnten Sie mir den Weg erklären?", "english": "Could you explain the way to me?", "tags": ["travel"]},
-    {"german": "Ich interessiere mich für Geschichte", "english": "I'm interested in history", "tags": ["social"]},
-    {"german": "Meiner Meinung nach ist das wichtig", "english": "In my opinion, that is important", "tags": ["everyday"]},
-    {"german": "Ich bin anderer Meinung", "english": "I have a different opinion", "tags": ["everyday", "work"]},
-    {"german": "Das hängt davon ab", "english": "That depends", "tags": ["everyday"]},
-    {"german": "Ich bin damit einverstanden", "english": "I agree with that", "tags": ["everyday", "work"]},
-    {"german": "Ich bin dagegen", "english": "I'm against it", "tags": ["everyday", "work"]},
-    {"german": "Was hältst du davon?", "english": "What do you think about it?", "tags": ["everyday", "social"]},
-    {"german": "Ich habe darüber nachgedacht", "english": "I've thought about it", "tags": ["everyday"]},
-    {"german": "Das ergibt keinen Sinn", "english": "That doesn't make sense", "tags": ["everyday", "work"]},
-    {"german": "Kannst du das näher erklären?", "english": "Can you explain that in more detail?", "tags": ["everyday", "work"]},
-    {"german": "Ich habe mich daran gewöhnt", "english": "I've gotten used to it", "tags": ["everyday"]},
-    {"german": "Es fällt mir schwer", "english": "It's difficult for me", "tags": ["everyday"]},
-    {"german": "Ich bemühe mich", "english": "I'm trying my best", "tags": ["everyday", "work"]},
-    {"german": "Das kommt darauf an", "english": "It depends on that", "tags": ["everyday"]},
-    {"german": "Soweit ich weiß", "english": "As far as I know", "tags": ["everyday"]},
-    {"german": "Ich bin mir nicht sicher", "english": "I'm not sure", "tags": ["everyday"]},
-    {"german": "Lass mich darüber nachdenken", "english": "Let me think about it", "tags": ["everyday", "work"]},
-    {"german": "Ich habe vor, nach Italien zu reisen", "english": "I plan to travel to Italy", "tags": ["travel", "social"]},
-    {"german": "Ich freue mich auf die Ferien", "english": "I'm looking forward to the holidays", "tags": ["everyday", "travel"]},
-    {"german": "Ich bereue meine Entscheidung", "english": "I regret my decision", "tags": ["everyday"]},
-    {"german": "Das war ein Missverständnis", "english": "That was a misunderstanding", "tags": ["everyday", "work"]},
-    {"german": "Ich habe mich geirrt", "english": "I was wrong", "tags": ["everyday"]},
-    {"german": "Du hast recht", "english": "You're right", "tags": ["everyday"]},
-    {"german": "Das stimmt nicht ganz", "english": "That's not quite right", "tags": ["everyday", "work"]},
-    {"german": "Ich bin überrascht", "english": "I'm surprised", "tags": ["everyday"]},
-    {"german": "Das ist unglaublich", "english": "That's unbelievable", "tags": ["everyday"]},
-    {"german": "Ich bin enttäuscht", "english": "I'm disappointed", "tags": ["everyday"]},
-    {"german": "Das macht mich wütend", "english": "That makes me angry", "tags": ["everyday"]},
-    {"german": "Ich bin begeistert", "english": "I'm enthusiastic", "tags": ["everyday"]},
-    {"german": "Das ist mir peinlich", "english": "That's embarrassing for me", "tags": ["everyday", "social"]},
-    {"german": "Ich schäme mich", "english": "I'm ashamed", "tags": ["everyday"]},
-    {"german": "Ich bin stolz auf dich", "english": "I'm proud of you", "tags": ["social"]},
-    {"german": "Das tut mir aufrichtig leid", "english": "I'm sincerely sorry", "tags": ["everyday", "social"]},
-    {"german": "Ich entschuldige mich", "english": "I apologize", "tags": ["everyday", "work"]},
-    {"german": "Ich verzeihe dir", "english": "I forgive you", "tags": ["social"]},
-    {"german": "Lass uns das vergessen", "english": "Let's forget about that", "tags": ["everyday", "social"]},
-    {"german": "Ich vermisse dich", "english": "I miss you", "tags": ["social"]},
-    {"german": "Ich denke oft an dich", "english": "I often think of you", "tags": ["social"]},
-    {"german": "Wir sollten in Kontakt bleiben", "english": "We should stay in touch", "tags": ["social"]},
-    {"german": "Ich habe lange nichts von dir gehört", "english": "I haven't heard from you in a long time", "tags": ["social"]},
-    {"german": "Wie läuft es bei dir?", "english": "How are things going for you?", "tags": ["everyday", "social"]},
-    {"german": "Ich habe viel zu tun", "english": "I have a lot to do", "tags": ["work", "everyday"]},
-    {"german": "Ich bin im Stress", "english": "I'm stressed", "tags": ["work", "everyday"]},
-    {"german": "Ich brauche eine Pause", "english": "I need a break", "tags": ["work", "everyday"]},
-    {"german": "Ich bin erschöpft", "english": "I'm exhausted", "tags": ["everyday", "work"]},
-    {"german": "Ich muss mich ausruhen", "english": "I need to rest", "tags": ["everyday", "health"]},
-    {"german": "Das war anstrengend", "english": "That was exhausting", "tags": ["everyday", "work"]},
-    {"german": "Ich fühle mich besser", "english": "I feel better", "tags": ["everyday", "health"]},
-    {"german": "Ich suche eine möblierte Wohnung", "english": "I'm looking for a furnished apartment", "tags": ["housing"]},
-    {"german": "Sind die Nebenkosten inklusive?", "english": "Are utilities included?", "tags": ["housing"]},
-    {"german": "Wie hoch ist die Kaution?", "english": "How much is the deposit?", "tags": ["housing"]},
-    {"german": "Gibt es eine Waschmaschine?", "english": "Is there a washing machine?", "tags": ["housing"]},
-    {"german": "Ich hätte gerne eine Rückerstattung", "english": "I would like a refund", "tags": ["shopping"]},
-    {"german": "Das Produkt ist defekt", "english": "The product is defective", "tags": ["shopping"]},
-    {"german": "Haben Sie das auf Lager?", "english": "Do you have this in stock?", "tags": ["shopping"]},
-    {"german": "Gibt es eine Garantie?", "english": "Is there a warranty?", "tags": ["shopping"]},
-    {"german": "Ich habe einen Termin beim Arzt", "english": "I have a doctor's appointment", "tags": ["health"]},
-    {"german": "Seit wann haben Sie die Beschwerden?", "english": "Since when have you had the symptoms?", "tags": ["health"]},
-    {"german": "Ich nehme regelmäßig Medikamente", "english": "I take medication regularly", "tags": ["health"]},
-    {"german": "Ich brauche eine Krankmeldung", "english": "I need a sick note", "tags": ["health", "work"]},
-    {"german": "Meine Versicherungskarte", "english": "My insurance card", "tags": ["health"]},
-    {"german": "Der Vermieter hat noch nicht geantwortet", "english": "The landlord hasn't responded yet", "tags": ["housing"]},
-    {"german": "Ich bin Vegetarier", "english": "I'm vegetarian", "tags": ["food"]},
-    {"german": "Gibt es vegetarische Optionen?", "english": "Are there vegetarian options?", "tags": ["food"]},
-    {"german": "Das Essen ist zu salzig", "english": "The food is too salty", "tags": ["food"]},
-    {"german": "Ich hätte gerne die Speisekarte", "english": "I would like the menu", "tags": ["food"]},
-    {"german": "Können Sie das Gericht empfehlen?", "english": "Can you recommend the dish?", "tags": ["food"]},
-    {"german": "Ich möchte ein Zimmer buchen", "english": "I would like to book a room", "tags": ["travel"]},
-    {"german": "Ist das Frühstück inbegriffen?", "english": "Is breakfast included?", "tags": ["travel", "food"]},
-    {"german": "Wann ist der Check-out?", "english": "When is check-out?", "tags": ["travel"]},
-    {"german": "Gibt es WLAN im Hotel?", "english": "Is there WiFi in the hotel?", "tags": ["travel"]},
-    {"german": "Ich habe meine Reservierung verloren", "english": "I lost my reservation", "tags": ["travel"]},
-    {"german": "Wo kann ich mein Gepäck lassen?", "english": "Where can I leave my luggage?", "tags": ["travel"]},
-    {"german": "Wie komme ich zum Flughafen?", "english": "How do I get to the airport?", "tags": ["travel"]},
-    {"german": "Ich suche eine WG", "english": "I'm looking for a shared apartment", "tags": ["housing"]},
-    {"german": "Wie hoch sind die Stromkosten?", "english": "How much are the electricity costs?", "tags": ["housing"]},
-    {"german": "Der Balkon ist sonnig", "english": "The balcony is sunny", "tags": ["housing"]},
-    {"german": "Ich brauche einen Parkplatz", "english": "I need a parking space", "tags": ["housing"]},
-    {"german": "Gibt es einen Rabatt?", "english": "Is there a discount?", "tags": ["shopping"]},
-    {"german": "Kann ich das reservieren?", "english": "Can I reserve this?", "tags": ["shopping"]},
-    {"german": "Wann wird das geliefert?", "english": "When will this be delivered?", "tags": ["shopping"]},
-    {"german": "Ich bestelle das gleiche", "english": "I'll order the same", "tags": ["food"]},
-    {"german": "Können Sie das scharf machen?", "english": "Can you make it spicy?", "tags": ["food"]},
-    {"german": "Ich hätte gerne ein Dessert", "english": "I would like a dessert", "tags": ["food"]},
-    {"german": "Das Essen ist kalt geworden", "english": "The food has gotten cold", "tags": ["food"]},
-    {"german": "Ich möchte einchecken", "english": "I would like to check in", "tags": ["travel"]},
-    {"german": "Haben Sie einen Stadtplan?", "english": "Do you have a city map?", "tags": ["travel"]},
-    {"german": "Wo ist die Touristeninformation?", "english": "Where is the tourist information?", "tags": ["travel"]},
-    {"german": "Ich habe mein Ticket verloren", "english": "I lost my ticket", "tags": ["travel"]}
+    {
+      "german": "Ich würde gerne einen Tisch reservieren",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Könnten Sie mir den Weg erklären?",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich interessiere mich für Geschichte",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Meiner Meinung nach ist das wichtig",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin anderer Meinung",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Das hängt davon ab",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin damit einverstanden",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich bin dagegen",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Was hältst du davon?",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich habe darüber nachgedacht",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ergibt keinen Sinn",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Kannst du das näher erklären?",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich habe mich daran gewöhnt",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es fällt mir schwer",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bemühe mich",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Das kommt darauf an",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Soweit ich weiß",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin mir nicht sicher",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Lass mich darüber nachdenken",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich habe vor, nach Italien zu reisen",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich freue mich auf die Ferien",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich bereue meine Entscheidung",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das war ein Missverständnis",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich habe mich geirrt",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Du hast recht",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das stimmt nicht ganz",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich bin überrascht",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist unglaublich",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin enttäuscht",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das macht mich wütend",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin begeistert",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist mir peinlich",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich schäme mich",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin stolz auf dich",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Das tut mir aufrichtig leid",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich entschuldige mich",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich verzeihe dir",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Lass uns das vergessen",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich vermisse dich",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich denke oft an dich",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Wir sollten in Kontakt bleiben",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Ich habe lange nichts von dir gehört",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Wie läuft es bei dir?",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "german": "Ich habe viel zu tun",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin im Stress",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich brauche eine Pause",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin erschöpft",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich muss mich ausruhen",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "german": "Das war anstrengend",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich fühle mich besser",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "german": "Ich suche eine möblierte Wohnung",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Sind die Nebenkosten inklusive?",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wie hoch ist die Kaution?",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Gibt es eine Waschmaschine?",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich hätte gerne eine Rückerstattung",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das Produkt ist defekt",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Haben Sie das auf Lager?",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Gibt es eine Garantie?",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich habe einen Termin beim Arzt",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Seit wann haben Sie die Beschwerden?",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich nehme regelmäßig Medikamente",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich brauche eine Krankmeldung",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "german": "Meine Versicherungskarte",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Der Vermieter hat noch nicht geantwortet",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich bin Vegetarier",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Gibt es vegetarische Optionen?",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Das Essen ist zu salzig",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich hätte gerne die Speisekarte",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Können Sie das Gericht empfehlen?",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich möchte ein Zimmer buchen",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ist das Frühstück inbegriffen?",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "german": "Wann ist der Check-out?",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Gibt es WLAN im Hotel?",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe meine Reservierung verloren",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wo kann ich mein Gepäck lassen?",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wie komme ich zum Flughafen?",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich suche eine WG",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Wie hoch sind die Stromkosten?",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Der Balkon ist sonnig",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich brauche einen Parkplatz",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Gibt es einen Rabatt?",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Kann ich das reservieren?",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Wann wird das geliefert?",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich bestelle das gleiche",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Können Sie das scharf machen?",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich hätte gerne ein Dessert",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Das Essen ist kalt geworden",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich möchte einchecken",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Haben Sie einen Stadtplan?",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wo ist die Touristeninformation?",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe mein Ticket verloren",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ist dieser Platz noch frei? Oder wartest du auf jemanden?",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich wollte gerade gehen, aber dann hab ich dich gesehen.",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Man kann sich echt gut mit dir unterhalten.",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Was macht jemand wie du an einem Ort wie diesem?",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Kennen wir uns? Oder wünsche ich mir das nur?",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich hätte mich geärgert, wenn ich nicht rübergekommen wäre.",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Bist du immer so charmant?",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich rede so gerne mit dir, die Zeit vergeht wie im Flug.",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du siehst aus, als würdest du für Ärger sorgen.",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich mache das sonst nie, aber du bist mir aufgefallen.",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wir sollten unbedingt mal einen Kaffee trinken gehen.",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich hoffe, es stört dich nicht, dass ich dich anspreche.",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du hast das schönste Lächeln, das ich heute gesehen habe.",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich hab mich gefragt, ob wir vielleicht hier verschwinden sollen?",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Lass uns diese Woche mal zusammen essen gehen.",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
+      ]
+    }
   ],
   "B2": [
-    {"german": "Ich bin der Ansicht, dass wir handeln müssen", "english": "I am of the opinion that we must act", "tags": ["work"]},
-    {"german": "Es ist offensichtlich, dass sich etwas ändern muss", "english": "It's obvious that something must change", "tags": ["work", "everyday"]},
-    {"german": "Ich möchte auf einen wichtigen Punkt hinweisen", "english": "I would like to point out an important point", "tags": ["work"]},
-    {"german": "Das wirft die Frage auf", "english": "That raises the question", "tags": ["work", "everyday"]},
-    {"german": "Im Gegensatz dazu", "english": "In contrast to that", "tags": ["work", "everyday"]},
-    {"german": "Einerseits verstehe ich das, andererseits", "english": "On the one hand I understand that, on the other hand", "tags": ["work", "everyday"]},
-    {"german": "Das lässt sich nicht leugnen", "english": "That cannot be denied", "tags": ["everyday"]},
-    {"german": "Es besteht kein Zweifel daran", "english": "There is no doubt about it", "tags": ["everyday"]},
-    {"german": "Ich bin fest davon überzeugt", "english": "I am firmly convinced of that", "tags": ["everyday"]},
-    {"german": "Das spielt eine wichtige Rolle", "english": "That plays an important role", "tags": ["work", "everyday"]},
-    {"german": "Wir müssen die Vor- und Nachteile abwägen", "english": "We must weigh the pros and cons", "tags": ["work"]},
-    {"german": "Das hat weitreichende Folgen", "english": "That has far-reaching consequences", "tags": ["work", "everyday"]},
-    {"german": "Ich möchte das aus einer anderen Perspektive betrachten", "english": "I would like to look at that from a different perspective", "tags": ["work", "everyday"]},
-    {"german": "Das hängt von verschiedenen Faktoren ab", "english": "That depends on various factors", "tags": ["work", "everyday"]},
-    {"german": "Unter diesen Umständen", "english": "Under these circumstances", "tags": ["everyday"]},
-    {"german": "Vorausgesetzt, dass", "english": "Provided that", "tags": ["work", "everyday"]},
-    {"german": "Falls das der Fall sein sollte", "english": "In case that should be the case", "tags": ["everyday"]},
-    {"german": "Angenommen, wir hätten mehr Zeit", "english": "Assuming we had more time", "tags": ["work", "everyday"]},
-    {"german": "Es wäre besser gewesen, wenn", "english": "It would have been better if", "tags": ["everyday"]},
-    {"german": "Hätte ich das gewusst", "english": "Had I known that", "tags": ["everyday"]},
-    {"german": "Ich hätte anders gehandelt", "english": "I would have acted differently", "tags": ["everyday"]},
-    {"german": "Das hätte vermieden werden können", "english": "That could have been avoided", "tags": ["work", "everyday"]},
-    {"german": "Im Nachhinein betrachtet", "english": "In retrospect", "tags": ["everyday"]},
-    {"german": "Rückblickend kann ich sagen", "english": "Looking back, I can say", "tags": ["everyday"]},
-    {"german": "Das war eine wertvolle Erfahrung", "english": "That was a valuable experience", "tags": ["everyday", "work"]},
-    {"german": "Ich habe daraus gelernt", "english": "I learned from that", "tags": ["everyday"]},
-    {"german": "Das hat meine Sichtweise verändert", "english": "That changed my perspective", "tags": ["everyday"]},
-    {"german": "Ich bin zu dem Schluss gekommen", "english": "I have come to the conclusion", "tags": ["work", "everyday"]},
-    {"german": "Zusammenfassend lässt sich sagen", "english": "In summary, it can be said", "tags": ["work"]},
-    {"german": "Abschließend möchte ich betonen", "english": "In conclusion, I would like to emphasize", "tags": ["work"]},
-    {"german": "Das Hauptproblem besteht darin", "english": "The main problem is", "tags": ["work", "everyday"]},
-    {"german": "Die Herausforderung liegt darin", "english": "The challenge lies in", "tags": ["work", "everyday"]},
-    {"german": "Es ist schwierig einzuschätzen", "english": "It's difficult to assess", "tags": ["everyday"]},
-    {"german": "Man kann nicht verallgemeinern", "english": "One cannot generalize", "tags": ["everyday"]},
-    {"german": "Das ist eine komplexe Angelegenheit", "english": "That is a complex matter", "tags": ["work", "everyday"]},
-    {"german": "Es gibt verschiedene Ansätze", "english": "There are different approaches", "tags": ["work", "everyday"]},
-    {"german": "Eine mögliche Lösung wäre", "english": "A possible solution would be", "tags": ["work", "everyday"]},
-    {"german": "Wir sollten alternative Optionen in Betracht ziehen", "english": "We should consider alternative options", "tags": ["work"]},
-    {"german": "Das erfordert sorgfältige Überlegung", "english": "That requires careful consideration", "tags": ["work", "everyday"]},
-    {"german": "Ich bin geneigt zu glauben", "english": "I am inclined to believe", "tags": ["everyday"]},
-    {"german": "Es scheint mir, als ob", "english": "It seems to me as if", "tags": ["everyday"]},
-    {"german": "Soweit ich das beurteilen kann", "english": "As far as I can judge", "tags": ["everyday"]},
-    {"german": "Nach meinem Verständnis", "english": "According to my understanding", "tags": ["everyday"]},
-    {"german": "Ich gehe davon aus, dass", "english": "I assume that", "tags": ["everyday"]},
-    {"german": "Es ist anzunehmen, dass", "english": "It is to be assumed that", "tags": ["everyday"]},
-    {"german": "Die Wahrscheinlichkeit ist hoch", "english": "The probability is high", "tags": ["everyday"]},
-    {"german": "Es ist unwahrscheinlich, dass", "english": "It is unlikely that", "tags": ["everyday"]},
-    {"german": "Das erscheint mir logisch", "english": "That seems logical to me", "tags": ["everyday"]},
-    {"german": "Das ergibt durchaus Sinn", "english": "That makes perfect sense", "tags": ["everyday"]},
-    {"german": "Ich kann nachvollziehen, warum", "english": "I can understand why", "tags": ["everyday"]},
-    {"german": "Ich möchte den Mietvertrag kündigen", "english": "I would like to terminate the lease", "tags": ["housing"]},
-    {"german": "Die Kündigungsfrist beträgt drei Monate", "english": "The notice period is three months", "tags": ["housing"]},
-    {"german": "Es gibt einen Wasserschaden in der Wohnung", "english": "There is water damage in the apartment", "tags": ["housing"]},
-    {"german": "Die Heizung funktioniert nicht", "english": "The heating doesn't work", "tags": ["housing"]},
-    {"german": "Ich möchte eine Beschwerde einreichen", "english": "I would like to file a complaint", "tags": ["shopping"]},
-    {"german": "Das entspricht nicht der Beschreibung", "english": "This doesn't match the description", "tags": ["shopping"]},
-    {"german": "Ich bestehe auf meinem Rückgaberecht", "english": "I insist on my right of return", "tags": ["shopping"]},
-    {"german": "Können Sie mir das schriftlich bestätigen?", "english": "Can you confirm that in writing?", "tags": ["shopping", "work"]},
-    {"german": "Ich benötige eine Überweisung zum Facharzt", "english": "I need a referral to a specialist", "tags": ["health"]},
-    {"german": "Welche Nebenwirkungen hat das Medikament?", "english": "What side effects does the medication have?", "tags": ["health"]},
-    {"german": "Ich möchte eine zweite Meinung einholen", "english": "I would like to get a second opinion", "tags": ["health"]},
-    {"german": "Die Behandlung wird von der Krankenkasse übernommen", "english": "The treatment is covered by health insurance", "tags": ["health"]},
-    {"german": "Ich habe chronische Rückenschmerzen", "english": "I have chronic back pain", "tags": ["health"]},
-    {"german": "Die Wohnungsübergabe findet nächste Woche statt", "english": "The apartment handover takes place next week", "tags": ["housing"]},
-    {"german": "Ich habe eine Lebensmittelunverträglichkeit", "english": "I have a food intolerance", "tags": ["food", "health"]},
-    {"german": "Enthält das Gericht Gluten?", "english": "Does the dish contain gluten?", "tags": ["food"]},
-    {"german": "Ich würde gerne einen Tisch am Fenster", "english": "I would like a table by the window", "tags": ["food"]},
-    {"german": "Das Fleisch ist nicht durchgebraten", "english": "The meat is not cooked through", "tags": ["food"]},
-    {"german": "Könnten Sie die Rechnung aufteilen?", "english": "Could you split the bill?", "tags": ["food"]},
-    {"german": "Ich möchte meine Buchung stornieren", "english": "I would like to cancel my booking", "tags": ["travel"]},
-    {"german": "Fallen Stornierungsgebühren an?", "english": "Are there cancellation fees?", "tags": ["travel"]},
-    {"german": "Mein Flug wurde gestrichen", "english": "My flight was cancelled", "tags": ["travel"]},
-    {"german": "Ich habe meinen Anschlussflug verpasst", "english": "I missed my connecting flight", "tags": ["travel"]},
-    {"german": "Wo befindet sich das Boarding Gate?", "english": "Where is the boarding gate?", "tags": ["travel"]},
-    {"german": "Mein Gepäck ist nicht angekommen", "english": "My luggage didn't arrive", "tags": ["travel"]},
-    {"german": "Ich benötige eine Reiseversicherung", "english": "I need travel insurance", "tags": ["travel"]},
-    {"german": "Die Sehenswürdigkeiten sind zu Fuß erreichbar", "english": "The sights are within walking distance", "tags": ["travel"]},
-    {"german": "Ich möchte die Wohnung untervermieten", "english": "I would like to sublet the apartment", "tags": ["housing"]},
-    {"german": "Der Mietvertrag läuft aus", "english": "The lease is expiring", "tags": ["housing"]},
-    {"german": "Die Wohnung ist hellhörig", "english": "The apartment has thin walls", "tags": ["housing"]},
-    {"german": "Ich habe Anspruch auf Mietminderung", "english": "I'm entitled to a rent reduction", "tags": ["housing"]},
-    {"german": "Ich möchte online bestellen", "english": "I would like to order online", "tags": ["shopping"]},
-    {"german": "Die Lieferung verzögert sich", "english": "The delivery is delayed", "tags": ["shopping"]},
-    {"german": "Ich habe die falsche Ware erhalten", "english": "I received the wrong goods", "tags": ["shopping"]},
-    {"german": "Kann ich das in Raten zahlen?", "english": "Can I pay in installments?", "tags": ["shopping"]},
-    {"german": "Die Zutaten sind regional", "english": "The ingredients are regional", "tags": ["food"]},
-    {"german": "Ich bevorzuge Bio-Produkte", "english": "I prefer organic products", "tags": ["food", "shopping"]},
-    {"german": "Das Gericht ist hausgemacht", "english": "The dish is homemade", "tags": ["food"]},
-    {"german": "Können Sie das Rezept empfehlen?", "english": "Can you recommend the recipe?", "tags": ["food"]},
-    {"german": "Ich möchte meinen Flug umbuchen", "english": "I would like to rebook my flight", "tags": ["travel"]},
-    {"german": "Die Reise wurde verschoben", "english": "The trip was postponed", "tags": ["travel"]},
-    {"german": "Ich benötige ein Visum", "english": "I need a visa", "tags": ["travel"]},
-    {"german": "Die Unterkunft entspricht nicht den Erwartungen", "english": "The accommodation doesn't meet expectations", "tags": ["travel"]}
+    {
+      "german": "Ich bin der Ansicht, dass wir handeln müssen",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es ist offensichtlich, dass sich etwas ändern muss",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich möchte auf einen wichtigen Punkt hinweisen",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das wirft die Frage auf",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Im Gegensatz dazu",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Einerseits verstehe ich das, andererseits",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das lässt sich nicht leugnen",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es besteht kein Zweifel daran",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin fest davon überzeugt",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das spielt eine wichtige Rolle",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir müssen die Vor- und Nachteile abwägen",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das hat weitreichende Folgen",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich möchte das aus einer anderen Perspektive betrachten",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das hängt von verschiedenen Faktoren ab",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Unter diesen Umständen",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Vorausgesetzt, dass",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Falls das der Fall sein sollte",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Angenommen, wir hätten mehr Zeit",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es wäre besser gewesen, wenn",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Hätte ich das gewusst",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich hätte anders gehandelt",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das hätte vermieden werden können",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Im Nachhinein betrachtet",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Rückblickend kann ich sagen",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das war eine wertvolle Erfahrung",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich habe daraus gelernt",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das hat meine Sichtweise verändert",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin zu dem Schluss gekommen",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Zusammenfassend lässt sich sagen",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Abschließend möchte ich betonen",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Hauptproblem besteht darin",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Herausforderung liegt darin",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist schwierig einzuschätzen",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Man kann nicht verallgemeinern",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist eine komplexe Angelegenheit",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es gibt verschiedene Ansätze",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Eine mögliche Lösung wäre",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir sollten alternative Optionen in Betracht ziehen",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das erfordert sorgfältige Überlegung",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich bin geneigt zu glauben",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es scheint mir, als ob",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Soweit ich das beurteilen kann",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Nach meinem Verständnis",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich gehe davon aus, dass",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist anzunehmen, dass",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Wahrscheinlichkeit ist hoch",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es ist unwahrscheinlich, dass",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das erscheint mir logisch",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ergibt durchaus Sinn",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich kann nachvollziehen, warum",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ich möchte den Mietvertrag kündigen",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Kündigungsfrist beträgt drei Monate",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Es gibt einen Wasserschaden in der Wohnung",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Heizung funktioniert nicht",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich möchte eine Beschwerde einreichen",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das entspricht nicht der Beschreibung",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich bestehe auf meinem Rückgaberecht",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Können Sie mir das schriftlich bestätigen?",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "german": "Ich benötige eine Überweisung zum Facharzt",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Welche Nebenwirkungen hat das Medikament?",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich möchte eine zweite Meinung einholen",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Behandlung wird von der Krankenkasse übernommen",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Ich habe chronische Rückenschmerzen",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Wohnungsübergabe findet nächste Woche statt",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich habe eine Lebensmittelunverträglichkeit",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "german": "Enthält das Gericht Gluten?",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich würde gerne einen Tisch am Fenster",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Das Fleisch ist nicht durchgebraten",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Könnten Sie die Rechnung aufteilen?",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich möchte meine Buchung stornieren",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Fallen Stornierungsgebühren an?",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Mein Flug wurde gestrichen",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Anschlussflug verpasst",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Wo befindet sich das Boarding Gate?",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Mein Gepäck ist nicht angekommen",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich benötige eine Reiseversicherung",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Sehenswürdigkeiten sind zu Fuß erreichbar",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich möchte die Wohnung untervermieten",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Der Mietvertrag läuft aus",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Wohnung ist hellhörig",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich habe Anspruch auf Mietminderung",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich möchte online bestellen",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Lieferung verzögert sich",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Ich habe die falsche Ware erhalten",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Kann ich das in Raten zahlen?",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Zutaten sind regional",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich bevorzuge Bio-Produkte",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das Gericht ist hausgemacht",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Können Sie das Rezept empfehlen?",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Ich möchte meinen Flug umbuchen",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Reise wurde verschoben",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich benötige ein Visum",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Unterkunft entspricht nicht den Erwartungen",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Es ist zu laut hier, wollen wir ein bisschen an die frische Luft gehen?",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Eigentlich spreche ich keine Fremden an, aber ich bin froh, dass ich es getan habe.",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wenn du am Wochenende Zeit hast, würde ich dir gerne meinen Lieblingsplatz in der Stadt zeigen.",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du hast eine ganz besondere Art, die Dinge zu betrachten.",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich wollte eigentlich gehen, aber du machst es mir echt schwer.",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich werde aus dir nicht schlau, aber ich will es unbedingt versuchen.",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du bist ziemlich lustig, das muss ich dir lassen.",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich liebe es, wie leidenschaftlich du darüber sprichst.",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Was ist das Verrückteste, das du je für die Liebe getan hast?",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich habe das Gefühl, wir könnten die ganze Nacht reden.",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
+    }
   ],
   "C1": [
-    {"german": "Die Diskussion hat eine neue Dimension erreicht", "english": "The discussion has reached a new dimension", "tags": ["work"]},
-    {"german": "Das wirft grundlegende Fragen auf", "english": "That raises fundamental questions", "tags": ["work", "everyday"]},
-    {"german": "Wir müssen die zugrunde liegenden Ursachen analysieren", "english": "We must analyze the underlying causes", "tags": ["work"]},
-    {"german": "Es ist unerlässlich, dass wir handeln", "english": "It is imperative that we act", "tags": ["work"]},
-    {"german": "Die Sachlage ist äußerst komplex", "english": "The situation is extremely complex", "tags": ["work", "everyday"]},
-    {"german": "Man sollte die historischen Zusammenhänge berücksichtigen", "english": "One should consider the historical context", "tags": ["work", "everyday"]},
-    {"german": "Das steht im Widerspruch zu früheren Aussagen", "english": "That contradicts previous statements", "tags": ["work", "everyday"]},
-    {"german": "Die Argumentation weist erhebliche Lücken auf", "english": "The argumentation has significant gaps", "tags": ["work"]},
-    {"german": "Es mangelt an empirischen Belegen", "english": "There is a lack of empirical evidence", "tags": ["work"]},
-    {"german": "Die Studie liefert aufschlussreiche Erkenntnisse", "english": "The study provides insightful findings", "tags": ["work"]},
-    {"german": "Das Phänomen lässt sich nicht eindeutig erklären", "english": "The phenomenon cannot be clearly explained", "tags": ["work", "everyday"]},
-    {"german": "Es besteht ein kausaler Zusammenhang", "english": "There is a causal relationship", "tags": ["work"]},
-    {"german": "Die Korrelation ist statistisch signifikant", "english": "The correlation is statistically significant", "tags": ["work"]},
-    {"german": "Man muss zwischen Korrelation und Kausalität unterscheiden", "english": "One must distinguish between correlation and causation", "tags": ["work"]},
-    {"german": "Die Methodik ist fragwürdig", "english": "The methodology is questionable", "tags": ["work"]},
-    {"german": "Das Ergebnis ist nicht verallgemeinerbar", "english": "The result is not generalizable", "tags": ["work"]},
-    {"german": "Es bedarf weiterer Forschung", "english": "Further research is needed", "tags": ["work"]},
-    {"german": "Die Implikationen sind weitreichend", "english": "The implications are far-reaching", "tags": ["work", "everyday"]},
-    {"german": "Das hat tiefgreifende Auswirkungen", "english": "That has profound effects", "tags": ["work", "everyday"]},
-    {"german": "Wir stehen vor einem Paradigmenwechsel", "english": "We are facing a paradigm shift", "tags": ["work"]},
-    {"german": "Die Theorie ist nicht haltbar", "english": "The theory is not tenable", "tags": ["work"]},
-    {"german": "Das Argument ist schlüssig", "english": "The argument is conclusive", "tags": ["work", "everyday"]},
-    {"german": "Die Beweislage ist erdrückend", "english": "The evidence is overwhelming", "tags": ["work", "everyday"]},
-    {"german": "Es gibt berechtigte Zweifel", "english": "There are legitimate doubts", "tags": ["work", "everyday"]},
-    {"german": "Die Kritik ist nicht von der Hand zu weisen", "english": "The criticism cannot be dismissed", "tags": ["work", "everyday"]},
-    {"german": "Das lässt sich nicht ohne weiteres widerlegen", "english": "That cannot be easily refuted", "tags": ["work", "everyday"]},
-    {"german": "Die Behauptung entbehrt jeder Grundlage", "english": "The claim lacks any foundation", "tags": ["work", "everyday"]},
-    {"german": "Das ist eine gewagte These", "english": "That is a bold thesis", "tags": ["work", "everyday"]},
-    {"german": "Die Schlussfolgerung ist voreilig", "english": "The conclusion is premature", "tags": ["work"]},
-    {"german": "Man sollte vorsichtig mit Verallgemeinerungen sein", "english": "One should be cautious with generalizations", "tags": ["work", "everyday"]},
-    {"german": "Das Dilemma ist offensichtlich", "english": "The dilemma is obvious", "tags": ["work", "everyday"]},
-    {"german": "Wir befinden uns in einer Zwickmühle", "english": "We find ourselves in a predicament", "tags": ["work", "everyday"]},
-    {"german": "Die Situation erfordert ein differenziertes Vorgehen", "english": "The situation requires a nuanced approach", "tags": ["work"]},
-    {"german": "Es gilt, einen Kompromiss zu finden", "english": "It is necessary to find a compromise", "tags": ["work", "everyday"]},
-    {"german": "Die Interessen sind unvereinbar", "english": "The interests are incompatible", "tags": ["work", "everyday"]},
-    {"german": "Das stellt uns vor große Herausforderungen", "english": "That poses great challenges for us", "tags": ["work", "everyday"]},
-    {"german": "Die Entwicklung ist besorgniserregend", "english": "The development is alarming", "tags": ["work", "everyday"]},
-    {"german": "Es zeichnet sich ein Trend ab", "english": "A trend is emerging", "tags": ["work", "everyday"]},
-    {"german": "Die Tendenz ist eindeutig", "english": "The tendency is clear", "tags": ["work", "everyday"]},
-    {"german": "Das deutet auf tieferliegende Probleme hin", "english": "That indicates deeper problems", "tags": ["work", "everyday"]},
-    {"german": "Die Ursachen sind vielschichtig", "english": "The causes are multifaceted", "tags": ["work", "everyday"]},
-    {"german": "Es handelt sich um ein strukturelles Problem", "english": "It is a structural problem", "tags": ["work"]},
-    {"german": "Die Maßnahmen greifen zu kurz", "english": "The measures fall short", "tags": ["work", "everyday"]},
-    {"german": "Ein grundlegender Wandel ist erforderlich", "english": "A fundamental change is required", "tags": ["work", "everyday"]},
-    {"german": "Die Reform ist längst überfällig", "english": "The reform is long overdue", "tags": ["work", "everyday"]},
-    {"german": "Das System ist nicht mehr zeitgemäß", "english": "The system is no longer contemporary", "tags": ["work", "everyday"]},
-    {"german": "Wir müssen neue Wege beschreiten", "english": "We must break new ground", "tags": ["work"]},
-    {"german": "Die Herangehensweise ist innovativ", "english": "The approach is innovative", "tags": ["work"]},
-    {"german": "Das Konzept ist zukunftsweisend", "english": "The concept is forward-looking", "tags": ["work"]},
-    {"german": "Die Vision ist ambitioniert aber realisierbar", "english": "The vision is ambitious but achievable", "tags": ["work"]},
-    {"german": "Die Mietpreisbremse greift in diesem Gebiet", "english": "The rent control applies in this area", "tags": ["housing"]},
-    {"german": "Der Wohnungsmarkt ist angespannt", "english": "The housing market is tight", "tags": ["housing"]},
-    {"german": "Die Indexmiete steigt jährlich", "english": "The index rent increases annually", "tags": ["housing"]},
-    {"german": "Ich mache von meinem Gewährleistungsanspruch Gebrauch", "english": "I am exercising my warranty claim", "tags": ["shopping"]},
-    {"german": "Das Verbraucherschutzgesetz sieht vor", "english": "The consumer protection law stipulates", "tags": ["shopping"]},
-    {"german": "Die Widerrufsfrist beträgt vierzehn Tage", "english": "The cancellation period is fourteen days", "tags": ["shopping"]},
-    {"german": "Die Diagnose erfordert weitere Untersuchungen", "english": "The diagnosis requires further examinations", "tags": ["health"]},
-    {"german": "Die Prognose ist vorsichtig optimistisch", "english": "The prognosis is cautiously optimistic", "tags": ["health"]},
-    {"german": "Präventive Maßnahmen sind unerlässlich", "english": "Preventive measures are essential", "tags": ["health"]},
-    {"german": "Die Therapie zeigt erste Erfolge", "english": "The therapy is showing initial success", "tags": ["health"]},
-    {"german": "Eine stationäre Behandlung ist erforderlich", "english": "Inpatient treatment is required", "tags": ["health"]},
-    {"german": "Der Mieterschutzbund berät in solchen Fällen", "english": "The tenants' association advises in such cases", "tags": ["housing"]},
-    {"german": "Die kulinarische Vielfalt ist bemerkenswert", "english": "The culinary diversity is remarkable", "tags": ["food"]},
-    {"german": "Die regionale Küche zeichnet sich durch Authentizität aus", "english": "The regional cuisine is characterized by authenticity", "tags": ["food"]},
-    {"german": "Die Zubereitung erfordert handwerkliches Geschick", "english": "The preparation requires craftsmanship", "tags": ["food"]},
-    {"german": "Die Weinbegleitung harmoniert perfekt mit dem Menü", "english": "The wine pairing harmonizes perfectly with the menu", "tags": ["food"]},
-    {"german": "Die gastronomische Szene hat sich stark entwickelt", "english": "The gastronomic scene has developed strongly", "tags": ["food"]},
-    {"german": "Der Tourismus trägt erheblich zur Wirtschaft bei", "english": "Tourism contributes significantly to the economy", "tags": ["travel"]},
-    {"german": "Die Infrastruktur ist gut ausgebaut", "english": "The infrastructure is well developed", "tags": ["travel"]},
-    {"german": "Die Reisebranche steht vor Herausforderungen", "english": "The travel industry faces challenges", "tags": ["travel"]},
-    {"german": "Nachhaltiger Tourismus gewinnt an Bedeutung", "english": "Sustainable tourism is gaining importance", "tags": ["travel"]},
-    {"german": "Die kulturelle Bereicherung ist unbestreitbar", "english": "The cultural enrichment is undeniable", "tags": ["travel", "social"]},
-    {"german": "Die zwischenmenschlichen Beziehungen sind komplex", "english": "Interpersonal relationships are complex", "tags": ["social"]},
-    {"german": "Die gesellschaftliche Akzeptanz hat zugenommen", "english": "Social acceptance has increased", "tags": ["social"]},
-    {"german": "Die soziale Mobilität ist eingeschränkt", "english": "Social mobility is limited", "tags": ["social"]},
-    {"german": "Der Wohnraummangel verschärft sich", "english": "The housing shortage is worsening", "tags": ["housing"]},
-    {"german": "Die Mietpreise steigen unverhältnismäßig", "english": "Rent prices are rising disproportionately", "tags": ["housing"]},
-    {"german": "Die Wohnungspolitik ist umstritten", "english": "Housing policy is controversial", "tags": ["housing"]},
-    {"german": "Die Energieeffizienz ist mangelhaft", "english": "Energy efficiency is inadequate", "tags": ["housing"]},
-    {"german": "Der Einzelhandel steht unter Druck", "english": "Retail is under pressure", "tags": ["shopping"]},
-    {"german": "Der E-Commerce verdrängt traditionelle Geschäfte", "english": "E-commerce is displacing traditional stores", "tags": ["shopping"]},
-    {"german": "Die Lieferkette ist unterbrochen", "english": "The supply chain is disrupted", "tags": ["shopping"]},
-    {"german": "Die Nachhaltigkeit spielt eine zentrale Rolle", "english": "Sustainability plays a central role", "tags": ["shopping", "food"]},
-    {"german": "Die Lebensmittelverschwendung ist problematisch", "english": "Food waste is problematic", "tags": ["food"]},
-    {"german": "Die Ernährungsgewohnheiten ändern sich", "english": "Eating habits are changing", "tags": ["food"]},
-    {"german": "Die vegane Bewegung gewinnt an Momentum", "english": "The vegan movement is gaining momentum", "tags": ["food"]},
-    {"german": "Die Herkunft der Produkte ist transparent", "english": "The origin of products is transparent", "tags": ["food", "shopping"]},
-    {"german": "Der Overtourism belastet die Städte", "english": "Overtourism burdens cities", "tags": ["travel"]},
-    {"german": "Die Reisebeschränkungen wurden gelockert", "english": "Travel restrictions have been eased", "tags": ["travel"]},
-    {"german": "Die Flugscham beeinflusst das Reiseverhalten", "english": "Flight shame influences travel behavior", "tags": ["travel"]},
-    {"german": "Die Digitalisierung verändert die Reisebranche", "english": "Digitalization is changing the travel industry", "tags": ["travel"]}
+    {
+      "german": "Die Diskussion hat eine neue Dimension erreicht",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das wirft grundlegende Fragen auf",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir müssen die zugrunde liegenden Ursachen analysieren",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es ist unerlässlich, dass wir handeln",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Sachlage ist äußerst komplex",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Man sollte die historischen Zusammenhänge berücksichtigen",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das steht im Widerspruch zu früheren Aussagen",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Argumentation weist erhebliche Lücken auf",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es mangelt an empirischen Belegen",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Studie liefert aufschlussreiche Erkenntnisse",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Phänomen lässt sich nicht eindeutig erklären",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es besteht ein kausaler Zusammenhang",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Korrelation ist statistisch signifikant",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Man muss zwischen Korrelation und Kausalität unterscheiden",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Methodik ist fragwürdig",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Ergebnis ist nicht verallgemeinerbar",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es bedarf weiterer Forschung",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Implikationen sind weitreichend",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das hat tiefgreifende Auswirkungen",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir stehen vor einem Paradigmenwechsel",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Theorie ist nicht haltbar",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Argument ist schlüssig",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Beweislage ist erdrückend",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es gibt berechtigte Zweifel",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Kritik ist nicht von der Hand zu weisen",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das lässt sich nicht ohne weiteres widerlegen",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Behauptung entbehrt jeder Grundlage",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das ist eine gewagte These",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Schlussfolgerung ist voreilig",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Man sollte vorsichtig mit Verallgemeinerungen sein",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das Dilemma ist offensichtlich",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir befinden uns in einer Zwickmühle",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Situation erfordert ein differenziertes Vorgehen",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es gilt, einen Kompromiss zu finden",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Interessen sind unvereinbar",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das stellt uns vor große Herausforderungen",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Entwicklung ist besorgniserregend",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es zeichnet sich ein Trend ab",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Tendenz ist eindeutig",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das deutet auf tieferliegende Probleme hin",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Ursachen sind vielschichtig",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es handelt sich um ein strukturelles Problem",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Maßnahmen greifen zu kurz",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Ein grundlegender Wandel ist erforderlich",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Reform ist längst überfällig",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das System ist nicht mehr zeitgemäß",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Wir müssen neue Wege beschreiten",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Herangehensweise ist innovativ",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Konzept ist zukunftsweisend",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Vision ist ambitioniert aber realisierbar",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Mietpreisbremse greift in diesem Gebiet",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Der Wohnungsmarkt ist angespannt",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Indexmiete steigt jährlich",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Ich mache von meinem Gewährleistungsanspruch Gebrauch",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Das Verbraucherschutzgesetz sieht vor",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Widerrufsfrist beträgt vierzehn Tage",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Diagnose erfordert weitere Untersuchungen",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Prognose ist vorsichtig optimistisch",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Präventive Maßnahmen sind unerlässlich",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Therapie zeigt erste Erfolge",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Eine stationäre Behandlung ist erforderlich",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Der Mieterschutzbund berät in solchen Fällen",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die kulinarische Vielfalt ist bemerkenswert",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die regionale Küche zeichnet sich durch Authentizität aus",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Zubereitung erfordert handwerkliches Geschick",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Weinbegleitung harmoniert perfekt mit dem Menü",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die gastronomische Szene hat sich stark entwickelt",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Der Tourismus trägt erheblich zur Wirtschaft bei",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Infrastruktur ist gut ausgebaut",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Reisebranche steht vor Herausforderungen",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Nachhaltiger Tourismus gewinnt an Bedeutung",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die kulturelle Bereicherung ist unbestreitbar",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "german": "Die zwischenmenschlichen Beziehungen sind komplex",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die gesellschaftliche Akzeptanz hat zugenommen",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die soziale Mobilität ist eingeschränkt",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Der Wohnraummangel verschärft sich",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Mietpreise steigen unverhältnismäßig",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Wohnungspolitik ist umstritten",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Energieeffizienz ist mangelhaft",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Der Einzelhandel steht unter Druck",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Der E-Commerce verdrängt traditionelle Geschäfte",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Lieferkette ist unterbrochen",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Nachhaltigkeit spielt eine zentrale Rolle",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "german": "Die Lebensmittelverschwendung ist problematisch",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Ernährungsgewohnheiten ändern sich",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die vegane Bewegung gewinnt an Momentum",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Herkunft der Produkte ist transparent",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "german": "Der Overtourism belastet die Städte",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Reisebeschränkungen wurden gelockert",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Flugscham beeinflusst das Reiseverhalten",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Digitalisierung verändert die Reisebranche",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Normalerweise mach ich das nicht, aber ich musste dich einfach ansprechen.",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wenn wir weiterreden, muss ich dir wohl einen Drink ausgeben.",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du bist gefährlich, das merke ich jetzt schon.",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich würde diese Unterhaltung gerne irgendwo fortsetzen, wo es etwas ruhiger ist.",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Seien wir mal ehrlich, die Chemie zwischen uns stimmt einfach.",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich überlege mir gerade einen guten Anmachspruch, aber du machst mich sprachlos.",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du hast etwas wirklich Faszinierendes an dir.",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich wollte eigentlich einen ruhigen Abend haben, aber du hast meine Pläne ruiniert.",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du bist nicht nur ein hübsches Gesicht, oder?",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Die Chemie zwischen uns ist gerade gefährlich hoch.",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich habe das Gefühl, du wirst eine große Ablenkung für mich sein.",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wenn wir so weitermachen, werden die Leute anfangen zu reden.",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Das sagst du bestimmt zu jedem.",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Lass uns den Smalltalk überspringen: Was ist deine größte Leidenschaft?",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Wenn du dich klug anstellst, lass ich mich vielleicht von dir ausführen.",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
+    }
   ],
   "C2": [
-    {"german": "Die Ambiguität des Begriffs erschwert eine präzise Definition", "english": "The ambiguity of the term complicates a precise definition", "tags": ["work"]},
-    {"german": "Die Dichotomie zwischen Theorie und Praxis ist evident", "english": "The dichotomy between theory and practice is evident", "tags": ["work"]},
-    {"german": "Das Paradoxon liegt in der Natur der Sache", "english": "The paradox lies in the nature of the matter", "tags": ["work", "everyday"]},
-    {"german": "Die Prämisse der Argumentation ist anfechtbar", "english": "The premise of the argument is contestable", "tags": ["work"]},
-    {"german": "Es handelt sich um eine Tautologie", "english": "It is a tautology", "tags": ["work"]},
-    {"german": "Die Rhetorik verschleiert die eigentliche Problematik", "english": "The rhetoric obscures the actual problem", "tags": ["work"]},
-    {"german": "Die Semantik des Ausdrucks ist kontextabhängig", "english": "The semantics of the expression is context-dependent", "tags": ["work"]},
-    {"german": "Das epistemologische Problem bleibt ungelöst", "english": "The epistemological problem remains unsolved", "tags": ["work"]},
-    {"german": "Die ontologischen Implikationen sind beträchtlich", "english": "The ontological implications are considerable", "tags": ["work"]},
-    {"german": "Die Hermeneutik des Textes erfordert Sachkenntnis", "english": "The hermeneutics of the text requires expertise", "tags": ["work"]},
-    {"german": "Die Dialektik der Aufklärung manifestiert sich hier", "english": "The dialectic of enlightenment manifests itself here", "tags": ["work"]},
-    {"german": "Das Phänomen entzieht sich einer monokausalen Erklärung", "english": "The phenomenon eludes a monocausal explanation", "tags": ["work"]},
-    {"german": "Die Komplexität der Materie ist nicht zu unterschätzen", "english": "The complexity of the matter is not to be underestimated", "tags": ["work", "everyday"]},
-    {"german": "Es bedarf einer interdisziplinären Herangehensweise", "english": "An interdisciplinary approach is required", "tags": ["work"]},
-    {"german": "Die Konvergenz verschiedener Faktoren ist ausschlaggebend", "english": "The convergence of various factors is decisive", "tags": ["work"]},
-    {"german": "Die Divergenz der Meinungen ist unüberbrückbar", "english": "The divergence of opinions is unbridgeable", "tags": ["work", "everyday"]},
-    {"german": "Das Narrativ prägt die kollektive Wahrnehmung", "english": "The narrative shapes collective perception", "tags": ["work", "everyday"]},
-    {"german": "Die Diskursanalyse offenbart verborgene Machtstrukturen", "english": "Discourse analysis reveals hidden power structures", "tags": ["work"]},
-    {"german": "Die Hegemonie des vorherrschenden Paradigmas ist brüchig", "english": "The hegemony of the prevailing paradigm is fragile", "tags": ["work"]},
-    {"german": "Die Dekonstruktion etablierter Konzepte ist notwendig", "english": "The deconstruction of established concepts is necessary", "tags": ["work"]},
-    {"german": "Das Postulat erweist sich als unhaltbar", "english": "The postulate proves to be untenable", "tags": ["work"]},
-    {"german": "Die Hypothese lässt sich empirisch nicht verifizieren", "english": "The hypothesis cannot be empirically verified", "tags": ["work"]},
-    {"german": "Die Falsifizierung der Theorie steht noch aus", "english": "The falsification of the theory is still pending", "tags": ["work"]},
-    {"german": "Die Axiome des Systems sind inkonsistent", "english": "The axioms of the system are inconsistent", "tags": ["work"]},
-    {"german": "Die Kohärenz der Argumentation ist gewährleistet", "english": "The coherence of the argumentation is ensured", "tags": ["work"]},
-    {"german": "Die Stringenz der Beweisführung ist bemerkenswert", "english": "The stringency of the proof is remarkable", "tags": ["work"]},
-    {"german": "Die Plausibilität der These ist anzuzweifeln", "english": "The plausibility of the thesis is to be doubted", "tags": ["work"]},
-    {"german": "Die Validität der Methode ist umstritten", "english": "The validity of the method is disputed", "tags": ["work"]},
-    {"german": "Die Reliabilität der Daten ist fraglich", "english": "The reliability of the data is questionable", "tags": ["work"]},
-    {"german": "Die Objektivität der Analyse ist nicht gegeben", "english": "The objectivity of the analysis is not given", "tags": ["work"]},
-    {"german": "Die Subjektivität der Wahrnehmung ist unvermeidlich", "english": "The subjectivity of perception is inevitable", "tags": ["work", "everyday"]},
-    {"german": "Die Relativität der Wahrheit ist philosophisch bedeutsam", "english": "The relativity of truth is philosophically significant", "tags": ["work"]},
-    {"german": "Die Absolutheit moralischer Prinzipien wird infrage gestellt", "english": "The absoluteness of moral principles is questioned", "tags": ["work", "everyday"]},
-    {"german": "Die Kontingenz historischer Entwicklungen ist evident", "english": "The contingency of historical developments is evident", "tags": ["work"]},
-    {"german": "Die Determinismus-Debatte ist nach wie vor aktuell", "english": "The determinism debate is still current", "tags": ["work"]},
-    {"german": "Die Teleologie der Natur ist eine anthropomorphe Projektion", "english": "The teleology of nature is an anthropomorphic projection", "tags": ["work"]},
-    {"german": "Die Emergenz komplexer Systeme ist faszinierend", "english": "The emergence of complex systems is fascinating", "tags": ["work"]},
-    {"german": "Die Reduktion auf einfache Erklärungen wird der Sache nicht gerecht", "english": "The reduction to simple explanations does not do justice to the matter", "tags": ["work", "everyday"]},
-    {"german": "Die Synthese divergierender Ansätze ist erstrebenswert", "english": "The synthesis of diverging approaches is desirable", "tags": ["work"]},
-    {"german": "Die Antithese zur gängigen Auffassung ist provokant", "english": "The antithesis to the common view is provocative", "tags": ["work"]},
-    {"german": "Die Konnotation des Begriffs hat sich gewandelt", "english": "The connotation of the term has changed", "tags": ["work", "everyday"]},
-    {"german": "Die Denotation bleibt hingegen konstant", "english": "The denotation, however, remains constant", "tags": ["work"]},
-    {"german": "Die Äquivokation führt zu Missverständnissen", "english": "The equivocation leads to misunderstandings", "tags": ["work", "everyday"]},
-    {"german": "Die Präzision der Terminologie ist unabdingbar", "english": "The precision of terminology is indispensable", "tags": ["work"]},
-    {"german": "Die Nuancierung der Aussage ist von Bedeutung", "english": "The nuancing of the statement is significant", "tags": ["work", "everyday"]},
-    {"german": "Die Differenzierung zwischen den Konzepten ist subtil", "english": "The differentiation between the concepts is subtle", "tags": ["work"]},
-    {"german": "Die Analogie hinkt an entscheidender Stelle", "english": "The analogy limps at a crucial point", "tags": ["work", "everyday"]},
-    {"german": "Die Metapher ist erhellend aber nicht wörtlich zu nehmen", "english": "The metaphor is illuminating but not to be taken literally", "tags": ["work", "everyday"]},
-    {"german": "Die Allegorie verweist auf eine tiefere Bedeutungsebene", "english": "The allegory refers to a deeper level of meaning", "tags": ["work"]},
-    {"german": "Die Ironie der Situation ist nicht zu übersehen", "english": "The irony of the situation cannot be overlooked", "tags": ["everyday"]},
-    {"german": "Die Gentrifizierung des Viertels schreitet voran", "english": "The gentrification of the neighborhood is progressing", "tags": ["housing"]},
-    {"german": "Die Wohnraumknappheit verschärft soziale Disparitäten", "english": "The housing shortage exacerbates social disparities", "tags": ["housing"]},
-    {"german": "Die Mietpreisspirale ist kaum zu durchbrechen", "english": "The rent price spiral is hardly breakable", "tags": ["housing"]},
-    {"german": "Das Konsumverhalten unterliegt einem Paradigmenwechsel", "english": "Consumer behavior is undergoing a paradigm shift", "tags": ["shopping"]},
-    {"german": "Die Obsoleszenz ist bewusst herbeigeführt", "english": "The obsolescence is deliberately induced", "tags": ["shopping"]},
-    {"german": "Der Käufermarkt hat sich zum Verkäufermarkt gewandelt", "english": "The buyer's market has turned into a seller's market", "tags": ["shopping"]},
-    {"german": "Die Pathogenese der Erkrankung ist multifaktoriell", "english": "The pathogenesis of the disease is multifactorial", "tags": ["health"]},
-    {"german": "Die Ätiologie bleibt weitgehend ungeklärt", "english": "The etiology remains largely unclear", "tags": ["health"]},
-    {"german": "Die Symptomatik ist unspezifisch", "english": "The symptomatology is nonspecific", "tags": ["health"]},
-    {"german": "Eine differenzialdiagnostische Abklärung ist indiziert", "english": "A differential diagnostic clarification is indicated", "tags": ["health"]},
-    {"german": "Die Komorbidität erschwert die Behandlung", "english": "The comorbidity complicates the treatment", "tags": ["health"]},
-    {"german": "Das Mietrecht ist ein komplexes Rechtsgebiet", "english": "Tenancy law is a complex legal area", "tags": ["housing"]},
-    {"german": "Die gastronomische Avantgarde experimentiert mit Molekularküche", "english": "The gastronomic avant-garde experiments with molecular cuisine", "tags": ["food"]},
-    {"german": "Die sensorischen Eigenschaften sind außergewöhnlich", "english": "The sensory properties are exceptional", "tags": ["food"]},
-    {"german": "Die Fermentation verleiht dem Produkt Komplexität", "english": "Fermentation gives the product complexity", "tags": ["food"]},
-    {"german": "Die Terroir-Philosophie prägt die Weinkultur", "english": "The terroir philosophy shapes wine culture", "tags": ["food"]},
-    {"german": "Der Massentourismus hat ökologische Konsequenzen", "english": "Mass tourism has ecological consequences", "tags": ["travel"]},
-    {"german": "Die Touristifizierung verändert urbane Strukturen", "english": "Touristification changes urban structures", "tags": ["travel"]},
-    {"german": "Die Authentizität weicht zunehmend der Kommerzialisierung", "english": "Authenticity increasingly gives way to commercialization", "tags": ["travel"]},
-    {"german": "Die Mobilität ist ein Privileg geworden", "english": "Mobility has become a privilege", "tags": ["travel"]},
-    {"german": "Die soziale Kohäsion erodiert zusehends", "english": "Social cohesion is visibly eroding", "tags": ["social"]},
-    {"german": "Die Fragmentierung der Gesellschaft schreitet voran", "english": "The fragmentation of society is progressing", "tags": ["social"]},
-    {"german": "Die Polarisierung ist ein gesamtgesellschaftliches Phänomen", "english": "Polarization is a society-wide phenomenon", "tags": ["social"]},
-    {"german": "Die Entfremdung ist ein Symptom der Moderne", "english": "Alienation is a symptom of modernity", "tags": ["social"]},
-    {"german": "Die Wohnungsfrage ist eine soziale Frage", "english": "The housing question is a social question", "tags": ["housing"]},
-    {"german": "Die Spekulation treibt die Immobilienpreise", "english": "Speculation drives real estate prices", "tags": ["housing"]},
-    {"german": "Die Segregation manifestiert sich räumlich", "english": "Segregation manifests itself spatially", "tags": ["housing"]},
-    {"german": "Der Konsumismus prägt die Gesellschaft", "english": "Consumerism shapes society", "tags": ["shopping"]},
-    {"german": "Die Kommerzialisierung durchdringt alle Lebensbereiche", "english": "Commercialization permeates all areas of life", "tags": ["shopping"]},
-    {"german": "Die Warenfetischisierung ist allgegenwärtig", "english": "Commodity fetishism is omnipresent", "tags": ["shopping"]},
-    {"german": "Die Ernährungssouveränität ist gefährdet", "english": "Food sovereignty is endangered", "tags": ["food"]},
-    {"german": "Die Industrialisierung der Landwirtschaft hat Folgen", "english": "The industrialization of agriculture has consequences", "tags": ["food"]},
-    {"german": "Die kulinarische Identität erodiert", "english": "Culinary identity is eroding", "tags": ["food"]},
-    {"german": "Die Globalisierung homogenisiert die Esskultur", "english": "Globalization homogenizes food culture", "tags": ["food"]},
-    {"german": "Der Tourismus ist ein ambivalentes Phänomen", "english": "Tourism is an ambivalent phenomenon", "tags": ["travel"]},
-    {"german": "Die Exotisierung des Anderen ist problematisch", "english": "The exoticization of the Other is problematic", "tags": ["travel"]},
-    {"german": "Die Mobilität ist ungleich verteilt", "english": "Mobility is unequally distributed", "tags": ["travel"]},
-    {"german": "Die Reisefreiheit ist ein Privileg", "english": "Freedom to travel is a privilege", "tags": ["travel"]}
+    {
+      "german": "Die Ambiguität des Begriffs erschwert eine präzise Definition",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Dichotomie zwischen Theorie und Praxis ist evident",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Paradoxon liegt in der Natur der Sache",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Prämisse der Argumentation ist anfechtbar",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Es handelt sich um eine Tautologie",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Rhetorik verschleiert die eigentliche Problematik",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Semantik des Ausdrucks ist kontextabhängig",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das epistemologische Problem bleibt ungelöst",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die ontologischen Implikationen sind beträchtlich",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Hermeneutik des Textes erfordert Sachkenntnis",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Dialektik der Aufklärung manifestiert sich hier",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Phänomen entzieht sich einer monokausalen Erklärung",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Komplexität der Materie ist nicht zu unterschätzen",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Es bedarf einer interdisziplinären Herangehensweise",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Konvergenz verschiedener Faktoren ist ausschlaggebend",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Divergenz der Meinungen ist unüberbrückbar",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Das Narrativ prägt die kollektive Wahrnehmung",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Diskursanalyse offenbart verborgene Machtstrukturen",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Hegemonie des vorherrschenden Paradigmas ist brüchig",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Dekonstruktion etablierter Konzepte ist notwendig",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Das Postulat erweist sich als unhaltbar",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Hypothese lässt sich empirisch nicht verifizieren",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Falsifizierung der Theorie steht noch aus",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Axiome des Systems sind inkonsistent",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Kohärenz der Argumentation ist gewährleistet",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Stringenz der Beweisführung ist bemerkenswert",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Plausibilität der These ist anzuzweifeln",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Validität der Methode ist umstritten",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Reliabilität der Daten ist fraglich",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Objektivität der Analyse ist nicht gegeben",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Subjektivität der Wahrnehmung ist unvermeidlich",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Relativität der Wahrheit ist philosophisch bedeutsam",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Absolutheit moralischer Prinzipien wird infrage gestellt",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Kontingenz historischer Entwicklungen ist evident",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Determinismus-Debatte ist nach wie vor aktuell",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Teleologie der Natur ist eine anthropomorphe Projektion",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Emergenz komplexer Systeme ist faszinierend",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Reduktion auf einfache Erklärungen wird der Sache nicht gerecht",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Synthese divergierender Ansätze ist erstrebenswert",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Antithese zur gängigen Auffassung ist provokant",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Konnotation des Begriffs hat sich gewandelt",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Denotation bleibt hingegen konstant",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Äquivokation führt zu Missverständnissen",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Präzision der Terminologie ist unabdingbar",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Nuancierung der Aussage ist von Bedeutung",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Differenzierung zwischen den Konzepten ist subtil",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Analogie hinkt an entscheidender Stelle",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Metapher ist erhellend aber nicht wörtlich zu nehmen",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Allegorie verweist auf eine tiefere Bedeutungsebene",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "german": "Die Ironie der Situation ist nicht zu übersehen",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "german": "Die Gentrifizierung des Viertels schreitet voran",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Wohnraumknappheit verschärft soziale Disparitäten",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Mietpreisspirale ist kaum zu durchbrechen",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Das Konsumverhalten unterliegt einem Paradigmenwechsel",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Obsoleszenz ist bewusst herbeigeführt",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Der Käufermarkt hat sich zum Verkäufermarkt gewandelt",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Pathogenese der Erkrankung ist multifaktoriell",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Ätiologie bleibt weitgehend ungeklärt",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Symptomatik ist unspezifisch",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Eine differenzialdiagnostische Abklärung ist indiziert",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Die Komorbidität erschwert die Behandlung",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "german": "Das Mietrecht ist ein komplexes Rechtsgebiet",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die gastronomische Avantgarde experimentiert mit Molekularküche",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die sensorischen Eigenschaften sind außergewöhnlich",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Fermentation verleiht dem Produkt Komplexität",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Terroir-Philosophie prägt die Weinkultur",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Der Massentourismus hat ökologische Konsequenzen",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Touristifizierung verändert urbane Strukturen",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Authentizität weicht zunehmend der Kommerzialisierung",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Mobilität ist ein Privileg geworden",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die soziale Kohäsion erodiert zusehends",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die Fragmentierung der Gesellschaft schreitet voran",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die Polarisierung ist ein gesamtgesellschaftliches Phänomen",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die Entfremdung ist ein Symptom der Moderne",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "german": "Die Wohnungsfrage ist eine soziale Frage",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Spekulation treibt die Immobilienpreise",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Die Segregation manifestiert sich räumlich",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "german": "Der Konsumismus prägt die Gesellschaft",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Kommerzialisierung durchdringt alle Lebensbereiche",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Warenfetischisierung ist allgegenwärtig",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "german": "Die Ernährungssouveränität ist gefährdet",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Industrialisierung der Landwirtschaft hat Folgen",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die kulinarische Identität erodiert",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Die Globalisierung homogenisiert die Esskultur",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "german": "Der Tourismus ist ein ambivalentes Phänomen",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Exotisierung des Anderen ist problematisch",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Mobilität ist ungleich verteilt",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Die Reisefreiheit ist ein Privileg",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "german": "Ich kann nicht aufhören daran zu denken, was ich mit dir anstellen will.",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du siehst gerade unglaublich sexy aus.",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich will neben dir aufwachen.",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Lass uns hier verschwinden und an einen privaten Ort gehen.",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Deine Lippen sehen gerade extrem küssbar aus.",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Falls du versucht hast, mich von meinem Drink abzulenken: Herzlichen Glückwunsch, es hat einwandfrei funktioniert.",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich bin absolut nicht davon überzeugt, dass du so unschuldig bist, wie du zu sein vorgibst.",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Lassen wir die Förmlichkeiten beiseite; wir wissen beide, dass es hier knistert.",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Es ist zutiefst unfair, wie mühelos du es schaffst, die fesselndste Person im ganzen Raum zu sein.",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Normalerweise bin ich ein Meister der Selbstbeherrschung, aber du testest meine Grenzen gerade extrem.",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich würde dich ja zu einem geistigen Duell herausfordern, aber es scheint, als wärst du bereits schwer bewaffnet.",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Du strahlst genau die Art von Ärger aus, der ich historisch gesehen nur sehr schwer widerstehen kann.",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Versuchst du absichtlich, meine Aufmerksamkeit zu monopolisieren, oder ist das einfach dein natürlicher Zustand?",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Ich bin kurz davor, dich im Sturm zu erobern, aber ich vermute, du würdest die Jagd zu sehr genießen.",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "german": "Unter der Annahme, dass du mich noch nicht völlig satthast: Wie wär's mit einem gemeinsamen Frühstück morgen?",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
+      ]
+    }
   ]
 }

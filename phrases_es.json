@@ -880,6 +880,111 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "spanish": "Tienes una sonrisa muy contagiosa.",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No pude evitar venir a saludar.",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Eres de por aquí?",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Te ves muy bien hoy.",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me encanta tu estilo.",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Te ves increíble esta noche.",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Te puedo invitar a una copa?",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Vienes mucho por aquí?",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me gusta tu rollo.",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tienes una risa genial.",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Estás soltero/a?",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No podía dejar de mirarte.",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tienes unos ojos preciosos.",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Cómo te llamas?",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Eres muy lindo/a.",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "A2": [
@@ -1440,6 +1545,76 @@
       "english": "I need a ticket",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "spanish": "¿Quieres bailar?",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Hueles muy bien.",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me gusta tu ropa.",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Estás aquí con amigos?",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Me das tu número?",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Eres muy interesante.",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tenemos mucho en común.",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Esta canción es genial, ¿verdad?",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Nunca he conocido a nadie como tú.",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Vamos a hacernos un selfie juntos.",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
       ]
     }
   ],
@@ -2105,6 +2280,111 @@
       "english": "I lost my ticket",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "spanish": "¿Está ocupado este asiento? ¿O esperas a alguien?",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Ya me iba, pero luego te vi.",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Es muy fácil hablar contigo.",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Qué hace alguien tan divertido como tú en un lugar como este?",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Nos conocemos? ¿O es que me gustaría conocerte?",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me arrepentiría si no viniera a saludarte.",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Siempre eres tan encantador/a?",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me encanta hablar contigo, el tiempo pasa volando.",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Pareces ser un montón de problemas.",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Normalmente no hago esto, pero me llamaste la atención.",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Definitivamente deberíamos tomar un café algún día.",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Espero que no te importe que me acerque.",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tienes la sonrisa más bonita que he visto en todo el día.",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me preguntaba si te gustaría salir de aquí.",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Vamos a cenar algún día de esta semana.",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
       ]
     }
   ],
@@ -2781,6 +3061,76 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "spanish": "Hay demasiado ruido aquí, ¿quieres tomar el aire?",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No suelo hablar con desconocidos, pero me alegro de haberlo hecho.",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Si estás libre este fin de semana, me encantaría enseñarte mi lugar favorito de la ciudad.",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tienes una forma muy peculiar de ver las cosas.",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Intentaba irme, pero me lo estás poniendo muy difícil.",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No logro descifrarte, pero sin duda quiero intentarlo.",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Eres bastante gracioso/a, te lo reconozco.",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me encanta la pasión que le pones cuando hablas de eso.",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Qué es la locura más grande que has hecho por amor?",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Siento que podríamos pasarnos la noche hablando.",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "C1": [
@@ -3452,6 +3802,111 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "spanish": "Normalmente no hago esto, pero tenía que acercarme.",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Si seguimos hablando, puede que tenga que invitarte a una copa.",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Eres un peligro, ya me doy cuenta.",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Me encantaría seguir esta conversación en un lugar más tranquilo.",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Seamos sinceros, hay muy buena química entre nosotros.",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Estoy intentando pensar en una buena frase para ligar, pero me has dejado sin palabras.",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Hay algo muy intrigante en ti.",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Planeaba tener una noche tranquila, pero arruinaste mis planes por completo.",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No eres solo una cara bonita, ¿verdad?",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tenemos niveles peligrosos de química ahora mismo.",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tengo el presentimiento de que vas a ser una distracción.",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Si seguimos así, la gente va a empezar a hablar.",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Seguro que le dices eso a todo el mundo.",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Saltémonos las típicas charlas, ¿cuál es tu mayor pasión?",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Si juegas bien tus cartas, puede que deje que me invites a salir.",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "C2": [
@@ -4081,6 +4536,111 @@
       "english": "Freedom to travel is a privilege",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "spanish": "No puedo dejar de pensar en lo que quiero hacerte.",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Te ves increíblemente sexy ahora mismo.",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Quiero despertarme a tu lado.",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Vayámonos de aquí a un lugar privado.",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tus labios se ven extremadamente besables ahora mismo.",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Si intentabas distraerme de mi copa, enhorabuena, ha funcionado a la perfección.",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "No estoy en absoluto convencido de que seas tan inocente como intentas aparentar.",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Dejémonos de formalidades; los dos sabemos que aquí hay chispa.",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Es profundamente injusto la facilidad con la que consigues ser la persona más cautivadora de la sala.",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Normalmente soy un maestro del autocontrol, pero ahora mismo estás poniendo a prueba mis límites.",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Te retaría a un duelo de ingenio, pero parece que ya estás fuertemente armado/a.",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Emanas el tipo de problemas al que históricamente me cuesta horrores resistirme.",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "¿Estás intentando acaparar mi atención a propósito, o es este tu estado natural?",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Tengo la tentación de dejarte sin palabras, pero sospecho que disfrutarías demasiado con la persecución.",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "spanish": "Asumiendo que no te has hartado completamente de mí, ¿qué tal si desayunamos juntos mañana?",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
       ]
     }
   ]

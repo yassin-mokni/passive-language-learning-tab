@@ -880,6 +880,111 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "japanese": "笑顔がすごく素敵ですね。",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "つい話しかけちゃいました。",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "この辺りによく来るんですか？",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今日の服、すごく似合ってます。",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "センスがいいですね。",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今日のあなた、すごく素敵です。",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "一杯おごらせてもらえませんか？",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "ここにはよく来るんですか？",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "あなたの雰囲気、好きだな。",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "笑い声がいいですね。",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今、付き合ってる人いますか？",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "つい見とれちゃいました。",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "目がとても綺麗ですね。",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "お名前は？",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "本当にかわいいですね。",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "A2": [
@@ -1440,6 +1545,76 @@
       "english": "I need a ticket",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "japanese": "踊りませんか？",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "すごくいい香りがしますね。",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "その服、いいですね。",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "友達と来てるんですか？",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "連絡先、聞いてもいいですか？",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "あなたって面白いですね。",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "共通点が多いですね。",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "この曲、いいですよね？",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "あなたみたいな人、初めて会いました。",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "一緒に写真撮りましょうよ。",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
       ]
     }
   ],
@@ -2105,6 +2280,111 @@
       "english": "I lost my ticket",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "japanese": "ここ、空いてますか？それとも誰か待ってますか？",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "ちょうど帰ろうと思ってたんですけど、あなたを見かけたので。",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "なんか、話しやすいね。",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "あなたみたいな人が、こんな所で何してるんですか？",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "どこかで会ったことありますか？それとも、僕が会いたいだけかな？",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "声かけなかったら後悔すると思って。",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "いつもそんなに魅力的なの？",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "あなたと話してると、時間が経つのが早いな。",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君に関わると、ちょっと危険な匂いがするね。",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "普段はこんなことしないんだけど、気になっちゃって。",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今度、絶対コーヒーでも飲みに行きましょう。",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "話しかけちゃったけど、迷惑じゃなかったかな？",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今日見た中で、一番素敵な笑顔だよ。",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "もしよかったら、少し店を変えませんか？",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今週、どこかで一緒にご飯食べに行きませんか？",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
       ]
     }
   ],
@@ -2781,6 +3061,76 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "japanese": "ここ少しうるさいし、外の空気吸いに行かない？",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "普段は知らない人に話しかけないんだけど、声かけてよかった。",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "週末暇なら、僕のお気に入りの場所に連れて行きたいな。",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "物の見方がすごく独特で面白いね。",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "帰ろうと思ってたのに、君のせいで帰りづらくなっちゃった。",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君のことはよく分からないけど、もっと知りたいな。",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君って結構面白いね、認めるよ。",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "その話をしてる時の、君の熱中してる顔が好きだな。",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今まで恋のためにした一番クレイジーなことって何？",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君となら一晩中話してられそう。",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "C1": [
@@ -3452,6 +3802,111 @@
       "tags": [
         "travel"
       ]
+    },
+    {
+      "japanese": "普段はこんなことしないんだけど、どうしても気になって。",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "これ以上話したら、一杯ごちそうしなきゃいけなくなりますね。",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君ってちょっと危険だね、もう分かっちゃった。",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "もう少し静かな所で、この話の続きをしませんか？",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "正直、僕たちすごく気が合ってると思わない？",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "気の利いたセリフを考えてたんだけど、君を前にしたら言葉が出ないや。",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君には何か、すごく惹きつけられる魅力があるね。",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "静かに飲むつもりだったのに、君のせいで予定が狂っちゃったよ。",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "ただ顔が可愛いだけじゃなさそうだね。",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "僕たち、ちょっと危険なくらい波長が合ってる気がしない？",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君のせいで、色々と手につかなくなりそうな予感がする。",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "これ以上仲良くしてたら、周りに変な噂されちゃうかもね。",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "それ、絶対みんなに言ってるでしょ？",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "当たり障りのない話はやめよう。君の一番情熱を注いでることは何？",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君の頑張り次第では、デートしてあげてもいいよ。",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
     }
   ],
   "C2": [
@@ -4081,6 +4536,111 @@
       "english": "Freedom to travel is a privilege",
       "tags": [
         "travel"
+      ]
+    },
+    {
+      "japanese": "君に何をしてあげたいか、そればっかり考えてる。",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今の君、信じられないくらいセクシーだよ。",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君の隣で朝を迎えたい。",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "ここを出て、二人きりになれる場所に行こう。",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "今の君の唇、すごくキスしたくなる。",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "僕をお酒から引き離そうとしてたなら、おめでとう。完璧に成功してるよ。",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君が装ってるほど無邪気だなんて、全く信じてないからね。",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "建前は抜きにしよう。お互い惹かれ合ってるのは分かってるはずだろ？",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君がなんの努力もせずに、この場で一番魅力的な人でいるのは本当にずるいよ。",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "普段は自制心の塊なんだけど、君は今、僕の限界をかなり試してるよ。",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "言葉の駆け引きを挑もうと思ったけど、君はもう十分に武装してるみたいだね。",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "君からは、僕がこれまでどうしても抗えなかった類の危険な香りがするよ。",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "僕の気を引こうとわざとやってるの？それとも、それが素なのかな？",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "強引に奪い去りたい気分だけど、君は逃げるのを楽しむタイプだろうね。",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "japanese": "まだ僕にうんざりしてないなら、明日一緒に朝ごはんでもどうかな？",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
       ]
     }
   ]
