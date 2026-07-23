@@ -5,7 +5,7 @@
   --text-secondary: #666666;
   --text-muted: #999999;
   
-  --surface-glass: rgba(255, 255, 255, 0.5);
+  --surface-glass: rgba(255, 255, 255, 0.8);
   --surface-glass-hover: rgba(255, 255, 255, 0.75);
   --surface-card: rgba(255, 255, 255, 0.85);
   --surface-modal: #ffffff;
@@ -84,12 +84,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2); /* Reduced from 0.4 */
   transition: background-color 0.3s ease;
 }
 
 body.dark-mode .splash-bg::after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.45); /* Reduced from 0.65 */
 }
 
 .container {
@@ -189,9 +189,9 @@ body.dark-mode .flag-stack-btn.active {
 }
 
 .translation-toggle {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
-  color: #999;
+  color: #7a7a7a;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -264,7 +264,7 @@ body.dark-mode .flag-stack-btn.active {
 .topic-selector {
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   padding: 8px 12px;
   border-radius: 24px;
   border: 1px solid rgba(221, 221, 221, 0.5);
@@ -273,7 +273,7 @@ body.dark-mode .flag-stack-btn.active {
 .topic-dropdown {
   background: transparent;
   border: 1px solid transparent;
-  color: #999;
+  color: #7a7a7a;
   font-size: 14px;
   padding: 6px 28px 6px 14px;
   border-radius: 20px;
@@ -282,7 +282,7 @@ body.dark-mode .flag-stack-btn.active {
   transition: all 0.2s;
   appearance: none;
   font-weight: 400;
-  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%237a7a7a' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
@@ -302,7 +302,7 @@ body.dark-mode .flag-stack-btn.active {
   display: flex;
   justify-content: flex-end;
   gap: 8px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   padding: 8px 12px;
   border-radius: 24px;
   align-self: flex-end;
@@ -312,7 +312,7 @@ body.dark-mode .flag-stack-btn.active {
 .level-btn {
   background: transparent;
   border: 1px solid transparent;
-  color: #999;
+  color: #7a7a7a;
   font-size: 14px;
   cursor: pointer;
   padding: 6px 14px;
@@ -388,7 +388,7 @@ body.dark-mode .flag-stack-btn.active {
 
 .english-translation {
   font-size: 32px;
-  color: #999;
+  color: #7a7a7a;
   font-weight: 300;
   line-height: 1.4;
   transition: opacity 0.2s;
@@ -403,7 +403,7 @@ body.dark-mode .flag-stack-btn.active {
   justify-content: center;
   gap: 12px;
   margin-top: auto;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   padding: 8px 12px;
   border-radius: 24px;
   width: fit-content;
@@ -443,7 +443,7 @@ body.dark-mode .flag-stack-btn.active {
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   padding: 8px 14px;
@@ -464,7 +464,7 @@ body.dark-mode .flag-stack-btn.active {
   position: fixed;
   bottom: 40px;
   left: 84px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   width: 32px;
@@ -489,7 +489,7 @@ body.dark-mode .flag-stack-btn.active {
   position: fixed;
   bottom: 40px;
   left: 128px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   width: 32px;
@@ -520,7 +520,7 @@ body.dark-mode .flag-stack-btn.active {
   position: fixed;
   bottom: 40px;
   left: 172px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   width: 32px;
@@ -560,7 +560,7 @@ body.dark-mode .radio-trigger.playing {
   position: fixed;
   bottom: 40px;
   left: 40px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   width: 32px;
@@ -574,8 +574,8 @@ body.dark-mode .radio-trigger.playing {
 }
 
 .support-btn:hover {
-  background: rgba(139, 90, 43, 0.1);
-  border-color: rgba(139, 90, 43, 0.4);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #bbb;
   color: #8b5a2b;
 }
 
@@ -608,9 +608,9 @@ body.dark-mode .shortcuts-help,
 body.dark-mode .radio-trigger,
 body.dark-mode .settings-btn,
 body.dark-mode .support-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #999;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #c0c0c0;
 }
 
 body.dark-mode .translation-toggle:hover,
@@ -624,8 +624,8 @@ body.dark-mode .settings-btn:hover {
 }
 
 body.dark-mode .support-btn:hover {
-  background: rgba(210, 166, 121, 0.15);
-  border-color: rgba(210, 166, 121, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
   color: #d2a679;
 }
 
@@ -646,8 +646,8 @@ body.dark-mode .controls {
 body.dark-mode .topic-dropdown,
 body.dark-mode .level-btn,
 body.dark-mode .control-btn {
-  color: #999;
-  border-color: rgba(255, 255, 255, 0.2);
+  color: #c0c0c0;
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 body.dark-mode .level-btn:hover,
@@ -658,7 +658,7 @@ body.dark-mode .control-btn:hover {
 }
 
 body.dark-mode .topic-dropdown {
-  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23c0c0c0' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
 body.dark-mode .topic-dropdown:hover {
@@ -676,8 +676,8 @@ body.dark-mode .level-btn.active {
 
 body.dark-mode .audio-btn {
   background: transparent;
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #999;
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #c0c0c0;
 }
 
 body.dark-mode .audio-btn:hover {
@@ -695,7 +695,7 @@ body.dark-mode #favoriteBtn.favorited {
 body.dark-mode .favorites-trigger {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.2);
-  color: #999;
+  color: #7a7a7a;
 }
 
 body.dark-mode .favorites-trigger:hover {
@@ -720,7 +720,7 @@ body.dark-mode .favorites-title {
 body.dark-mode .export-btn {
   background: transparent;
   border-color: rgba(255, 255, 255, 0.2);
-  color: #999;
+  color: #7a7a7a;
 }
 
 body.dark-mode .export-btn:hover {
@@ -757,7 +757,7 @@ body.dark-mode .shortcut-item kbd {
 }
 
 body.dark-mode .shortcut-item span {
-  color: #999;
+  color: #7a7a7a;
 }
 
 .shortcuts-modal {
@@ -883,7 +883,7 @@ body.dark-mode .shortcut-item span {
 }
 
 .favorites-empty {
-  color: #999;
+  color: #7a7a7a;
   text-align: center;
   padding: 20px;
   font-size: 14px;
@@ -900,7 +900,7 @@ body.dark-mode .shortcut-item span {
 .favorite-level-title {
   font-size: 12px;
   font-weight: 600;
-  color: #999;
+  color: #7a7a7a;
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -1037,7 +1037,7 @@ body.dark-mode .audio-tabs {
 }
 
 body.dark-mode .audio-tab {
-  color: #999;
+  color: #7a7a7a;
 }
 
 .audio-tab:hover {
@@ -1172,7 +1172,7 @@ body.dark-mode .audio-track-btn.active {
 
 body.dark-mode .radio-control-btn {
   background: transparent;
-  color: #999;
+  color: #7a7a7a;
 }
 
 .radio-control-btn:hover {
@@ -1317,7 +1317,7 @@ body.dark-mode .speed-list-container {
 }
 
 body.dark-mode .speed-option-btn {
-  color: #999;
+  color: #7a7a7a;
 }
 
 .speed-option-btn:hover {
@@ -1552,7 +1552,7 @@ body.dark-mode .progress-bar::-webkit-slider-thumb {
 
 body.dark-mode .time-display-pill {
   background: transparent;
-  color: #999;
+  color: #7a7a7a;
 }
 
 .time-separator {
@@ -1602,7 +1602,7 @@ body.dark-mode .time-display-pill {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   display: flex;
   align-items: center;
@@ -1629,9 +1629,9 @@ body.dark-mode .time-display-pill {
 
 body.dark-mode .quick-link-item,
 body.dark-mode .add-quick-link-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #999;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #c0c0c0;
 }
 
 body.dark-mode .quick-link-item:hover,
@@ -1686,7 +1686,7 @@ body.dark-mode .add-quick-link-btn:hover {
   background: none;
   border: none;
   font-size: 24px;
-  color: #999;
+  color: #7a7a7a;
   cursor: pointer;
   line-height: 1;
   transition: color 0.15s ease;
@@ -1839,7 +1839,7 @@ body.dark-mode .close-modal-btn:hover {
 }
 
 .quick-link-input:focus {
-  border-color: #999;
+  border-color: #7a7a7a;
 }
 
 .add-link-btn {
@@ -1904,7 +1904,7 @@ body.dark-mode .add-link-btn:hover {
   position: fixed;
   bottom: 40px;
   left: 216px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
   width: 32px;
@@ -2300,7 +2300,7 @@ body.dark-mode .sidebar-item-title {
 }
 
 body.dark-mode .sidebar-item-meta {
-  color: #999;
+  color: #7a7a7a;
 }
 
 .sidebar-empty-state {
