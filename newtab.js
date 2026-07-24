@@ -1,3 +1,9 @@
+// Warm-up the Web Speech API voices so they are ready by the time the user clicks pronounce.
+if ('speechSynthesis' in window) {
+  speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); };
+  speechSynthesis.getVoices();
+}
+
 let phrases = {};
 let currentLevel = 'A1';
 let currentTopic = 'all';
