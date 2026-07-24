@@ -251,6 +251,7 @@ body.dark-mode .flag-stack-btn.active {
 .support-btn[data-tooltip]::after,
 .shortcuts-help[data-tooltip]::after,
 .dark-mode-toggle[data-tooltip]::after,
+.refresh-bg-btn[data-tooltip]::after,
 .radio-trigger[data-tooltip]::after {
   bottom: calc(100% + 8px);
   top: auto;
@@ -350,8 +351,9 @@ body.dark-mode .flag-stack-btn.active {
 .german-phrase {
   font-size: 48px;
   font-weight: 400;
-  color: #2c2c2c;
+  color: #222;
   line-height: 1.4;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.6);
 }
 
 .audio-btn {
@@ -388,9 +390,10 @@ body.dark-mode .flag-stack-btn.active {
 
 .english-translation {
   font-size: 32px;
-  color: #7a7a7a;
+  color: #555;
   font-weight: 300;
   line-height: 1.4;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.6);
   transition: opacity 0.2s;
 }
 
@@ -437,6 +440,10 @@ body.dark-mode .flag-stack-btn.active {
   color: #ffd700;
   border-color: #ffd700;
   background: rgba(255, 215, 0, 0.1);
+}
+
+#favoriteBtn.favorited svg {
+  fill: currentColor;
 }
 
 .favorites-trigger {
@@ -595,11 +602,13 @@ body.dark-mode {
 }
 
 body.dark-mode .german-phrase {
-  color: #e0e0e0;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
 }
 
 body.dark-mode .english-translation {
-  color: #888;
+  color: #aaa;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
 }
 
 body.dark-mode .translation-toggle,
@@ -607,7 +616,8 @@ body.dark-mode .dark-mode-toggle,
 body.dark-mode .shortcuts-help,
 body.dark-mode .radio-trigger,
 body.dark-mode .settings-btn,
-body.dark-mode .support-btn {
+body.dark-mode .support-btn,
+body.dark-mode .refresh-bg-btn {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.25);
   color: #c0c0c0;
@@ -617,7 +627,8 @@ body.dark-mode .translation-toggle:hover,
 body.dark-mode .dark-mode-toggle:hover,
 body.dark-mode .shortcuts-help:hover,
 body.dark-mode .radio-trigger:hover,
-body.dark-mode .settings-btn:hover {
+body.dark-mode .settings-btn:hover,
+body.dark-mode .refresh-bg-btn:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
   color: #e0e0e0;
@@ -1013,13 +1024,13 @@ body.dark-mode .radio-title {
 .audio-tabs {
   display: flex;
   gap: 4px;
-  background: rgba(0, 0, 0, 0.03);
-  padding: 3px;
+  background: rgba(0, 0, 0, 0.08); /* Darker track for light mode */
+  padding: 4px; /* Slightly thicker padding */
   border-radius: 8px;
 }
 
 body.dark-mode .audio-tabs {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.25); /* Dark track for dark mode */
 }
 
 .audio-tab {
@@ -1052,13 +1063,13 @@ body.dark-mode .audio-tab:hover {
   background: #fff;
   color: #111;
   font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12); /* Stronger shadow */
 }
 
 body.dark-mode .audio-tab.active {
-  background: #333;
+  background: rgba(255, 255, 255, 0.15); /* Much brighter active tab for dark mode */
   color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .audio-track-list {
@@ -1356,30 +1367,27 @@ body.dark-mode .speed-option-btn.active {
 }
 
 .refresh-bg-btn {
-  background: transparent;
-  border: none;
+  position: fixed;
+  bottom: 40px;
+  left: 260px; /* 44px right of settings button (216) */
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #666;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-  font-size: 18px;
-  color: var(--text-main);
-  transition: all 0.2s ease;
-  line-height: 1;
-  padding: 0;
-  opacity: 0.7;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
 }
 
 .refresh-bg-btn:hover {
-  background: rgba(128, 128, 128, 0.15);
-  opacity: 1;
-}
-
-body.dark-mode .refresh-bg-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #bbb;
+  color: #2c2c2c;
 }
 
 @keyframes spin-refresh {
@@ -1387,7 +1395,7 @@ body.dark-mode .refresh-bg-btn:hover {
   100% { transform: rotate(360deg); }
 }
 
-.refresh-bg-btn.spin {
+.refresh-bg-btn.spin svg {
   animation: spin-refresh 0.5s ease-in-out;
 }
 
