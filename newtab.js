@@ -27,7 +27,8 @@ const flagSvgs = {
   ja: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><circle cx="24" cy="24" r="14" fill="#BC002D" /></svg>`,
   tr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipTR)"><rect x="0" y="0" width="48" height="48" fill="#E30A17" /><circle cx="19" cy="24" r="11" fill="#FFFFFF" /><circle cx="22.2" cy="24" r="8.8" fill="#E30A17" /><polygon points="31,19.5 32.06,22.54 35.28,22.61 32.71,24.56 33.65,27.64 31,25.8 28.35,27.64 29.29,24.56 26.72,22.61 29.94,22.54" fill="#FFFFFF" /></g><defs><clipPath id="circleClipTR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   zh: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipZH)"><rect x="0" y="0" width="48" height="48" fill="#DE2910" /><polygon points="12,11 13.5,15.5 18,15.5 14.5,18 16,22.5 12,20 8,22.5 9.5,18 6,15.5 10.5,15.5" fill="#FFDE00" /><polygon points="21,9 21.8,11.2 24,11.2 22.2,12.5 22.9,14.7 21,13.4 19.1,14.7 19.8,12.5 18,11.2 20.2,11.2" fill="#FFDE00" /><polygon points="25,13 25.8,15.2 28,15.2 26.2,16.5 26.9,18.7 25,17.4 23.1,18.7 23.8,16.5 22,15.2 24.2,15.2" fill="#FFDE00" /><polygon points="25,19 25.8,21.2 28,21.2 26.2,22.5 26.9,24.7 25,23.4 23.1,24.7 23.8,22.5 22,21.2 24.2,21.2" fill="#FFDE00" /><polygon points="21,23 21.8,25.2 24,25.2 22.2,26.5 22.9,28.7 21,27.4 19.1,28.7 19.8,26.5 18,25.2 20.2,25.2" fill="#FFDE00" /></g><defs><clipPath id="circleClipZH"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
-  it: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipIT)"><rect x="0" y="0" width="16" height="48" fill="#009246" /><rect x="16" y="0" width="16" height="48" fill="#FFFFFF" /><rect x="32" y="0" width="16" height="48" fill="#CE2B37" /></g><defs><clipPath id="circleClipIT"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
+  it: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipIT)"><rect x="0" y="0" width="16" height="48" fill="#009246" /><rect x="16" y="0" width="16" height="48" fill="#FFFFFF" /><rect x="32" y="0" width="16" height="48" fill="#CE2B37" /></g><defs><clipPath id="circleClipIT"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
+  pt: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipPT)"><rect x="0" y="0" width="19" height="48" fill="#046A38" /><rect x="19" y="0" width="29" height="48" fill="#DA291C" /><circle cx="19" cy="24" r="8" fill="#FFC72C" /><circle cx="19" cy="24" r="5" fill="#DA291C" /><rect x="16.5" y="21.5" width="5" height="5" fill="#FFFFFF" /></g><defs><clipPath id="circleClipPT"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
 };
 
 const phraseFiles = {
@@ -38,7 +39,8 @@ const phraseFiles = {
   ja: 'phrases_ja.json',
   tr: 'phrases_tr.json',
   zh: 'phrases_zh.json',
-  it: 'phrases_it.json'
+  it: 'phrases_it.json',
+  pt: 'phrases_pt.json'
 };
 
 const radioStationsConfig = {
@@ -178,6 +180,26 @@ const radioStationsConfig = {
         { id: 'classic_hits_it', name: 'Classic Hits Italia' }
       ]
     }
+  ],
+  pt: [
+    {
+      category: 'radio',
+      title: 'Rádio em Direto (Música & Hits)',
+      stations: [
+        { id: 'comercial_pt', name: 'Rádio Comercial' },
+        { id: 'cidade_fm', name: 'Cidade FM (Pop & Hits)' },
+        { id: 'antena_3_rtp', name: 'RTP Antena 3' }
+      ]
+    },
+    {
+      category: 'radio',
+      title: 'Notícias & Cultura (News & Variety)',
+      stations: [
+        { id: 'antena_1_rtp', name: 'RTP Antena 1 (Notícias)' },
+        { id: 'm80_portugal', name: 'M80 Portugal' },
+        { id: 'smooth_fm', name: 'Smooth FM' }
+      ]
+    }
   ]
 };
 
@@ -211,7 +233,7 @@ const dialogueYoutubeUrls = {
 
 function getPhraseText(phrase) {
   if (!phrase) return '';
-  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || phrase.turkish || phrase.chinese || phrase.italian || '';
+  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || phrase.turkish || phrase.chinese || phrase.italian || phrase.portuguese || '';
 }
 
 // Initial storage check & bootstrap
@@ -863,7 +885,7 @@ function exportFavorites() {
         return;
       }
       
-      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish', 'zh': 'Mandarin Chinese', 'it': 'Italian' };
+      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish', 'zh': 'Mandarin Chinese', 'it': 'Italian', 'pt': 'Portuguese' };
       const langTitle = langTitles[currentLang] || 'Language';
       // Build export text
       let exportText = `My ${langTitle} Favorites\n`;
@@ -1983,7 +2005,8 @@ function speakText(text) {
     ja: 'ja-JP',
     tr: 'tr-TR',
     zh: 'zh-CN',
-    it: 'it-IT'
+    it: 'it-IT',
+    pt: 'pt-PT'
   };
   
   const targetLang = langMap[currentLang] || 'de-DE';
