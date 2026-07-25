@@ -1,0 +1,4647 @@
+{
+  "A0": [
+    {
+      "italian": "Zio / Fra (es. Zio, è assurdo!)",
+      "english": "Dude / Man (e.g., Dude, that's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Allucinante / Pazzesco (es. È stato davvero pazzesco!)",
+      "english": "Crazy / Awesome (e.g., That was really crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Figo / Spaziale (es. Il concerto è stato troppo figo!)",
+      "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Avere voglia (es. Hai voglia di andare al cinema?)",
+      "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Zero voglia (es. Ho zero voglia di lavorare)",
+      "english": "No desire (e.g., I have no desire to work)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Alla grande (es. Macchina nuova? Vai alla grande!)",
+      "english": "Things are going well for you (e.g., New car? Things are going well!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fra / Bro (es. Fra, come va?)",
+      "english": "Dude / Bro (e.g., Dude, what's up?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Cazzeggiare / Rilassarsi (es. Oggi cazzeggiamo)",
+      "english": "To chill (e.g., Let's chill today)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fare festa (es. Oggi facciamo davvero festa!)",
+      "english": "To party hard (e.g., We're gonna party hard today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Spettacolo / Bomba (es. Il film era una bomba!)",
+      "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Super / Troppo (es. Questo è troppo figo!)",
+      "english": "Super / Really (e.g., That's super cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Un botto / Troppo (es. Questo è troppo bello!)",
+      "english": "Totally / Really (e.g., That's really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Ma davvero? / Serio? (es. Hai vinto? Ma davvero?)",
+      "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Tranquillo / Figurati (es. Grazie! - Figurati!)",
+      "english": "No problem (e.g., Thanks! - No problem!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Stammi bene (es. Ciao, stammi bene!)",
+      "english": "Take care (e.g., Bye, take care!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Ci sta / A posto (es. Ci vediamo alle 8? - Ci sta!)",
+      "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Alla grande (es. Come va? - Alla grande!)",
+      "english": "It's going well (e.g., How's it going? - All good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Non me ne frega / Uguale (es. Cosa vuoi mangiare? - È uguale)",
+      "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Cazzata / Sciocchezza (es. È una totale cazzata!)",
+      "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Mannaggia / Cavolo (es. Cavolo, l'ho dimenticato!)",
+      "english": "Damn / Crap (e.g., Damn, I forgot!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Cazzo (es. Cazzo, fa male!)",
+      "english": "Shit (e.g., Shit, that hurts!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Zio / Cavolo (es. Cavolo, c'eravamo quasi!)",
+      "english": "Man / Geez (e.g., Man, that was close!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Ehi / We (es. We, aspetta un attimo!)",
+      "english": "Hey (e.g., Hey, wait up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Tizio / Tipo (es. Quel tipo è strano)",
+      "english": "Guy / Dude (e.g., That guy is weird)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Tizia (es. Quella tizia è fastidiosa)",
+      "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Nnaccare / Dormire (es. Voglio solo dormire)",
+      "english": "To sleep (e.g., I just want to sleep)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Grana / Quattrini (es. Non ho più un soldo)",
+      "english": "Money / Dough (e.g., I have no money left)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Essere al verde (es. Sono totalmente al verde)",
+      "english": "To be broke (e.g., I'm totally broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Giocare (es. Dai, giochiamo!)",
+      "english": "To game (e.g., Let's game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Sparare cazzate (es. Che cazzate stai sparando?)",
+      "english": "To talk nonsense (e.g., What are you talking about?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Chiacchierare (es. Dai, facciamo due chiacchiere)",
+      "english": "To chat (Northern German) (e.g., Come, let's chat)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Chiacchierare (es. Abbiamo chiacchierato per ore)",
+      "english": "To chat (e.g., We chatted for hours)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Musica (es. Metti un po' di musica!)",
+      "english": "Music (e.g., Put some music on!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Compa / Socio (es. Questo è il mio socio)",
+      "english": "Buddy / Mate (e.g., That's my buddy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Pesante / Sfigato (es. Non fare lo sfigato!)",
+      "english": "Square / Boring person (e.g., Don't be such a square!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Grezzo / Coatto (es. Si comporta come un coatto)",
+      "english": "Trashy person (e.g., He acts like trash)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Spaccare (es. La festa sta spaccando!)",
+      "english": "To be awesome (e.g., The party is really going off!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Bomba / Top (es. È una bomba!)",
+      "english": "Cool / Awesome (e.g., That's awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fantastico (es. Penso sia fantastico!)",
+      "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Stupendo (es. È stupendo!)",
+      "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fico / Elegante (es. Oggi sei davvero fico!)",
+      "english": "Fancy / Chic (e.g., You look fancy today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Una bomba assurda (es. Il concerto era una bomba assurda!)",
+      "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Troppo buono (es. Il cibo era troppo buono!)",
+      "english": "Really good (e.g., The food was really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Pazzesco (es. È pazzesco!)",
+      "english": "Crazy / Insane (e.g., That's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fuori di testa (es. La storia è fuori di testa)",
+      "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Scatenarsi (es. Oggi ci scateniamo!)",
+      "english": "To go wild (e.g., Today we're going wild!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Fare serata (es. Stasera facciamo serata!)",
+      "english": "To party / Live it up (e.g., Let's live it up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Settimo cielo (es. Sono al settimo cielo)",
+      "english": "On cloud nine (e.g., I'm on cloud nine)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Avere un doposbronza (es. Ho un doposbronza tremendo)",
+      "english": "To have a hangover (e.g., I have a hangover)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "italian": "Essere sbronzo (es. Ieri sera era completamente sbronzo)",
+      "english": "To be drunk (e.g., He was totally drunk yesterday)",
+      "tags": [
+        "slang"
+      ]
+    }
+  ],
+  "A1": [
+    {
+      "italian": "Buongiorno",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Come ti chiami?",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi chiamo Anna",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Come stai?",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Sto bene",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Grazie mille",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Prego",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Arrivederci",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Buona notte",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sì, per favore",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "No, grazie",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Mi scusi",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non capisco",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dov'è il bagno?",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Vengo dalla Germania",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "italian": "sono stanco",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ho fame",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "italian": "Ho sete",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "italian": "Quanto costa?",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Vorrei dell'acqua",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Dove vivi?",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "italian": "Vivo a Berlino",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "italian": "Quanti anni hai?",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ho 25 anni",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Questo è il mio amico",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ti amo",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Arrivederci",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ci vediamo domani",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Passa un bel weekend",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Buona fortuna",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ti auguro il meglio",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Congratulazioni",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Buon appetito",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Saluti",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "italian": "Salute",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "italian": "Parlo tedesco",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Lei parla inglese?",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "italian": "Sto imparando il tedesco",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È bellissimo",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È buono",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Mi piace che",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Mi piace la pizza",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Che ore sono?",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono le tre",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Oggi è lunedì",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Il tempo è bello",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sta piovendo",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Fa freddo",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Fa caldo",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "sono felice",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Cerco un appartamento",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Quanto costa l'affitto?",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Dov'è il supermercato?",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Voglio comprarlo",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "E' in vendita?",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di aiuto",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "italian": "Mi sento male",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Dov'è l'ospedale?",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Ho dolore",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La stanza è grande",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Posso provarlo?",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Dov'è il camerino?",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Vorrei un pane",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il cibo è buono",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Bevo caffè",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Dov'è l'albergo?",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un taxi",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Quanto costa il biglietto?",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L'appartamento è piccolo",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Pago in contanti",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "E' troppo grande",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Mi piace mangiare la frutta",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Dov'è l'uscita?",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Hai un sorriso davvero contagioso.",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non ho potuto fare a meno di venire a salutarvi.",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei di queste parti?",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Stai benissimo oggi.",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Adoro il tuo stile.",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei fantastica stasera.",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Posso offrirti da bere?",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Vieni qui spesso?",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Mi piace la tua atmosfera.",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Hai una bella risata.",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei single?",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non potevo smettere di guardarti.",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Hai degli occhi bellissimi.",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Come ti chiami?",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei davvero carino.",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "italian": "Mi potete aiutare?",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "italian": "Vorrei un caffè",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Dove posso acquistarlo?",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Sto cercando la stazione ferroviaria",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Quando parte il treno?",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho una domanda",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "E' troppo costoso",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Ce l'hai in un'altra dimensione?",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Vorrei pagare",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "italian": "Accettate carte di credito?",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "italian": "Mi sono perso",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Puoi ripeterlo?",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Per favore, parli lentamente",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non capisco il menù",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Che cosa mi consiglia?",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Sono allergico alle noci",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "italian": "Il conto, per favore",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il cibo era delizioso",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Lavoro come insegnante",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "italian": "Cosa fai per lavoro?",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "italian": "Studio medicina",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ho un appuntamento",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Quando hai tempo?",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Incontriamoci più tardi",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Sono in ritardo",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "scusate il ritardo",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Nessun problema",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non importa",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non vedo l'ora",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "È stata una bella giornata",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "ho il raffreddore",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Mi fa male la testa",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un dottore",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Dove si trova la farmacia più vicina?",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho la febbre",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Guarisci presto",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "italian": "Devo andare a casa",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ci vedremo presto",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Hai fratelli?",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ho un fratello",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La mia famiglia è grande",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Quali sono i tuoi hobby?",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi piace giocare a calcio",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi piace leggere libri",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi piace ascoltare la musica",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Che musica ti piace?",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi piace il rock e il pop",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ti piace andare al cinema?",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Il film è stato interessante",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ho preso l'autobus",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Vorrei visionare l'appartamento",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Quando è disponibile l'appartamento?",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Sono ammessi animali domestici?",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "C'è un ascensore?",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Posso pagare con carta?",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Hai una ricevuta?",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Vorrei scambiare questo",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Dove posso trovare il pane?",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di una prescrizione",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Ho la tosse",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Puoi prescrivermi qualcosa?",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Sono allergico alla penicillina",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Quando è aperta la farmacia?",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "L'appartamento ha due stanze",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Cerco una stanza singola",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "italian": "La cucina è moderna",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Dov'è il bancomat più vicino?",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "italian": "Hai una taglia più piccola?",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Vorrei restituirlo",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Dove posso trovare il latte?",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "italian": "Non mangio carne",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La colazione è pronta",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei un tè",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Dov'è la piattaforma?",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho dimenticato il passaporto",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Quando arriva l'autobus?",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un biglietto",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Vuoi ballare?",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Hai davvero un buon profumo.",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Mi piace il tuo vestito.",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei qui con gli amici?",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Posso avere il tuo numero?",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei molto interessante.",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Abbiamo molto in comune.",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Questa canzone è fantastica, vero?",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non ho mai incontrato nessuno come te.",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Facciamoci un selfie insieme.",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "italian": "Vorrei prenotare un tavolo",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Potresti spiegarmi la strada?",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Mi interessa la storia",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Secondo me, questo è importante",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ho un'opinione diversa",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Dipende",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono d'accordo con questo",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Sono contrario",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Cosa ne pensi?",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ci ho pensato",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non ha senso",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Puoi spiegarlo più dettagliatamente?",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Mi sono abituato",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È difficile per me",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sto facendo del mio meglio",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Dipende da quello",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Per quanto ne so",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non sono sicuro",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Lasciami pensare",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Ho intenzione di viaggiare in Italia",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "italian": "Non vedo l'ora che arrivino le vacanze",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "italian": "Mi pento della mia decisione",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È stato un malinteso",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Mi sbagliavo",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Hai ragione",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non è del tutto corretto",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Sono sorpreso",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È incredibile",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono deluso",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questo mi fa arrabbiare",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono entusiasta",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È imbarazzante per me",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi vergogno",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono fiero di te",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi dispiace sinceramente",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "chiedo scusa",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Ti perdono",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Dimentichiamolo",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Mi manchi",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Ti penso spesso",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Dovremmo restare in contatto",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Non ho tue notizie da molto tempo",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "Come ti stanno andando le cose?",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "italian": "Ho molto da fare",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono stressato",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di una pausa",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono esausto",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di riposare",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "italian": "È stato estenuante",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Mi sento meglio",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "italian": "Cerco appartamento arredato",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Le utenze sono incluse?",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "A quanto ammonta il deposito?",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "C'è una lavatrice?",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Vorrei un rimborso",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il prodotto è difettoso",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Hai questo in magazzino?",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "C'è una garanzia?",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Ho un appuntamento dal dottore",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Da quando hai questi sintomi?",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Prendo regolarmente farmaci",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un certificato di malattia",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "italian": "La mia tessera assicurativa",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Il padrone di casa non ha ancora risposto",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Sono vegetariano",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Ci sono opzioni vegetariane?",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il cibo è troppo salato",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei il menù",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Potete consigliarmi il piatto?",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei prenotare una stanza",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La colazione è inclusa?",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "italian": "Quando è il check-out?",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "C'è il WiFi nell'hotel?",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho perso la mia prenotazione",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Dove posso lasciare i miei bagagli?",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Come posso raggiungere l'aeroporto?",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Cerco un appartamento condiviso",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Quanto costa l'energia elettrica?",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il balcone è soleggiato",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un parcheggio",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "C'è uno sconto?",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Posso prenotarlo?",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Quando verrà consegnato?",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Ordinerò lo stesso",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Puoi renderlo piccante?",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei un dessert",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il cibo è diventato freddo",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei fare il check-in",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Hai una mappa della città?",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Dove sono le informazioni turistiche?",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho perso il mio biglietto",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "E 'occupato questo posto? O stai aspettando qualcuno?",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Stavo per andarmene, ma poi ti ho visto.",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "È davvero facile parlare con te.",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Cosa ci fa una persona divertente come te in un posto come questo?",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Ci conosciamo? O è solo che mi piacerebbe?",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Mi prenderei a calci se non venissi a salutarti.",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei sempre così affascinante?",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Adoro parlare con te, il tempo vola.",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sembri un sacco di guai.",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Di solito non lo faccio, ma hai attirato la mia attenzione.",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Dovremmo assolutamente prendere un caffè qualche volta.",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Spero non ti dispiaccia se vengo.",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Hai il sorriso più bello che abbia mai visto in tutto il giorno.",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Mi chiedevo se ti andrebbe di uscire di qui.",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Andiamo a cenare qualche volta questa settimana.",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "italian": "Sono del parere che dobbiamo agire",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "È evidente che qualcosa deve cambiare",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Vorrei sottolineare un punto importante",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Ciò solleva la domanda",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Al contrario",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Da un lato lo capisco, dall'altro",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò non può essere negato",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non ci sono dubbi a riguardo",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ne sono fermamente convinto",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questo gioca un ruolo importante",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dobbiamo valutare i pro e i contro",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Ciò ha conseguenze di vasta portata",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Vorrei vederlo da una prospettiva diversa",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dipende da vari fattori",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "In queste circostanze",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "A condizione che",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Nel caso in cui dovesse essere così",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Supponendo che avessimo più tempo",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sarebbe stato meglio se",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Se lo avessi saputo",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Avrei agito diversamente",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò avrebbe potuto essere evitato",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "In retrospettiva",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Guardando indietro, posso dire",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È stata un'esperienza preziosa",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "italian": "Ho imparato da quello",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò ha cambiato la mia prospettiva",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono giunto alla conclusione",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "In sintesi si può dire",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "In conclusione, vorrei sottolineare",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il problema principale è",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La sfida sta nel",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È difficile da valutare",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Non si può generalizzare",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questa è una questione complessa",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Esistono diversi approcci",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Una possibile soluzione sarebbe",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dovremmo considerare opzioni alternative",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Ciò richiede un'attenta considerazione",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sono propenso a credere",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Mi sembra come se",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Per quanto posso giudicare",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Secondo la mia comprensione",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Lo presumo",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questo è da presumere",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La probabilità è alta",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È improbabile che ciò accada",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Mi sembra logico",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questo ha perfettamente senso",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Posso capire perché",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Vorrei rescindere il contratto di locazione",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il termine di preavviso è di tre mesi",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Ci sono danni causati dall'acqua nell'appartamento",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il riscaldamento non funziona",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Vorrei presentare un reclamo",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Questo non corrisponde alla descrizione",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Insisto sul mio diritto al ritorno",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Puoi confermarlo per iscritto?",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un rinvio ad uno specialista",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Quali effetti collaterali ha il farmaco?",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Vorrei avere un secondo parere",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Il trattamento è coperto dall'assicurazione sanitaria",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Ho mal di schiena cronico",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La consegna dell'appartamento avverrà la prossima settimana",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Ho un'intolleranza alimentare",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "italian": "Il piatto contiene glutine?",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei un tavolo vicino alla finestra",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La carne non è cotta",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Potresti dividere il conto?",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei cancellare la mia prenotazione",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ci sono spese di cancellazione?",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Il mio volo è stato cancellato",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho perso il volo in coincidenza",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Dov'è il gate d'imbarco?",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Il mio bagaglio non è arrivato",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un'assicurazione di viaggio",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Le attrazioni sono raggiungibili a piedi",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Vorrei subaffittare l'appartamento",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il contratto di locazione è in scadenza",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "L'appartamento ha pareti sottili",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Ho diritto ad una riduzione dell'affitto",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Vorrei ordinare online",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La consegna è in ritardo",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Ho ricevuto la merce sbagliata",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Posso pagare a rate?",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Gli ingredienti sono regionali",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Preferisco i prodotti biologici",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il piatto è fatto in casa",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Potete consigliarmi la ricetta?",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Vorrei riprenotare il mio volo",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Il viaggio è stato rinviato",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Ho bisogno di un visto",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L'alloggio non soddisfa le aspettative",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "C'è troppo rumore qui, vuoi prendere un po' d'aria fresca?",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Di solito non parlo con gli sconosciuti, ma sono felice di averlo fatto.",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Se sei libero questo fine settimana, mi piacerebbe mostrarti il ​​mio posto preferito in città.",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Hai un modo davvero unico di vedere le cose.",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Stavo cercando di andarmene, ma lo stai rendendo molto difficile.",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non riesco a capirti, ma voglio assolutamente provarci.",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei piuttosto divertente, te lo devo ammettere.",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Adoro quanto sei appassionato quando ne parli.",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Qual è la cosa più folle che tu abbia mai fatto per amore?",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sento che potremmo parlare tutta la notte.",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "italian": "La discussione ha raggiunto una nuova dimensione",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Ciò solleva questioni fondamentali",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dobbiamo analizzare le cause sottostanti",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "È imperativo agire",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La situazione è estremamente complessa",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Bisogna considerare il contesto storico",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò contraddice le affermazioni precedenti",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "L’argomentazione presenta lacune significative",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Mancano prove empiriche",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Lo studio fornisce risultati interessanti",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il fenomeno non può essere spiegato chiaramente",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "C'è una relazione causale",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La correlazione è statisticamente significativa",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Bisogna distinguere tra correlazione e causalità",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La metodologia è discutibile",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il risultato non è generalizzabile",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Sono necessarie ulteriori ricerche",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Le implicazioni sono di vasta portata",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò ha effetti profondi",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Siamo di fronte ad un cambiamento di paradigma",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La teoria non è sostenibile",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L'argomentazione è conclusiva",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Le prove sono schiaccianti",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ci sono dubbi legittimi",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La critica non può essere respinta",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò non può essere facilmente confutato",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La tesi è priva di qualsiasi fondamento",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Questa è una tesi audace",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La conclusione è prematura",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Bisogna essere cauti con le generalizzazioni",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Il dilemma è ovvio",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ci troviamo in una situazione difficile",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La situazione richiede un approccio sfumato",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "È necessario trovare un compromesso",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Gli interessi sono incompatibili",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò pone grandi sfide per noi",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Lo sviluppo è allarmante",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Sta emergendo una tendenza",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La tendenza è chiara",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Ciò indica problemi più profondi",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Le cause sono molteplici",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È un problema strutturale",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Le misure non sono sufficienti",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È necessario un cambiamento fondamentale",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La riforma è attesa da tempo",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Il sistema non è più contemporaneo",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "Dobbiamo esplorare nuove strade",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L'approccio è innovativo",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il concetto è lungimirante",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La visione è ambiziosa ma realizzabile",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "In quest'area vige il controllo degli affitti",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il mercato immobiliare è teso",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "L’indice della rendita aumenta ogni anno",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Sto esercitando la mia richiesta di garanzia",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Lo prevede la legge sulla tutela dei consumatori",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il periodo di cancellazione è di quattordici giorni",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La diagnosi richiede ulteriori esami",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La prognosi è cautamente ottimistica",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Le misure preventive sono essenziali",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La terapia sta mostrando i primi successi",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "È necessario un trattamento ospedaliero",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "In questi casi l'associazione degli inquilini fornisce consulenza",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La diversità culinaria è notevole",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La cucina regionale è caratterizzata dalla genuinità",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La preparazione richiede maestria",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "L'abbinamento dei vini si armonizza perfettamente con il menu",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La scena gastronomica si è sviluppata fortemente",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il turismo contribuisce in modo significativo all’economia",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L'infrastruttura è ben sviluppata",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Il settore dei viaggi deve affrontare sfide",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Il turismo sostenibile sta guadagnando importanza",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L’arricchimento culturale è innegabile",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "italian": "Le relazioni interpersonali sono complesse",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "L’accettazione sociale è aumentata",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La mobilità sociale è limitata",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La carenza di alloggi sta peggiorando",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "I prezzi degli affitti stanno aumentando in modo sproporzionato",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La politica abitativa è controversa",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "L’efficienza energetica è inadeguata",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La vendita al dettaglio è sotto pressione",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "L’e-commerce sta soppiantando i negozi tradizionali",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La catena di approvvigionamento è interrotta",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La sostenibilità gioca un ruolo centrale",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "italian": "Lo spreco alimentare è problematico",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Le abitudini alimentari stanno cambiando",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il movimento vegano sta guadagnando slancio",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "L'origine dei prodotti è trasparente",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "italian": "L’overtourism grava sulle città",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Le restrizioni ai viaggi sono state allentate",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La vergogna del volo influenza il comportamento di viaggio",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La digitalizzazione sta cambiando il settore dei viaggi",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Di solito non lo faccio, ma dovevo venire.",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Se continuiamo a parlare, potrei semplicemente offrirti da bere.",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sei pericoloso, lo vedo già.",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Mi piacerebbe continuare questa conversazione in un posto un po' più tranquillo.",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Siamo onesti, siamo totalmente vibranti in questo momento.",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sto cercando di pensare a una buona battuta di ripresa, ma mi hai lasciato senza parole.",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "C'è qualcosa di veramente intrigante in te.",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Avevo intenzione di passare una serata tranquilla, ma hai completamente rovinato i miei piani.",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non hai solo un bel viso, vero?",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Abbiamo livelli pericolosi di chimica in questo momento.",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Ho la sensazione che sarai una distrazione.",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Se continuiamo così, la gente comincerà a parlare.",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Scommetto che lo dici a tutti.",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Tralasciamo le chiacchiere, qual è la tua più grande passione?",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Se giochi bene le tue carte, potrei permettermi di eliminarmi.",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "italian": "L'ambiguità del termine complica una definizione precisa",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La dicotomia tra teoria e pratica è evidente",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il paradosso sta nella natura della questione",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La premessa del ragionamento è contestabile",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "È una tautologia",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La retorica oscura il problema reale",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La semantica dell'espressione dipende dal contesto",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il problema epistemologico resta irrisolto",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Le implicazioni ontologiche sono considerevoli",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’ermeneutica del testo richiede competenza",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La dialettica dell'illuminazione si manifesta qui",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il fenomeno sfugge ad una spiegazione monocausale",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La complessità della questione non è da sottovalutare",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È necessario un approccio interdisciplinare",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La convergenza di diversi fattori è decisiva",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La divergenza di opinioni è incolmabile",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La narrazione modella la percezione collettiva",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "L’analisi del discorso rivela strutture di potere nascoste",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’egemonia del paradigma prevalente è fragile",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "È necessaria la decostruzione dei concetti consolidati",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il postulato si rivela insostenibile",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’ipotesi non può essere verificata empiricamente",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La falsificazione della teoria è ancora pendente",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Gli assiomi del sistema sono incoerenti",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La coerenza dell'argomentazione è assicurata",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La severità della dimostrazione è notevole",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La plausibilità della tesi è da dubitare",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La validità del metodo è contestata",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’attendibilità dei dati è discutibile",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L'obiettività dell'analisi non è data",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La soggettività della percezione è inevitabile",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La relatività della verità è filosoficamente significativa",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Viene messa in discussione l’assolutezza dei principi morali",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La contingenza degli sviluppi storici è evidente",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "Il dibattito sul determinismo è ancora attuale",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La teleologia della natura è una proiezione antropomorfica",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’emergere di sistemi complessi è affascinante",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La riduzione a semplici spiegazioni non rende giustizia alla questione",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "È auspicabile la sintesi di approcci divergenti",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’antitesi all’opinione comune è provocatoria",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La connotazione del termine è cambiata",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La denotazione, tuttavia, rimane costante",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’equivoco porta a malintesi",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La precisione terminologica è indispensabile",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "La sfumatura dell’affermazione è significativa",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La differenziazione tra i concetti è sottile",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’analogia zoppica in un punto cruciale",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La metafora è illuminante ma non va presa alla lettera",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "italian": "L'allegoria si riferisce a un livello di significato più profondo",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "italian": "L’ironia della situazione non può essere trascurata",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "italian": "La gentrificazione del quartiere sta procedendo",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La carenza di alloggi aggrava le disparità sociali",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La spirale dei prezzi degli affitti è difficilmente spezzabile",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il comportamento dei consumatori sta subendo un cambiamento di paradigma",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "L'obsolescenza è deliberatamente indotta",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il mercato dell'acquirente si è trasformato in un mercato del venditore",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La patogenesi della malattia è multifattoriale",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "L’eziologia rimane in gran parte poco chiara",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La sintomatologia non è specifica",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "È indicato un chiarimento diagnostico differenziale",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "La comorbidità complica il trattamento",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "italian": "Il diritto di locazione è un ambito giuridico complesso",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Le avanguardie gastronomiche sperimentano la cucina molecolare",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Le proprietà sensoriali sono eccezionali",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La fermentazione conferisce complessità al prodotto",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La filosofia del terroir modella la cultura del vino",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il turismo di massa ha conseguenze ecologiche",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La turisticizzazione modifica le strutture urbane",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L’autenticità cede sempre più il passo alla commercializzazione",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La mobilità è diventata un privilegio",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La coesione sociale si sta visibilmente erodendo",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La frammentazione della società sta progredendo",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La polarizzazione è un fenomeno che riguarda tutta la società",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "L’alienazione è un sintomo della modernità",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "italian": "La questione abitativa è una questione sociale",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La speculazione spinge i prezzi immobiliari",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "La segregazione si manifesta spazialmente",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "italian": "Il consumismo plasma la società",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La commercializzazione permea tutti gli ambiti della vita",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "Il feticismo della merce è onnipresente",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "italian": "La sovranità alimentare è in pericolo",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "L’industrializzazione dell’agricoltura ha delle conseguenze",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "L’identità culinaria si sta erodendo",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "La globalizzazione omogeneizza la cultura alimentare",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "italian": "Il turismo è un fenomeno ambivalente",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "L’esotizzazione dell’Altro è problematica",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La mobilità è distribuita in modo ineguale",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "La libertà di viaggiare è un privilegio",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "italian": "Non riesco a smettere di pensare a cosa voglio farti.",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Sembri incredibilmente sexy in questo momento.",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Voglio svegliarmi accanto a te.",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Usciamo di qui e andiamo in un posto privato.",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Le tue labbra sembrano estremamente baciabili in questo momento.",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Se stavi cercando di distrarmi dal mio drink, congratulazioni, ha funzionato perfettamente.",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Non sono del tutto convinto che tu sia così innocente come cerchi di apparire.",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Facciamo a meno delle formalità; sappiamo entrambi che c'è una scintilla qui.",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "È profondamente ingiusto con quanta facilità riesci a essere la persona più accattivante nella stanza.",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Di solito sono un maestro dell'autocontrollo, ma in questo momento stai mettendo a dura prova i miei limiti.",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Ti sfiderei a una battaglia d'ingegno, ma sembra che tu sia già pesantemente armato.",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Trasudi il tipo di problema a cui storicamente faccio fatica a resistere.",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Stai deliberatamente cercando di monopolizzare la mia attenzione, o è solo il tuo stato naturale?",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Ho una mezza idea di farti impazzire, ma sospetto che ti piacerebbe troppo la caccia.",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "italian": "Supponendo che tu non sia ancora completamente stufo di me, che ne dici di fare colazione domani?",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ]
+}
