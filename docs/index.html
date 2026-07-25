@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="favicon.png">
   <title>Passive Language Learning New Tab - Learn Languages with Every New Tab</title>
-  <meta name="description" content="Transform your browser into a language learning companion. Learn German and Spanish naturally through passive exposure with every new tab.">
+  <meta name="description" content="Transform your browser into a language learning companion. Learn German, Spanish, French, Arabic, Japanese, and Turkish naturally through passive exposure with every new tab.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -122,25 +122,21 @@
     /* Language Cards */
     .language-cards {
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
+      max-width: 1040px;
+      margin: 0 auto;
     }
     
-    @media (max-width: 1200px) {
+    @media (max-width: 900px) {
       .language-cards {
-        grid-template-columns: repeat(4, 1fr);
-      }
-    }
-    
-    @media (max-width: 1024px) {
-      .language-cards {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .language-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
       }
     }
     
@@ -160,9 +156,25 @@
     }
     
     .language-card.upcoming {
+      grid-column: 2;
       background: var(--bg);
       border-style: dashed;
       opacity: 0.8;
+    }
+    
+    @media (max-width: 900px) {
+      .language-card.upcoming {
+        grid-column: 1 / -1;
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .language-card.upcoming {
+        grid-column: auto;
+      }
     }
     
     .language-card.upcoming:hover {
@@ -557,11 +569,11 @@
     <div class="section">
       <div class="stats">
         <div class="stat">
-          <div class="stat-number">1,500+</div>
+          <div class="stat-number">3,800+</div>
           <div class="stat-label">Curated Phrases</div>
         </div>
         <div class="stat">
-          <div class="stat-number">6</div>
+          <div class="stat-number">7</div>
           <div class="stat-label">CEFR Levels</div>
         </div>
         <div class="stat">
@@ -569,7 +581,7 @@
           <div class="stat-label">Topics</div>
         </div>
         <div class="stat">
-          <div class="stat-number">20+</div>
+          <div class="stat-number">26</div>
           <div class="stat-label">Live Stations</div>
         </div>
         <div class="stat">
@@ -591,29 +603,35 @@
         <div class="language-card">
           <div class="lang-flag">🇩🇪</div>
           <h3>German</h3>
-          <p>563 Phrases &bull; 6 Live Radios</p>
+          <p>643 Phrases &bull; 6 Live Radios</p>
         </div>
         <div class="language-card">
           <div class="lang-flag">🇪🇸</div>
           <h3>Spanish</h3>
-          <p>563 Phrases &bull; 5 Live Radios</p>
+          <p>643 Phrases &bull; 5 Live Radios</p>
         </div>
         <div class="language-card">
           <div class="lang-flag">🇫🇷</div>
           <h3>French</h3>
-          <p>563 Phrases &bull; 5 Live Radios</p>
+          <p>643 Phrases &bull; 5 Live Radios</p>
         </div>
 
         <div class="language-card">
-          <div class="lang-flag">🇵🇸</div>
+          <div class="lang-flag">🇦🇪</div>
           <h3>Arabic</h3>
-          <p>563 Phrases &bull; 2 Live Radios</p>
+          <p>643 Phrases &bull; 2 Live Radios</p>
         </div>
 
         <div class="language-card">
           <div class="lang-flag">🇯🇵</div>
           <h3>Japanese</h3>
-          <p>563 Phrases &bull; 2 Live Radios</p>
+          <p>643 Phrases &bull; 2 Live Radios</p>
+        </div>
+
+        <div class="language-card">
+          <div class="lang-flag">🇹🇷</div>
+          <h3>Turkish</h3>
+          <p>643 Phrases &bull; 6 Live Radios</p>
         </div>
 
         <div class="language-card upcoming">

@@ -24,7 +24,8 @@ const flagSvgs = {
   es: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipES)"><rect x="0" y="0" width="48" height="12" fill="#AA152F" /><rect x="0" y="12" width="48" height="24" fill="#F1BF00" /><rect x="0" y="36" width="48" height="12" fill="#AA152F" /></g><defs><clipPath id="circleClipES"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   fr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipFR)"><rect x="0" y="0" width="16" height="48" fill="#002395" /><rect x="16" y="0" width="16" height="48" fill="#FFFFFF" /><rect x="32" y="0" width="16" height="48" fill="#ED2939" /></g><defs><clipPath id="circleClipFR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   ar: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipAR)"><rect x="0" y="0" width="48" height="16" fill="#000000" /><rect x="0" y="16" width="48" height="16" fill="#FFFFFF" /><rect x="0" y="32" width="48" height="16" fill="#009736" /><polygon points="0,0 24,24 0,48" fill="#EE2A35" /></g><defs><clipPath id="circleClipAR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
-  ja: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><circle cx="24" cy="24" r="14" fill="#BC002D" /></svg>`
+  ja: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><circle cx="24" cy="24" r="14" fill="#BC002D" /></svg>`,
+  tr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipTR)"><rect x="0" y="0" width="48" height="48" fill="#E30A17" /><circle cx="19" cy="24" r="11" fill="#FFFFFF" /><circle cx="22.2" cy="24" r="8.8" fill="#E30A17" /><polygon points="31,19.5 32.06,22.54 35.28,22.61 32.71,24.56 33.65,27.64 31,25.8 28.35,27.64 29.29,24.56 26.72,22.61 29.94,22.54" fill="#FFFFFF" /></g><defs><clipPath id="circleClipTR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
 };
 
 const phraseFiles = {
@@ -32,7 +33,8 @@ const phraseFiles = {
   es: 'phrases_es.json',
   fr: 'phrases_fr.json',
   ar: 'phrases_ar.json',
-  ja: 'phrases_ja.json'
+  ja: 'phrases_ja.json',
+  tr: 'phrases_tr.json'
 };
 
 const radioStationsConfig = {
@@ -113,6 +115,26 @@ const radioStationsConfig = {
         { id: 'jpop_project', name: 'J-Pop Project Radio' }
       ]
     }
+  ],
+  tr: [
+    {
+      category: 'radio',
+      title: 'Canlı Radyo (Türkçe Müzik & Yayın)',
+      stations: [
+        { id: 'radyo_fenomen_turk', name: 'Radyo Fenomen Türk' },
+        { id: 'super_fm', name: 'Süper FM' },
+        { id: 'virgin_radio_tr', name: 'Virgin Radio Türkiye' }
+      ]
+    },
+    {
+      category: 'radio',
+      title: 'Canlı Radyo (Popüler & Dünya Müzikleri)',
+      stations: [
+        { id: 'radyo_fenomen', name: 'Radyo Fenomen' },
+        { id: 'metro_fm', name: 'Metro FM' },
+        { id: 'joy_fm', name: 'Joy FM' }
+      ]
+    }
   ]
 };
 
@@ -146,7 +168,7 @@ const dialogueYoutubeUrls = {
 
 function getPhraseText(phrase) {
   if (!phrase) return '';
-  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || '';
+  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || phrase.turkish || '';
 }
 
 // Initial storage check & bootstrap
@@ -798,7 +820,7 @@ function exportFavorites() {
         return;
       }
       
-      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German' };
+      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish' };
       const langTitle = langTitles[currentLang] || 'Language';
       // Build export text
       let exportText = `My ${langTitle} Favorites\n`;
@@ -1915,7 +1937,8 @@ function speakText(text) {
     es: 'es-ES',
     fr: 'fr-FR',
     ar: 'ar-SA',
-    ja: 'ja-JP'
+    ja: 'ja-JP',
+    tr: 'tr-TR'
   };
   
   const targetLang = langMap[currentLang] || 'de-DE';

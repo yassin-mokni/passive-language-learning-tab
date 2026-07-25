@@ -1,0 +1,4647 @@
+{
+  "A0": [
+    {
+      "turkish": "Kanka (örn. Kanka, bu çok çılgınca!)",
+      "english": "Dude / Man (e.g., Dude, that's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Çılgın / Harika (örn. Bu gerçekten çok çılgıncaydı!)",
+      "english": "Crazy / Awesome (e.g., That was really crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Harika / Süper (örn. Konser çok harikaydı!)",
+      "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Canı istemek (örn. Sinemaya gitmek istiyor musun?)",
+      "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Hiç hevesi olmamak (örn. Çalışmaya hiç hevesim yok)",
+      "english": "No desire (e.g., I have no desire to work)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "İşlerin yolunda gitmesi (örn. Yeni araba mı? İşlerin yolunda ha!)",
+      "english": "Things are going well for you (e.g., New car? Things are going well!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kanka / Birader (örn. Kanka, naber?)",
+      "english": "Dude / Bro (e.g., Dude, what's up?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Takılmak (örn. Bugün takılalım)",
+      "english": "To chill (e.g., Let's chill today)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Çılgınca eğlenmek (örn. Bugün iyice kopuyoruz!)",
+      "english": "To party hard (e.g., We're gonna party hard today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Harika / Mükemmel (örn. Film harikaydı!)",
+      "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Süper / Çok (örn. Bu süper havalı!)",
+      "english": "Super / Really (e.g., That's super cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Bayağı / Çok (örn. Bu bayağı iyi!)",
+      "english": "Totally / Really (e.g., That's really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Harbi mi? / Cidden mi? (örn. Kazandın mı? Harbi mi?)",
+      "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Sorun değil / Sıkıntı yok (örn. Teşekkürler! - Sıkıntı yok!)",
+      "english": "No problem (e.g., Thanks! - No problem!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kendine iyi bak (örn. Hoşça kal, kendine iyi bak!)",
+      "english": "Take care (e.g., Bye, take care!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Tamamdır / Oldu bil (örn. 8'de buluşuyor muyuz? - Tamamdır!)",
+      "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Yuvarlanıp gidiyoruz (örn. Nasıl gidiyor? - Yuvarlanıp gidiyoruz!)",
+      "english": "It's going well (e.g., How's it going? - All good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Fark etmez / Umrumda değil (örn. Ne yemek istersin? - Fark etmez)",
+      "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Saçmalık / Zırva (örn. Bu tamamen saçmalık!)",
+      "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Hay aksi / Tüh (örn. Hay aksi, unuttum!)",
+      "english": "Damn / Crap (e.g., Damn, I forgot!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kahretsin (örn. Kahretsin, bu acıttı!)",
+      "english": "Shit (e.g., Shit, that hurts!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Yahu / Adamım (örn. Yahu, kıl payı kurtulduk!)",
+      "english": "Man / Geez (e.g., Man, that was close!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Hey / Pişt (örn. Hey, bir dakika bekle!)",
+      "english": "Hey (e.g., Hey, wait up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Adam / Tip (örn. O adam çok garip)",
+      "english": "Guy / Dude (e.g., That guy is weird)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kız (örn. O kız çok sinir bozucu)",
+      "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kestirmek / Uyumak (örn. Sadece uyumak istiyorum)",
+      "english": "To sleep (e.g., I just want to sleep)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Mangır / Para (örn. Hiç mangır kalmadı)",
+      "english": "Money / Dough (e.g., I have no money left)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Beş parasız olmak (örn. Tamamen beş parasızım)",
+      "english": "To be broke (e.g., I'm totally broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Oyun oynamak (örn. Hadi oyun oynayalım!)",
+      "english": "To game (e.g., Let's game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Boş yapmak (örn. Ne boş yapıyorsun orada?)",
+      "english": "To talk nonsense (e.g., What are you talking about?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Laflamak (örn. Gel biraz laflayalım)",
+      "english": "To chat (Northern German) (e.g., Come, let's chat)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Çene çalmak (örn. Saatlerce çene çaldık)",
+      "english": "To chat (e.g., We chatted for hours)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Müzik (örn. Müziği aç bakalım!)",
+      "english": "Music (e.g., Put some music on!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kanka / Dostum (örn. Bu benim dostum)",
+      "english": "Buddy / Mate (e.g., That's my buddy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Sıkıcı tip (örn. Öyle sıkıcı bir tip olma!)",
+      "english": "Square / Boring person (e.g., Don't be such a square!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kro / Görgü tanığı (örn. Kro gibi davranıyor)",
+      "english": "Trashy person (e.g., He acts like trash)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Kopmak / Çıldırmak (örn. Parti harika gidiyor!)",
+      "english": "To be awesome (e.g., The party is really going off!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Bomba / Harika (örn. Bu bomba!)",
+      "english": "Cool / Awesome (e.g., That's awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Fevkalade (örn. Bence bu fevkalade!)",
+      "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Şahane (örn. Bu şahane!)",
+      "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Şık / Havalı (örn. Bugün çok şık görünüyorsun!)",
+      "english": "Fancy / Chic (e.g., You look fancy today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Bomba gibi (örn. Konser bomba gibiydi!)",
+      "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Bayağı iyi (örn. Yemek bayağı iyiydi!)",
+      "english": "Really good (e.g., The food was really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Çılgınca (örn. Bu çılgınca!)",
+      "english": "Crazy / Insane (e.g., That's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Sıradışı (örn. Hikaye tamamen sıradışı)",
+      "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Coşmak (örn. Bugün coşuyoruz!)",
+      "english": "To go wild (e.g., Today we're going wild!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Felekten bir gece çalmak (örn. Hadi felekten bir gece çalalım!)",
+      "english": "To party / Live it up (e.g., Let's live it up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Bulutların üstünde (örn. Bulutların üstündeyim)",
+      "english": "On cloud nine (e.g., I'm on cloud nine)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Akşamdan kalma (örn. Akşamdan kalmayım)",
+      "english": "To have a hangover (e.g., I have a hangover)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "turkish": "Sarhoş (örn. Dün gece tamamen sarhoştu)",
+      "english": "To be drunk (e.g., He was totally drunk yesterday)",
+      "tags": [
+        "slang"
+      ]
+    }
+  ],
+  "A1": [
+    {
+      "turkish": "Günaydın",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Adınız ne?",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Benim adım Anna",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Nasılsın?",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "iyiyim",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Çok teşekkür ederim",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Rica ederim",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Güle güle",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "İyi geceler",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Evet lütfen",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Hayır, teşekkür ederim",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Affedersin",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Anlamıyorum",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Banyo nerede?",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Almanya'dan geliyorum",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "yoruldum",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Açım",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "turkish": "susadım",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "turkish": "Bunun maliyeti ne kadar?",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "su isterim",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Nerede yaşıyorsun",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Berlin'de yaşıyorum",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kaç yaşındasın?",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "25 yaşındayım",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Bu benim arkadaşım",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Seni seviyorum",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Sonra görüşürüz",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Yarın görüşürüz",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Güzel hafta sonları",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "İyi şanlar",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Herşey gönlünce olsun",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Tebrikler",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Afiyet olsun",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Şerefe",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Çok yaşa",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "turkish": "Almanca konuşuyorum",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "İngilizce biliyor musunuz?",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Almanca öğreniyorum",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu çok güzel",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "O iyidir",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "bunu sevdim",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Pizzayı severim",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Saat kaç?",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Saat üç",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bugün Pazartesi",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Hava güzel",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Yağmur yağıyor",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Hava soğuk",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Sıcak",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "mutluyum",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Bir daire arıyorum",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kira ne kadar?",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Süpermarket nerede?",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bunu satın almak istiyorum",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bu indirimde mi?",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "yardıma ihtiyacım var",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "turkish": "kötü hissediyorum",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Hastane nerede?",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "ağrım var",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Oda büyük",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Bunu deneyebilir miyim?",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Soyunma odası nerede?",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "bir ekmek isterim",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Yemeğin tadı güzel",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "kahve içerim",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Otel nerede?",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Taksiye ihtiyacım var",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Biletin fiyatı ne kadar?",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Daire küçük",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Nakit ödüyorum",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bu çok büyük",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "meyve yemeyi severim",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Çıkış nerede?",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Gerçekten bulaşıcı bir gülümsemen var.",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Gelip merhaba demekten kendimi alamadım.",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Buralardan mısın?",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bugün harika görünüyorsun.",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Tarzını seviyorum.",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bu gece muhteşem görünüyorsun.",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Sana bir içki ısmarlayabilir miyim?",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Buraya sık sık gelir misin?",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Ortamını seviyorum.",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Harika bir gülüşün var.",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bekar mısın?",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Sana bakmayı bırakamadım.",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Çok güzel gözlerin var.",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Adınız ne?",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Gerçekten çok tatlısın.",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "turkish": "Bana yardım eder misiniz?",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "bir kahve isterim",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Bunu nereden satın alabilirim?",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Tren istasyonunu arıyorum",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Tren ne zaman kalkıyor?",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bir sorum var",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu çok pahalı",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bunun başka bir boyutu var mı elinizde?",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Ödemek isterim",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "turkish": "Kredi kartı kabul ediyor musunuz?",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "turkish": "kayboldum",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bunu tekrarlayabilir misin?",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Lütfen biraz daha yavaş konuşun",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Menüyü anlamıyorum",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Ne tavsiye edersiniz?",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Fındıklara alerjim var",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "turkish": "Fatura lütfen",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Yemek lezzetliydi",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "öğretmen olarak çalışıyorum",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "turkish": "İş için ne yaparsınız?",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "turkish": "tıp okuyorum",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "turkish": "randevum var",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Ne zaman vaktin var?",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Sonra buluşalım",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "geç kalıyorum",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "gecikme için özür dilerim",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Sorun değil",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bunun önemi yok",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bunu sabırsızlıkla bekliyorum",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Güzel bir gündü",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "soğuk algınlığım var",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Başım ağrıyor",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Bir doktora ihtiyacım var",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "En yakın eczane nerede?",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Ateşim var",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Acil şifalar",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "turkish": "eve gitmem lazım",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Yakında birbirimizi göreceğiz",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Kardeşlerin var mı?",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "bir erkek kardeşim var",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Ailem büyük",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Hobileriniz nelerdir?",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "futbol oynamayı severim",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Kitap okumayı severim",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "müzik dinlemeyi severim",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Hangi müziği seversin?",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Rock ve popu severim",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Sinemaya gitmeyi sever misin?",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Film ilginçti",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "otobüse bindim",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Daireyi görmek istiyorum",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Daire ne zaman müsait?",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Evcil hayvanlara izin veriliyor mu?",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Asansör var mı?",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kartla ödeme yapabilir miyim?",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Makbuzunuz var mı?",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "bunu takas etmek isterim",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Ekmeği nerede bulabilirim?",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "turkish": "Reçeteye ihtiyacım var",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Öksürüğüm var",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Bana bir şey yazabilir misin?",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Penisiline alerjim var",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Eczane ne zaman açık?",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Dairede iki oda bulunmaktadır",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Tek kişilik oda arıyorum",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Mutfak modern",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "En yakın ATM nerede?",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Daha küçük bir bedeniniz var mı?",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "bunu iade etmek istiyorum",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Sütü nerede bulabilirim?",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "turkish": "et yemiyorum",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Kahvaltı hazır",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "bir çay isterim",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Platform nerede?",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Pasaportumu unuttum",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Otobüs ne zaman geliyor?",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bir bilete ihtiyacım var",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Dans etmek ister misin?",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Gerçekten çok güzel kokuyorsun.",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Kıyafetini beğendim.",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Arkadaşlarınla ​​burada mısın?",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Numaranızı alabilir miyim?",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Çok ilginçsin.",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Pek çok ortak noktamız var.",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bu şarkı harika, değil mi?",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Senin gibi biriyle hiç tanışmadım.",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Birlikte bir selfie çekelim.",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "turkish": "Bir masa ayırtmak istiyorum",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Bana yolu açıklayabilir misin?",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Tarihe ilgim var",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Bana göre bu önemli",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Benim farklı bir fikrim var",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "buna bağlı",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "buna katılıyorum",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "ben buna karşıyım",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu konuda ne düşünüyorsun?",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Bunun hakkında düşündüm",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu mantıklı değil",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bunu daha detaylı açıklayabilir misiniz?",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "buna alıştım",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Benim için zor",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "elimden gelenin en iyisini yapmaya çalışıyorum",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "buna bağlı",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "bildiğim kadarıyla",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Emin değilim",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bir düşüneyim",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "İtalya'ya seyahat etmeyi planlıyorum",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Tatilleri sabırsızlıkla bekliyorum",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Kararımdan pişmanım",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu bir yanlış anlaşılmaydı",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Yanılmışım",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Haklısın",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu pek doğru değil",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "şaşırdım",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu inanılmaz",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Hayal kırıklığına uğradım",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu beni kızdırıyor",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "heyecanlıyım",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu benim için utanç verici",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "utanıyorum",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "seninle gurur duyuyorum",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "gerçekten üzgünüm",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "özür dilerim",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Seni affediyorum",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Bunu unutalım",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Seni özledim",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Sık sık seni düşünüyorum",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "İletişim halinde kalmalıyız",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Senden uzun zamandır haber alamadım",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Senin için işler nasıl gidiyor?",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "turkish": "yapacak çok şeyim var",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "stresliyim",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Biraz molaya ihtiyacım var",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Çok yoruldum",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "dinlenmeye ihtiyacım var",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "turkish": "Bu çok yorucuydu",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Daha iyi hissediyorum",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "turkish": "Mobilyalı bir daire arıyorum",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Yardımcı programlar dahil mi?",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Depozito ne kadar?",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Çamaşır makinesi var mı?",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Geri ödeme istiyorum",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Ürün arızalı",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bu stokta var mı?",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Garanti var mı?",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "doktor randevum var",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Ne zamandan beri semptomlarınız var?",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Düzenli olarak ilaç kullanıyorum",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Hastalık raporuna ihtiyacım var",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Sigorta kartım",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Ev sahibi henüz yanıt vermedi",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "ben vejeteryanım",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Vejetaryen seçenekler var mı?",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Yemek çok tuzlu",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Menüyü isterim",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Yemeği tavsiye edebilir misiniz?",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Bir oda ayırtmak istiyorum",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Kahvaltı dahil mi?",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "turkish": "Çıkış ne zaman?",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Otelde WiFi var mı?",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Rezervasyonumu kaybettim",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bagajımı nereye bırakabilirim?",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Havaalanına nasıl giderim?",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Ortak bir daire arıyorum",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Elektrik maliyetleri ne kadar?",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Balkon güneşli",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Bir park alanına ihtiyacım var",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "İndirim var mı?",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bunu rezerve edebilir miyim?",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bu ne zaman teslim edilecek?",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Aynısını sipariş edeceğim",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Baharatlı yapabilir misin?",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "bir tatlı isterim",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Yemek soğudu",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Check-in yapmak istiyorum",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Şehir haritanız var mı?",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Turistik bilgiler nerede?",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Biletimi kaybettim",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bu koltuk dolu mu? Yoksa birini mi bekliyorsun?",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Tam çıkmak üzereydim ama sonra seni gördüm.",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Seninle konuşmak gerçekten çok kolay.",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Senin gibi eğlenceli birinin böyle bir yerde ne işi var?",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Birbirimizi tanıyor muyuz? Yoksa sadece bunu mu istiyorum?",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Eğer gelip merhaba demezsem kendimi tekmeleyeceğim.",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Her zaman bu kadar çekici misin?",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Seninle konuşmayı seviyorum, zaman uçup gidiyor.",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Çok belaya benziyorsun.",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Genelde bunu yapmam ama gözüme çarptın.",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bir ara mutlaka bir kahve içmeliyiz.",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Umarım gelmemin bir sakıncası yoktur.",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bütün gün gördüğüm en güzel gülümsemeye sahipsin.",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Buradan çıkmak ister misin diye merak ediyordum?",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bu hafta bir ara akşam yemeği yiyelim.",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "turkish": "harekete geçmemiz gerektiği kanaatindeyim",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bir şeylerin değişmesi gerektiği açık",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Önemli bir noktaya değinmek istiyorum",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu soruyu gündeme getiriyor",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bunun aksine",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bir yandan anlıyorum, diğer yandan",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu inkar edilemez",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu konuda hiç şüphe yok",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "buna kesinlikle inanıyorum",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu önemli bir rol oynuyor",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Artılarını ve eksilerini tartmalıyız",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bunun geniş kapsamlı sonuçları var",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "konuya farklı bir açıdan bakmak isterim",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu çeşitli faktörlere bağlıdır",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu koşullar altında",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Şartıyla",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Durumun böyle olması durumunda",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Daha fazla zamanımız olduğunu varsayarsak",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "olsaydı daha iyi olurdu",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bunu bilseydim",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "farklı davranırdım",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu önlenebilirdi",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Geçmişe bakıldığında",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Geriye dönüp baktığımda şunu söyleyebilirim",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu değerli bir deneyimdi",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "turkish": "bundan öğrendim",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu bakış açımı değiştirdi",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "sonuca vardım",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Özetle söylenebilir",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Sonuç olarak şunu vurgulamak isterim",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Asıl sorun",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Zorluk şu:",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Değerlendirmek zor",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Genelleme yapılamaz",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu karmaşık bir konu",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Farklı yaklaşımlar var",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Olası bir çözüm olabilir",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Alternatif seçenekleri değerlendirmeliyiz",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu dikkatli bir değerlendirme gerektirir",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "inanma eğilimindeyim",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bana öyle geliyor ki",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Yargılayabildiğim kadarıyla",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Benim anlayışıma göre",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "sanırım",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Öyle varsayılmalıdır ki",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Olasılık yüksek",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "pek olası değil",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu bana mantıklı geliyor",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu çok mantıklı",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "nedenini anlayabiliyorum",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Kira sözleşmesini feshetmek istiyorum",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "İhbar süresi üç aydır",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Dairede su hasarı var",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Isıtma çalışmıyor",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Şikayette bulunmak istiyorum",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bu, açıklamayla eşleşmiyor",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Geri dönüş hakkımda ısrar ediyorum",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Bunu yazılı olarak teyit edebilir misiniz?",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bir uzmana yönlendirmeye ihtiyacım var",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "İlacın ne gibi yan etkileri var?",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "İkinci bir görüş almak isterim",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Tedavi sağlık sigortası kapsamındadır",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Kronik sırt ağrım var",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Daire teslimi önümüzdeki hafta yapılacak",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Gıda intoleransı var",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "turkish": "Yemeğin gluteni var mı?",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Pencere kenarında bir masa istiyorum",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Et iyice pişmemiş",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Hesabı bölüşebilir misin?",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Rezervasyonumu iptal etmek istiyorum",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "İptal ücreti var mı?",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Uçuşum iptal edildi",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bağlantılı uçuşumu kaçırdım",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Biniş kapısı nerede?",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Bagajım gelmedi",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Seyahat sigortasına ihtiyacım var",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Görülecek yerler yürüme mesafesindedir",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Daireyi ikinci bir kiraya vermek istiyorum",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kira sözleşmesi sona eriyor",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Dairenin ince duvarları var",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kira indirimi hakkım var",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "İnternet üzerinden sipariş vermek istiyorum",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Teslimat gecikiyor",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Yanlış malları aldım",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Taksitli ödeme yapabilir miyim?",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Malzemeler bölgeseldir",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Organik ürünleri tercih ediyorum",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Yemek ev yapımıdır",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Tarifi tavsiye edebilir misiniz?",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Uçuşum için yeniden rezervasyon yaptırmak istiyorum",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Gezi ertelendi",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Vizeye ihtiyacım var",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Konaklama beklentileri karşılamıyor",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Burası çok gürültülü, biraz temiz hava almak ister misin?",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Genelde yabancılarla konuşmam ama konuştuğuma sevindim.",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bu hafta sonu boşsanız size şehirdeki en sevdiğim yeri göstermek isterim.",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Olaylara çok benzersiz bir bakış açınız var.",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Ayrılmaya çalışıyordum ama sen bunu çok zorlaştırıyorsun.",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Seni anlayamıyorum ama kesinlikle denemek istiyorum.",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Oldukça komiksin, bunu sana vereceğim.",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bundan bahsederken ne kadar tutkulu olduğunu seviyorum.",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Aşk uğruna yaptığınız en çılgın şey nedir?",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bütün gece konuşabilirmişiz gibi hissediyorum.",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "turkish": "Tartışma yeni bir boyuta ulaştı",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu temel soruları gündeme getiriyor",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Altta yatan nedenleri analiz etmeliyiz",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Harekete geçmemiz zorunludur",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Durum son derece karmaşık",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Tarihsel bağlam dikkate alınmalı",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu önceki ifadelerle çelişiyor",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Tartışmada önemli boşluklar var",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Ampirik kanıt eksikliği var",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Araştırma aydınlatıcı bulgular sunuyor",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu fenomen açıkça açıklanamaz",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Nedensel bir ilişki var",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Korelasyon istatistiksel olarak anlamlıdır",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Korelasyon ve nedensellik arasında ayrım yapmak gerekir",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Metodoloji tartışmalıdır",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Sonuç genellenemez",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Daha fazla araştırmaya ihtiyaç var",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Etkileri geniş kapsamlı",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bunun derin etkileri var",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bir paradigma değişimiyle karşı karşıyayız",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Teori savunulabilir değil",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Argüman kesindir",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Kanıtlar çok güçlü",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Meşru şüpheler var",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Eleştiri göz ardı edilemez",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu kolayca reddedilemez",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "İddianın hiçbir temeli yok",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu cesur bir tez",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Sonuç erken",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Genellemelere karşı dikkatli olmak lazım",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "İkilem açık",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Kendimizi zor durumda buluyoruz",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Durum incelikli bir yaklaşım gerektiriyor",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bir uzlaşma bulmak gerekiyor",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "İlgi alanları uyumsuz",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu bizim için büyük zorluklar teşkil ediyor",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Gelişme endişe verici",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bir trend ortaya çıkıyor",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Eğilim açık",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu daha derin sorunlara işaret ediyor",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Nedenleri çok yönlü",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Bu yapısal bir sorun",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Tedbirler yetersiz kalıyor",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Köklü bir değişiklik gerekli",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Reformun gecikmiş olması",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Sistem artık çağdaş değil",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Yeni bir çığır açmalıyız",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Yaklaşım yenilikçidir",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Konsept ileriye dönük",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Vizyon iddialı ama ulaşılabilir",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu bölgede kira kontrolü geçerlidir",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Konut piyasası sıkışık",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Endeks kirası her yıl artıyor",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Garanti talebimi yerine getiriyorum",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Tüketiciyi koruma kanunu şunu şart koşuyor",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "İptal süresi on dört gündür",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Tanı ileri tetkik gerektirir",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Tahmin ihtiyatlı bir şekilde iyimser",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Önleyici tedbirler önemlidir",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Terapi ilk başarısını gösteriyor",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Yatarak tedavi gerekli",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Kiracılar derneği bu gibi durumlarda tavsiyelerde bulunur",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Mutfak çeşitliliği dikkat çekici",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Bölgesel mutfak özgünlük ile karakterize edilir",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Hazırlık ustalık gerektirir",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Şarap eşleştirmesi menüyle mükemmel uyum sağlıyor",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Gastronomi sahnesi güçlü bir şekilde gelişti",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Turizm ekonomiye önemli katkı sağlıyor",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Altyapı iyi gelişmiştir",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Seyahat endüstrisi zorluklarla karşı karşıya",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Sürdürülebilir turizm önem kazanıyor",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Kültürel zenginlik inkar edilemez",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "turkish": "Kişilerarası ilişkiler karmaşıktır",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Sosyal kabul arttı",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Sosyal hareketlilik sınırlıdır",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Konut sıkıntısı giderek artıyor",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kira fiyatları orantısız artıyor",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Konut politikası tartışmalı",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Enerji verimliliği yetersiz",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Perakende baskı altında",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "E-ticaret geleneksel mağazaların yerini alıyor",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Tedarik zinciri bozuldu",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Sürdürülebilirlik merkezi bir rol oynuyor",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "turkish": "Gıda israfı sorun yaratıyor",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Yeme alışkanlıkları değişiyor",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Vegan hareketi ivme kazanıyor",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Ürünlerin menşei şeffaftır",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Aşırı turizm kentlere yük oluyor",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Seyahat kısıtlamaları hafifletildi",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Uçuş utancı seyahat davranışını etkiliyor",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Dijitalleşme seyahat endüstrisini değiştiriyor",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Genelde bunu yapmam ama buraya gelmem gerekiyordu.",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Konuşmaya devam edersek sana bir içki ısmarlamak zorunda kalabilirim.",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Tehlikeli olduğunu zaten söyleyebilirim.",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Bu konuşmaya biraz daha sessiz bir yerde devam etmek isterim.",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Dürüst olalım, şu anda tamamen titriyoruz.",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "İyi bir karşılama sözü bulmaya çalışıyorum ama sen beni suskun bıraktın.",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Sende gerçekten ilgi çekici bir şey var.",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Sakin bir gece geçirmeyi planlıyordum ama sen planlarımı tamamen mahvettin.",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Sadece güzel bir yüz değilsin, değil mi?",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Şu anda tehlikeli seviyelerde kimyamız var.",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Dikkat dağıtıcı olacağınıza dair bir his var içimde.",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Eğer böyle devam edersek insanlar konuşmaya başlayacak.",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Eminim bunu herkese söylüyorsundur.",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Lafı geçelim, en büyük tutkunuz nedir?",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Eğer kartlarını doğru oynarsan, beni dışarı çıkarmana izin verebilirim.",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "turkish": "Terimin belirsizliği kesin bir tanımı zorlaştırıyor",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Teori ve pratik arasındaki ikilik açıkça görülüyor",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Paradoks konunun doğasında yatıyor",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Argümanın öncülü tartışmalıdır",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu bir totolojidir",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Retorik asıl sorunu gizlemektedir",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "İfadenin anlambilimi bağlama bağlıdır",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Epistemolojik sorun çözümsüz kalıyor",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Ontolojik çıkarımlar oldukça önemlidir",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Metnin yorum bilgisi uzmanlık gerektirir",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Aydınlanmanın diyalektiği burada kendini gösteriyor",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Bu fenomen tek nedenli bir açıklamadan kaçıyor",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Konunun karmaşıklığı hafife alınmamalıdır",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Disiplinlerarası bir yaklaşım gerekli",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Çeşitli faktörlerin yakınsaması belirleyicidir",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Görüş ayrılıkları giderilemez",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Anlatı kolektif algıyı şekillendiriyor",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Söylem analizi gizli güç yapılarını açığa çıkarıyor",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Hakim paradigmanın hegemonyası kırılgandır",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Yerleşik kavramların yapısöküme tabi tutulması gereklidir",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Varsayımın savunulamaz olduğu kanıtlanıyor",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Hipotez ampirik olarak doğrulanamaz",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Teorinin yanlışlanması hala beklemede",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Sistemin aksiyomları tutarsızdır",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Tartışmanın tutarlılığı sağlanır",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Kanıtın katılığı dikkate değer",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Tezin inandırıcılığı şüphelidir",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Yöntemin geçerliliği tartışmalıdır",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Verilerin güvenilirliği şüpheli",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Analizin objektifliği verilmemiştir",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Algının öznelliği kaçınılmazdır",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Gerçeğin göreliliği felsefi açıdan önemlidir",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Ahlaki ilkelerin mutlaklığı sorgulanıyor",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Tarihsel gelişmelerin tesadüfiliği ortadadır",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Determinizm tartışması hala güncel",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Doğanın teleolojisi antropomorfik bir projeksiyondur.",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Karmaşık sistemlerin ortaya çıkışı büyüleyici",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Basit açıklamalara indirgemek meselenin hakkını vermez",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Farklı yaklaşımların sentezi arzu edilir",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Yaygın görüşün antitezi kışkırtıcıdır",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Terimin anlamı değişti",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Ancak ifade sabit kalır",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Kaçamak yanlış anlamalara yol açıyor",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Terminolojinin kesinliği vazgeçilmezdir",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Açıklamadaki nüanslar önemli",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Kavramlar arasındaki ayrım incedir",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Analoji çok önemli bir noktada topallıyor",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Metafor aydınlatıcıdır ancak kelimenin tam anlamıyla alınmamalıdır",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Alegori daha derin bir anlam düzeyine işaret eder",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "turkish": "Durumun ironisi göz ardı edilemez",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "turkish": "Mahallede kentsel dönüşüm sürüyor",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Konut sıkıntısı sosyal eşitsizlikleri artırıyor",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Kira fiyatı sarmalının kırılması pek mümkün değil",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Tüketici davranışı paradigma değişiminden geçiyor",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Eskime kasıtlı olarak tetikleniyor",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Alıcı pazarı satıcı pazarına dönüştü",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Hastalığın patogenezi çok faktörlüdür",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Etiyoloji büyük ölçüde belirsizliğini koruyor",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Semptomatoloji spesifik değildir",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Diferansiyel teşhis açıklaması belirtilir",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Komorbidite tedaviyi zorlaştırıyor",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "turkish": "Kira hukuku karmaşık bir hukuki alandır",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Moleküler mutfak ile gastronomik avangard deneyler",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Duyusal özellikler olağanüstü",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Fermantasyon ürüne karmaşıklık kazandırır",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Teruar felsefesi şarap kültürünü şekillendiriyor",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Kitle turizminin ekolojik sonuçları var",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Turizm kentsel yapıları değiştiriyor",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Özgünlük giderek yerini ticarileşmeye bırakıyor",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Hareketlilik bir ayrıcalık haline geldi",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Sosyal uyum gözle görülür şekilde aşınıyor",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Toplumun parçalanması artıyor",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Kutuplaşma toplum çapında bir olgudur",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Yabancılaşma modernitenin bir belirtisidir",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "turkish": "Konut sorunu toplumsal bir sorundur",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Spekülasyon emlak fiyatlarını etkiliyor",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Ayrışma mekansal olarak kendini gösteriyor",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "turkish": "Tüketim toplumu şekillendiriyor",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Ticarileşme hayatın her alanına nüfuz ediyor",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Emtia fetişizmi her yerde mevcut",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "turkish": "Gıda egemenliği tehlikede",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Tarımın sanayileşmesinin sonuçları var",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Mutfak kimliği erozyona uğruyor",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Küreselleşme yemek kültürünü homojenleştiriyor",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "turkish": "Turizm çelişkili bir olgudur",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Ötekinin egzotikleştirilmesi sorunludur",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Hareketlilik eşit olmayan şekilde dağılmıştır",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Seyahat özgürlüğü bir ayrıcalıktır",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "turkish": "Sana ne yapmak istediğimi düşünmeden duramıyorum.",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Şu anda inanılmaz derecede seksi görünüyorsun.",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Senin yanında uyanmak istiyorum.",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Hadi buradan çıkıp özel bir yere gidelim.",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Dudakların şu anda son derece öpülesi görünüyor.",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Eğer beni içkimden uzaklaştırmaya çalışıyorsan tebrikler, kusursuz işe yaradı.",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Görünmeye çalıştığın kadar masum olduğuna kesinlikle inanmıyorum.",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Formalitelerden vazgeçelim; ikimiz de burada bir kıvılcım olduğunu biliyoruz.",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Odadaki en büyüleyici kişi olmayı bu kadar zahmetsizce başarmanız son derece haksızlık.",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Genelde kendimi kontrol etme konusunda ustayım ama sen şu anda sınırlarımı ciddi şekilde zorluyorsun.",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Seni zeka savaşına davet ederdim ama görünüşe göre zaten ağır silahlara sahipsin.",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Tarihsel olarak direnmekte çok zorlandığım türden bir belayı yayıyorsunuz.",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Dikkatimi bilinçli olarak tekelinize mi almaya çalışıyorsunuz, yoksa bu sizin doğal haliniz mi?",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Ayaklarını yerden kesmeyi planlıyorum ama kovalamacadan çok fazla keyif alacağından şüpheleniyorum.",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "turkish": "Henüz benden tamamen bıkmadığını varsayarsak, yarın kahvaltı yapmaya ne dersin?",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ]
+}
