@@ -1,0 +1,4647 @@
+{
+  "A0": [
+    {
+      "chinese": "哥们儿 (例: 哥们儿，这也太疯狂了！)",
+      "english": "Dude / Man (e.g., Dude, that's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "太棒了 / 厉害 (例: 那真的很厉害！)",
+      "english": "Crazy / Awesome (e.g., That was really crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "超赞 / 酷 (例: 音乐会太超赞了！)",
+      "english": "Awesome / Cool (e.g., The concert was so awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "想 / 有兴趣 (例: 你想去看电影吗？)",
+      "english": "To feel like (e.g., Do you feel like going to the cinema?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "没兴趣 / 不想 (例: 我一点也不想工作)",
+      "english": "No desire (e.g., I have no desire to work)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "混得不错 (例: 换新车了？混得不错嘛！)",
+      "english": "Things are going well for you (e.g., New car? Things are going well!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "兄弟 / 哥们儿 (例: 兄弟，近来怎样？)",
+      "english": "Dude / Bro (e.g., Dude, what's up?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "放松 / 躺平 (例: 今天我们放松一下)",
+      "english": "To chill (e.g., Let's chill today)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "嗨起来 (例: 我们今天一定要嗨起来！)",
+      "english": "To party hard (e.g., We're gonna party hard today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "太绝了 / 厉害 (例: 这部电影太绝了！)",
+      "english": "Awesome / Amazing (e.g., The movie was amazing!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "超级 / 非常 (例: 这超级酷！)",
+      "english": "Super / Really (e.g., That's super cool!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "非常 / 特别 (例: 这特别好！)",
+      "english": "Totally / Really (e.g., That's really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "真的吗？ / 假的吧？ (例: 你赢了？真的吗？)",
+      "english": "Really? / Seriously? (e.g., You won? Seriously?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "没事 / 没问题 (例: 谢谢！- 没事！)",
+      "english": "No problem (e.g., Thanks! - No problem!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "保重 (例: 再见，多保重！)",
+      "english": "Take care (e.g., Bye, take care!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "没问题 / 好嘞 (例: 8点见？- 好嘞！)",
+      "english": "Alright / Sounds good (e.g., Meet at 8? - Sounds good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "还行 / 挺好的 (例: 近来怎样？- 还行！)",
+      "english": "It's going well (e.g., How's it going? - All good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "无所谓 / 随便 (例: 你想吃什么？- 随便)",
+      "english": "I don't care (e.g., What do you want to eat? - I don't care)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "废话 / 瞎说 (例: 这简直是瞎说！)",
+      "english": "Nonsense / Rubbish (e.g., That's nonsense!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "糟糕 / 讨厌 (例: 糟糕，我忘了！)",
+      "english": "Damn / Crap (e.g., Damn, I forgot!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "该死 / 可恶 (例: 该死，好痛！)",
+      "english": "Shit (e.g., Shit, that hurts!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "天啊 (例: 天啊，太险了！)",
+      "english": "Man / Geez (e.g., Man, that was close!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "喂 / 嘿 (例: 嘿，等一下！)",
+      "english": "Hey (e.g., Hey, wait up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "这家伙 / 那人 (例: 那家伙真奇怪)",
+      "english": "Guy / Dude (e.g., That guy is weird)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "那姑娘 (例: 那姑娘真讨厌)",
+      "english": "Chick (slightly derogatory) (e.g., That chick is annoying)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "睡觉 / 补觉 (例: 我只想睡觉)",
+      "english": "To sleep (e.g., I just want to sleep)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "钞票 / 钱 (例: 我没钱了)",
+      "english": "Money / Dough (e.g., I have no money left)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "穷光蛋 / 没钱 (例: 我彻底穷光蛋了)",
+      "english": "To be broke (e.g., I'm totally broke)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "打游戏 (例: 我们来打游戏吧！)",
+      "english": "To game (e.g., Let's game!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "胡说八道 (例: 你在胡说八道什么？)",
+      "english": "To talk nonsense (e.g., What are you talking about?)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "聊天 / 闲聊 (例: 走，我们去闲聊一会儿)",
+      "english": "To chat (Northern German) (e.g., Come, let's chat)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "侃大山 (例: 我们侃了大半天山)",
+      "english": "To chat (e.g., We chatted for hours)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "音乐 / 歌 (例: 把音乐放起来！)",
+      "english": "Music (e.g., Put some music on!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "死党 / 好友 (例: 这是我的死党)",
+      "english": "Buddy / Mate (e.g., That's my buddy)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "老板凳 / 呆板的人 (例: 别那么老板凳！)",
+      "english": "Square / Boring person (e.g., Don't be such a square!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "俗人 / 奇葩 (例: 他表现得像个奇葩)",
+      "english": "Trashy person (e.g., He acts like trash)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "嗨翻天 (例: 派对真的嗨翻天了！)",
+      "english": "To be awesome (e.g., The party is really going off!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "牛逼 / 炸裂 (例: 这太炸裂了！)",
+      "english": "Cool / Awesome (e.g., That's awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "太妙了 (例: 我觉得这太妙了！)",
+      "english": "Great / Neat (old-fashioned) (e.g., I think that's great!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "绝佳 (例: 这简直太绝佳了！)",
+      "english": "Great / Swell (old-fashioned) (e.g., That's swell!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "时髦 / 亮眼 (例: 你今天看起来很时髦！)",
+      "english": "Fancy / Chic (e.g., You look fancy today!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "牛逼克拉斯 (例: 演唱会牛逼克拉斯！)",
+      "english": "Fucking awesome (e.g., The concert was fucking awesome!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "贼好吃 / 特别棒 (例: 饭菜贼好吃！)",
+      "english": "Really good (e.g., The food was really good!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "疯狂 (例: 这太疯狂了！)",
+      "english": "Crazy / Insane (e.g., That's crazy!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "离谱 / 酷炫 (例: 这故事太离谱了)",
+      "english": "Far out / Crazy cool (e.g., The story is totally far out)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "嗨起来 (例: 今天我们要嗨起来！)",
+      "english": "To go wild (e.g., Today we're going wild!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "狂欢 (例: 今晚我们好好狂欢一场！)",
+      "english": "To party / Live it up (e.g., Let's live it up!)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "飘飘欲仙 (例: 我感觉飘飘欲仙)",
+      "english": "On cloud nine (e.g., I'm on cloud nine)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "宿醉 (例: 我今天宿醉了)",
+      "english": "To have a hangover (e.g., I have a hangover)",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "chinese": "喝高了 / 醉了 (例: 他昨天彻底喝高了)",
+      "english": "To be drunk (e.g., He was totally drunk yesterday)",
+      "tags": [
+        "slang"
+      ]
+    }
+  ],
+  "A1": [
+    {
+      "chinese": "早上好",
+      "english": "Good morning",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "你叫什么名字？",
+      "english": "What's your name?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我的名字是安娜",
+      "english": "My name is Anna",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你好吗？",
+      "english": "How are you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我很好",
+      "english": "I'm doing well",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "非常感谢",
+      "english": "Thank you very much",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "不客气",
+      "english": "You're welcome",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "再见",
+      "english": "Goodbye",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "晚安",
+      "english": "Good night",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "是的，请",
+      "english": "Yes, please",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "不，谢谢",
+      "english": "No, thank you",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "打扰一下",
+      "english": "Excuse me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我不明白",
+      "english": "I don't understand",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "厕所在哪里？",
+      "english": "Where is the bathroom?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我来自德国",
+      "english": "I come from Germany",
+      "tags": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我累了",
+      "english": "I am tired",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我饿了",
+      "english": "I am hungry",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "chinese": "我渴了",
+      "english": "I am thirsty",
+      "tags": [
+        "everyday",
+        "food"
+      ]
+    },
+    {
+      "chinese": "这要花多少钱？",
+      "english": "How much does this cost?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我想要水",
+      "english": "I would like water",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你住在哪里？",
+      "english": "Where do you live?",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我住在柏林",
+      "english": "I live in Berlin",
+      "tags": [
+        "social",
+        "housing"
+      ]
+    },
+    {
+      "chinese": "你今年多大？",
+      "english": "How old are you?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我今年25岁",
+      "english": "I am 25 years old",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "这是我的朋友",
+      "english": "This is my friend",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我爱你",
+      "english": "I love you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "稍后见",
+      "english": "See you later",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "明天见",
+      "english": "See you tomorrow",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "祝你周末愉快",
+      "english": "Have a nice weekend",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "祝你好运",
+      "english": "Good luck",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "一切顺利",
+      "english": "All the best",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "恭喜你",
+      "english": "Congratulations",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "请享用",
+      "english": "Enjoy your meal",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "干杯",
+      "english": "Cheers",
+      "tags": [
+        "food",
+        "social"
+      ]
+    },
+    {
+      "chinese": "祝福你",
+      "english": "Bless you",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "chinese": "我说德语",
+      "english": "I speak German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "你会说英语吗？",
+      "english": "Do you speak English?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我正在学习德语",
+      "english": "I am learning German",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那是美丽的",
+      "english": "That is beautiful",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那很好",
+      "english": "That is good",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我喜欢那样",
+      "english": "I like that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我喜欢披萨",
+      "english": "I like pizza",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "现在是几奌？",
+      "english": "What time is it?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "现在是三点钟",
+      "english": "It is three o'clock",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "今天是星期一",
+      "english": "Today is Monday",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "天气很好",
+      "english": "The weather is nice",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "下雨了",
+      "english": "It's raining",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "天很冷",
+      "english": "It is cold",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "天气很暖和",
+      "english": "It is warm",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我很高兴",
+      "english": "I am happy",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我正在寻找公寓",
+      "english": "I'm looking for an apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "房租是多少？",
+      "english": "How much is the rent?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "超市在哪里？",
+      "english": "Where is the supermarket?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我想买这个",
+      "english": "I want to buy this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "这个有卖吗？",
+      "english": "Is this on sale?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我需要帮助",
+      "english": "I need help",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "chinese": "我觉得恶心",
+      "english": "I feel sick",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "医院在哪里？",
+      "english": "Where is the hospital?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我有疼痛",
+      "english": "I have pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "房间很大",
+      "english": "The room is big",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我可以试试这个吗？",
+      "english": "Can I try this on?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "试衣间在哪里？",
+      "english": "Where is the fitting room?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我想要一个面包",
+      "english": "I would like a bread",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "食物味道不错",
+      "english": "The food tastes good",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我喝咖啡",
+      "english": "I drink coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "酒店在哪里？",
+      "english": "Where is the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我需要一辆出租车",
+      "english": "I need a taxi",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "门票多少钱？",
+      "english": "How much does the ticket cost?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "公寓很小",
+      "english": "The apartment is small",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我付现金",
+      "english": "I pay cash",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "那太大了",
+      "english": "That is too big",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我喜欢吃水果",
+      "english": "I like to eat fruit",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "出口在哪里？",
+      "english": "Where is the exit?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "你的笑容真的很有感染力。",
+      "english": "You have a really contagious smile.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我忍不住过来打个招呼。",
+      "english": "I couldn't help but come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你是这附近的吗？",
+      "english": "Are you from around here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你今天看起来棒极了。",
+      "english": "You look great today.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我喜欢你的风格。",
+      "english": "I love your style.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你今晚看上去棒极了。",
+      "english": "You look amazing tonight.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我可以请你喝一杯吗？",
+      "english": "Can I buy you a drink?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你经常来这里吗？",
+      "english": "Do you come here often?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我喜欢你的气质。",
+      "english": "I like your vibe.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你笑得很开心。",
+      "english": "You have a great laugh.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你单身吗？",
+      "english": "Are you single?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我无法停止看着你。",
+      "english": "I couldn't stop looking at you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你有一双美丽的眼睛。",
+      "english": "You have beautiful eyes.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你叫什么名字？",
+      "english": "What's your name?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你真的很可爱。",
+      "english": "You're really cute.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "A2": [
+    {
+      "chinese": "你能帮助我吗？",
+      "english": "Can you help me?",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我想要一杯咖啡",
+      "english": "I would like a coffee",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我在哪里可以买到这个？",
+      "english": "Where can I buy this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我正在寻找火车站",
+      "english": "I'm looking for the train station",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "火车什么时候出发？",
+      "english": "When does the train depart?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我有一个问题",
+      "english": "I have a question",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那太贵了",
+      "english": "That is too expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "你们有其他尺寸的吗？",
+      "english": "Do you have this in another size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我愿意付款",
+      "english": "I would like to pay",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "chinese": "你们收信用卡吗？",
+      "english": "Do you accept credit cards?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "chinese": "我迷路了",
+      "english": "I got lost",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "你能再说一遍吗？",
+      "english": "Can you repeat that?",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "请说得慢一点",
+      "english": "Please speak more slowly",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我看不懂菜单",
+      "english": "I don't understand the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你有什么建议吗？",
+      "english": "What do you recommend?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我对坚果过敏",
+      "english": "I'm allergic to nuts",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "chinese": "请付帐单",
+      "english": "The bill, please",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "食物很美味",
+      "english": "The food was delicious",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我是一名教师",
+      "english": "I work as a teacher",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "chinese": "你做什么工作？",
+      "english": "What do you do for work?",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我学医",
+      "english": "I study medicine",
+      "tags": [
+        "work",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我有一个约会",
+      "english": "I have an appointment",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "你什么时候有时间？",
+      "english": "When do you have time?",
+      "tags": [
+        "social",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们稍后再见面吧",
+      "english": "Let's meet later",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我要迟到了",
+      "english": "I'm running late",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "抱歉耽搁了",
+      "english": "Sorry for the delay",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "没问题",
+      "english": "No problem",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那没关系",
+      "english": "That doesn't matter",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我很期待",
+      "english": "I'm looking forward to it",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "那是美好的一天",
+      "english": "That was a nice day",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我感冒了",
+      "english": "I have a cold",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我的头很痛",
+      "english": "My head hurts",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我需要一名医生",
+      "english": "I need a doctor",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "最近的药房在哪里？",
+      "english": "Where is the nearest pharmacy?",
+      "tags": [
+        "health",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我发烧了",
+      "english": "I have a fever",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "快点好起来",
+      "english": "Get well soon",
+      "tags": [
+        "health",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我得回家了",
+      "english": "I have to go home",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我们很快就会见面",
+      "english": "We'll see each other soon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你有兄弟姐妹吗？",
+      "english": "Do you have siblings?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我有一个兄弟",
+      "english": "I have a brother",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我的家庭很大",
+      "english": "My family is big",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你的爱好是什么？",
+      "english": "What are your hobbies?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我喜欢踢足球",
+      "english": "I like to play soccer",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我喜欢看书",
+      "english": "I like to read books",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我喜欢听音乐",
+      "english": "I like to listen to music",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你喜欢什么音乐？",
+      "english": "What music do you like?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我喜欢摇滚和流行",
+      "english": "I like rock and pop",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你喜欢去电影院吗？",
+      "english": "Do you like going to the cinema?",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "这部电影很有趣",
+      "english": "The movie was interesting",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我坐公共汽车",
+      "english": "I took the bus",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我想看公寓",
+      "english": "I would like to view the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "公寓什么时候可以入住？",
+      "english": "When is the apartment available?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "允许携带宠物吗？",
+      "english": "Are pets allowed?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "有电梯吗？",
+      "english": "Is there an elevator?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我可以用卡支付吗？",
+      "english": "Can I pay by card?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "您有收据吗？",
+      "english": "Do you have a receipt?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我想交换这个",
+      "english": "I would like to exchange this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "哪里可以找到面包？",
+      "english": "Where can I find bread?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "chinese": "我需要处方",
+      "english": "I need a prescription",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我咳嗽",
+      "english": "I have a cough",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "你能给我开点什么吗？",
+      "english": "Can you prescribe me something?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我对青霉素过敏",
+      "english": "I'm allergic to penicillin",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "药房什么时候开门？",
+      "english": "When is the pharmacy open?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "公寓有两个房间",
+      "english": "The apartment has two rooms",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我正在寻找单人间",
+      "english": "I'm looking for a single room",
+      "tags": [
+        "housing",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "厨房很现代",
+      "english": "The kitchen is modern",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "最近的自动取款机在哪里？",
+      "english": "Where is the nearest ATM?",
+      "tags": [
+        "shopping",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "你们有小一点的尺寸吗？",
+      "english": "Do you have a smaller size?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我想退货",
+      "english": "I would like to return this",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "哪里可以找到牛奶？",
+      "english": "Where can I find milk?",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "chinese": "我不吃肉",
+      "english": "I don't eat meat",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "早餐准备好了",
+      "english": "Breakfast is ready",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想要一杯茶",
+      "english": "I would like a tea",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "平台在哪里？",
+      "english": "Where is the platform?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我忘记带护照了",
+      "english": "I forgot my passport",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "公共汽车什么时候来？",
+      "english": "When does the bus come?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我需要一张票",
+      "english": "I need a ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "你想跳舞吗？",
+      "english": "Do you want to dance?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你闻起来真香。",
+      "english": "You smell really good.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我喜欢你的服装。",
+      "english": "I like your outfit.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你是和朋友一起来的吗？",
+      "english": "Are you here with friends?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我可以要你的电话号码吗？",
+      "english": "Can I have your number?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你很有趣。",
+      "english": "You are very interesting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们有很多共同点。",
+      "english": "We have a lot in common.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "这首歌很棒，不是吗？",
+      "english": "This song is great, isn't it?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我从来没有遇到过像你这样的人。",
+      "english": "I've never met anyone like you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们一起来一张自拍照吧。",
+      "english": "Let's take a selfie together.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "chinese": "我想预订一张桌子",
+      "english": "I would like to reserve a table",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你能给我解释一下方法吗？",
+      "english": "Could you explain the way to me?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我对历史感兴趣",
+      "english": "I'm interested in history",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "在我看来，这很重要",
+      "english": "In my opinion, that is important",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我有不同意见",
+      "english": "I have a different opinion",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "这取决于",
+      "english": "That depends",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我同意这一点",
+      "english": "I agree with that",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我反对",
+      "english": "I'm against it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "你对此有何看法？",
+      "english": "What do you think about it?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我考虑过",
+      "english": "I've thought about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这没有道理",
+      "english": "That doesn't make sense",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "您能更详细地解释一下吗？",
+      "english": "Can you explain that in more detail?",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我已经习惯了",
+      "english": "I've gotten used to it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这对我来说很难",
+      "english": "It's difficult for me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我正在尽力",
+      "english": "I'm trying my best",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "这取决于那个",
+      "english": "It depends on that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "据我所知",
+      "english": "As far as I know",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我不知道",
+      "english": "I'm not sure",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "让我考虑一下",
+      "english": "Let me think about it",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我计划去意大利旅行",
+      "english": "I plan to travel to Italy",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我期待着假期",
+      "english": "I'm looking forward to the holidays",
+      "tags": [
+        "everyday",
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我后悔我的决定",
+      "english": "I regret my decision",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那是一个误会",
+      "english": "That was a misunderstanding",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我错了",
+      "english": "I was wrong",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "你说得对",
+      "english": "You're right",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这不太正确",
+      "english": "That's not quite right",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我很惊讶",
+      "english": "I'm surprised",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这太难以置信了",
+      "english": "That's unbelievable",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我很失望",
+      "english": "I'm disappointed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这让我很生气",
+      "english": "That makes me angry",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我很热情",
+      "english": "I'm enthusiastic",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这对我来说很尴尬",
+      "english": "That's embarrassing for me",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我很羞愧",
+      "english": "I'm ashamed",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我为你感到骄傲",
+      "english": "I'm proud of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我真诚地感到抱歉",
+      "english": "I'm sincerely sorry",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我道歉",
+      "english": "I apologize",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我原谅你",
+      "english": "I forgive you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "让我们忘记那件事吧",
+      "english": "Let's forget about that",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我想你",
+      "english": "I miss you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我常常想你",
+      "english": "I often think of you",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我们应该保持联系",
+      "english": "We should stay in touch",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "我已经很久没有收到你的消息了",
+      "english": "I haven't heard from you in a long time",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "你的情况怎么样？",
+      "english": "How are things going for you?",
+      "tags": [
+        "everyday",
+        "social"
+      ]
+    },
+    {
+      "chinese": "我有很多事要做",
+      "english": "I have a lot to do",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我压力很大",
+      "english": "I'm stressed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我需要休息一下",
+      "english": "I need a break",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我累极了",
+      "english": "I'm exhausted",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我需要休息",
+      "english": "I need to rest",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "chinese": "那太累了",
+      "english": "That was exhausting",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我感觉好多了",
+      "english": "I feel better",
+      "tags": [
+        "everyday",
+        "health"
+      ]
+    },
+    {
+      "chinese": "我正在寻找带家具的公寓",
+      "english": "I'm looking for a furnished apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "包含水电费吗？",
+      "english": "Are utilities included?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "押金是多少？",
+      "english": "How much is the deposit?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "有洗衣机吗？",
+      "english": "Is there a washing machine?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我想要退款",
+      "english": "I would like a refund",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "产品有缺陷",
+      "english": "The product is defective",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "你有这个库存吗？",
+      "english": "Do you have this in stock?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "有保修吗？",
+      "english": "Is there a warranty?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我有医生的预约",
+      "english": "I have a doctor's appointment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "从什么时候开始出现这些症状？",
+      "english": "Since when have you had the symptoms?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我定期服药",
+      "english": "I take medication regularly",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我需要一张病假条",
+      "english": "I need a sick note",
+      "tags": [
+        "health",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我的保险卡",
+      "english": "My insurance card",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "楼主还没回复",
+      "english": "The landlord hasn't responded yet",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我是素食主义者",
+      "english": "I'm vegetarian",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "有素食选择吗？",
+      "english": "Are there vegetarian options?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "食物太咸",
+      "english": "The food is too salty",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想要菜单",
+      "english": "I would like the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "可以推荐一下菜品吗？",
+      "english": "Can you recommend the dish?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想预订房间",
+      "english": "I would like to book a room",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "包含早餐吗？",
+      "english": "Is breakfast included?",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "chinese": "什么时候退房？",
+      "english": "When is check-out?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "酒店内有wifi吗？",
+      "english": "Is there WiFi in the hotel?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我丢失了我的预订",
+      "english": "I lost my reservation",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我可以在哪里寄存行李？",
+      "english": "Where can I leave my luggage?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我如何前往机场？",
+      "english": "How do I get to the airport?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我正在寻找合租公寓",
+      "english": "I'm looking for a shared apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "电费是多少？",
+      "english": "How much are the electricity costs?",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "阳台阳光明媚",
+      "english": "The balcony is sunny",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我需要一个停车位",
+      "english": "I need a parking space",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "有折扣吗？",
+      "english": "Is there a discount?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我可以预订这个吗？",
+      "english": "Can I reserve this?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "这个什么时候发货？",
+      "english": "When will this be delivered?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我会订购相同的",
+      "english": "I'll order the same",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你能做辣吗？",
+      "english": "Can you make it spicy?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想要一份甜点",
+      "english": "I would like a dessert",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "食物已经冷了",
+      "english": "The food has gotten cold",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想办理入住手续",
+      "english": "I would like to check in",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "你有城市地图吗？",
+      "english": "Do you have a city map?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "旅游信息在哪里？",
+      "english": "Where is the tourist information?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我把我的票弄丢了",
+      "english": "I lost my ticket",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "这个座位有人吗？或者你在等一个人吗？",
+      "english": "Is this seat taken? Or are you waiting for someone?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我正要离开，却看见了你。",
+      "english": "I was just about to leave, but then I saw you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你真的很容易交谈。",
+      "english": "You're really easy to talk to.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "像你这样有趣的人在这种地方做什么？",
+      "english": "What's a fun person like you doing in a place like this?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们认识吗？或者只是我愿意？",
+      "english": "Do we know each other? Or is it just that I'd like to?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果我不来打个招呼，我会踢自己的。",
+      "english": "I'd kick myself if I didn't come say hi.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你总是这么迷人吗？",
+      "english": "Are you always this charming?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我喜欢和你说话，时间过得真快。",
+      "english": "I love talking to you, time just flies.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你看起来好像有很多麻烦。",
+      "english": "You seem like a lot of trouble.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我通常不这样做，但你引起了我的注意。",
+      "english": "I don't usually do this, but you caught my eye.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们绝对应该找个时间喝杯咖啡。",
+      "english": "We should definitely get a coffee sometime.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我希望你不介意我过来。",
+      "english": "I hope you don't mind me coming over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你的笑容是我一整天见过的最美丽的笑容。",
+      "english": "You have the most beautiful smile I've seen all day.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我想知道你是否愿意离开这里？",
+      "english": "I was wondering if you'd like to get out of here?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们这周找个时间去吃晚饭吧。",
+      "english": "Let's grab dinner sometime this week.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "chinese": "我认为我们必须采取行动",
+      "english": "I am of the opinion that we must act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "很明显，有些事情必须改变",
+      "english": "It's obvious that something must change",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我想指出一个重要的点",
+      "english": "I would like to point out an important point",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这就提出了一个问题",
+      "english": "That raises the question",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "与此相反",
+      "english": "In contrast to that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "一方面我明白，另一方面",
+      "english": "On the one hand I understand that, on the other hand",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "不能否认这一点",
+      "english": "That cannot be denied",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "毫无疑问",
+      "english": "There is no doubt about it",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我坚信这一点",
+      "english": "I am firmly convinced of that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这起着重要作用",
+      "english": "That plays an important role",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们必须权衡利弊",
+      "english": "We must weigh the pros and cons",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这具有深远的影响",
+      "english": "That has far-reaching consequences",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我想从不同的角度来看待这个问题",
+      "english": "I would like to look at that from a different perspective",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这取决于各种因素",
+      "english": "That depends on various factors",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "在这种情况下",
+      "english": "Under these circumstances",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "前提是",
+      "english": "Provided that",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "如果是这样的话",
+      "english": "In case that should be the case",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "假设我们还有更多时间",
+      "english": "Assuming we had more time",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "如果",
+      "english": "It would have been better if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "如果我知道的话",
+      "english": "Had I known that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我会采取不同的行动",
+      "english": "I would have acted differently",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这原本是可以避免的",
+      "english": "That could have been avoided",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "回想起来",
+      "english": "In retrospect",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "回顾过去，我可以说",
+      "english": "Looking back, I can say",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "那是一次宝贵的经历",
+      "english": "That was a valuable experience",
+      "tags": [
+        "everyday",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我从中学到了",
+      "english": "I learned from that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这改变了我的看法",
+      "english": "That changed my perspective",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我已经得出结论",
+      "english": "I have come to the conclusion",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "综上所述，可以说",
+      "english": "In summary, it can be said",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "最后，我想强调",
+      "english": "In conclusion, I would like to emphasize",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "主要问题是",
+      "english": "The main problem is",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "挑战在于",
+      "english": "The challenge lies in",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "很难评估",
+      "english": "It's difficult to assess",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "不能一概而论",
+      "english": "One cannot generalize",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这是一个复杂的问题",
+      "english": "That is a complex matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "有不同的方法",
+      "english": "There are different approaches",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "一个可能的解决方案是",
+      "english": "A possible solution would be",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们应该考虑其他选择",
+      "english": "We should consider alternative options",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这需要仔细考虑",
+      "english": "That requires careful consideration",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我倾向于相信",
+      "english": "I am inclined to believe",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "在我看来好像",
+      "english": "It seems to me as if",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "据我判断",
+      "english": "As far as I can judge",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "据我了解",
+      "english": "According to my understanding",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我假设",
+      "english": "I assume that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "假设",
+      "english": "It is to be assumed that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "概率很高",
+      "english": "The probability is high",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "不太可能",
+      "english": "It is unlikely that",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这对我来说似乎合乎逻辑",
+      "english": "That seems logical to me",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这很有道理",
+      "english": "That makes perfect sense",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我能理解为什么",
+      "english": "I can understand why",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我想终止租约",
+      "english": "I would like to terminate the lease",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "通知期限为三个月",
+      "english": "The notice period is three months",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "公寓内有水渍",
+      "english": "There is water damage in the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "暖气不工作",
+      "english": "The heating doesn't work",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我想投诉",
+      "english": "I would like to file a complaint",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "这与描述不符",
+      "english": "This doesn't match the description",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我坚持我的返回权",
+      "english": "I insist on my right of return",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "你能书面确认吗？",
+      "english": "Can you confirm that in writing?",
+      "tags": [
+        "shopping",
+        "work"
+      ]
+    },
+    {
+      "chinese": "我需要转介给专家",
+      "english": "I need a referral to a specialist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "该药物有什么副作用？",
+      "english": "What side effects does the medication have?",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我想获得第二意见",
+      "english": "I would like to get a second opinion",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "治疗由健康保险承保",
+      "english": "The treatment is covered by health insurance",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "我有慢性背痛",
+      "english": "I have chronic back pain",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "公寓移交将于下周进行",
+      "english": "The apartment handover takes place next week",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我有食物不耐受",
+      "english": "I have a food intolerance",
+      "tags": [
+        "food",
+        "health"
+      ]
+    },
+    {
+      "chinese": "这道菜含有麸质吗？",
+      "english": "Does the dish contain gluten?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想要一张靠窗的桌子",
+      "english": "I would like a table by the window",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "肉没有煮熟",
+      "english": "The meat is not cooked through",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你能分摊账单吗？",
+      "english": "Could you split the bill?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想取消我的预订",
+      "english": "I would like to cancel my booking",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "有取消费用吗？",
+      "english": "Are there cancellation fees?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我的航班被取消",
+      "english": "My flight was cancelled",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我错过了转机航班",
+      "english": "I missed my connecting flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "登机口在哪里？",
+      "english": "Where is the boarding gate?",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我的行李没有到达",
+      "english": "My luggage didn't arrive",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我需要旅行保险",
+      "english": "I need travel insurance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "景点都在步行范围之内",
+      "english": "The sights are within walking distance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我想转租公寓",
+      "english": "I would like to sublet the apartment",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "租约即将到期",
+      "english": "The lease is expiring",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "公寓的墙壁很薄",
+      "english": "The apartment has thin walls",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我有权获得租金减免",
+      "english": "I'm entitled to a rent reduction",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我想在线订购",
+      "english": "I would like to order online",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "交货延迟",
+      "english": "The delivery is delayed",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我收到了错误的货物",
+      "english": "I received the wrong goods",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "我可以分期付款吗？",
+      "english": "Can I pay in installments?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "成分是区域性的",
+      "english": "The ingredients are regional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我更喜欢有机产品",
+      "english": "I prefer organic products",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "这道菜是自制的",
+      "english": "The dish is homemade",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "你能推荐菜谱吗？",
+      "english": "Can you recommend the recipe?",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "我想重新预订航班",
+      "english": "I would like to rebook my flight",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "旅行被推迟",
+      "english": "The trip was postponed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我需要签证",
+      "english": "I need a visa",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "住宿条件没有达到预期",
+      "english": "The accommodation doesn't meet expectations",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "这里太吵了，想呼吸新鲜空气吗？",
+      "english": "It's too loud in here, want to get some fresh air?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我通常不和陌生人说话，但我很高兴我这么做了。",
+      "english": "I don't usually talk to strangers, but I'm glad I did.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果您这个周末有空，我很乐意向您展示我在这座城市最喜欢的景点。",
+      "english": "If you're free this weekend, I'd love to show you my favorite spot in the city.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你看待事物的方式非常独特。",
+      "english": "You have a very unique way of looking at things.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我本来想离开，但你却让这件事变得非常困难。",
+      "english": "I was trying to leave, but you're making it very difficult.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我无法弄清楚你的想法，但我绝对想尝试一下。",
+      "english": "I can't figure you out, but I definitely want to try.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你真有趣，我就给你。",
+      "english": "You're pretty funny, I'll give you that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我喜欢你谈论这个时的热情。",
+      "english": "I love how passionate you are when you talk about that.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你为爱情做过最疯狂的事是什么？",
+      "english": "What's the craziest thing you've ever done for love?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我觉得我们可以聊一整晚。",
+      "english": "I feel like we could talk all night.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "chinese": "讨论达到了一个新的高度",
+      "english": "The discussion has reached a new dimension",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这就提出了一些基本问题",
+      "english": "That raises fundamental questions",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们必须分析根本原因",
+      "english": "We must analyze the underlying causes",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "我们必须采取行动",
+      "english": "It is imperative that we act",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "情况极其复杂",
+      "english": "The situation is extremely complex",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "应该考虑历史背景",
+      "english": "One should consider the historical context",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这与之前的说法相矛盾",
+      "english": "That contradicts previous statements",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "论证存在重大差距",
+      "english": "The argumentation has significant gaps",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "缺乏经验证据",
+      "english": "There is a lack of empirical evidence",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该研究提供了富有洞察力的发现",
+      "english": "The study provides insightful findings",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "无法清楚地解释该现象",
+      "english": "The phenomenon cannot be clearly explained",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "存在因果关系",
+      "english": "There is a causal relationship",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "相关性具有统计显着性",
+      "english": "The correlation is statistically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "必须区分相关性和因果关系",
+      "english": "One must distinguish between correlation and causation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "方法论值得商榷",
+      "english": "The methodology is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "结果不具有普适性",
+      "english": "The result is not generalizable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "需要进一步研究",
+      "english": "Further research is needed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "其影响是深远的",
+      "english": "The implications are far-reaching",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这具有深远的影响",
+      "english": "That has profound effects",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们正面临范式转变",
+      "english": "We are facing a paradigm shift",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该理论站不住脚",
+      "english": "The theory is not tenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "论证是结论性的",
+      "english": "The argument is conclusive",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "证据是压倒性的",
+      "english": "The evidence is overwhelming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "有合理的质疑",
+      "english": "There are legitimate doubts",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "批评不能被驳回",
+      "english": "The criticism cannot be dismissed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这不能轻易反驳",
+      "english": "That cannot be easily refuted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "该说法缺乏任何依据",
+      "english": "The claim lacks any foundation",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这是一个大胆的论文",
+      "english": "That is a bold thesis",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "结论还为时过早",
+      "english": "The conclusion is premature",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "应该谨慎对待一概而论",
+      "english": "One should be cautious with generalizations",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "困境是显而易见的",
+      "english": "The dilemma is obvious",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们发现自己陷入困境",
+      "english": "We find ourselves in a predicament",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这种情况需要采取细致入微的方法",
+      "english": "The situation requires a nuanced approach",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "有必要找到一个妥协方案",
+      "english": "It is necessary to find a compromise",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "利益不相容",
+      "english": "The interests are incompatible",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这给我们带来了巨大的挑战",
+      "english": "That poses great challenges for us",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "事态发展令人震惊",
+      "english": "The development is alarming",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "一种趋势正在出现",
+      "english": "A trend is emerging",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "趋势很明显",
+      "english": "The tendency is clear",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这表明更深层次的问题",
+      "english": "That indicates deeper problems",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "原因是多方面的",
+      "english": "The causes are multifaceted",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这是结构性问题",
+      "english": "It is a structural problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "措施力度不够",
+      "english": "The measures fall short",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "需要进行根本性的改变",
+      "english": "A fundamental change is required",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "改革姗姗来迟",
+      "english": "The reform is long overdue",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "该系统不再是当代的",
+      "english": "The system is no longer contemporary",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "我们必须开辟新天地",
+      "english": "We must break new ground",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该方法具有创新性",
+      "english": "The approach is innovative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这个概念具有前瞻性",
+      "english": "The concept is forward-looking",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这个愿景雄心勃勃但可以实现",
+      "english": "The vision is ambitious but achievable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "租金管制适用于该地区",
+      "english": "The rent control applies in this area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "房地产市场紧张",
+      "english": "The housing market is tight",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "租金指数逐年上涨",
+      "english": "The index rent increases annually",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "我正在行使我的保修索赔",
+      "english": "I am exercising my warranty claim",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "消费者权益保护法规定",
+      "english": "The consumer protection law stipulates",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "取消期限为十四天",
+      "english": "The cancellation period is fourteen days",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "诊断需要进一步检查",
+      "english": "The diagnosis requires further examinations",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "预后谨慎乐观",
+      "english": "The prognosis is cautiously optimistic",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "预防措施必不可少",
+      "english": "Preventive measures are essential",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "该疗法显示出初步成功",
+      "english": "The therapy is showing initial success",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "需要住院治疗",
+      "english": "Inpatient treatment is required",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "租户协会在这种情况下会提供建议",
+      "english": "The tenants' association advises in such cases",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "烹饪的多样性是显着的",
+      "english": "The culinary diversity is remarkable",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "当地美食的特点是正宗",
+      "english": "The regional cuisine is characterized by authenticity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "准备工作需要技巧",
+      "english": "The preparation requires craftsmanship",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "葡萄酒搭配与菜单完美搭配",
+      "english": "The wine pairing harmonizes perfectly with the menu",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "美食界蓬勃发展",
+      "english": "The gastronomic scene has developed strongly",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "旅游业对经济贡献显着",
+      "english": "Tourism contributes significantly to the economy",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "基础设施发达",
+      "english": "The infrastructure is well developed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "旅游业面临挑战",
+      "english": "The travel industry faces challenges",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "可持续旅游业变得越来越重要",
+      "english": "Sustainable tourism is gaining importance",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "文化的丰富性是不可否认的",
+      "english": "The cultural enrichment is undeniable",
+      "tags": [
+        "travel",
+        "social"
+      ]
+    },
+    {
+      "chinese": "人际关系很复杂",
+      "english": "Interpersonal relationships are complex",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "社会认可度有所提高",
+      "english": "Social acceptance has increased",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "社会流动性有限",
+      "english": "Social mobility is limited",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "住房短缺问题日益严重",
+      "english": "The housing shortage is worsening",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "租金价格不成比例地上涨",
+      "english": "Rent prices are rising disproportionately",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "住房政策备受争议",
+      "english": "Housing policy is controversial",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "能源效率不足",
+      "english": "Energy efficiency is inadequate",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "零售业面临压力",
+      "english": "Retail is under pressure",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "电子商务正在取代传统商店",
+      "english": "E-commerce is displacing traditional stores",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "供应链被打乱",
+      "english": "The supply chain is disrupted",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "可持续性发挥着核心作用",
+      "english": "Sustainability plays a central role",
+      "tags": [
+        "shopping",
+        "food"
+      ]
+    },
+    {
+      "chinese": "食物浪费是个问题",
+      "english": "Food waste is problematic",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "饮食习惯正在改变",
+      "english": "Eating habits are changing",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "素食运动正在蓬勃发展",
+      "english": "The vegan movement is gaining momentum",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "产品来源透明",
+      "english": "The origin of products is transparent",
+      "tags": [
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "过度旅游给城市带来负担",
+      "english": "Overtourism burdens cities",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "旅行限制已放宽",
+      "english": "Travel restrictions have been eased",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "飞行羞耻感影响旅行行为",
+      "english": "Flight shame influences travel behavior",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "数字化正在改变旅游业",
+      "english": "Digitalization is changing the travel industry",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我通常不这样做，但我不得不过来。",
+      "english": "I usually don't do this, but I had to come over.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果我们继续说话，我可能就得请你喝一杯了。",
+      "english": "If we keep talking, I might just have to buy you a drink.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你很危险，我已经知道了。",
+      "english": "You're dangerous, I can already tell.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我很想在安静一点的地方继续谈话。",
+      "english": "I'd love to continue this conversation somewhere a bit quieter.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "老实说，我们现在完全兴奋起来。",
+      "english": "Let's be honest, we're totally vibing right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我正在想一个好的搭讪路线，但你让我无言以对。",
+      "english": "I'm trying to think of a good pickup line, but you've left me speechless.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你确实有一些东西很有趣。",
+      "english": "There's something really intriguing about you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我本打算度过一个安静的夜晚，但你完全毁了我的计划。",
+      "english": "I was planning on having a quiet night, but you completely ruined my plans.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你不只是一张漂亮的脸蛋，是吗？",
+      "english": "You're not just a pretty face, are you?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们现在的化学反应达到了危险的程度。",
+      "english": "We have dangerous levels of chemistry right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我有预感你会分散注意力。",
+      "english": "I have a feeling you're going to be a distraction.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果我们继续这样做，人们就会开始谈论。",
+      "english": "If we keep this up, people are going to start talking.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我打赌你对每个人都这么说。",
+      "english": "I bet you say that to everyone.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "让我们跳过闲聊吧，你最大的热情是什么？",
+      "english": "Let's skip the small talk, what's your biggest passion?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果你的牌打对了，我可能会让你把我赶出去。",
+      "english": "If you play your cards right, I might let you take me out.",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "chinese": "该术语的模糊性使精确定义变得复杂",
+      "english": "The ambiguity of the term complicates a precise definition",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "理论与实践之间的二分法是显而易见的",
+      "english": "The dichotomy between theory and practice is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "悖论在于事物的本质",
+      "english": "The paradox lies in the nature of the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "论证的前提是有争议的",
+      "english": "The premise of the argument is contestable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这是一个同义反复",
+      "english": "It is a tautology",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "言辞掩盖了实际问题",
+      "english": "The rhetoric obscures the actual problem",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "表达式的语义取决于上下文",
+      "english": "The semantics of the expression is context-dependent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "认识论问题仍未解决",
+      "english": "The epistemological problem remains unsolved",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "本体论的影响是相当大的",
+      "english": "The ontological implications are considerable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "文本的解释学需要专业知识",
+      "english": "The hermeneutics of the text requires expertise",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "启蒙辩证法在这里体现出来",
+      "english": "The dialectic of enlightenment manifests itself here",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这种现象无法用单一原因解释",
+      "english": "The phenomenon eludes a monocausal explanation",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "事情的复杂性不容低估",
+      "english": "The complexity of the matter is not to be underestimated",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "需要跨学科的方法",
+      "english": "An interdisciplinary approach is required",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "各种因素的汇聚是决定性的",
+      "english": "The convergence of various factors is decisive",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "意见分歧无法弥合",
+      "english": "The divergence of opinions is unbridgeable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "叙事塑造集体认知",
+      "english": "The narrative shapes collective perception",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "话语分析揭示隐藏的权力结构",
+      "english": "Discourse analysis reveals hidden power structures",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "主流范式的霸权是脆弱的",
+      "english": "The hegemony of the prevailing paradigm is fragile",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "解构既定概念是必要的",
+      "english": "The deconstruction of established concepts is necessary",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "事实证明该假设是站不住脚的",
+      "english": "The postulate proves to be untenable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该假设无法通过经验验证",
+      "english": "The hypothesis cannot be empirically verified",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该理论的证伪仍然悬而未决",
+      "english": "The falsification of the theory is still pending",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "系统公理不一致",
+      "english": "The axioms of the system are inconsistent",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "确保论证的连贯性",
+      "english": "The coherence of the argumentation is ensured",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "证明的严格性是惊人的",
+      "english": "The stringency of the proof is remarkable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "论文的合理性值得怀疑",
+      "english": "The plausibility of the thesis is to be doubted",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该方法的有效性有争议",
+      "english": "The validity of the method is disputed",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "数据可靠性值得怀疑",
+      "english": "The reliability of the data is questionable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "没有给出分析的客观性",
+      "english": "The objectivity of the analysis is not given",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "感知的主观性不可避免",
+      "english": "The subjectivity of perception is inevitable",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "真理的相对性具有重要的哲学意义",
+      "english": "The relativity of truth is philosophically significant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "道德原则的绝对性受到质疑",
+      "english": "The absoluteness of moral principles is questioned",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "历史发展的偶然性是显而易见的",
+      "english": "The contingency of historical developments is evident",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "决定论争论仍然存在",
+      "english": "The determinism debate is still current",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "自然的目的论是一种拟人化的投射",
+      "english": "The teleology of nature is an anthropomorphic projection",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "复杂系统的出现令人着迷",
+      "english": "The emergence of complex systems is fascinating",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "简化为简单的解释并不能公正地对待问题",
+      "english": "The reduction to simple explanations does not do justice to the matter",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "需要综合不同的方法",
+      "english": "The synthesis of diverging approaches is desirable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "与普遍观点相反的观点具有挑衅性",
+      "english": "The antithesis to the common view is provocative",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这个词的内涵发生了变化",
+      "english": "The connotation of the term has changed",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "然而，其含义保持不变",
+      "english": "The denotation, however, remains constant",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "模棱两可会导致误解",
+      "english": "The equivocation leads to misunderstandings",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "术语的精确性必不可少",
+      "english": "The precision of terminology is indispensable",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "该声明的细微差别很重要",
+      "english": "The nuancing of the statement is significant",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "概念之间的区别很微妙",
+      "english": "The differentiation between the concepts is subtle",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "这个类比在关键时刻显得有些无力",
+      "english": "The analogy limps at a crucial point",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "这个比喻很有启发性，但不能按字面意思理解",
+      "english": "The metaphor is illuminating but not to be taken literally",
+      "tags": [
+        "work",
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "寓言指的是更深层次的意义",
+      "english": "The allegory refers to a deeper level of meaning",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "chinese": "情况的讽刺性不容忽视",
+      "english": "The irony of the situation cannot be overlooked",
+      "tags": [
+        "everyday"
+      ]
+    },
+    {
+      "chinese": "小区高档化进程不断推进",
+      "english": "The gentrification of the neighborhood is progressing",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "住房短缺加剧社会差距",
+      "english": "The housing shortage exacerbates social disparities",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "租金价格螺旋很难打破",
+      "english": "The rent price spiral is hardly breakable",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "消费者行为正在经历范式转变",
+      "english": "Consumer behavior is undergoing a paradigm shift",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "过时是故意引起的",
+      "english": "The obsolescence is deliberately induced",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "买方市场已转变为卖方市场",
+      "english": "The buyer's market has turned into a seller's market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "该病的发病机制是多因素的",
+      "english": "The pathogenesis of the disease is multifactorial",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "病因尚不清楚",
+      "english": "The etiology remains largely unclear",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "症状是非特异性的",
+      "english": "The symptomatology is nonspecific",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "指出了鉴别诊断的澄清",
+      "english": "A differential diagnostic clarification is indicated",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "合并症使治疗变得复杂",
+      "english": "The comorbidity complicates the treatment",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "chinese": "租赁法是一个复杂的法律领域",
+      "english": "Tenancy law is a complex legal area",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "分子美食的前卫美食实验",
+      "english": "The gastronomic avant-garde experiments with molecular cuisine",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "感官特性非常出色",
+      "english": "The sensory properties are exceptional",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "发酵使产品变得复杂",
+      "english": "Fermentation gives the product complexity",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "风土哲学塑造葡萄酒文化",
+      "english": "The terroir philosophy shapes wine culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "大众旅游具有生态后果",
+      "english": "Mass tourism has ecological consequences",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "旅游化改变城市结构",
+      "english": "Touristification changes urban structures",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "真实性越来越让位于商业化",
+      "english": "Authenticity increasingly gives way to commercialization",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "流动性已成为一种特权",
+      "english": "Mobility has become a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "社会凝聚力明显削弱",
+      "english": "Social cohesion is visibly eroding",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "社会的碎片化正在推进",
+      "english": "The fragmentation of society is progressing",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "两极分化是一种社会现象",
+      "english": "Polarization is a society-wide phenomenon",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "异化是现代性的症状",
+      "english": "Alienation is a symptom of modernity",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "chinese": "住房问题是一个社会问题",
+      "english": "The housing question is a social question",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "投机推动房地产价格",
+      "english": "Speculation drives real estate prices",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "隔离在空间上表现出来",
+      "english": "Segregation manifests itself spatially",
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "chinese": "消费主义塑造社会",
+      "english": "Consumerism shapes society",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "商业化渗透到生活的各个领域",
+      "english": "Commercialization permeates all areas of life",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "商品拜物教无处不在",
+      "english": "Commodity fetishism is omnipresent",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "chinese": "粮食主权受到威胁",
+      "english": "Food sovereignty is endangered",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "农业产业化带来的后果",
+      "english": "The industrialization of agriculture has consequences",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "烹饪身份正在被侵蚀",
+      "english": "Culinary identity is eroding",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "全球化使饮食文化同质化",
+      "english": "Globalization homogenizes food culture",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "chinese": "旅游业是一种矛盾的现象",
+      "english": "Tourism is an ambivalent phenomenon",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "他者的异国化是有问题的",
+      "english": "The exoticization of the Other is problematic",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "流动性分布不均",
+      "english": "Mobility is unequally distributed",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "自由旅行是一种特权",
+      "english": "Freedom to travel is a privilege",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "chinese": "我无法停止思考我想对你做什么。",
+      "english": "I can't stop thinking about what I want to do to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你现在看起来非常性感。",
+      "english": "You look incredibly sexy right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我想在你身边醒来。",
+      "english": "I want to wake up next to you.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我们离开这里，去一个私密的地方吧。",
+      "english": "Let's get out of here and go somewhere private.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你的嘴唇现在看起来非常适合亲吻。",
+      "english": "Your lips look extremely kissable right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "如果你想分散我对喝酒的注意力，那么恭喜你，它完美地发挥了作用。",
+      "english": "If you were trying to distract me from my drink, congratulations, it worked flawlessly.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我完全不相信你真的像你试图表现的那样无辜。",
+      "english": "I'm entirely unconvinced that you're as innocent as you're trying to appear.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "让我们省去手续吧；我们都知道这里有火花。",
+      "english": "Let's dispense with the formalities; we both know there's a spark here.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你如此轻松地成为房间里最有魅力的人，这是非常不公平的。",
+      "english": "It's profoundly unfair how effortlessly you manage to be the most captivating person in the room.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我通常都是自控大师，但你现在却在严峻地考验我的极限。",
+      "english": "I'm usually a master of self-control, but you're severely testing my limits right now.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我想和你斗智斗勇，但看来你已经全副武装了。",
+      "english": "I'd challenge you to a battle of wits, but it seems you're already heavily armed.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你散发出的那种麻烦是我历来都难以抗拒的。",
+      "english": "You exude the kind of trouble that I historically have a terrible time resisting.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "你是故意想垄断我的注意力，还是这只是你的自然状态？",
+      "english": "Are you deliberately trying to monopolize my attention, or is this just your natural state?",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "我有点想把你迷倒，但我怀疑你太喜欢这种追逐了。",
+      "english": "I have half a mind to sweep you off your feet, but I suspect you'd enjoy the chase too much.",
+      "tags": [
+        "flirting"
+      ]
+    },
+    {
+      "chinese": "假设你还没有完全厌倦我，我们明天吃早餐怎么样？",
+      "english": "Assuming you aren't completely sick of me yet, how about we grab breakfast tomorrow?",
+      "tags": [
+        "flirting"
+      ]
+    }
+  ]
+}

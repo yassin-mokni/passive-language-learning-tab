@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Learn languages naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day. Currently supporting German, Spanish, French, Arabic, Japanese, and Turkish</strong>
+  <strong>Learn languages naturally through passive exposure. Every new tab shows a phrase matched to your level - no effort, just consistent micro-learning moments throughout your day. Currently supporting German, Spanish, French, Arabic, Japanese, Turkish, and Mandarin Chinese</strong>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ As a heavy browser user, you open dozens of tabs daily. Instead of staring at a 
 
 ## Features
 - **CEFR Level System (A0-C2):** 640+ phrases per language ranging from beginner (A1) and slang (A0) to advanced academic language (C2).
-- **6 Languages:** German 🇩🇪, Spanish 🇪🇸, French 🇫🇷, Arabic 🇦🇪, Japanese 🇯🇵, and Turkish 🇹🇷.
+- **7 Languages:** German 🇩🇪, Spanish 🇪🇸, French 🇫🇷, Arabic 🇦🇪, Japanese 🇯🇵, Turkish 🇹🇷, and Mandarin Chinese 🇨🇳.
 - **Offline Dialogues:** Listen to 17 structured conversations for different levels and everyday situations.
 - **Live Radio:** Tune into level-appropriate talk and news radio stations native to your target language.
 - **Smart Learning Tools:** Save favorites, export phrases, and use the built-in Native Audio pronunciation.

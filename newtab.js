@@ -25,7 +25,8 @@ const flagSvgs = {
   fr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipFR)"><rect x="0" y="0" width="16" height="48" fill="#002395" /><rect x="16" y="0" width="16" height="48" fill="#FFFFFF" /><rect x="32" y="0" width="16" height="48" fill="#ED2939" /></g><defs><clipPath id="circleClipFR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   ar: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipAR)"><rect x="0" y="0" width="48" height="16" fill="#000000" /><rect x="0" y="16" width="48" height="16" fill="#FFFFFF" /><rect x="0" y="32" width="48" height="16" fill="#009736" /><polygon points="0,0 24,24 0,48" fill="#EE2A35" /></g><defs><clipPath id="circleClipAR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
   ja: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><circle cx="24" cy="24" r="14" fill="#BC002D" /></svg>`,
-  tr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipTR)"><rect x="0" y="0" width="48" height="48" fill="#E30A17" /><circle cx="19" cy="24" r="11" fill="#FFFFFF" /><circle cx="22.2" cy="24" r="8.8" fill="#E30A17" /><polygon points="31,19.5 32.06,22.54 35.28,22.61 32.71,24.56 33.65,27.64 31,25.8 28.35,27.64 29.29,24.56 26.72,22.61 29.94,22.54" fill="#FFFFFF" /></g><defs><clipPath id="circleClipTR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
+  tr: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipTR)"><rect x="0" y="0" width="48" height="48" fill="#E30A17" /><circle cx="19" cy="24" r="11" fill="#FFFFFF" /><circle cx="22.2" cy="24" r="8.8" fill="#E30A17" /><polygon points="31,19.5 32.06,22.54 35.28,22.61 32.71,24.56 33.65,27.64 31,25.8 28.35,27.64 29.29,24.56 26.72,22.61 29.94,22.54" fill="#FFFFFF" /></g><defs><clipPath id="circleClipTR"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`,
+  zh: `<svg width="36" height="36" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#fff" /><g clip-path="url(#circleClipZH)"><rect x="0" y="0" width="48" height="48" fill="#DE2910" /><polygon points="12,11 13.5,15.5 18,15.5 14.5,18 16,22.5 12,20 8,22.5 9.5,18 6,15.5 10.5,15.5" fill="#FFDE00" /><polygon points="21,9 21.8,11.2 24,11.2 22.2,12.5 22.9,14.7 21,13.4 19.1,14.7 19.8,12.5 18,11.2 20.2,11.2" fill="#FFDE00" /><polygon points="25,13 25.8,15.2 28,15.2 26.2,16.5 26.9,18.7 25,17.4 23.1,18.7 23.8,16.5 22,15.2 24.2,15.2" fill="#FFDE00" /><polygon points="25,19 25.8,21.2 28,21.2 26.2,22.5 26.9,24.7 25,23.4 23.1,24.7 23.8,22.5 22,21.2 24.2,21.2" fill="#FFDE00" /><polygon points="21,23 21.8,25.2 24,25.2 22.2,26.5 22.9,28.7 21,27.4 19.1,28.7 19.8,26.5 18,25.2 20.2,25.2" fill="#FFDE00" /></g><defs><clipPath id="circleClipZH"><circle cx="24" cy="24" r="23" /></clipPath></defs></svg>`
 };
 
 const phraseFiles = {
@@ -34,7 +35,8 @@ const phraseFiles = {
   fr: 'phrases_fr.json',
   ar: 'phrases_ar.json',
   ja: 'phrases_ja.json',
-  tr: 'phrases_tr.json'
+  tr: 'phrases_tr.json',
+  zh: 'phrases_zh.json'
 };
 
 const radioStationsConfig = {
@@ -135,6 +137,25 @@ const radioStationsConfig = {
         { id: 'joy_fm', name: 'Joy FM' }
       ]
     }
+  ],
+  zh: [
+    {
+      category: 'radio',
+      title: '中文电台 (Mandarin Music & Talk)',
+      stations: [
+        { id: 'yes_933_mandarin', name: 'YES 933 (Mandarin Pop)' },
+        { id: 'eight_fm_mandarin', name: 'Eight FM (Music & Culture)' },
+        { id: 'shanghai_classics', name: 'Shanghai Radio (Classics)' }
+      ]
+    },
+    {
+      category: 'radio',
+      title: '新闻与文化 (News & Culture)',
+      stations: [
+        { id: 'kunming_radio', name: 'Kunming Radio' },
+        { id: 'cityplus_fm', name: 'CITYPlus FM (Business)' }
+      ]
+    }
   ]
 };
 
@@ -168,7 +189,7 @@ const dialogueYoutubeUrls = {
 
 function getPhraseText(phrase) {
   if (!phrase) return '';
-  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || phrase.turkish || '';
+  return phrase.german || phrase.spanish || phrase.french || phrase.arabic || phrase.japanese || phrase.turkish || phrase.chinese || '';
 }
 
 // Initial storage check & bootstrap
@@ -820,7 +841,7 @@ function exportFavorites() {
         return;
       }
       
-      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish' };
+      const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish', 'zh': 'Mandarin Chinese' };
       const langTitle = langTitles[currentLang] || 'Language';
       // Build export text
       let exportText = `My ${langTitle} Favorites\n`;
@@ -1938,7 +1959,8 @@ function speakText(text) {
     fr: 'fr-FR',
     ar: 'ar-SA',
     ja: 'ja-JP',
-    tr: 'tr-TR'
+    tr: 'tr-TR',
+    zh: 'zh-CN'
   };
   
   const targetLang = langMap[currentLang] || 'de-DE';
