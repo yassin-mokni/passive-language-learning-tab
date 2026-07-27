@@ -1467,7 +1467,7 @@ let userSettings = {
   favorites: true,
   recentTabs: true,
   bookmarks: false,
-  splashBg: true
+  splashBg: false
 };
 let activeSidebarTab = 'favorites'; // 'favorites', 'recent', or 'bookmarks'
 let cachedFavoriteItems = [];
