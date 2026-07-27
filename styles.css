@@ -84,8 +84,37 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2); /* Reduced from 0.4 */
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly increased for better legibility on busy photos */
   transition: background-color 0.3s ease;
+}
+
+/* Glassmorphism for floating UI elements to stand out on photos */
+.controls,
+.support-btn,
+.shortcuts-help,
+.dark-mode-toggle,
+.radio-trigger,
+.settings-btn,
+.refresh-bg-btn,
+.translation-toggle,
+.quick-link-item,
+.add-quick-link-btn {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode .controls,
+body.dark-mode .support-btn,
+body.dark-mode .shortcuts-help,
+body.dark-mode .dark-mode-toggle,
+body.dark-mode .radio-trigger,
+body.dark-mode .settings-btn,
+body.dark-mode .refresh-bg-btn,
+body.dark-mode .translation-toggle,
+body.dark-mode .quick-link-item,
+body.dark-mode .add-quick-link-btn {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 body.dark-mode .splash-bg::after {
@@ -1579,7 +1608,7 @@ body.dark-mode .time-display-pill {
 /* Quick Links Dock */
 .quick-links-dock {
   position: fixed;
-  left: 40px;
+  left: 24px; /* 40px - 16px padding */
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -1589,7 +1618,7 @@ body.dark-mode .time-display-pill {
   max-height: calc(100vh - 200px); /* Prevents overlapping flag and support button */
   overflow-y: auto;
   scrollbar-width: none; /* Firefox */
-  padding: 4px 150px 4px 0; /* Add vertical padding to prevent clip on hover, right padding for tooltips */
+  padding: 16px 150px 16px 16px; /* Left padding prevents shadow clipping, right padding for tooltips */
   margin-right: -150px; /* Offset the padding width */
   pointer-events: none; /* Let clicks pass through the padding area to the page behind */
 }
