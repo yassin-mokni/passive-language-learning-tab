@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listening Practice</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body.popup-body {
+      width: 360px;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5; /* Light mode default bg to match new tab vibe somewhat */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      height: auto;
+    }
+    body.popup-body.dark-mode {
+      background: #1a1a1a;
+    }
+    .radio-popover-static {
+      /* Override popover styles for popup context */
+      position: static;
+      display: block;
+      width: 100%;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+    }
+    .radio-popover-static .radio-header {
+      border-radius: 0;
+    }
+    .popup-brand-header {
+      display: flex;
+      align-items: center;
+      padding: 14px 16px;
+      background: #ffffff;
+      border-bottom: 1px solid #eaeaea;
+      gap: 12px;
+    }
+    body.popup-body.dark-mode .popup-brand-header {
+      background: #242424;
+      border-bottom: 1px solid #333;
+    }
+    .popup-brand-icon {
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+    }
+    .popup-brand-title {
+      font-weight: 600;
+      font-size: 14px;
+      color: #333;
+    }
+    body.popup-body.dark-mode .popup-brand-title {
+      color: #f3f4f6;
+    }
+  </style>
+</head>
+<body class="popup-body">
+  <div class="popup-brand-header">
+    <img src="icons/icon32.png" alt="Logo" class="popup-brand-icon">
+    <span class="popup-brand-title">Passive Language Learning</span>
+  </div>
+  
+  <!-- We reuse the radio-popover classes to inherit styles from styles.css -->
+  <div class="radio-popover radio-popover-static" id="radioPopover">
+    <div class="radio-header">
+      <span class="radio-title">Listening Practice</span>
+      <div class="radio-animation" id="radioAnimation">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="radio-content">
+      <div class="audio-tabs" id="audioTabs">
+        <button class="audio-tab active" data-tab="radio">Radio</button>
+        <button class="audio-tab" data-tab="levels">Levels</button>
+        <button class="audio-tab" data-tab="situations">Situations</button>
+      </div>
+
+      <div id="audioTrackList" class="audio-track-list">
+        <div id="radioCategoryContainer"></div>
+        <div class="audio-category hidden" data-category="levels">
+          <div class="audio-category-title">Dialogues (A1-B2)</div>
+          <button class="audio-track-btn" data-station="dialogue_level_0">A1.1 - Simple German Conversation</button>
+          <button class="audio-track-btn" data-station="dialogue_level_1">A1.2 - Reading & Listening Exercise</button>
+          <button class="audio-track-btn" data-station="dialogue_level_2">A1 - Easy German Dialogue</button>
+          <button class="audio-track-btn" data-station="dialogue_level_3">A1-A2 - Slow German Podcast</button>
+          <button class="audio-track-btn" data-station="dialogue_level_4">A2.1 - Basic Conversation Practice</button>
+          <button class="audio-track-btn" data-station="dialogue_level_5">A2.2 - Dialogue for Learning German</button>
+          <button class="audio-track-btn" data-station="dialogue_level_6">A2 - Conversation with Native Speakers</button>
+          <button class="audio-track-btn" data-station="dialogue_level_7">B1-B2 - Conversation with Native Speakers</button>
+        </div>
+        <div class="audio-category hidden" data-category="situations">
+          <div class="audio-category-title">Everyday Situations</div>
+          <button class="audio-track-btn" data-station="dialogue_sit_0">Hotels (Reservation & Check-in)</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_1">Renting an Apartment</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_2">Doctor's Visit</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_3">Restaurant (Ordering & Payment)</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_4">Telephone (Customer Support)</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_5">Job Interview</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_6">Supermarket Checkout</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_7">Bank & Money</button>
+          <button class="audio-track-btn" data-station="dialogue_sit_8">Train Travel & Directions</button>
+        </div>
+      </div>
+
+      <div class="now-playing-container hidden" id="nowPlayingContainer">
+        <div class="now-playing-header">
+          <div class="now-playing-title" id="nowPlayingTitle">Not Playing</div>
+          <a class="now-playing-link hidden" id="nowPlayingCredit" target="_blank" data-tooltip="Watch on YouTube">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.108C19.53 3.5 12 3.5 12 3.5s-7.53 0-9.388.555A3.003 3.003 0 0 0 .502 6.163C0 8.024 0 12 0 12s0 3.976.502 5.837a3.003 3.003 0 0 0 2.11 2.108C4.47 20.5 12 20.5 12 20.5s7.53 0 9.388-.555a3.003 3.003 0 0 0 2.11-2.108C24 15.976 24 12 24 12s0-3.976-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="progress-bar-container" id="progressContainer">
+          <input type="range" class="progress-bar" id="progressBar" min="0" max="100" value="0">
+        </div>
+      </div>
+
+      <div class="radio-controls">
+        <div class="radio-playback-controls">
+          <button class="radio-play-btn" id="radioPlayBtn">
+            <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <polygon points="6 4 20 12 6 20 6 4"></polygon>
+            </svg>
+            <svg class="pause-icon hidden" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <rect x="5" y="4" width="4" height="16" rx="1"></rect>
+              <rect x="15" y="4" width="4" height="16" rx="1"></rect>
+            </svg>
+            <svg class="loading-spinner hidden" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+            </svg>
+          </button>
+          <button class="radio-control-btn" id="radioPrevBtn" data-tooltip="Previous station">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <polygon points="19 4 10 12 19 20 19 4"></polygon>
+              <rect x="5" y="4" width="3" height="16" rx="0.5"></rect>
+            </svg>
+          </button>
+          <button class="radio-control-btn" id="radioNextBtn" data-tooltip="Next station">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <polygon points="5 4 14 12 5 20 5 4"></polygon>
+              <rect x="16" y="4" width="3" height="16" rx="0.5"></rect>
+            </svg>
+          </button>
+          <div class="volume-control-hover">
+            <button class="radio-control-btn" id="volumeIconBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </button>
+            <div class="volume-slider-container">
+              <input type="range" id="radioVolume" class="radio-volume" min="0" max="1" step="0.01" value="0.5">
+            </div>
+          </div>
+
+          <div class="time-display-pill hidden" id="timeDisplayPill">
+            <span id="currentTimeLabel">0:00</span>
+            <span class="time-separator">/</span>
+            <span id="durationLabel">0:00</span>
+          </div>
+          
+          <div class="controls-spacer"></div>
+
+          <button class="radio-control-btn" id="radioLoopBtn" data-tooltip="Repeat track">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="17 1 21 5 17 9"></polyline>
+              <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+              <polyline points="7 23 3 19 7 15"></polyline>
+              <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+            </svg>
+          </button>
+          <div class="speed-control-hover">
+            <button class="radio-control-btn speed-btn" id="radioSpeedBtn" data-tooltip="Playback speed">
+              1.0x
+            </button>
+            <div class="speed-list-container">
+              <button class="speed-option-btn" data-speed="0.5">0.5x</button>
+              <button class="speed-option-btn" data-speed="0.75">0.75x</button>
+              <button class="speed-option-btn" data-speed="1.0">1.0x</button>
+              <button class="speed-option-btn" data-speed="1.25">1.25x</button>
+              <button class="speed-option-btn" data-speed="1.5">1.5x</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

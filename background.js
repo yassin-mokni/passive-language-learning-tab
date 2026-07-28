@@ -5,6 +5,7 @@ let currentPlaybackRate = 1.0;
 let isLooping = false;
 let currentPlaybackTime = 0;
 let currentDuration = 0;
+let currentTrackName = '';
 
 const radioStations = {
   dlf_nova: 'https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3',
@@ -72,8 +73,9 @@ const radioStations = {
 };
 
 // Load initial states from storage if they exist
-chrome.storage.local.get(['radioStation', 'radioVolume', 'isRadioPlaying', 'radioPlaybackRate', 'radioLooping'], async (result) => {
+chrome.storage.local.get(['radioStation', 'radioVolume', 'isRadioPlaying', 'radioPlaybackRate', 'radioLooping', 'radioTrackName'], async (result) => {
   if (result.radioStation) currentStation = result.radioStation;
+  if (result.radioTrackName) currentTrackName = result.radioTrackName;
   if (result.radioVolume !== undefined) currentVolume = parseFloat(result.radioVolume);
   if (result.radioPlaybackRate !== undefined) currentPlaybackRate = parseFloat(result.radioPlaybackRate);
   if (result.radioLooping !== undefined) isLooping = !!result.radioLooping;
@@ -87,6 +89,7 @@ chrome.storage.local.get(['radioStation', 'radioVolume', 'isRadioPlaying', 'radi
     isRadioPlaying = false;
     chrome.storage.local.set({ isRadioPlaying: false });
   }
+  updateBadge();
 });
 
 async function createOffscreenDocument() {
@@ -110,8 +113,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === 'audioState') {
     currentPlaybackTime = message.currentTime;
     currentDuration = message.duration;
-    isRadioPlaying = !message.paused;
-    chrome.storage.local.set({ isRadioPlaying });
+    const newPlayingState = !message.paused;
+    if (isRadioPlaying !== newPlayingState) {
+      isRadioPlaying = newPlayingState;
+      chrome.storage.local.set({ isRadioPlaying });
+      updateBadge();
+    }
   }
 
   if (message.target === 'background') {
@@ -135,6 +142,7 @@ async function handleMessage(message, sendResponse) {
       currentVolume = message.volume;
       isRadioPlaying = true;
       chrome.storage.local.set({ isRadioPlaying: true });
+      updateBadge();
       try {
         await createOffscreenDocument();
         // Send play command to offscreen
@@ -158,6 +166,7 @@ async function handleMessage(message, sendResponse) {
     case 'pause':
       isRadioPlaying = false;
       chrome.storage.local.set({ isRadioPlaying: false });
+      updateBadge();
       try {
         // Send pause command first to stop audio immediately
         chrome.runtime.sendMessage({
@@ -248,7 +257,25 @@ async function handleMessage(message, sendResponse) {
       });
       break;
 
+    case 'setTrackName':
+      currentTrackName = message.trackName;
+      chrome.storage.local.set({ radioTrackName: currentTrackName });
+      updateBadge();
+      sendResponse({ success: true });
+      break;
+
     default:
       sendResponse({ success: false, error: 'Unknown message type' });
+  }
+}
+
+function updateBadge() {
+  if (isRadioPlaying) {
+    chrome.action.setBadgeText({ text: '▶' });
+    chrome.action.setBadgeBackgroundColor({ color: '#000000' });
+    chrome.action.setTitle({ title: `Playing: ${currentTrackName || 'Listening Practice'}` });
+  } else {
+    chrome.action.setBadgeText({ text: '' });
+    chrome.action.setTitle({ title: 'Passive Language Learning' });
   }
 }

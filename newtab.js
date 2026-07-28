@@ -1147,6 +1147,7 @@ function updateNowPlayingTitle(stationId) {
   
   if (activeBtn) {
     titleEl.textContent = activeBtn.textContent;
+    chrome.runtime.sendMessage({ target: 'background', type: 'setTrackName', trackName: activeBtn.textContent });
     container.classList.remove('hidden');
     
     const isDialogue = stationId.startsWith('dialogue');
