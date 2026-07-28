@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Changelog - Passive Language Learning New Tab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text-main: #171717;
+      --text-muted: #737373;
+      --border: rgba(0, 0, 0, 0.08);
+      --accent: #171717;
+      --accent-hover: #404040;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: var(--text-main);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Header matching index.html */
+    header.main-header {
+      background: rgba(250, 250, 250, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header.main-header .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+    }
+
+    nav .cta-button {
+      background: var(--accent);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 99px;
+      font-weight: 600;
+    }
+
+    nav .cta-button:hover {
+      background: var(--accent-hover);
+      color: #fff;
+    }
+
+    .content-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: var(--text-muted);
+    }
+
+    /* Timeline styling */
+    .changelog-entry {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+      position: relative;
+    }
+
+    .version-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 6px 16px;
+      border-radius: 99px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    
+    .release-date {
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 12px;
+    }
+
+    .changelog-entry h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .changelog-list {
+      list-style-type: none;
+    }
+
+    .changelog-list li {
+      margin-bottom: 16px;
+      padding-left: 24px;
+      position: relative;
+    }
+
+    .changelog-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--text-muted);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .changelog-list li strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 40px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 16px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="favicon.png" alt="Passive Language Learning Logo" width="24" height="24"> Passive Language Learning
+      </a>
+      <nav>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how-it-works">How It Works</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="https://chromewebstore.google.com/detail/lcpngcpkmbdooibllkhggekgmcdgagln?utm_source=landing-page" class="cta-button">Add to Chrome</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content-container">
+    <div class="page-header">
+      <h1>Changelog</h1>
+      <p class="subtitle">Stay up to date with the latest features and improvements.</p>
+    </div>
+
+    <div class="changelog-timeline">
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.2.2</span>
+        </div>
+        <h2>Popup Player & UI Fixes</h2>
+        <ul class="changelog-list">
+          <li>Added an extension popup interface to control radio stations and dialogues without opening a new tab.</li>
+          <li>Added drop-shadows to quick link icons for better visibility.</li>
+        </ul>
+      </div>
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.2.0</span>
+        </div>
+        <h2>New Languages</h2>
+        <ul class="changelog-list">
+          <li>Added Portuguese support (phrases and live radio).</li>
+          <li>Added Italian support (phrases and live radio).</li>
+          <li>Added Mandarin Chinese support (phrases and live radio).</li>
+          <li>Added Turkish support (phrases and live radio).</li>
+        </ul>
+      </div>
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.1.0</span>
+        </div>
+        <h2>Daily Backgrounds & Japanese Support</h2>
+        <ul class="changelog-list">
+          <li>Added daily splash backgrounds with a manual refresh button.</li>
+          <li>Added Japanese support (phrases and live radio).</li>
+          <li>Added a "Flirting & Dating" learning category.</li>
+          <li>Updated text-to-speech to prioritize high-quality Google voices.</li>
+          <li>Updated UI theme to use glassmorphism.</li>
+        </ul>
+      </div>
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.0.10</span>
+        </div>
+        <h2>Performance</h2>
+        <ul class="changelog-list">
+          <li>Fixed Web Speech API voice loading on extension startup.</li>
+        </ul>
+      </div>
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.0.8</span>
+        </div>
+        <h2>More Languages & Productivity</h2>
+        <ul class="changelog-list">
+          <li>Added Spanish, French, and Arabic support (phrases and live radio).</li>
+          <li>Added a right sidebar to quickly access recent tabs and bookmarks.</li>
+          <li>Added a quick links dock to save and manage favorite websites.</li>
+        </ul>
+      </div>
+
+      <div class="changelog-entry">
+        <div>
+          <span class="version-badge">v1.0.0</span>
+        </div>
+        <h2>Initial Release</h2>
+        <ul class="changelog-list">
+          <li>First launch of Passive Language Learning New Tab!</li>
+          <li>Learn German vocabulary with graded CEFR levels and topics.</li>
+          <li>Live German radio streaming with playback controls.</li>
+          <li>Native text-to-speech pronunciation.</li>
+          <li>Save favorite phrases and export them to your flashcard app.</li>
+          <li>Keyboard shortcuts and full dark mode support.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div style="margin-bottom: 24px;">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="changelog.html">Changelog</a>
+    </div>
+    <p>&copy; 2026 Passive Language Learning New Tab. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
