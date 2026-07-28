@@ -1662,6 +1662,7 @@ body.dark-mode .time-display-pill {
   width: 24px;
   height: 24px;
   border-radius: 4px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25)); /* Fix for white favicons on light buttons */
 }
 
 body.dark-mode .quick-link-item,
@@ -1769,6 +1770,7 @@ body.dark-mode .close-modal-btn:hover {
 .quick-link-edit-icon {
   width: 16px;
   height: 16px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
 }
 
 .quick-link-edit-name {
