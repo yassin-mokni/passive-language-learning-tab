@@ -20,12 +20,14 @@
 As a heavy browser user, you open dozens of tabs daily. Instead of staring at a blank page, use those micro-moments for language learning. Passive exposure improves vocabulary retention and language familiarity without the pressure of formal study sessions.
 
 ## Features
-- **CEFR Level System (A0-C2):** 640+ phrases per language ranging from beginner (A1) and slang (A0) to advanced academic language (C2).
+- **CEFR Level System (A0-C2):** 640+ curated phrases per language ranging from beginner (A1) and slang (A0) to advanced academic language (C2) (5,700+ total phrases).
 - **9 Languages:** German 🇩🇪, Spanish 🇪🇸, French 🇫🇷, Arabic 🇦🇪, Japanese 🇯🇵, Turkish 🇹🇷, Mandarin Chinese 🇨🇳, Italian 🇮🇹, and Portuguese 🇵🇹.
 - **Offline Dialogues:** Listen to 17 structured conversations for different levels and everyday situations.
-- **Live Radio:** Tune into level-appropriate talk and news radio stations native to your target language.
-- **Smart Learning Tools:** Save favorites, export phrases, and use the built-in Native Audio pronunciation.
-- **Minimalist Design:** Clean interface that doesn't distract or impact browser performance.
+- **Live Radio:** Tune into 43 curated live radio streams native to your target language.
+- **Smart Learning Tools:** Save favorites, export phrases, and use the built-in Native Audio pronunciation (TTS).
+- **Productivity Widgets:** Access recent tabs, browser bookmarks, and a customizable quick links dock right from your new tab.
+- **Extension Popup Player:** Control radio stations and dialogues globally without opening a new tab.
+- **Minimalist Design:** Clean glassmorphism interface that doesn't distract or impact browser performance (with Dark Mode and RTL support).
 - **Keyboard Shortcuts:** Built for power users (`Space` for next phrase, `R` for radio, `F` for favorites).
 
 ## Privacy First
