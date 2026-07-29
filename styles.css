@@ -96,6 +96,7 @@ body {
 .radio-trigger,
 .settings-btn,
 .refresh-bg-btn,
+.feedback-btn,
 .translation-toggle,
 .quick-link-item,
 .add-quick-link-btn {
@@ -111,6 +112,7 @@ body.dark-mode .dark-mode-toggle,
 body.dark-mode .radio-trigger,
 body.dark-mode .settings-btn,
 body.dark-mode .refresh-bg-btn,
+body.dark-mode .feedback-btn,
 body.dark-mode .translation-toggle,
 body.dark-mode .quick-link-item,
 body.dark-mode .add-quick-link-btn {
@@ -281,13 +283,22 @@ body.dark-mode .flag-stack-btn.active {
 .shortcuts-help[data-tooltip]::after,
 .dark-mode-toggle[data-tooltip]::after,
 .refresh-bg-btn[data-tooltip]::after,
+.feedback-btn[data-tooltip]::after,
 .radio-trigger[data-tooltip]::after {
   bottom: calc(100% + 8px);
   top: auto;
 }
 
-.support-btn[data-tooltip]::after {
+.settings-btn[data-tooltip]::after {
   left: 0;
+  transform: none;
+}
+
+.shortcuts-help[data-tooltip]::after,
+.feedback-btn[data-tooltip]::after,
+.support-btn[data-tooltip]::after {
+  right: 0;
+  left: auto;
   transform: none;
 }
 
@@ -499,7 +510,8 @@ body.dark-mode .flag-stack-btn.active {
 .shortcuts-help {
   position: fixed;
   bottom: 40px;
-  left: 84px;
+  right: 84px;
+  left: auto;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -555,7 +567,7 @@ body.dark-mode .flag-stack-btn.active {
 .radio-trigger {
   position: fixed;
   bottom: 40px;
-  left: 172px;
+  left: 84px;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -595,7 +607,8 @@ body.dark-mode .radio-trigger.playing {
 .support-btn {
   position: fixed;
   bottom: 40px;
-  left: 40px;
+  right: 40px;
+  left: auto;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -646,7 +659,8 @@ body.dark-mode .shortcuts-help,
 body.dark-mode .radio-trigger,
 body.dark-mode .settings-btn,
 body.dark-mode .support-btn,
-body.dark-mode .refresh-bg-btn {
+body.dark-mode .refresh-bg-btn,
+body.dark-mode .feedback-btn {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.25);
   color: #c0c0c0;
@@ -657,7 +671,8 @@ body.dark-mode .dark-mode-toggle:hover,
 body.dark-mode .shortcuts-help:hover,
 body.dark-mode .radio-trigger:hover,
 body.dark-mode .settings-btn:hover,
-body.dark-mode .refresh-bg-btn:hover {
+body.dark-mode .refresh-bg-btn:hover,
+body.dark-mode .feedback-btn:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.3);
   color: #e0e0e0;
@@ -1398,7 +1413,7 @@ body.dark-mode .speed-option-btn.active {
 .refresh-bg-btn {
   position: fixed;
   bottom: 40px;
-  left: 260px; /* 44px right of settings button (216) */
+  left: 172px; /* 44px right of dark mode toggle (128) */
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;
@@ -1430,6 +1445,53 @@ body.dark-mode .speed-option-btn.active {
 
 .refresh-bg-btn.hidden {
   display: none !important;
+}
+
+.feedback-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 128px;
+  left: auto;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  color: #666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.feedback-btn:hover {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #bbb;
+  color: #2c2c2c;
+}
+
+/* Popup Feedback Button */
+.popup-feedback-btn {
+  margin-left: auto;
+  color: #666;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-feedback-btn:hover {
+  color: #2c2c2c;
+}
+
+body.popup-body.dark-mode .popup-feedback-btn {
+  color: #aaa;
+}
+
+body.popup-body.dark-mode .popup-feedback-btn:hover {
+  color: #e0e0e0;
 }
 
 body.dark-mode .radio-play-btn {
@@ -1942,7 +2004,7 @@ body.dark-mode .add-link-btn:hover {
 .settings-btn {
   position: fixed;
   bottom: 40px;
-  left: 216px;
+  left: 40px;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(221, 221, 221, 0.5);
   color: #666;

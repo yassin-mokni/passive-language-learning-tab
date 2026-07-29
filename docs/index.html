@@ -482,7 +482,7 @@
     }
 
     /* Support CTA */
-    .support-section, .cta-section {
+    .support-section, .cta-section, .feedback-section {
       text-align: center;
       padding: 80px 32px;
       background: var(--surface);
@@ -491,18 +491,37 @@
       box-shadow: 0 4px 20px rgba(0,0,0,0.02);
     }
 
-    .support-section h2, .cta-section h2 {
+    .support-section h2, .cta-section h2, .feedback-section h2 {
       font-size: 32px;
       margin-bottom: 16px;
     }
 
-    .support-section p, .cta-section p {
+    .support-section p, .cta-section p, .feedback-section p {
       font-size: 18px;
       color: var(--text-muted);
       margin-bottom: 32px;
       max-width: 600px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .feedback-button {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 16px 40px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 99px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .feedback-button:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
     }
 
     .support-button {
@@ -552,6 +571,7 @@
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
         <a href="changelog.html">Changelog</a>
+        <a href="https://github.com/yassin-mokni/passive-language-learning-tab/issues/new" target="_blank">Feedback</a>
         <a href="https://chromewebstore.google.com/detail/lcpngcpkmbdooibllkhggekgmcdgagln?utm_source=landing-page" class="cta-button">Add to Chrome</a>
       </nav>
     </div>
@@ -803,6 +823,14 @@
     </div>
 
     <div class="section">
+      <div class="feedback-section">
+        <h2>Feedback & Bugs</h2>
+        <p>Have an idea to improve the extension? Found a bug? We'd love to hear from you!</p>
+        <a href="https://github.com/yassin-mokni/passive-language-learning-tab/issues/new" target="_blank" class="feedback-button">Share Feedback</a>
+      </div>
+    </div>
+
+    <div class="section">
       <div class="support-section">
         <h2>Show Your Support</h2>
         <p>If you find this extension helpful for practicing your target languages, consider showing your support to help fund its ongoing development!</p>
@@ -815,6 +843,7 @@
     <div style="margin-bottom: 24px;">
       <a href="privacy.html">Privacy Policy</a>
       <a href="changelog.html">Changelog</a>
+      <a href="https://github.com/yassin-mokni/passive-language-learning-tab/issues/new" target="_blank">Feedback & Bugs</a>
     </div>
     <p>&copy; 2026 Passive Language Learning New Tab. All rights reserved.</p>
     <p style="margin-top: 8px;">Built by <a href="https://mokni.dev" target="_blank" style="margin: 0;">Yassin Mokni</a></p>
