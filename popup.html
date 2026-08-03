@@ -7,13 +7,26 @@
   <title>Listening Practice</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    body.popup-body {
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body.popup-body {
       width: 360px;
+      min-width: 360px;
+      max-width: 360px;
       margin: 0;
       padding: 0;
       background: #f5f5f5;
-      /* Light mode default bg to match new tab vibe somewhat */
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    html.dark-mode, body.popup-body.dark-mode {
+      background: #1a1a1a;
+    }
+
+    body.popup-body {
       display: flex;
       flex-direction: column;
       align-items: stretch;
@@ -21,18 +34,15 @@
       height: auto;
     }
 
-    body.popup-body.dark-mode {
-      background: #1a1a1a;
-    }
-
     .radio-popover-static {
       /* Override popover styles for popup context */
-      position: static;
-      display: block;
-      width: 100%;
-      box-shadow: none;
-      border: none;
-      border-radius: 0;
+      position: static !important;
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-shadow: none !important;
+      border: none !important;
+      border-radius: 0 !important;
     }
 
     .radio-popover-static .radio-header {
@@ -46,6 +56,7 @@
       background: #ffffff;
       border-bottom: 1px solid #eaeaea;
       gap: 12px;
+      width: 100%;
     }
 
     body.popup-body.dark-mode .popup-brand-header {
@@ -63,10 +74,36 @@
       font-weight: 600;
       font-size: 14px;
       color: #333;
+      flex: 1;
     }
 
     body.popup-body.dark-mode .popup-brand-title {
       color: #f3f4f6;
+    }
+
+    .popup-feedback-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      text-decoration: none;
+      padding: 4px;
+      border-radius: 4px;
+      transition: color 0.2s, background-color 0.2s;
+    }
+
+    .popup-feedback-btn:hover {
+      color: #111;
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    body.popup-body.dark-mode .popup-feedback-btn {
+      color: #aaa;
+    }
+
+    body.popup-body.dark-mode .popup-feedback-btn:hover {
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.1);
     }
   </style>
 </head>

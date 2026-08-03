@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       currentLang = result.targetLang;
     }
     if (result.darkMode) {
+      document.documentElement.classList.add('dark-mode');
       document.body.classList.add('dark-mode');
     }
     initRadio();
