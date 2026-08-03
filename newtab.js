@@ -309,7 +309,7 @@ function attachAudioTrackListeners() {
 
 function switchLanguage(lang) {
   if (lang === currentLang) return;
-  
+
   // Stop radio on language switch
   if (isRadioPlaying) {
     chrome.runtime.sendMessage({ target: 'background', type: 'pause' }, (response) => {
@@ -319,7 +319,7 @@ function switchLanguage(lang) {
       }
     });
   }
-  
+
   currentLang = lang;
   chrome.storage.local.set({ targetLang: currentLang }, () => {
     updateLanguageUI();
@@ -343,7 +343,7 @@ function updateLanguageUI() {
 function init() {
   // Initialize favorite button state
   document.getElementById('favoriteBtn').classList.remove('favorited');
-  
+
   // Language Stack Listeners
   const languageStack = document.getElementById('languageStack');
   if (languageStack) {
@@ -373,7 +373,7 @@ function init() {
       currentTopic = result.selectedTopic;
       document.getElementById('topicSelect').value = currentTopic;
     }
-    
+
     // Initialize level visibility based on topic
     if (currentTopic === 'slang') {
       hideLevelsExcept('A0');
@@ -403,12 +403,12 @@ function init() {
       displayRandomPhrase();
     });
   });
-  
+
   // Topic dropdown listener
   document.getElementById('topicSelect').addEventListener('change', (e) => {
     currentTopic = e.target.value;
     chrome.storage.local.set({ selectedTopic: currentTopic });
-    
+
     // Handle slang topic - show only A0
     if (currentTopic === 'slang') {
       currentLevel = 'A0';
@@ -424,38 +424,38 @@ function init() {
       }
       hideLevelsExcept('A1', 'A2', 'B1', 'B2', 'C1', 'C2');
     }
-    
+
     displayRandomPhrase();
   });
 
   // Control button listeners
   document.getElementById('nextBtn').addEventListener('click', displayRandomPhrase);
   document.getElementById('favoriteBtn').addEventListener('click', toggleFavorite);
-  
+
   // Audio button listener
   document.getElementById('audioBtn').addEventListener('click', playPronunciation);
-  
+
   // Translation toggle listener
   document.getElementById('translationToggle').addEventListener('click', toggleTranslation);
-  
+
   // Dark mode toggle listener
   document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
-  
+
   // Load translation preference
   chrome.storage.local.get(['showTranslation', 'darkMode'], (result) => {
     const showTranslation = result.showTranslation !== false;
     updateTranslationVisibility(showTranslation);
-    
+
     const darkMode = result.darkMode || false;
     updateDarkMode(darkMode);
   });
-  
+
   // Favorites export listener
   const exportBtn = document.getElementById('exportBtn');
   if (exportBtn) {
     exportBtn.addEventListener('click', exportFavorites);
   }
-  
+
   // Shortcuts help listeners
   document.getElementById('shortcutsBtn').addEventListener('click', toggleShortcutsModal);
   document.getElementById('shortcutsModal').addEventListener('click', (e) => {
@@ -463,7 +463,7 @@ function init() {
       toggleShortcutsModal();
     }
   });
-  
+
   // Radio listeners
   document.getElementById('radioBtn').addEventListener('click', toggleRadioPopover);
   document.getElementById('radioPlayBtn').addEventListener('click', toggleRadioPlay);
@@ -506,7 +506,7 @@ function init() {
   document.addEventListener('click', (e) => {
     const insideVolume = e.target.closest('.volume-control-hover');
     const insideSpeed = e.target.closest('.speed-control-hover');
-    
+
     if (!insideVolume && volumeSliderContainer) {
       volumeSliderContainer.classList.remove('show');
     }
@@ -514,7 +514,7 @@ function init() {
       speedListContainer.classList.remove('show');
     }
   });
-  
+
   renderRadioTrackListUI();
 
   // Tab switching listeners
@@ -542,7 +542,7 @@ function init() {
   });
   progressBar.addEventListener('change', (e) => {
     const percentage = parseFloat(e.target.value);
-    
+
     // Lock updates for 800ms to allow audio element to finish seeking
     isUserDraggingProgress = true;
     if (seekTimeout) clearTimeout(seekTimeout);
@@ -566,7 +566,7 @@ function init() {
       updatePlaybackProgress(message.currentTime, message.duration, message.paused);
     }
   });
-  
+
   // Load radio preferences and sync state with background
   chrome.runtime.sendMessage({ target: 'background', type: 'getState' }, (response) => {
     if (response) {
@@ -592,7 +592,7 @@ function init() {
       updateRadioUI(isRadioPlaying);
     }
   });
-  
+
   // Close popover when clicking outside
   document.addEventListener('click', (e) => {
     const favPopover = document.getElementById('favoritesPopover');
@@ -607,7 +607,7 @@ function init() {
       radioPopover.classList.remove('active');
     }
   });
-  
+
   // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     // Close modals with Escape
@@ -618,7 +618,7 @@ function init() {
         return;
       }
     }
-    
+
     // Ignore if a modifier key (Cmd, Ctrl, Alt) is pressed
     if (e.metaKey || e.ctrlKey || e.altKey) {
       return;
@@ -628,8 +628,8 @@ function init() {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') {
       return;
     }
-    
-    switch(e.key.toLowerCase()) {
+
+    switch (e.key.toLowerCase()) {
       case ' ':
       case 'spacebar':
         e.preventDefault();
@@ -688,55 +688,55 @@ function hideLevelsExcept(...levelsToShow) {
 
 function displayRandomPhrase() {
   let levelPhrases = phrases[currentLevel];
-  
+
   // Filter by topic if not "all"
   if (currentTopic !== 'all') {
     levelPhrases = levelPhrases.filter(phrase => phrase.tags && phrase.tags.includes(currentTopic));
   }
-  
+
   // If no phrases match the filter, show message
   if (levelPhrases.length === 0) {
     document.getElementById('germanPhrase').textContent = 'No phrases available';
     document.getElementById('englishTranslation').textContent = 'Try a different topic or level';
     return;
   }
-  
+
   chrome.storage.local.get(['shownPhrases', 'favorites'], (result) => {
     let shownPhrases = result.shownPhrases || {};
     let shownKey = `${currentLang}_${currentLevel}_${currentTopic}`;
     let shown = shownPhrases[shownKey] || [];
-    
+
     // Get indices of filtered phrases in original array
-    const originalIndices = levelPhrases.map(phrase => 
+    const originalIndices = levelPhrases.map(phrase =>
       phrases[currentLevel].indexOf(phrase)
     );
-    
+
     // Reset if all phrases shown
     if (shown.length >= originalIndices.length) {
       shown = [];
     }
-    
+
     // Get unshown phrases
     const unshownIndices = originalIndices.filter(idx => !shown.includes(idx));
     const randomOriginalIndex = unshownIndices[Math.floor(Math.random() * unshownIndices.length)];
-    
-    currentPhrase = { 
-      ...phrases[currentLevel][randomOriginalIndex], 
+
+    currentPhrase = {
+      ...phrases[currentLevel][randomOriginalIndex],
       index: randomOriginalIndex,
-      level: currentLevel 
+      level: currentLevel
     };
-    
+
     // Mark as shown
     shown.push(randomOriginalIndex);
     shownPhrases[shownKey] = shown;
     chrome.storage.local.set({ shownPhrases });
-    
+
     // Display phrase
     const phraseContainer = document.getElementById('germanPhrase');
     phraseContainer.textContent = getPhraseText(currentPhrase);
     phraseContainer.classList.toggle('rtl-text', currentLang === 'ar');
     document.getElementById('englishTranslation').textContent = currentPhrase.english;
-    
+
     // Update favorite button
     getFavorites((favs) => updateFavoriteButton(favs));
   });
@@ -767,21 +767,21 @@ function saveFavorites(favorites, callback) {
 
 function toggleFavorite() {
   if (!currentPhrase) return;
-  
+
   const phraseLevel = currentPhrase.level || currentLevel;
-  
+
   getFavorites((favorites) => {
     if (!favorites[phraseLevel]) favorites[phraseLevel] = [];
-    
+
     const index = currentPhrase.index;
     const favIndex = favorites[phraseLevel].indexOf(index);
-    
+
     if (favIndex > -1) {
       favorites[phraseLevel].splice(favIndex, 1);
     } else {
       favorites[phraseLevel].push(index);
     }
-    
+
     saveFavorites(favorites, () => {
       updateFavoriteButton(favorites);
       loadFavoritesData();
@@ -804,17 +804,17 @@ function toggleFavoritesPopover() {
 
 function displaySpecificPhrase(level, index) {
   currentLevel = level;
-  currentPhrase = { 
-    ...phrases[level][index], 
+  currentPhrase = {
+    ...phrases[level][index],
     index: index,
-    level: level 
+    level: level
   };
-  
+
   document.getElementById('germanPhrase').textContent = getPhraseText(currentPhrase);
   document.getElementById('englishTranslation').textContent = currentPhrase.english;
-  
+
   updateActiveLevel();
-  
+
   getFavorites((favs) => updateFavoriteButton(favs));
 }
 
@@ -822,7 +822,7 @@ function playPronunciation() {
   if (!currentPhrase) return;
   speakText(getPhraseText(currentPhrase));
 }
-  
+
 
 
 function toggleTranslation() {
@@ -837,7 +837,7 @@ function toggleTranslation() {
 function updateTranslationVisibility(show) {
   const translation = document.getElementById('englishTranslation');
   const toggleBtn = document.getElementById('translationToggle');
-  
+
   if (show) {
     translation.classList.remove('hidden');
     toggleBtn.classList.add('active');
@@ -863,7 +863,7 @@ function toggleDarkMode() {
 
 function updateDarkMode(enabled) {
   const toggleBtn = document.getElementById('darkModeToggle');
-  
+
   if (enabled) {
     document.body.classList.add('dark-mode');
     toggleBtn.classList.add('active');
@@ -877,26 +877,26 @@ function exportFavorites() {
   getFavorites((favorites) => {
     chrome.storage.local.get(['showTranslation'], (result) => {
       const includeTranslations = result.showTranslation !== false; // default true
-      
+
       // Check if there are any favorites
       const hasFavorites = Object.values(favorites).some(arr => arr.length > 0);
       if (!hasFavorites) {
         alert('No favorites to export!');
         return;
       }
-      
+
       const langTitles = { 'es': 'Spanish', 'fr': 'French', 'ar': 'Arabic', 'de': 'German', 'ja': 'Japanese', 'tr': 'Turkish', 'zh': 'Mandarin Chinese', 'it': 'Italian', 'pt': 'Portuguese' };
       const langTitle = langTitles[currentLang] || 'Language';
       // Build export text
       let exportText = `My ${langTitle} Favorites\n`;
       exportText += '===================\n\n';
-      
+
       ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach(level => {
         const levelFavorites = favorites[level] || [];
         if (levelFavorites.length > 0) {
           exportText += `${level} Level (${levelFavorites.length} phrases)\n`;
           exportText += '-'.repeat(30) + '\n';
-          
+
           levelFavorites.forEach(index => {
             if (phrases[level] && phrases[level][index]) {
               const phrase = phrases[level][index];
@@ -907,11 +907,11 @@ function exportFavorites() {
               exportText += '\n';
             }
           });
-          
+
           exportText += '\n';
         }
       });
-      
+
       // Create download
       const blob = new Blob([exportText], { type: 'text/plain' });
       const url = URL.createObjectURL(blob);
@@ -939,7 +939,7 @@ function updateRadioUI(playing, loading = false) {
   const spinnerIcon = document.querySelector('.loading-spinner');
   const radioBtn = document.getElementById('radioBtn');
   const radioAnimation = document.getElementById('radioAnimation');
-  
+
   if (loading) {
     playIcon.classList.add('hidden');
     pauseIcon.classList.add('hidden');
@@ -967,7 +967,7 @@ function setActiveTrack(stationId) {
       btn.classList.add('active');
       // Scroll into view gently
       btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      
+
       // Auto-switch to the tab containing this track
       const cat = btn.closest('.audio-category');
       if (cat && cat.dataset.category) {
@@ -984,7 +984,7 @@ function setActiveTrack(stationId) {
 
 function toggleRadioPlay() {
   const volumeSlider = document.getElementById('radioVolume');
-  
+
   if (isRadioPlaying) {
     chrome.runtime.sendMessage({
       target: 'background',
@@ -1014,11 +1014,11 @@ function changeRadioStation(stationId) {
   if (!stationId) return;
   activeRadioStation = stationId;
   setActiveTrack(stationId);
-  
+
   chrome.storage.local.set({ radioStation: stationId });
-  
+
   const volumeSlider = document.getElementById('radioVolume');
-  
+
   chrome.runtime.sendMessage({
     target: 'background',
     type: 'play',
@@ -1034,9 +1034,9 @@ function changeRadioStation(stationId) {
 
 function changeRadioVolume() {
   const volumeSlider = document.getElementById('radioVolume');
-  
+
   chrome.storage.local.set({ radioVolume: volumeSlider.value });
-  
+
   chrome.runtime.sendMessage({
     target: 'background',
     type: 'setVolume',
@@ -1047,24 +1047,24 @@ function changeRadioVolume() {
 function switchRadioStation(direction) {
   const buttons = Array.from(document.querySelectorAll('.audio-track-btn'));
   const stationKeys = buttons.map(btn => btn.dataset.station);
-  
+
   let currentIndex = stationKeys.indexOf(activeRadioStation);
   if (currentIndex === -1) currentIndex = 0;
-  
+
   let nextIndex = currentIndex + direction;
   if (nextIndex >= stationKeys.length) {
     nextIndex = 0; // Wrap around to first
   } else if (nextIndex < 0) {
     nextIndex = stationKeys.length - 1; // Wrap around to last
   }
-  
+
   changeRadioStation(stationKeys[nextIndex]);
 }
 
 function toggleRadioLoop() {
   activeLoopState = !activeLoopState;
   updateLoopUI(activeLoopState);
-  
+
   chrome.runtime.sendMessage({
     target: 'background',
     type: 'setLoop',
@@ -1086,7 +1086,7 @@ function updateLoopUI(loop) {
 function setPlaybackSpeed(rate) {
   activePlaybackRate = rate;
   updatePlaybackSpeedUI(rate);
-  
+
   chrome.runtime.sendMessage({
     target: 'background',
     type: 'setPlaybackRate',
@@ -1104,7 +1104,7 @@ function updatePlaybackSpeedUI(rate) {
       speedBtn.classList.remove('active');
     }
   }
-  
+
   // Update active speed menu option
   document.querySelectorAll('.speed-option-btn').forEach(btn => {
     const speed = parseFloat(btn.dataset.speed);
@@ -1144,12 +1144,12 @@ function updateNowPlayingTitle(stationId) {
   const progressContainer = document.getElementById('progressContainer');
   const loopBtn = document.getElementById('radioLoopBtn');
   const timeDisplayPill = document.getElementById('timeDisplayPill');
-  
+
   if (activeBtn) {
     titleEl.textContent = activeBtn.textContent;
     chrome.runtime.sendMessage({ target: 'background', type: 'setTrackName', trackName: activeBtn.textContent });
     container.classList.remove('hidden');
-    
+
     const isDialogue = stationId.startsWith('dialogue');
     if (isDialogue) {
       if (progressContainer) progressContainer.classList.remove('hidden');
@@ -1182,25 +1182,25 @@ function updateNowPlayingTitle(stationId) {
 function updatePlaybackProgress(currentTime, duration, paused) {
   isRadioPlaying = !paused;
   updateRadioUI(isRadioPlaying);
-  
+
   const isDialogue = activeRadioStation.startsWith('dialogue');
   if (!isDialogue) return;
-  
+
   lastDuration = duration;
-  
+
   if (!isUserDraggingProgress && !isAudioSeeking) {
     const progressBar = document.getElementById('progressBar');
     if (progressBar && duration && duration > 0) {
       const percentage = (currentTime / duration) * 100;
       progressBar.value = percentage;
     }
-    
+
     const currentTimeEl = document.getElementById('currentTimeLabel');
     if (currentTimeEl) {
       currentTimeEl.textContent = formatTime(currentTime);
     }
   }
-  
+
   const durationEl = document.getElementById('durationLabel');
   if (durationEl && duration && duration > 0) {
     durationEl.textContent = formatTime(duration);
@@ -1223,10 +1223,10 @@ function initQuickLinks() {
 
   // Event Listeners for Quick Links Modal
   const closeBtn = document.getElementById('closeQuickLinksBtn');
-  if(closeBtn) closeBtn.addEventListener('click', toggleQuickLinksModal);
-  
+  if (closeBtn) closeBtn.addEventListener('click', toggleQuickLinksModal);
+
   const modal = document.getElementById('quickLinksModal');
-  if(modal) {
+  if (modal) {
     modal.addEventListener('click', (e) => {
       if (e.target.id === 'quickLinksModal') {
         toggleQuickLinksModal();
@@ -1235,13 +1235,13 @@ function initQuickLinks() {
   }
 
   const addBtn = document.getElementById('addLinkBtn');
-  if(addBtn) addBtn.addEventListener('click', addQuickLink);
+  if (addBtn) addBtn.addEventListener('click', addQuickLink);
 }
 
 function renderQuickLinksDock() {
   const dock = document.getElementById('quickLinksDock');
   if (!dock) return;
-  
+
   let html = '';
   quickLinks.forEach(link => {
     const faviconUrl = `chrome-extension://${chrome.runtime.id}/_favicon/?pageUrl=${encodeURIComponent(link.url)}&size=64`;
@@ -1254,7 +1254,7 @@ function renderQuickLinksDock() {
       </a>
     `;
   });
-  
+
   html += `
     <button class="add-quick-link-btn" id="openQuickLinksModalBtn" data-tooltip="Edit Links">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1263,15 +1263,15 @@ function renderQuickLinksDock() {
       </svg>
     </button>
   `;
-  
+
   dock.innerHTML = html;
-  
+
   document.getElementById('openQuickLinksModalBtn').addEventListener('click', toggleQuickLinksModal);
 }
 
 function toggleQuickLinksModal() {
   const modal = document.getElementById('quickLinksModal');
-  if(!modal) return;
+  if (!modal) return;
   modal.classList.toggle('active');
   if (modal.classList.contains('active')) {
     const errorEl = document.getElementById('quickLinksError');
@@ -1286,12 +1286,12 @@ function toggleQuickLinksModal() {
 function renderQuickLinksEditList() {
   const listContainer = document.getElementById('quickLinksList');
   if (!listContainer) return;
-  
+
   if (quickLinks.length === 0) {
     listContainer.innerHTML = '<div style="color: #999; text-align: center; font-size: 14px; padding: 10px;">No links added yet.</div>';
     return;
   }
-  
+
   let html = '';
   quickLinks.forEach(link => {
     const faviconUrl = `chrome-extension://${chrome.runtime.id}/_favicon/?pageUrl=${encodeURIComponent(link.url)}&size=32`;
@@ -1327,7 +1327,7 @@ function renderQuickLinksEditList() {
     }
   });
   listContainer.innerHTML = html;
-  
+
   // Add listeners
   document.querySelectorAll('.delete-link-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -1367,11 +1367,11 @@ function saveQuickLinkEdit(id) {
     }
     return;
   }
-  
+
   if (!/^https?:\/\//i.test(url)) {
     url = 'https://' + url;
   }
-  
+
   try {
     new URL(url); // Validate URL
   } catch (e) {
@@ -1381,7 +1381,7 @@ function saveQuickLinkEdit(id) {
     }
     return;
   }
-  
+
   if (errorEl) {
     errorEl.textContent = '';
     errorEl.classList.add('hidden');
@@ -1405,7 +1405,7 @@ function addQuickLink() {
   const errorEl = document.getElementById('quickLinksError');
   let name = nameInput.value.trim();
   let url = urlInput.value.trim();
-  
+
   if (!name || !url) {
     if (errorEl) {
       errorEl.textContent = 'Please enter both a name and a URL.';
@@ -1413,11 +1413,11 @@ function addQuickLink() {
     }
     return;
   }
-  
+
   if (!/^https?:\/\//i.test(url)) {
     url = 'https://' + url;
   }
-  
+
   try {
     new URL(url); // Validate URL
   } catch (e) {
@@ -1427,21 +1427,21 @@ function addQuickLink() {
     }
     return;
   }
-  
+
   if (errorEl) {
     errorEl.textContent = '';
     errorEl.classList.add('hidden');
   }
-  
+
   const newLink = {
     id: Date.now().toString(),
     name: name,
     url: url
   };
-  
+
   quickLinks.push(newLink);
   saveQuickLinks();
-  
+
   nameInput.value = '';
   urlInput.value = '';
   renderQuickLinksEditList();
@@ -1992,12 +1992,12 @@ function renderRightSidebarContent() {
 function speakText(text) {
   if (!text) return;
   speechSynthesis.cancel();
-  
+
   // Strip out examples in parentheses like (z.B. ...), (ej. ...), (例: ...) for cleaner TTS
   let textToSpeak = text.replace(/\s*\(.*\)\s*/g, '').trim();
-  
+
   const utterance = new SpeechSynthesisUtterance(textToSpeak);
-  
+
   const langMap = {
     de: 'de-DE',
     es: 'es-ES',
@@ -2009,14 +2009,14 @@ function speakText(text) {
     it: 'it-IT',
     pt: 'pt-PT'
   };
-  
+
   const targetLang = langMap[currentLang] || 'de-DE';
   utterance.lang = targetLang;
-  
+
   // Actively find the perfect high-quality voice
   const voices = speechSynthesis.getVoices();
   const langVoices = voices.filter(v => v.lang.startsWith(targetLang.split('-')[0]));
-  
+
   if (langVoices.length > 0) {
     // Google voices on Chrome are the high-quality cloud/neural voices. We prioritize them!
     const perfectVoice = langVoices.find(v => v.name.includes('Google')) || langVoices[0];
@@ -2062,6 +2062,83 @@ function getDomainName(urlStr) {
 // ----------------------------------------------------------------------
 // Splash Background Logic
 // ----------------------------------------------------------------------
+const NO_HUMAN_PICSUM_IDS = [
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+  15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 28, 29, 30, 31,
+  32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61,
+  62, 63, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77,
+  78, 79, 80, 81, 82, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93,
+  94, 95, 96, 98, 99, 100, 102, 103, 104, 106, 107, 108, 109, 110, 111,
+  112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126,
+  127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 139, 140, 141, 142,
+  143, 144, 145, 146, 147, 149, 151, 152, 153, 154, 155, 156, 157, 158, 159,
+  160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 174, 175,
+  176, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191,
+  193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 204, 206, 208, 209, 210,
+  211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 225, 227,
+  228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242,
+  243, 244, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 260,
+  261, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276,
+  277, 278, 279, 280, 282, 283, 284, 287, 288, 289, 290, 291, 292, 293, 294,
+  295, 296, 297, 299, 300, 301, 302, 304, 305, 306, 307, 308, 309, 310, 311,
+  312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326,
+  327, 328, 329, 330, 335, 336, 337, 339, 340, 341, 343, 344, 345, 347, 348,
+  350, 351, 352, 353, 354, 355, 356, 357, 358, 360, 361, 362, 363, 364, 365,
+  366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 379, 380, 381,
+  382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 396, 397, 398,
+  400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 415,
+  416, 417, 418, 419, 420, 421, 423, 424, 425, 426, 427, 428, 429, 430, 431,
+  432, 433, 434, 435, 436, 437, 439, 440, 441, 442, 443, 444, 445, 446, 448,
+  449, 450, 451, 452, 454, 455, 456, 457, 458, 459, 460, 461, 464, 465, 466,
+  467, 468, 469, 471, 472, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483,
+  484, 485, 486, 487, 488, 490, 491, 492, 493, 495, 496, 497, 498, 499, 500,
+  501, 502, 503, 504, 506, 507, 508, 509, 510, 511, 512, 514, 515, 516, 517,
+  518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532,
+  533, 534, 535, 536, 537, 538, 539, 541, 542, 543, 544, 545, 546, 547, 548,
+  549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 562, 563, 564,
+  565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 579, 580,
+  581, 582, 583, 584, 586, 588, 591, 593, 594, 596, 598, 599, 600, 602, 603,
+  604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618,
+  619, 620, 621, 622, 623, 625, 626, 627, 628, 629, 630, 631, 634, 635, 637,
+  638, 639, 640, 641, 642, 643, 645, 648, 649, 650, 651, 652, 653, 654, 655,
+  657, 658, 659, 660, 662, 663, 664, 666, 667, 668, 671, 672, 674, 675, 676,
+  677, 678, 679, 680, 681, 682, 683, 684, 686, 687, 688, 689, 690, 691, 692,
+  693, 694, 696, 698, 700, 701, 702, 703, 704, 705, 715, 716, 717, 718, 719,
+  721, 722, 723, 724, 727, 728, 729, 730, 731, 732, 733, 735, 736, 737, 738,
+  739, 740, 741, 742, 743, 744, 755, 756, 757, 758, 760, 764, 765, 766, 767,
+  769, 770, 772, 773, 774, 776, 778, 779, 780, 781, 783, 784, 785, 787, 788,
+  789, 790, 791, 793, 794, 795, 796, 797, 798, 799, 800, 802, 803, 804, 805,
+  806, 807, 808, 809, 810, 811, 813, 814, 815, 816, 817, 818, 819, 820, 824,
+  825, 826, 827, 828, 829, 830, 831, 833, 834, 835, 836, 837, 840, 841, 842,
+  844, 845, 846, 847, 848, 849, 851, 852, 853, 855, 856, 857, 858, 859, 860,
+  861, 862, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876,
+  877, 878, 879, 880, 881, 882, 884, 885, 886, 887, 888, 889, 890, 891, 892,
+  893, 894, 896, 898, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910,
+  911, 912, 913, 914, 915, 916, 918, 919, 921, 922, 923, 924, 925, 926, 927,
+  928, 929, 930, 931, 932, 933, 935, 936, 937, 938, 939, 940, 941, 942, 943,
+  944, 945, 946, 947, 948, 949, 950, 951, 953, 954, 955, 957, 958, 959, 960,
+  961, 962, 964, 965, 966, 967, 969, 970, 971, 972, 973, 974, 975, 976, 977,
+  979, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994,
+  995, 997, 998, 999, 1000, 1002, 1003, 1004, 1006, 1008, 1009, 1010, 1011, 1013, 1014,
+  1015, 1016, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1028, 1029, 1031, 1032,
+  1033, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1047, 1048, 1049,
+  1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1060, 1061, 1062, 1063, 1064, 1065,
+  1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081,
+  1082, 1083, 1084
+];
+
+function getBackgroundUrlFromSeed(seed) {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) {
+    hash = (hash << 5) - hash + seed.charCodeAt(i);
+    hash |= 0;
+  }
+  const index = Math.abs(hash) % NO_HUMAN_PICSUM_IDS.length;
+  const photoId = NO_HUMAN_PICSUM_IDS[index];
+  return `https://picsum.photos/id/${photoId}/1920/1080`;
+}
+
 function setupSplashBackground() {
   chrome.storage.local.get(['splashSeed', 'splashTimestamp'], (result) => {
     const now = new Date().getTime();
@@ -2081,21 +2158,21 @@ function setupSplashBackground() {
 function applySplashBackgroundSeed(seed) {
   const splashBackground = document.getElementById('splashBackground');
   if (splashBackground) {
-    // 1920x1080 for HD
-    splashBackground.style.backgroundImage = `url('https://picsum.photos/seed/${seed}/1920/1080')`;
+    // HD non-human photo background
+    splashBackground.style.backgroundImage = `url('${getBackgroundUrlFromSeed(seed)}')`;
   }
 }
 
 function refreshSplashBackground() {
   const btn = document.getElementById('refreshBgBtn');
   if (btn) btn.classList.add('spin');
-  
+
   const newSeed = Math.random().toString(36).substring(2, 10);
   const now = new Date().getTime();
-  
+
   chrome.storage.local.set({ splashSeed: newSeed, splashTimestamp: now }, () => {
     applySplashBackgroundSeed(newSeed);
-    
+
     // Remove spin animation class after 500ms
     setTimeout(() => {
       if (btn) btn.classList.remove('spin');
