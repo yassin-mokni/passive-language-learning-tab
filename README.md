@@ -1,7 +1,7 @@
-# Passive Language Learning New Tab
+# LingoTab - Passive Language Learning New Tab
 
 <p align="center">
-  <img src="logo.png" alt="Passive Language Learning New Tab Logo" width="128">
+  <img src="logo.png" alt="LingoTab Logo" width="128">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/lcpngcpkmbdooibllkhggekgmcdgagln?utm_source=github-repo"><strong>Install from Chrome Web Store</strong></a>
   ·
-  <a href="https://yassin-mokni.github.io/passive-language-learning-tab/"><strong>Landing Page</strong></a>
+  <a href="https://lingotab.mokni.dev/"><strong>Landing Page</strong></a>
 </p>
 
 ---
@@ -36,7 +36,7 @@ We collect **zero** data.
 - All preferences are stored locally on your device.
 - Completely open-source and transparent.
 
-Check our full [Privacy Policy](https://yassin-mokni.github.io/passive-language-learning-tab/privacy.html).
+Check our full [Privacy Policy](https://lingotab.mokni.dev/privacy.html).
 
 ## Installation
 

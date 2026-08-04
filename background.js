@@ -276,6 +276,6 @@ function updateBadge() {
     chrome.action.setTitle({ title: `Playing: ${currentTrackName || 'Listening Practice'}` });
   } else {
     chrome.action.setBadgeText({ text: '' });
-    chrome.action.setTitle({ title: 'Passive Language Learning' });
+    chrome.action.setTitle({ title: 'LingoTab' });
   }
 }
