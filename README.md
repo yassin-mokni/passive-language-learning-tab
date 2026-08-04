@@ -48,9 +48,9 @@ Check our full [Privacy Policy](https://lingotab.mokni.dev/privacy.html).
 ### Manual Installation (For Developers)
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yassin-mokni/passive-language-learning-tab.git
+   git clone https://github.com/yassin-mokni/lingotab.git
    ```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** in the top right corner.
 4. Click **Load unpacked**.
-5. Select the cloned `passive-language-learning-tab` directory.
+5. Select the cloned `lingotab` directory.
